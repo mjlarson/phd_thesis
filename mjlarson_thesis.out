@@ -50,7 +50,7 @@
 \BOOKMARK [2][-]{section*.67}{Energy and Zenith Reach}{section*.66}% 50
 \BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 51
 \BOOKMARK [1][-]{section*.69}{Unitarity of the PMNS Matrix}{chapter.8}% 52
-\BOOKMARK [1][-]{section*.70}{Current Limits}{chapter.8}% 53
+\BOOKMARK [1][-]{section*.70}{Current Limits on Unitarity}{chapter.8}% 53
 \BOOKMARK [1][-]{section*.71}{Systematics Considerations}{chapter.8}% 54
 \BOOKMARK [2][-]{section*.72}{Oscillation Parameters}{section*.71}% 55
 \BOOKMARK [2][-]{section*.73}{Flux Uncertainties}{section*.71}% 56
@@ -63,20 +63,21 @@
 \BOOKMARK [1][-]{section*.98}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 63
 \BOOKMARK [2][-]{section*.99}{CC vs CC+NC}{section*.98}% 64
 \BOOKMARK [2][-]{section*.103}{The \040Normalization}{section*.98}% 65
-\BOOKMARK [1][-]{section*.105}{Expectations from Monte Carlo}{chapter.8}% 66
-\BOOKMARK [2][-]{section*.106}{Expected Contour}{section*.105}% 67
-\BOOKMARK [2][-]{section*.107}{Expected Sensitivity over Time}{section*.105}% 68
-\BOOKMARK [2][-]{section*.108}{Systematics Pulls}{section*.105}% 69
-\BOOKMARK [2][-]{section*.109}{Feldman-Cousins vs WIlk's Theorem}{section*.105}% 70
-\BOOKMARK [1][-]{section*.110}{Fitting Data}{chapter.8}% 71
-\BOOKMARK [2][-]{section*.111}{Burn Sample Fits: Testing the Fitting Code}{section*.110}% 72
-\BOOKMARK [2][-]{section*.112}{Blind Fits: Checking the Goodness-of-Fit}{section*.110}% 73
-\BOOKMARK [1][-]{section*.113}{Results from the Analysis}{chapter.8}% 74
-\BOOKMARK [2][-]{section*.114}{Individual Years}{section*.113}% 75
-\BOOKMARK [2][-]{section*.115}{Combining Years of Data}{section*.113}% 76
-\BOOKMARK [2][-]{section*.116}{Systematics Pulls in the Final Result}{section*.113}% 77
-\BOOKMARK [2][-]{section*.117}{Implications and Future Work}{section*.113}% 78
-\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 79
-\BOOKMARK [1][-]{section*.119}{Goals of Phase1}{chapter.9}% 80
-\BOOKMARK [1][-]{section*.120}{Preparing Simulation for the Upgrade}{chapter.9}% 81
-\BOOKMARK [1][-]{section*.121}{Potential Measurements of Phase1}{chapter.9}% 82
+\BOOKMARK [2][-]{section*.106}{Limits on the \040Normalization}{section*.98}% 66
+\BOOKMARK [1][-]{section*.107}{Expectations from Monte Carlo}{chapter.8}% 67
+\BOOKMARK [2][-]{section*.108}{Expected Contour}{section*.107}% 68
+\BOOKMARK [2][-]{section*.109}{Expected Sensitivity over Time}{section*.107}% 69
+\BOOKMARK [2][-]{section*.110}{Systematics Pulls}{section*.107}% 70
+\BOOKMARK [2][-]{section*.111}{Feldman-Cousins vs WIlk's Theorem}{section*.107}% 71
+\BOOKMARK [1][-]{section*.112}{Fitting Data}{chapter.8}% 72
+\BOOKMARK [2][-]{section*.113}{Burn Sample Fits: Testing the Fitting Code}{section*.112}% 73
+\BOOKMARK [2][-]{section*.114}{Blind Fits: Checking the Goodness-of-Fit}{section*.112}% 74
+\BOOKMARK [1][-]{section*.115}{Results from the Analysis}{chapter.8}% 75
+\BOOKMARK [2][-]{section*.116}{Individual Years}{section*.115}% 76
+\BOOKMARK [2][-]{section*.117}{Combining Years of Data}{section*.115}% 77
+\BOOKMARK [2][-]{section*.118}{Systematics Pulls in the Final Result}{section*.115}% 78
+\BOOKMARK [2][-]{section*.119}{Implications and Future Work}{section*.115}% 79
+\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 80
+\BOOKMARK [1][-]{section*.121}{Goals of Phase1}{chapter.9}% 81
+\BOOKMARK [1][-]{section*.122}{Preparing Simulation for the Upgrade}{chapter.9}% 82
+\BOOKMARK [1][-]{section*.123}{Potential Measurements of Phase1}{chapter.9}% 83

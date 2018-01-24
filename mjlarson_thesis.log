@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 JAN 2018 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 JAN 2018 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,7 +1742,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [27]
 chapter 7.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level4.tex
-<chapters/greco/images/level4/FirstHitZ_log.png, id=653, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/FirstHitZ_log.png, id=658, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/FirstHitZ_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/FirstHitZ_log.png>
@@ -1752,7 +1752,7 @@ Package pdftex.def Info: chapters/greco/images/level4/FirstHitZ_log.png used on
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 15.
 
-<chapters/greco/images/level4/NAbove200_log.png, id=655, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/NAbove200_log.png, id=660, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/NAbove200_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/NAbove200_log.png>
@@ -1762,7 +1762,7 @@ Package pdftex.def Info: chapters/greco/images/level4/NAbove200_log.png used on
  [28
 
  <./chapters/greco/images/level4/FirstHitZ_log.png>]
-<chapters/greco/images/level4/QR6_log.png, id=664, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/QR6_log.png, id=669, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/QR6_log.png>
@@ -1772,7 +1772,7 @@ Package pdftex.def Info: chapters/greco/images/level4/QR6_log.png used on input
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 44.
 
-<chapters/greco/images/level4/C2QR6_log.png, id=665, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/C2QR6_log.png, id=670, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/C2QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/C2QR6_log.png>
@@ -1788,7 +1788,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [29 <./chapters/greco/images/level4/NAbove200_log.png> <./chapters/greco/images
 /level4/QR6_log.png> <./chapters/greco/images/level4/C2QR6_log.png>]
-<chapters/greco/images/level4/ToIEval_log.png, id=675, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/ToIEval_log.png, id=680, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/ToIEval_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/ToIEval_log.png>
@@ -1796,7 +1796,7 @@ Package pdftex.def Info: chapters/greco/images/level4/ToIEval_log.png used on i
 nput line 76.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level4/iLineFit_Log.png, id=676, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/iLineFit_Log.png, id=681, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/iLineFit_Log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/iLineFit_Log.png>
@@ -1807,7 +1807,7 @@ input line 103.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/greco/images/level4/BDT_log.png, id=677, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/BDT_log.png, id=682, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/BDT_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/BDT_log.png>
@@ -1837,7 +1837,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [31 <./chapters/greco/images/level4/iLineFit_Log.png> <./chapters/greco/images/
 level4/BDT_log.png>]
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex
-<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=692, 578.16pt x 433
+<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=697, 578.16pt x 433
 .62pt>
 File: chapters/greco/images/level5/Time_to_75_Charge_log.png Graphic file (type
  png)
@@ -1846,7 +1846,7 @@ Package pdftex.def Info: chapters/greco/images/level5/Time_to_75_Charge_log.png
  used on input line 19.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=693, 578.16pt x
+<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=698, 578.16pt x
  433.62pt>
 File: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png Graphic file (
 type png)
@@ -1869,7 +1869,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32 <./chapters/greco/images/level5/Time_to_75_Charge_log.png>]
-<chapters/greco/images/level5/First_HLC_Rho_log.png, id=700, 578.16pt x 433.62p
+<chapters/greco/images/level5/First_HLC_Rho_log.png, id=705, 578.16pt x 433.62p
 t>
 File: chapters/greco/images/level5/First_HLC_Rho_log.png Graphic file (type png
 )
@@ -1878,7 +1878,7 @@ Package pdftex.def Info: chapters/greco/images/level5/First_HLC_Rho_log.png use
 d on input line 47.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=701, 578.16pt x 433.62
+<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=706, 578.16pt x 433.62
 pt>
 File: chapters/greco/images/level5/Q1-Q4_Distance_log.png Graphic file (type pn
 g)
@@ -1890,7 +1890,7 @@ ed on input line 59.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/greco/images/level5/Z-Travel_log.png, id=702, 578.16pt x 433.62pt>
+<chapters/greco/images/level5/Z-Travel_log.png, id=707, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/Z-Travel_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/Z-Travel_log.png>
@@ -1906,7 +1906,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [33 <./chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png> <./chapters/
 greco/images/level5/First_HLC_Rho_log.png>]
-<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=709, 578.16pt x 433
+<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=714, 578.16pt x 433
 .62pt>
 File: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png Graphic file (type
  png)
@@ -1924,7 +1924,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [34 <./chapters/greco/images/level5/Q1-Q4_Distance_log.png> <./chapters/greco/i
 mages/level5/Z-Travel_log.png> <./chapters/greco/images/level5/SPE11_Cos(Zenith
 )_log.png>]
-<chapters/greco/images/level5/BDT_Score_log.png, id=717, 578.16pt x 433.62pt>
+<chapters/greco/images/level5/BDT_Score_log.png, id=722, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/BDT_Score_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/BDT_Score_log.png>
@@ -1944,7 +1944,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [35 <./chapters/greco/images/level5/BDT_Score_log.png>])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level6.tex
-<chapters/greco/images/level6/FillRatio.png, id=724, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/FillRatio.png, id=729, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FillRatio.png Graphic file (type png)
 
 <use chapters/greco/images/level6/FillRatio.png>
@@ -1962,7 +1962,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./chapters/greco/images/level6/FillRatio.png>]
-<chapters/greco/images/level6/nch.png, id=731, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/nch.png, id=736, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/nch.png Graphic file (type png)
 
 <use chapters/greco/images/level6/nch.png>
@@ -1977,7 +1977,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./chapters/greco/images/level6/nch.png>]
-<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=741, 462.528pt x 346.896
+<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=746, 462.528pt x 346.896
 pt>
 File: chapters/greco/images/level6/Corridor_Cut_nCh.png Graphic file (type png)
 
@@ -1986,7 +1986,7 @@ Package pdftex.def Info: chapters/greco/images/level6/Corridor_Cut_nCh.png used
  on input line 74.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level6/FiniteReco_Rho.png, id=742, 462.528pt x 346.896pt
+<chapters/greco/images/level6/FiniteReco_Rho.png, id=747, 462.528pt x 346.896pt
 >
 File: chapters/greco/images/level6/FiniteReco_Rho.png Graphic file (type png)
  <use chapters/greco/images/level6/FiniteReco_Rho.png>
@@ -1998,7 +1998,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 96.
 
-<chapters/greco/images/level6/FiniteReco_Z.png, id=743, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/FiniteReco_Z.png, id=748, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FiniteReco_Z.png Graphic file (type png)
 
 <use chapters/greco/images/level6/FiniteReco_Z.png>
@@ -2186,7 +2186,28 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48])) (/Users/mjlarson/Documents/PhD_Thesis/chapters/pingu.tex
+[48]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nu' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+)) (/Users/mjlarson/Documents/PhD_Thesis/chapters/pingu.tex
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 9.49998pt.
@@ -2209,15 +2230,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./mjlarson_thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package rerunfilecheck Info: File `mjlarson_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 15ABFECCA99C4E5BE9C2FB571BD5B1D6;6124.
 
-
-Package rerunfilecheck Warning: File `mjlarson_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mjlarson_thesis.out':
-(rerunfilecheck)             Before: 98530000014FED494B8003B9A8B03410;6030
-(rerunfilecheck)             After:  79F826BD8BC5CCB9BBAF9163580B5592;6030.
 
 LaTeX Warning: There were undefined references.
 
@@ -2235,10 +2250,10 @@ Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 32527 strings out of 492995
- 604935 string characters out of 6132704
- 1128587 words of memory out of 5000000
- 34957 multiletter control sequences out of 15000+600000
+ 32540 strings out of 492995
+ 605209 string characters out of 6132704
+ 1127587 words of memory out of 5000000
+ 34967 multiletter control sequences out of 15000+600000
  113809 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,19n,106p,8847b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2270,10 +2285,10 @@ exmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/helvetic/uhvr8a.pfb>
-Output written on mjlarson_thesis.pdf (51 pages, 1293301 bytes).
+Output written on mjlarson_thesis.pdf (51 pages, 1295261 bytes).
 PDF statistics:
- 1075 PDF objects out of 1200 (max. 8388607)
- 949 compressed objects within 10 object streams
- 284 named destinations out of 1000 (max. 500000)
- 40188 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1086 PDF objects out of 1200 (max. 8388607)
+ 960 compressed objects within 10 object streams
+ 287 named destinations out of 1000 (max. 500000)
+ 40196 words of extra memory for PDF output out of 42996 (max. 10000000)
 

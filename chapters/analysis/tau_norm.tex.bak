@@ -42,9 +42,17 @@ In particular, the number of events is strongly related to the assumed atmospher
 In order to provide a quantitative measure of the appearance, the overall normalization of signal events is used as a final physics parameter. \improvement{think up a better phrasing to introduce the tau normalization}
 The normalization is a fit parameter, defined to be a total modification of the number of candidate $\nu_\tau$ events after all other systematic parameters are applied.
 
-\label{eqn:norm_tau_defition}
+\label{eqn:norm_tau_definition}
 \begin{equation}
 	f'_{ijk} = \sum_{m\neq\nu_\tau} f^m_{ijk}\left(\theta_{23}, \Delta m^2, ...\right) + N_{\nu_\tau} f^{\nu_\tau}_{ijk}\left(\theta_{23}, \Delta m^2, ...\right) 
 \end{equation}
 
-In this case, we end up with four general cases for the result.
+In this case, we end up with two general cases for the result.
+In the expected case, $N_{\nu_\tau}=1.0$, we find that the number of candidate events is consistent with our modeling of the $\nu_\tau$ and unitary PMNS mixing.
+If the value is significantly different from 1.0, we may have hints of either mismodeled cross-sections or of novel physics in the form of sterile neutrinos or neutrino mass state decay. \findref{Crazy shit that I will probably take out. but maybe find the neutrino decay paper again?}
+Due to the large existing uncertainties in the PMNS matrix described in \ref{sec:current_limits}, either situation is likely to yield value information.
+
+
+\label{subsec:superk_and_opera}
+\subsection{Limits on the $\nu_\tau$ Normalization}
+

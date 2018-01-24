@@ -170,7 +170,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Unitarity of the PMNS Matrix}{41}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Current Limits}{41}{section*.70}
+\contentsline {section}{\numberline {8.2}Current Limits on Unitarity}{41}{section*.70}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}Systematics Considerations}{41}{section*.71}
 \defcounter {refsection}{0}\relax 
@@ -214,36 +214,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.5.2}The $\nu _{\tau }$ Normalization}{48}{section*.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Expectations from Monte Carlo}{49}{section*.105}
+\contentsline {subsection}{\numberline {8.5.3}Limits on the $\nu _\tau $ Normalization}{49}{section*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.1}Expected Contour}{49}{section*.106}
+\contentsline {section}{\numberline {8.6}Expectations from Monte Carlo}{49}{section*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.2}Expected Sensitivity over Time}{49}{section*.107}
+\contentsline {subsection}{\numberline {8.6.1}Expected Contour}{49}{section*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.3}Systematics Pulls}{49}{section*.108}
+\contentsline {subsection}{\numberline {8.6.2}Expected Sensitivity over Time}{49}{section*.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.4}Feldman-Cousins vs WIlk's Theorem}{49}{section*.109}
+\contentsline {subsection}{\numberline {8.6.3}Systematics Pulls}{49}{section*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.7}Fitting Data}{49}{section*.110}
+\contentsline {subsection}{\numberline {8.6.4}Feldman-Cousins vs WIlk's Theorem}{49}{section*.111}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{49}{section*.111}
+\contentsline {section}{\numberline {8.7}Fitting Data}{49}{section*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{49}{section*.112}
+\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{49}{section*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.8}Results from the Analysis}{49}{section*.113}
+\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{49}{section*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.1}Individual Years}{49}{section*.114}
+\contentsline {section}{\numberline {8.8}Results from the Analysis}{49}{section*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{49}{section*.115}
+\contentsline {subsection}{\numberline {8.8.1}Individual Years}{49}{section*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{49}{section*.116}
+\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{49}{section*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{49}{section*.117}
+\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{49}{section*.118}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{49}{section*.119}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{50}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Goals of Phase1}{50}{section*.119}
+\contentsline {section}{\numberline {9.1}Goals of Phase1}{50}{section*.121}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{50}{section*.120}
+\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{50}{section*.122}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{50}{section*.121}
+\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{50}{section*.123}
