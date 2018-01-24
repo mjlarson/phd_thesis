@@ -1,0 +1,2 @@
+git add .
+git push --set-upstream https://github.com/mjlarson/phd_thesis master

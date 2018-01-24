@@ -16,10 +16,10 @@ where $N$ is a normalization constant and, in the case of Poissonian statistics 
 	\sigma^2 = \mu = \sum{w}
 \end{equation}
 
-From this point, taking the logrithm yields the standard $\chi^2$ definition for the likelihood.
+From this point, taking the logrithm yields the standard $\chi^2$ definition for the likelihood after dropping the constant terms.
 
 \begin{equation}
-	LLH = Log_e(N) + \left(\frac{1}{2}\frac{\left(x-\mu\right)^2}{\mu}\right)
+	\chi^2 = \frac{\left(x-\mu\right)^2}{\mu}
 \end{equation}	
 
 
@@ -34,7 +34,41 @@ This typically leads to requests for at least an order of magnitude larger simul
 In the situation where this is infeasible, modifications to the likelihood space itself may be used to account for the additional uncertainties.
 For this analysis the statistical uncertainties of the underlying simulation sets are added to the weighted uncertainties in quadrature.
 
+\label{eqn:mchi2}
 \begin{equation}
-	LLH = Log_e(N) + \left(\frac{1}{2}\frac{\left(x-\mu\right)^2}{\sum{\left(w\right)}^2 + \sum{w^2}\right)
+	\chi^2_{FS} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
 \end{equation}		
+
+Due to the large uncertainties associated with the atmospheric muon sample, further considerations are necessary.
+In particular, the large uncertainties associated with atmospheric muon simulation statistics may be used by the fitter in order to reduce the $\chi^2_{FS}$ value.
+This situation proceeds with the minimization process as normal until a runaway effect is observed by increasing the statistical uncertainties at the expense of data/simulation agreement.
+In this case, the numerator becomes simply
+
+\label{eqn:mchi2_num}
+\begin{equation}
+	\lim_{N_{\mu}\rightarrow\infty} \left(x-\sum w\right)^2 = \left(\sum w\right)^2
+\end{equation}
+
+The resulting limit as the event weights become large is therefore
+
+\label{eqn:mchi2_lim}
+\begin{equation}
+	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{FS} =  \frac{\left(\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
+\end{equation}
+\begin{equation}
+	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{FS} = 0
+\end{equation}
+
+
+While this is a particular concern for all simulation types, the dominant contribution to the $sum{w^2}$ term is the atmospheric muons. 
+In addition, the atmospheric muons have the strongest impacts from non-normalization systematic uncertaintines, particularly the DOM efficiency and the absorption.
+Modifying either of these parameters or the normalzation terms
+
+In order to prevent this runaway behavior, a further modification of the $\chi^2$ is necessary.
+For this analysis, the total scale of the statistical uncertainty is assumed to be set by the seed values of the fit.
+
+\label{eqn:w2_constant}
+\begin{equation}
+	\N_{w^2} = \frac{\sum{w^2_{Seed}}}{\sum{w^2}} w^2
+\end{equation}
 
