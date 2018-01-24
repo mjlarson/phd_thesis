@@ -1,0 +1,53 @@
+\section{Long-Frame CORSIKA for DeepCore}
+One of the primary difficulties for low energy analyses in IceCube is the modeling of backgrounds.
+Two significant backgrounds exist for a standard muon neutrino disappearance measurement: the events due to cosmic-ray induced muons and the events from accidental triggers in the detector due to random detector noise.
+
+The two types of simulation are somewhat interdependent.
+In particular, the accidental trigger rate, defined to include only events in a trigger is primarily caused by noise hits, relies on the rate of atmospheric muons to calculate an effective livetime for possible noise triggering.
+In turn, the atmospheric muon triggering and filtering rate depends somewhat on the characteristics of the noise model used in the simulation.
+
+At the lowest energies, the interplay between atmospheric muons and noise becomes more muddled.
+The falling muon spectrum ensures that there are a significant number of muons that potentially reach the IceCube detector even down to cosmic ray primary energies of approximately 600 GeV, where the overburden from the glacial ice yields a natural cutoff to the specrum.
+At these energies, a shift in either the muon rate or the noise rate can change the hit rates at the top of the detector.
+These low-brightness muons are largely indistinguishable from noise hits, but are not simulated using the Vuvuzela module.
+Ignoring these muons can result in a systematic mismodeling of the detector background that changes as a function of depth, with the worst agreement at the top of IceCube.
+These muons, called \textbf{sub-threshold muons}, have been shown to be responsible for a significant fraction of hits in the detector \cite{heereman_thesis}.
+
+While the 5-component CORSIKA described in \ref{subsubsec:corsika} generally gives much more freedom to fit and correct for spectral characteristics, the events cannot easily produce the low-energy muon background characteristics at the top of the detector.
+Instead, the most accurate way to model these effects relies on long-frame simulation described in \ref{subsubsec:noise_triggers}. 
+These frames, consisting of a continuous detector simulation over the course of tens of milliseconds or longer, can be combined with CORSIKA simulation in order to produce the most accurate background simulation possible with current tools.
+
+Long-frame CORSIKA generally requires a modeling of a natural flux of events in the detector.
+Given the currently available toolset, only the polygonato mode of the CORSIKA generator is therefore able to be used for long-frame generation.
+While there are currently ideas for how to generate with a more acccurate spectral model, they prove to be inefficient without a reparametrization of the generation from the CORSIKA code itself and will not be discussed here.
+
+To produce long-frame CORSIKA simulation, a few modifications of the standard simulation scheme are required.
+A frame length, $\tau$ is chosen at the start of simulation. 
+Longer values of $\tau$ will generally yield more accurate simulation due to issues at the start and end of a frame, although this is a minor concern in practice.
+With this time, an expected number of particles may be extracted given a spectrum $\Phi_\mu$ and a simulation volume $V$:
+
+\begin{equation}
+	\label{eq:n_{expected}}
+	\bar{N_{\mu}} = \int_{t=0}^{\tau} \int_E \int_\Omega \int_V \Phi_\mu
+\end{equation}
+
+This is an analytic formula, yielding the poissonian expectation on the expected number of muons in the simulation volume.
+A number of muons is then calculated as a poisson-fluctuation of this number.
+The CORSIKA generator will produce the requested number of muons in this time frame.
+These muons can be either single muons or occur as muon bundles.
+In the latter case, the entire bundle is treated as a 'muon' for the purposes of this section.
+
+The muons are evenly distributed throughout the simulation window following the assumption that each muon is independent of all others (ie, that they are not due to the same cosmic ray interaction in the atmosphere).
+From this point, the long-frame simulation scheme described in \ref{subsubsec:noise_triggers} continues, with detector simulation and splitting occuring in the CoincidenceAfterProcessing module.
+
+Long-frame CORSIKA simulation is a useful tool for low energy analyses, yielding a collection of accidental trigger events and muons that would otherwise be produced separately and require reweighting.
+In addition, emergent properties of the subthreshold muons are included in these simulation sets.
+Unfortunately, the production of long-frame CORSIKA simulation is particularly computationally expensive and of limited use for most higher energy analyses ongoing in the IceCube collaboration.
+Very little long-frame CORSIKA simulation is therefore available.
+
+For this work, long-frame CORSIKA simulation was crated with an effective livetime of approximately two weeks. 
+Such a sample required months of simulation time, severely limiting the potential usefulness for analyses.
+Still, the existing sets proved useful and necessary for the work in \ref{chapter:vuvuzela}. 
+Furthermore, the sets provided the first background estimates for both accidental triggers and atmospheric muons for the PINGU/Phase 1 detector described in \ref{chapter:pingu}.
+
+Initial tests with the long-frame CORSIKA simulation showed, for the first time, notable disagreement in the charge distributions in data and simulation described further in \ref{sec:vuvuzela_limitations}.

@@ -1,0 +1,70 @@
+\ProvidesPackage{thesisstyle}
+\usepackage{graphicx}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{todo}
+
+\usepackage{feynmp-auto}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{transparent}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+
+%\newsubfloat{figure}
+%\captionnamefont{\small \bfseries \sffamily}
+%\captiontitlefont{\small \sffamily}
+%\subcaptionlabelfont{\bfseries}
+%\changecaptionwidth
+%\usepackage[centerlast,small,labelfont={bf,sf},textfont={sf}]{caption}
+%\setlength{\captionmargin}{0.03\textwidth} %INDENT CAPTION
+
+\newcommand{\avg}[1]{\left< #1 \right>} % for average
+\newcommand{\refref}[1]{Ref. \cite{#1}} % control refs in bibliography.
+\newcommand{\tableref}[1]{Table \ref{#1}} % control table refs
+\newcommand{\figref}[1]{Figure \ref{#1}} % control fig refs
+\newcommand{\eqeqref}[1]{Eq. \eqref{#1}} % control eqs refs
+\newcommand{\secref}[1]{Section \ref{#1}} % control sec refs
+\newcommand{\chapref}[1]{Chapter \ref{#1}} % control chap refs
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
+
+% Define annihlation cross section text
+%\newcommand{\ancs}{\langle\sigma v\rangle}
+
+%\chapterstyle{ell}
+
+\setlrmarginsandblock{1.4in}{1.0in}{*}
+\setulmarginsandblock{1.2in}{1.0in}{*}
+\checkandfixthelayout
+
+%\nouppercaseheads
+\makepagestyle{mystyle} 
+\checkandfixthelayout
+
+%\nouppercaseheads
+\makepagestyle{mystyle} 
+%\setlength{\headwidth}{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}
+\setlength{\headwidth}{\dimexpr\textwidth+\marginparsep}
+\makerunningwidth{mystyle}{\headwidth}
+\makeheadrule{mystyle}{\headwidth}{\normalrulethickness}
+\makeevenhead{mystyle}{\small \thepage}{}{\small \slshape\leftmark} 
+\makeoddhead{mystyle}{\small \slshape\rightmark}{}{\small \thepage} 
+\makeevenfoot{mystyle}{}{}{} 
+\makeoddfoot{mystyle}{}{}{} 
+\makeatletter
+\makepsmarks{mystyle}{%
+  \createmark{chapter}{left}{shownumber}{\@chapapp\ }{.\ }}
+\makeatother
+
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{}{}{}
+\makeoddfoot{plain}{}{}{}

@@ -1,0 +1,134 @@
+\section{Monte Carlo Generators}
+\label{subsec:bg_generation}
+\subsection{Background Generation}
+\label{subsubsec:corsika}
+\subsubsection{CORSIKA}
+The primary background for the observation of atmospheric neutrino events is the other particles present in the cosmic ray interactions in the atmosphere.
+These interactions produce many particules, most of which are stopped before reaching IceCube by the shielding provided by the Antarctic Glacier.
+In order to correctly account for the interactions and decays of these particles, the \textbf{CORSIKA} generator from the KASCADE Collaboration is used. 
+The CORSIKA generator is a collection of code designed to simulate, interact, and propagate a cosmic ray air shower from the interaction point in the upper atmosphere to the surface. 
+Originally designed for use with surface detectors such as Auger, HAWC, and IceTop, the code has been adapted for use in the IceCube collaboration by identifying the muon (and, sometimes, neutrino) components of the air shower.
+
+CORSIKA has many modes of operation and options for configuration. 
+The standard IceCube simulation of air showers uses the SIBYLL 2.1 hadronization model to follow the interactions through the shower. 
+The low-energy tail of the showering code is handled by a separate hadronization parametrization, but is not relevent for the muon interactions visible in the IceCube detector.
+
+The showers are produced assuming a primary cosmic ray spectrum.
+Two options are used in IceCube for the simulation of the primary spectrum. 
+The Polygonato model, which throws cosmic rays approximately following the best fit from Hoerandel 20XX. 
+The model requires a selection of a season to simulate due to the annual modulation of the muon flux due to temperature changes in the atmosphere.
+In typical IceCube simulation, CORSIKA produced using the Polygonato model includes a mixture of muons from all seasons, effectively producing an averaged flux useful under the assumption of equal livetime throughout the year.
+While this model is out-of-date and not used in recent analyses, it provides a similar shape to newer models until the knee in the cosmic ray spectrum.
+The natural spectrum of the Polygonato CORSIKA simulation has the benefit of allowing a direct physical interpretation of the resulting spectrum without the need for reweighting and simplifies the prodution of coincident showers, which require a natural spectrum for weighting.
+
+The second model, the five-component mode, reduces the full spectrum of cosmic rays to five effective families: hydrogen, helium, nickel, aluminum, and iron. 
+Each of these components is allowed to have different spectral properties.
+Elements within each family are assumed to behave similarly.
+The five-component mode is useful due to the ease with which the user can modify and reweight to different primary spectra, allowing the investigation of different models without the production of dedicated simulation.
+The simplicity associated with the reweighting of five-component simulation allows IceCube to produce unphysical spectra in order to optimize the production of simulated events necessary for the various analyses.
+While this slightly complicates the use of the simulation in analyses, the ability to test with various spectra has been an invaluable tool for high energy analyses, which can be sensitive to changes in the cosmic ray spectrum above the knee.
+Five-component CORSIKA simulation, due to the unphysical generation spectrum, cannot easily be used for coincident production directly and are currently supplemented by the Polygonato CORSIKA for this purpose.
+
+In both cases, the particles from the air shower are only propagated to the surface of the ice. 
+For analyses using the in-ice array, we take the muons reaching the surface from a CORSIKA simulation and propagate them through the ice, simulating the continuous and stochastic energy losses along the way. 
+The muons are propagated to a surface in the ice consisting of a cylinder with radius 800 meters and length 1600 m centered on the IceCube detector.
+In order to reach the detector, a muon must result from a cosmic ray interaction of approximately 600 GeV due to the shielding of the glacier.
+Because of this, CORSIKA simulations typically have a lower energy cutoff of about this value to avoid simulating events that will not reach the detector.
+
+In principle, neutrinos may also be produced using the CORSIKA generator. 
+In practice, this tends to be extremely inefficient for most searches that are no explicitly looking for muons and neutrinos from the same air showers given the extremely low cross section of the neutrino relative to the muon.
+For this reason, the background generation with CORSIKA in IceCube typically refers to muon events only with no accompanying neutrino.
+
+\label{subsubsec:muongun}
+\subsubsection{MuonGun}
+In many situations, the full CORSIKA generation is unnecessary and wasteful. 
+In situations where the needed muon simulation falls within a relatively narrow phase space, whether that be in energy, angle, or position inside of the detector, it can be beneficial to taylor simulation to the needs of analyzers.
+Alternatively, there are situations in which the details of the cosmic ray interactions are an unnecessary complication to the final level IceCube analyses.
+In these situations, IceCube has developed a tool to bypass the full air shower simulation provided by CORSIKA, instead skipping directly to the cylindrical surface inside the ice.
+This tool, known as \textbf{MuonGun}, has the benefit of removing the computationally costly simulation of the full air shower and giving the user more control over the resulting simulated events.
+
+In this generator, the muons are produced on a \textbf{generation cylinder} with a radius of 800 meters and length of 1600 meters, matching the final muon positions of the CORSIKA generator.
+The muons are pulled from a power law spectrum of the user's choice: in this work, an offset power law spectrum is chosen with break at 700 GeV and a range of 160 GeV to 100 TeV.
+The lower energy range is selected by using CORSIKA simulation to identify the minimum energy required for a muon at this surface to reach and trigger the DeepCore detector.
+
+The angular spectrum of the MuonGun simulation is created by setting a \textbf{target cylinder} toward which the generated muon must intersect.
+For this work, the target is chosen to be the DeepCore fiducial volume, encompassing a cylinder with radius 150 meters and length 500 meters centered on DeepCore at x=(46.3, -34.9, -300). 
+
+These features of MuonGun give the generator significant flexibility, allowing for a very focused simulation of muons that would not otherwise be possible with the current implimentation of the CORSIKA generator.
+The downside, as with all targeted generation, is of course that one must be aware of the limitations. 
+For example, the settings described above will provide a good description of muons reaching and triggering the DeepCore array, but will not include the correct contributions of muons in the outer IceCube detector.
+This can result in disagreement between data and simulation if the limitations are not acknowledged and accounted for.
+
+Of course, this abstraction also disassociates the muon at the detector from the air shower, and therefore the cosmic ray, that produced it.
+In order to properly account for dependence on the cosmic ray spectrum in the muon spectrum, dedicated simulations must be produced using the full CORSIKA generator. 
+By following the interaction, showering, and propagation to the detector, IceCube is able to produce an effective parametrization of the association between a particular cosmic ray spectrum and the muons reaching the detector.
+This must only be done once, but requires a substantial number of simulated events in order to produce a clean parametrization in position, energy, zenith angle, and variables associated with shower multiplicities higher than one.
+The version of MuonGun at the time of writing provides the parametrizations for the Hoerandel and H4a cosmic ray spectra. 
+At the time of production for the analyses contained hereafter, all MuonGun simulation is produced assuming a multiplicity of 1, meaning that no bundles are yet produced with this generator.
+This is a limitation of simulation time: the multiplicity parametrizations vastly extend the parameter space and therefore require significantly more time and effort to handle correctly.
+
+\label{subsubsec:noise_triggers}
+\subsubsection{Noise-Only Events}
+While we only observe neutrinos and muons in the detector, we also observe a significant component of accidental triggers in the DeepCore array.
+These events, labeled \textbf{noise triggers}, arise due to the low trigger threshold. 
+In these events, no actual particle interactions due to muons or neutrinos are observed.
+Instead, detector noise from various sources coincidentally occur in DeepCore in a way that mimics a very low energy neutrino.
+
+These events are simulated by skipping the generators entirely and allowing the simulation to trigger on the accidental coincidences.
+Because the events are relatively rare, the simluation requires a special mode, here called \textbf{long-frame} simulation, which produces continuous detector readout. 
+Breaking the traditional concept of the "simulated event", these simulation sets instead produce a 100 ms long "event" of random detector noise with the Vuvuzela module. 
+These hits are then run through the simulation of waveforms, coincidences, and triggering as a normal simulated event.
+After triggering, specialized code, known as \textbf{CoincidenceAfterProcessing} is used to divide the long-frame simulation into smaller events more similar to both other simulation as well as actual experimental readout.
+
+Once the events are generated, weighting the events is relatively straightforward: the weight per event depends on the muon interaction rate and the total simulated time.
+The latter is straightforward to calculate, depending only on the number of long frame simulation events produced and the time window for each of these events.
+The former is important due to the definition of the noise triggers. 
+These events are, by definition, only able to occur when no muon or neutrino is interacting with the detector. 
+Therefore, the total effective livetime of the simulation must account for the "deadtime" for noise triggers due to particle interactions.
+This rate, assumed to be approximately 2800 Hz, leads to a change in the effective livetime per event of roughly 15%.
+
+Noise triggers are particularly computationally expensive to produce, given that they rely on a relatively rare emergent property of random detector noise. 
+In general, a few minutes of effective livetime can take up to two hours to create, with much of the processing time spent on DOMs and hits that do not make it into final triggered events.
+This limits the total effective livetime that can be simulated in realistic timescales.
+Current simulations used in this work total approximately two months of effective livetime.
+
+\label{subsec:signal_generation}
+\subsection{Signal Generation}
+\label{subsubsec:genie}
+\subsubsection{GENIE}
+Of course, background simulation is only part of the generation in IceCube. 
+In the end, studies are searching for neutrino candidate events that themselves must be simulated in order to infer properties of the original events.
+At energies ranging from approximately 1 GeV to 1 TeV, IceCube has adopted the \textbf{GENIE} event generator.
+This code, used widely throughout the oscillation community, includes information about the various interactions, cross sections, and uncertainties involved in neutrino physics from reactor energies upward.
+
+Events in the GENIE generator are produced first by selecting events from a pure power law with a given spectral index, often chosen to be either $E^{-1}$ or $E^{-2}$ depending on the purpose.
+These events are then forced to interact with an electron or nucleon within a specified volume in the ice assuming a constant target density.
+This is a good assumption, given the small variability in density of the ice due to dust.
+
+The interaction type is determined using the cross section for the given flavor and energy, resulting in a shower of particles.
+The cross section model, an updated version of GRV98, includes resonant, elastic, quasielastic, and deep inelastic events.
+The final states are computed using Pythia6, resulting in a final state of particles that is returned to the IceCube software for further processing.
+
+The GENIE code includes tools to reweight events based on uncertainties in eg. the axial masses, cross sections, and various aspects of the interactions themselves. 
+The code is regularly updated, including both new features and retuning of parametrizations to match the latest data.
+The events produced in this work use GENIE version 2.8.6.
+
+\label{subsubsec:nugen}
+\subsubsection{Neutrino-Generator}
+At energies higher than approximately 100 GeV, there are two changes to the simulation code.
+At these energies, the contribution to the cross section from deep inelastic interactions becomes dominant while the other interactions become negligible. 
+This allows the simplication of the cross section calculations for no loss in generality.
+In addition, the cross section continues to rise linearly with the energy.
+This latter feature requires a detailed simulation of potential interactions far from the detector: namely, the higher energy neutrinos have a non-negligilbe chance of interacting en route to the detector as they pass through the Earth.
+
+The \textbf{Neutrino-Generator} code (hereafter, \textbf{NuGen}) is designed to handle these higher energy interactions.
+In this model, neutrinos are no longer produced and forced to interact in the ice directly.
+Instead, a neutrino is produced from a power law spectrum in the atmosphere surrounding the Earth.
+The event is then propagated through the planet, using the PREM model of the density layers in the Earth to simulate potential interactions en route. 
+Neutrinos which interact may be lost or may be regenerated following the decay of the daughter particles.
+The energy loss between parent neutrino and surviving daughter neutrinos is recorded in the NuGen files.
+The daughters are then forced to interact in the detector fiducial volume to give a simulated event.
+
+NuGen can be configured with various Earth models as well as different generation properties. 
+For the studies contained herein, the NuGen files are produced with an $E^{-2}$ spectrum and interact following the CSMS cross section.
+

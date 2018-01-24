@@ -1,0 +1,30 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ coin fraction figure}{44}{section*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{orange}{}{orange!25}{\leavevmode {\color {orange!25}o}}\ Hammamatsu quantum efficiency? \url {http://www.hamamatsu.com/resources/pdf/etd/LARGE_AREA_PMT_TPMH1286E.pdf}}{44}{section*.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{red}{}{red!25}{\leavevmode {\color {red!25}o}}\ How many were tested in a lab before deployment?}{44}{section*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{orange}{}{orange!25}{\leavevmode {\color {orange!25}o}}\ Where does the domeff prior come from?}{44}{section*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ domeff}{44}{section*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{orange}{}{orange!25}{\leavevmode {\color {orange!25}o}}\ ice model}{44}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ bulk ice uncertainties vs depth}{44}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ absorption}{45}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ scattering}{45}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ hole ice and hifwd}{45}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{Plum}{}{Plum!25}{\leavevmode {\color {Plum!25}o}}\ how do i flesh this out?}{46}{section*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ muongun rates vs domeff and absorption to justify exponentials}{46}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{Plum}{}{Plum!25}{\leavevmode {\color {Plum!25}o}}\ Need to include some discussion of th goodness of fit for these sets. Maybe a plot of the chi2 values for all of the sets? }{46}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ chi2 values for hyperplane parametrizations}{46}{section*.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{\color@fb@x {}{OliveGreen}{}{OliveGreen!25}{\leavevmode {\color {OliveGreen!25}o}}\ make a plot showing chi2 value as a function of mc stats scale factor to justify the 10x rule}{47}{section*.96}

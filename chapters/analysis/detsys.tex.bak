@@ -1,0 +1,178 @@
+\label{subsec:detector_systematics}
+\subsection{Detector Systematics}
+While the previous systematics have been concerned with global physics parameters, the remainder are dedicated to understanding the uncertainties associated with the IceCube detector itself, such as the properties of the PMTs and the ice.
+These parameters, collectively referred to as the \textbf{detector systematics}, do not have known analytic forms and may affect the rate of events, the reconstruction properties of a given event, or both.
+The effect of these uncertainties must be evaluated using additional Monte Carlo simulations.
+
+The GRECO event selection uses a number of simulation sets, shown in \ref{table:geniesets} for signal and \ref{table:mgsets} for background, to characterize the effects of these detector systematics.
+Each set contains at least one simulation parameter changed from the baseline set and are run through the full GRECO processing.
+
+\begin{landscape}
+\begin{table}[]
+\centering
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+Set Number & Coincident Fraction & DOM Eff & Hole Ice & Forward Coeff & Absorption & Scattering & Livetime \\ \midrule
+Baseline  & 0\%                 & 100\%   & 25       & 0             & 100\%      & 100\%      & 30 years \\ \midrule
+640C      & 100\%               & 100\%   & 25       & 0             & 100\%      & 100\%      & 30 years \\ \midrule
+641        & 0\%                 & 88\%    & 25       & 0             & 100\%      & 100\%      & 30 years \\
+643        &                     & 94\%    &          &               &            &            &          \\
+644        &                     & 97\%    &          &               &            &            & 10 years         \\
+645        &                     & 103\%   &          &               &            &            & 5 years          \\
+646        &                     & 106\%   &          &               &            &            & 10 years         \\
+648        &                     & 112\%   &          &               &            &            &          \\ \midrule
+660        & 0\%                 & 100\%   & 15       & 0             & 100\%      & 100\%      & 10 years \\
+661        &                     &         & 20       &               &            &            &          \\
+662        &                     &         & 30       &               &            &            &          \\
+663        &                     &         & 35       &               &            &            &          \\ \midrule
+670        & 0\%              & 100\%  & 25 & 2.0           & 100\%  & 100\%  & 10 years \\ 
+671        &                     &         &          & -5.0          &            &            &         \\
+672        &                     &         &          & -3.0          &            &            &          \\
+673        &                     &         &          & 1.0           &            &            &          \\
+674        &                     &         &          & -1.0          &            &            &          \\ \midrule
+681        & 0\%                 & 100\%   & 25       & 0.0           & 92.9\%     & 92.9\%     & 30 years \\
+682        &                     &         &          &               & 110\%      & 100\%      &          \\
+683        &                     &         &          &               & 100\%      & 110\%      &         
+\end{tabular}
+\caption{Systematics sets used for the characterization of the signal neutrino events. While all listed sets have up to 30 years of effective livetime available, not all events are processed in each set.}
+\label{table:geniesets}
+\end{table}
+\end{landscape}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{lscape}
+\begin{landscape}
+\begin{table}[]
+\centering
+\begin{tabular}{@{}lllllllll@{}}
+\toprule
+Set Number & Oversizing & DOM Eff & Hole Ice & Forward Coeff & Absorption & Scattering & Livetime & Comments                               \\ \midrule
+Baseline   & 1.0        & 99\%    & 25       & 0             & 100\%      & 100\%      & 4 years  & 1 year standard + 3 years KDE filtered \\ \midrule
+A          & 1.0        & 69.3\%  & 30       & 0             & 100\%      & 100\%      & 1 year   & 1 year standard                        \\
+B          &            & 79.2\%  &          &               &            &            &          &                                        \\
+C          &            & 79.2\%  & 25       &               &            &            & 3 years  & 3 years KDE filtered                   \\
+D          &            & 89.1\%  &           &               &            &            &          &                                        \\ \midrule
+E          & 1.0        & 99\%    & 15       & 0             & 100\%      & 100\%      & 4 years  & 1 year standard + 3 years KDE filtered \\
+F          &            &         & 30       &               &            &            &          &                                        \\ \midrule
+G          & 1.0        & 99\%    & 30       & -2            & 100\%      & 100\%      & 4 years  & 1 year standard + 3 years KDE filtered \\
+H          &            &         &          & -4            &            &            &          &                                        \\ \midrule
+I          & 3.0        & 99\%    & 25       & 0             & 100\%      & 100\%      & 1 year   & 1 year KDE Filtered    \\
+J          &            &         &          &               & 110\%      &                 &          &                                        \\
+K          &            &         &          &               & 80\%       &                  &          &                                        \\
+L          &            &         &          &               & 100\%      & 80\%       &          &                                        \\
+M          &            &         &          &               &                 & 110\%      &          &                                        \\
+N          &            &         &          &               &                 & 120\%       &          &                                        \\
+O          &            &         &          &               & 92.9\%     & 92.9\%     &          &                                        \\
+P          &            &         &          &               & 114.2\%   & 114.2\%    &          &                                        \\ \bottomrule
+\end{tabular}
+\caption{Systematics sets used for the characterization of the atmospheric muon background.}
+\label{table:mgsets}
+\end{table}
+\end{landscape}
+
+
+\subsubsection{Coincident Fraction}
+\label{subsubsec:coin_fraction}
+The GENIE simulation sets are produced with exactly one neutrino interaction per event. 
+In the actual detector, a fraction of triggered events will consist of a temporally coincident muon and neutrino pair which may be from the same air shower or from indepdent showers.
+In order to account for this possibility, a sample of such events are simulated assuming independent showers.
+In this case, every produced event contains at least one atmospheric muon in addition to exactly one neutrino interaction.
+By interpolating between this "100\% coincident" sample and the standard "0\% coincdent" sets, the effect of these events may be included in the final analysis.
+
+The GRECO event selection actively selects against atmospheric muon-like events.
+The lowest-order effect of this choice is that increasing the coincident event fraction leads to a correspondingly lower total event rate, as shown in \ref{fig:coin_f_notNormalized}.
+In order to distinguish the effect of the coincident events from a global normalization factor, the coincident event fraction is treated in a manner such that the total rate of events remains unchanged. 
+The effect of this systematic in the final analysis is therefore shown in \needfig{coin fraction figure} instead.
+
+In most analyses in IceCube, a coincident event fraction of approximately 10\% is assumed. 
+This is derived from a combination of the  atmospheric neutrino and muon fluxes assuming independent poissonian rates.
+At final level, the true fraction of coincident events is unknown, but previous oscillation analyses have found no clear issues using the standard simulation sets assuming no coincident events.
+A generous prior is therefore assumed to be a one-sided Gaussian distribution centered at 0\% with a 10\% width. 
+
+\subsubsection{DOM Efficiency}
+\label{subsubsec:domeff}
+As with all PMTs, the light detection probability of the IceCube DOMs is not perfect.
+Indeed, the total efficiency of detecting incident photons as measured by Hammamatsu, shown in \ref{fig:hammamatsu_qe}, is about 30\% for the R7081-02 PMT used in standard IceCube DOMs. \findref{Hammamatsu quantum efficiency? \url{http://www.hamamatsu.com/resources/pdf/etd/LARGE_AREA_PMT_TPMH1286E.pdf}}
+Before and during deployment, the net quantum efficiency of some DOMs were tested \unsure{How many were tested in a lab before deployment?}.
+The efficiency of the DOMs was again measured in-situo \findref{Where does the domeff prior come from?} in order to better account for local effects like cable shadowing and the glass-ice interface.
+Dedicated measurement spost-deployment have used minimum ionizing muons in data and simulation and derived 
+a modification of the assumed efficiency, hereafter referred to as the \textbf{DOM efficiency}, of 99\%$\pm$10\%. 
+
+The DOM efficiency scales the probability of observing photons incident at the face of the DOM.
+A higher DOM efficiency leads to more information about individual particle interactions, leading to better reconstructions.
+The improved reconstructions lead to higher neutrino event rates at final level as well as more well-defined oscillation features in the reconstructed space.
+In addition, higher DOM efficiency increases the number of hits observed along atmospheric muon tracks, yielding improved veto efficiency.
+The net effect of changing the DOM efficiency by 10\% is shown in \needfig{domeff}.
+
+\subsubsection{Bulk Absorption and Scattering}
+\label{subsubsec:bulkice}
+The ice model used in IceCube is fit in-situo using various data from the deployment and detector operation in a process similar to the one described in \ref{sec:vuvuzela_fitting}.
+The model, here referred to as the \textbf{bulk ice model}, consists of scattering and absorption coefficients fit as a function of depth within the detector as well as information about anisotropy in the scattering properties of the ice \findref{ice model}.
+Uncertainties for these scattering and absorption coefficients, shown in \needfig{bulk ice uncertainties vs depth}, provide a significant source of uncertainty for physics measurements in IceCube.
+To handle these effects, global scale factors are used to modify all scattering or absorption coefficients in the bulk ice model simultaneously.
+Using the most recent published uncertainties on our ice model, a total uncertainty of approximately 10\% is assumed for these global scale factors.
+Three variations are typically used, corresponding to sets with 10\% larger absorption coefficients, 10\% larger scattering coefficients, and a 7.1\% reduction to both sets of coefficients.
+
+The scattering and absorption exhibit different behaviors at final level in the GRECO sample.
+In general, the absorption behaves in a similar manner to the DOM efficiency, as both parameters modify the number of observed photons at the face of the PMT.
+In the signal samples, the effects of absorption uncertainties is relatively small.
+The most notable feature is an overall rate decrease (increase) for larger (smaller) absorption coefficients.
+As in the DOM efficiency, the depth of the oscillation minimum is also affected by the absorption coefficients due to a change in the reconstruction resolution.
+
+The absorption, shown in \needfig{absorption}, affects the atmospheric muons much more strongly than the neutrinos.
+Once again, this is due to the event selection: with weaker absorption (ie, smaller coefficients), more photons from the muon track may be detected.
+The observation of additional photons from the muon track improves the veto efficiency, leading to a significant decrease in the number of muons at final level.
+
+The scattering, in contrast, has very little effect on the muon distribution, as seen in \needfig{scattering}.
+No changes in rate or in reconstruction resolution are observed in the muon distributions.
+
+In the neutrinos, the effects of the scattering are more important.
+In particular, stronger scattering (larger coefficients) lead to a reconstruction bias, with more events reconstructing as downgoing.
+This is a known effect of the reconstruction, where we use a version of the ice model which interprets off-time hits as being due to backscattered photons in a downgoing event.
+
+
+\subsubsection{Hole Ice and Foward Scattering}
+\label{subsubsec:holeice}
+While the bulk ice refers to the scattering and absorption properties of the entire interaction volume, additional care must be taken for the ice close to the face of a PMT.
+During deployment, contaminants, including air, were introduced into the drill holes.
+These contaminants have been seen to form a dense column with unique scattering properties near the center of the drill holes.
+This bubble column, known as the \textbf{hole ice}, has properties separate from the rest of the ice model.
+
+The uncertainties associated with the hole ice are significant and tend to elicit more attention than bulk ice uncertainties in searches for oscillations with DeepCore.
+The simulation of the hole ice model used here, discussed briefly in \ref{subsec:holeice_sim}, requires two free parameters which will be referred to as the \textbf{lateral} and \textbf{forward} scattering parameters here for clarity.
+The lateral scattering modifies the efficiency of accepting photons incident from the horizon at each DOM while the forward scattering modifies only the acceptance of the very-forward region.
+The models of the angular acceptance are shown in \needfig{hole ice and hifwd}.
+
+The effects of the two hole ice parameters show very similar behavior to that of the scattering uncertainty in the bulk ice, as all three coefficients are modeling the scattering properties of different locations in the ice.
+
+
+\subsubsection{Parametrizing with Hyperplanes}
+For each of the simulation sets and each particle type, histograms are produced using the reconstructed energy, zenith, and track length. 
+These systematic histograms give information about the expected change of the final histogram as a function of the changing systematics parameters, but the information is encoded in discretized points with statistical fluctuations due to the finite simulation statistics.
+In order to produce continuous systematics for analysis, the discrete detector systematics must be parametrized.
+
+For this work, a hyperplane is fit to the detector systematics sets for each particle type and for each bin in the analysis histogram.
+\improvement{how do i flesh this out?}
+
+For neutrinos, a simple linear model is assumed for each detector systematic, with one free coefficient associated with each systematic as well as one free constant term independent of the systematics.
+The form of the hyperplane for each neutrino type in the bin $ijk$ is given by \ref{eq:hyperplane_nu}.
+
+\begin{equation}
+\label{eq:hyperplane_nu}
+f_{ijk}^\prime = \left(\sum_m^{detsys}\left(a^{ijk}_m (x_m-x_m^0)\right) + b^{ijk}\right) f_{ijk}
+\end{equation}
+
+For atmospheric muons, the form is slightly modified due to the strong effects observed from both the DOM efficiency and the absorption.
+\needfig{muongun rates vs domeff and absorption to justify exponentials}
+In these two cases, an exponential model is selected to better describe the observed effects in simulation.
+
+\begin{equation}
+\label{eq:hyperplane_mu}
+	f_{ijk}\prime = 
+	\left(\sum_{m\neq DE,Abs}^{detsys}\left(a^{ijk}_m (x_m-x_m^0)\right) + \sum_m^{DE,Abs}\left(a^{ijk}_m e^{b^{ijk}(x_m-x_m^0)}\right) + c^{ijk}\right) f_{ijk}
+\end{equation}
+
+
+\improvement{Need to include some discussion of th goodness of fit for these sets. Maybe a plot of the chi2 values for all of the sets? }

@@ -1,0 +1,40 @@
+\label{sec:likelihoods}
+\section{The Method of Maximum Likelihood}
+
+\label{subsec:chi2}
+\subsection{The $\chi^2$ Fit}
+The simplest implementation of a fitting algorithm begins with an assumption of the true and observed distributions.
+Namely, that the observed number of events in each bin of the histogram is drawn from a distribution approximately Gaussian with a mean $\mu$ equal to the expectation from simulations and a variance $\sigma^2$ calculated from the Poisson uncertainty on the expectation. 
+
+\begin{equation}
+	P\left(x|\mu\right) = N e^{\frac{1}{2}\frac{\left(x-\mu\right)^2}{\sigma^2}}
+\end{equation}
+
+where $N$ is a normalization constant and, in the case of Poissonian statistics of simple histograms, the variance is given by the event weights in the specified bin.
+
+\begin{equation}
+	\sigma^2 = \mu = \sum{w}
+\end{equation}
+
+From this point, taking the logrithm yields the standard $\chi^2$ definition for the likelihood.
+
+\begin{equation}
+	LLH = Log_e(N) + \left(\frac{1}{2}\frac{\left(x-\mu\right)^2}{\mu}\right)
+\end{equation}	
+
+
+
+\label{subsec:finite_stats}
+\subsection{Finite Statistics}
+The $\chi^2$ distribution above implicitly assumes that the dominant source of uncertainty at the best-fit point comes from the statistical fluctuations of the data around the true distribution represented by the Monte Carlo simulation.
+While this is true in te ideal case, in practice the statistical properties of the simulation sets themselves cannot be ignored.
+In general, every attempt should be made to ensure the statistical fluctuations of the simulation sets are negligible compared to those of the data.
+This typically leads to requests for at least an order of magnitude larger simulation statistics than expected from the data itself.
+\needfig{make a plot showing chi2 value as a function of mc stats scale factor to justify the 10x rule}
+In the situation where this is infeasible, modifications to the likelihood space itself may be used to account for the additional uncertainties.
+For this analysis the statistical uncertainties of the underlying simulation sets are added to the weighted uncertainties in quadrature.
+
+\begin{equation}
+	LLH = Log_e(N) + \left(\frac{1}{2}\frac{\left(x-\mu\right)^2}{\sum{\left(w\right)}^2 + \sum{w^2}\right)
+\end{equation}		
+

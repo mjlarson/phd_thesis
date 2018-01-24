@@ -1,0 +1,249 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Cosmic Rays}{5}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Neutrinos}{5}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Methods of Detection}{5}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Neutrino Oscillations}{6}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Neutrino Experiments: Past and Present}{6}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Solar Neutrinos: A Hint of Multiple Flavors}{6}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Super-Kamiokande and Atmospheric Neutrinos}{6}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Oscillation Theory and the PMNS Matrix}{6}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}The IceCube Detector}{7}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The DOM: The Basic Unit of IceCube}{7}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}The Photomultiplier Tube: From Light to Signal}{7}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Digitization}{7}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Local Coincidence}{7}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}The Geometry of the Detector}{7}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}IceCube: A Detector for TeV Neutrinos}{7}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}DeepCore: Extending the Reach to GeV Scales}{7}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Simulation of the IceCube-DeepCore Detector}{8}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Monte Carlo Generators}{8}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Background Generation}{8}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CORSIKA}{8}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{MuonGun}{9}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Noise-Only Events}{10}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Signal Generation}{11}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{GENIE}{11}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Neutrino-Generator}{11}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Propagation of the Particles and Light}{11}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Modeling with GEANT4}{12}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Lepton Propagation with PROPOSAL}{12}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}CLSim for Photon Propagation}{12}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Angular Acceptance and Hole Ice}{13}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Simulating the Detector Electronics}{13}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Noise within IceCube-DeepCore}{13}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{PMTResponseSimulator and DOMLauncher}{14}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Event Building}{15}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The Simple Majority Trigger}{15}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Post-Simulation Processing}{15}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Pulse Extraction}{16}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Hit Cleaning}{16}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{LC Cleaning}{16}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{SeededRT Cleaning}{16}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Time Window Cleaning}{17}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}The DeepCoreFilter}{17}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Updates to the Noise Simulation}{19}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}A Summary of Previous Fits}{19}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Limitations and Disagreement with Previous Fits}{19}{section*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Low-dt Noise from Vuvuzela}{20}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Updating the Fitting Code}{21}{section*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Results of New Noise Fits}{22}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Low-Energy Muon Simulation}{25}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Long-Frame CORSIKA for DeepCore}{25}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}MuonGun for DeepCore}{26}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Simulation Efficiency with KDE Filtering}{26}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}GRECO: An Event Selection at the Limits of DeepCore}{28}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Low-En Level 3 Cuts}{28}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}GRECO Level 4 Cuts}{28}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{FirstHit Z}{28}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{NAbove200}{29}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{QR6/C2QR6}{29}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{QR6 plot}{30}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tensor of Inertia}{30}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Improved Linefit Speed}{30}{equation.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The L4 BDT}{30}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}GRECO Level 5 Cuts}{32}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L5 Straight Cuts}{32}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Time to 75\% Charge}{32}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Veto Identified Causal Hits}{33}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{First Hit $\rho $}{33}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Quartiles CoG}{33}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Z-Travel}{34}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{SPE Zenith}{34}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The L5 BDT}{35}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}GRECO Level 6 Cuts}{36}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Fill-Ratio at L6}{36}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The L6 NChannel Cut}{37}{equation.7.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CorridorCut}{38}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{FiniteReco Starting Containment}{38}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.4}GRECO Level 7: Final Level}{39}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Reconstruction using PegLeg}{39}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Containment with PegLeg}{40}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Other Cuts at L7}{40}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}The Properties of the GRECO Event Selection}{40}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Energy and Zenith Reach}{40}{section*.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}A Search for Tau Neutrinos from Oscillations}{41}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Unitarity of the PMNS Matrix}{41}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Current Limits}{41}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Systematics Considerations}{41}{section*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}Oscillation Parameters}{41}{section*.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}Flux Uncertainties}{41}{section*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Atmospheric Muon Flux}{41}{section*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Neutrino Flux}{41}{section*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.3}Propagation Uncertainties}{41}{section*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.4}Cross-section Uncertainties}{41}{section*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Axial Masses}{41}{section*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{DIS Cross-sections}{41}{section*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.5}Detector Systematics}{41}{section*.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Coincident Fraction}{44}{table.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{DOM Efficiency}{44}{section*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bulk Absorption and Scattering}{44}{section*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hole Ice and Foward Scattering}{45}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Parametrizing with Hyperplanes}{46}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}The Method of Maximum Likelihood}{46}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}The $\chi ^2$ Fit}{46}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.2}Finite Statistics}{47}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Parametrizing the Tau Neutrino Appearance}{47}{section*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.1}CC vs CC+NC}{47}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.2}The $\nu _{\tau }$ Normalization}{47}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.6}Expectations from Monte Carlo}{47}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6.1}Expected Contour}{47}{section*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6.2}Expected Sensitivity over Time}{47}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6.3}Systematics Pulls}{47}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6.4}Feldman-Cousins vs WIlk's Theorem}{47}{section*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.7}Fitting Data}{47}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{47}{section*.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{47}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.8}Results from the Analysis}{47}{section*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8.1}Individual Years}{47}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{47}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{47}{section*.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{47}{section*.112}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{48}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Goals of Phase1}{48}{section*.114}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{48}{section*.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{48}{section*.116}

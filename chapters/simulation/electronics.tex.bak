@@ -1,0 +1,78 @@
+\section{Simulating the Detector Electronics}
+\subsubsection{Noise within IceCube-DeepCore}
+Once the processing of particles and photons has reached the photocathode, detector effects will need to be applied. 
+The first of these, detector noise, is handled by the \textbf{Vuvuzela} module in the simulation chain. 
+
+Detector noise in IceCube has been studied in depth previously, most notably in my own master's thesis. 
+In brief, studies have shown that there exists a large fraction of the detector noise that displays non-Poissonian behavior in time.
+
+The noise simulation for each DOM is provided by a set of five characteristic parameters, each representing a separate aspect of the assumed process. 
+All five parameters have been previously fit individually for all DOMs using untriggered raw data from the IceCube detector. 
+The simplest of these, the \textbf{thermal rate} leads to a standard Poisson process noise model in which all hits are assumed to occur independently with a rate that depends on the temperature of the electronics. 
+The thermal rate appears to fall as the temperature decreases and is a relatively large component of the noise in IceCube DOMs, with typical rates of approximately 200 Hz.
+
+The next component is another Poisson process, thought to be due to radioactive decays in both the ice and the DOM glass. 
+These noise hits occur at a rate that is independent of temperature with a characteristic rate on the order of 50-100 Hz. 
+Studies of these radioactive components are ongoing, with some evidence that Potassium-40 and Uranium-238 may be responsible for at least some of the observed decays.
+
+Once a decay occurs, there is evidence of a rapid series of pulses occuring in the PMT, leading to a "burst" of noise that can last up to millisecond timescales. 
+These hits are believed to be due to a scintillation or luminescence process related to the glass of both the DOM and PMT. 
+In order to model this bursting behavior, an effective model which represents the timing of consecutive hits from the scintillation process is implimented using a log-normal distribution. 
+This introduces three additional parameters to the noise model: the average number of hits in a "burst", giving the normalization; the mean time between hits within a burst; and the standard deviation of the timing within a burst. 
+
+Noise hits in simulation are added to the detector in the form of additional I3MCPEs for each DOM. Once the noise simulation is completed, the combination of I3MCPEs due to particles as well as noise are passed to the next modules.
+
+\subsubsection{PMTResponseSimulator and DOMLauncher}
+The IceCube detector does not directly measure photoelectrons emitted from the photocathode. 
+Instead, the simulated I3MCPEs are converted to \textbf{I3MCPulses} within the PMT using the PMTResponseSimulator module.
+This module, which models the cascading effects within a single PMT, also adds in effects such as the pre-, late-, and after-pulses which are thought to come from defects in the cascading process.
+The pre-pulses, arriving within a few dozens of nanoseconds prior to the main signal, are thought to arise from the small probability of an electron bypassing one of the dynodes. 
+Late-pulses are likewise thought to be produced by electrons which return to a previous dynode, inducing a signal a few dozens of nanoseconds immediately following the main signal.
+These signals tend to be small and generally not of importance in the remainder of this document.
+
+After-pulses, which arise from ionization of residual gases in the PMT, are a more significant concern for the purposes of this work. 
+The ionized atoms tend to travel significantly more slowly than electrons, resulting in a  delay between the main signal and the subsequent afterpulses that may be as large as 10 microseconds.
+
+The resulting cascade of electrons in the PMT, now including a combination of pulses due to particle interactions, noise, and PMT effects, is detected at the anode as a voltage drop, with the shape of the voltage change referred to as a \textbf{waveform}. 
+When the PMT observes more than a threshold voltage drop, typically corresponding to 1/4 of the expected drop from one photoelectron ejected from the photocathode, the DOM begins recording a \textbf{I3DOMLaunch}, often referred to simply as a 'launch'. 
+
+The waveform of a launching DOM is passed two the two onboard digitizers.
+The first and more precise of these, the \textbf{Analog to Digital Waveform Digitizer}, or \textbf{ATWD} will digitize the waveform using 322 bins with 3.3 nanoseconds per bin. 
+Two ATWDs are provided for each DOM, as the digitization process may lead to significant deadtime.
+In addition, each of the two ATWDs possesses three channels with separate gains.
+This provides the ability to accurately measure the waveform, even in cases of saturation.
+The unsaturated ATWD with the highest gain provides a record for the launch.
+
+In addition to the ATWD, there exists a longer-timescale digitizer known as the \textbf{Fast Analog-to-Digital Converter}, or \textbf{FADC}. 
+The FADC is able to record up to 6.4 microseconds of the waveform in bins of XYZ nanoseconds with no deadtime.
+This digitizers allows for longer-term behavior to be recorded for the DOM in addition to the detailed information from the ATWD.
+
+As the waveform is being recorded, a signal is sent to nearby DOMs requesting status information.
+If a nearby DOM, here defined as any of the two nearest above or two nearest below the current DOM, observes a launch within 1 microseconds, then both DOMs are labeled as in \textbf{Hard Local Coincidence}, or \textbf{HLC}.
+If no nearby DOM observes a launch within the specfied window, then the launching DOM is referred to as having a \textbf{Soft Local Coincidence} or \textbf{SLC}.
+
+In the case of HLC launches, the DOM will request the full digitization of the waveforms from both the ATWD and FADC, providing a complete record of the launch.
+If the launch is instead given the SLC label, the information in the ATWD is dumped and the FADC instead digitizes only the three bins associated with the largest peak of the waveform.
+While this limits the information available for these launches, the lack of associated nearby launching DOMs provides strong evidence of a launch due to random detector noise.
+
+\subsection{Event Building}
+\subsubsection{The Simple Majority Trigger}
+After the DOM has made a decision regarding HLC/SLC status and completed digitizing the waveform, the information is provided to the trigger system.
+In the actual detector, this occurs at the surface in a system known as the \textbf{Joint Event Builder} or \textbf{JEB} while in simulation, this is handled by the \textbf{Trigger-Sim} module. 
+The JEB system collates information from all DOMs in order to evaluate triggering conditions.
+
+The most common type of trigger used in IceCube analyses is the \textbf{Simple Majority Trigger} or \textbf{SMT}. 
+This trigger is designed to look for coincidences between DOMs using HLC launches.
+Each of the SMTs is defined by three fundamental configurations: a DOMSet, which lists the DOMs available for use in the trigger conditions; a threshold number of HLC launches before the trigger fires; and a time window length in which the HLC are required to coexist.
+In the standard IceCube detector, an SMT using all DOMs with a threshold of 8 HLC launches within 5 microseconds is typically used.
+This trigger, known as \textbf{SMT8} after the number of required hits, is designed for high signal efficiency at energies above 100 GeV with a minimum number of accidental triggers due to random detector noise.
+
+In DeepCore, the desire for lower energy events led to the introduction of a separate trigger, known as \textbf{SMT3}.
+This trigger, using only DOMs within the DeepCore fiducial volume, searches for at least three HLC launches occuring within 2.5 microseconds.
+This effectively lowers the triggering threshold from roughly 100 GeV with the larger IceCube array to approximately 10 GeV.
+
+Once all triggers are identified, a \textbf{global trigger} is defined. 
+This consists of the superset of all triggers occurring within 10 microseconds (?) of one another.
+All detector readout enclosed within the global trigger as well as additional information within 10 microseconds both before and after the trigger is combined into a single \textbf{event}.
+
+\section{The DeepCoreFilter}

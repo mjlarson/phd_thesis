@@ -1,0 +1,111 @@
+\subsection{Event Building}
+\subsubsection{The Simple Majority Trigger}
+After the DOM has made a decision regarding HLC/SLC status and completed digitizing the waveform, the information is provided to the trigger system.
+In the actual detector, this occurs at the surface in a system known as the \textbf{Joint Event Builder} or \textbf{JEB} while in simulation, this is handled by the \textbf{Trigger-Sim} module. 
+The JEB system collates information from all DOMs in order to evaluate triggering conditions.
+
+The most common type of trigger used in IceCube analyses is the \textbf{Simple Majority Trigger} or \textbf{SMT}. 
+This trigger is designed to look for coincidences between DOMs using HLC launches.
+Each of the SMTs is defined by three fundamental configurations: a DOMSet, which lists the DOMs available for use in the trigger conditions; a threshold number of HLC launches before the trigger fires; and a time window length in which the HLC are required to coexist.
+In the standard IceCube detector, an SMT using all DOMs with a threshold of 8 HLC launches within 5 microseconds is typically used.
+This trigger, known as \textbf{SMT8} after the number of required hits, is designed for high signal efficiency at energies above 100 GeV with a minimum number of accidental triggers due to random detector noise.
+
+In DeepCore, the desire for lower energy events led to the introduction of a separate trigger, known as \textbf{SMT3}.
+This trigger, using only DOMs within the DeepCore fiducial volume, searches for at least three HLC launches occuring within 2.5 microseconds.
+This effectively lowers the triggering threshold from roughly 100 GeV with the larger IceCube array to approximately 10 GeV.
+
+Once all triggers are identified, a \textbf{global trigger} is defined. 
+This consists of the superset of all triggers occurring within 10 microseconds (?) of one another.
+All detector readout enclosed within the global trigger as well as additional information within 10 microseconds both before and after the trigger is combined into a single \textbf{event}.
+
+\section{Post-Simulation Processing}
+\subsection{Pulse Extraction}
+From this point in the processing, both data and simulation recieve identical processing.
+The first step of this processing is to read and extract charge information from the digitized waveforms.
+This is done using the \textbf{wavedeform} module, which accepts and processes the information from the launches in each triggered event.
+Wavedeform attempts to reconstruct the original I3MCPulses from the digitized waveform information.
+
+Wavedeform uses a parametrized version of the PMT pulse associated with a single photoelectron. 
+Beginning with a single pulse template, a least squares minimization is performed to find the best-fit timing of the pulse to the observed digitized waveform.
+Additional copies of the pulse template are added and new minimizations are performed until the goodness-of-fit improvement from additional pulses is negligible.
+The resulting sets of pulses, including associated timing and normalization, are returned with the \textbf{I3RecoPulse} class, more commonly referred to as simply \textbf{pulses}.
+These pulses represent the best-fit recreation of the analog pulses in the PMT prior to the digitization process.
+
+Both HLC and SLC waveforms are fit, although the limited information in SLC waveforms necessarily results in the loss of information.
+When available, information from the ATWD is provided a larger weight relative to the information from the FADC due to the finer binning in time, allowing for more detailed information on PMT behavior near the beginning of the launch of the DOM. 
+
+\subsection{Hit Cleaning}
+In general, a set of pulses, known as a \textbf{pulse series}, contains a significant amount of information due to random detector noise.
+These additional pulses are not useful for understanding the particle interactions and are therefore typically removed during processing.
+There exist multiple ways to identify pulses likely to be due to detector noise, three of which will be detailed in order from most strict to most accepting.
+
+\subsubsection{LC Cleaning}
+The most strict cleaning method is also the most straightforward. 
+By selecting only pulses that result from HLC launches, the resulting pulse series can be cleaned of nearly all detector noise.
+This comes at the expense of a potentially significant amount of information about the event, since all SLC hits are removed.
+
+\subsubsection{SeededRT Cleaning}
+Instead of simply using HLC hits, additional processing may be used to identify potentially interesting SLC hits as well.
+The \textbf{SeededRT} algorithm is one such algorithm, requiring a seed, radius, and time in order to search for additional information in the event.
+SeededRT begins with a subset of "interesting" pulses, often a selection of the HLC pulses, as a seed.
+Once a seed is selected, a sphere of the given radius is drawn around each seeded DOM. 
+Any nearby DOMs within the sphere and time window are added to the output pulse series.
+Once all seed DOMs have been checked, a new seed is created composed of the current output pulse series.
+The process is then run again, once again updating the output pulse series with any newly discovered pulses.
+Once no additional interesting DOMs are observed, the final pulse series is written out, able to be used for any subsequent processing.
+
+The most effective set of parameters is dependent on the detector geometry, since a given radius sphere will contain more DOMs in the DeepCore fiducial than the same sphere outside of DeepCore.
+Because of this, different settings are chosen for these two regions.
+
+\subsubsection{Time Window Cleaning}
+The most general cleaning results in very little loss in pulses due to particle interactions, but allows nearly all noise pulses into the final hit series.
+This \textbf{Static Time Window} cleaning, often referred to using just the acronym \textbf{STW} cleaning, looks for pulses near the times associated with triggers.
+For DeepCore processing, any pulses more than 4 microseconds before or more than 6 microseconds after the SMT3 time are removed.
+
+There exists a second type of time window cleaning applied more rarely.
+The \textbf{Dynamic Time Window} cleaning, hereafter \textbf{DTW} cleaning, removes the association with the trigger time. 
+Instead, the window is chosen to maximize the number of hits.
+DTW cleaning is generally chosen with a significantly tighter window, often consisting of only a few hundred nanoseconds compared to the multiple microseconds used in the STW cleaning.
+
+Time window cleaning is typically used in combination with additional cleaning methods, resulting in little loss in useful signal due to the wide time window (in STW cleaning) or in a very pure set of hits likely to be due to unscattered light.
+
+
+\subsection{The DeepCoreFilter}
+Triggers are generally designed to be as accepting of the proposed physics signal as possible, regardless of the background rates.
+Typically, limitations exist solely in the processing and storage capabilities in order to prevent the unintentional loss of valuable information.
+After triggering, various filters may be applied with the sole purpose of removing the collected background.
+For the purposes of this document, the only filter considered is the \textbf{DeepCoreFilter}.
+
+The DeepCoreFilter proceeds by splitting the pulses identified by the SeededRT cleaning into "veto" and "fiducial" pulses, with each DOM given a designation based on it's position in the detector.
+The average and standard deviation in time are first calculated for the fiducial pulses.
+
+\begin{equation}
+\begin{split}
+	&\bar{t'},\; \sigma_{t'} = 0\\
+	&\mathtt{For\; DOM\; i\; in\; [1...N_{hits}]:}\\
+	&\qquad	\bar{t'}_i = \bar{t'}_{i-1} + \frac{t_i - \bar{t'}_{i-1}}{i}\\
+	&\qquad	\sigma_{t'_i}^2 = \sigma_{t'_{i-1}}^2 + (i-1) \frac{\left(t_i - \bar{t'}_{i-1}\right)^2}{i}\\
+	&\bar{t'} = \bar{t'}_{N_{hits}}\\
+	&\sigma_{t'}^2 = \sigma_{t'_{N_{hits}}}^2
+\end{split}
+\end{equation}
+
+All hit DOMs with the first pulse occuring more than one standard deviation away from the mean time are removed from the fiducial pulse series.
+With the updated fiducial pulse series, a center of gravity, or \textbf{CoG}, of the remaining DOMs is calculated.
+
+\begin{equation}
+	\vec{x}_{CoG}=\frac{\sum_i^{DOMs} \vec{x}_i}{N_{hits}}
+\end{equation}
+
+An average time is calculated by assuming that all pulses are caused by light emission at the CoG, as would be the case for a cascade-like event.
+\begin{equation}
+	t_{CoG} = \frac{\sum_i^{DOMs} t_i^0 - \frac{\vec{x}_i - \vec{x}_{CoG}}{c_{ice}}}{N_{hits}}
+\end{equation}
+
+where $t_i^0$ denotes the time of the first observed pulse.
+The standard deviation of this time is then calculated using the fiducial pulses.
+
+\begin{equation}
+	\sigma_{t_{CoG}}^2 = \sum_{i}^{DOMs} 
+\end{equation}
+

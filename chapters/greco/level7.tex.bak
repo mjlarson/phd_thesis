@@ -1,0 +1,47 @@
+\subsection{GRECO Level 7: Final Level}
+
+\label{subsec:pegleg_reco}
+\subsubsection{Reconstruction using PegLeg}
+The existing reconstructions up to this point use either analytic or simplified likelihood reconstructions to estimate particle parameters.
+The position of the first hit and the finite muon reconstruction from FiniteReco provide straightforward separation power between atmospheric muons and neutrino events, but are designed to be computationally inexpensive instead of precise.
+At final level, these estimates are refined using a novel reconstruction method developed specifically for low-energy and oscillation searches with DeepCore.
+
+The \textbf{PegLeg} reconstruction, developed by Martin Leuermann based, in part, on earlier work by Matt Dunkmann, is a low-energy reconstruction that uses a hybrid cascade+muon hypothesis.
+The reconstruction returns a total of eight parameters: the position ($x_R$, $y_R$, $z_R$), time ($t_{R}$), direction ($\theta$, $\phi$), total energy ($E_{R}$) and track length ($L_{R}$). 
+The algorithm requires both seeds for each of the particle parameters, a collection of hits over which to run, and a set of splines fit to an ice model.
+
+For each particle hypothesis, the event is broken into steps in time based on the timing of the observed hits in the event.
+At each time step, the expected charge at each DOM is calculated based on the energy and position of the particle emission scaled using the ice model splines.
+The charge expectation is evaluated for all DOMs, regardless of whether a hit is observed or not.
+The total likelihood of the hypothesis is then the product of the likelihoods at each DOM.
+
+Given the large dimensionality of the space, significant computational power is required for the fit.
+Various steps are used in order to reduce the resource requirements.
+Track lengths are limited to integer values that depend on parameters used to produce the spline tables. 
+While this requirement is lifted in newer versions of the software, that change has not yet propagated to the current GRECO events.
+In addition, only DOMs within 150 meters of the current particle position are evaluated to find the expected charge.
+All other DOMs are assumed to have an expected charge consistent with noise rates.
+
+Each event takes approximately 15 minutes on average to converge in the reconstruction.
+There also exists a significant tail to the reconstruction time, sometimes extending to multiple hours for a single event.
+With a large expected sample of events, the reconstruction time is the most computationally intensive part of the event selection
+
+\label{subsubsec:pegleg_containment}
+\subsubsection{Containment with PegLeg}
+With a more refined reconstruction, additional constraints on the containment of events are possible.
+Similar to the work done with FiniteReco at L6, the $Z_R$ and $\rho_R$ values are shown in \ref{fig:pegleg_zVsRho}.
+Once again, events at the top of and near the edge of DeepCore are more likely to be muons.
+Removing these events results in a 75\% reduction of the atmospheric muon background at a cost of approximately 10\% of the overall neutrino rate.
+
+\label{subsubsec:other_l7_cuts}
+\subsubsection{Other Cuts at L7}
+In the course of further work on the event selection, a number of issues previously-unknown were discovered.
+The most important of these is the discovery of \textbf{flaring DOMs}, which occur when a DOM spontaneously emits light.
+Because the light is emitted from the DOM itself, these events are characterized by high light yield on a single DOM relative to the rest of the event.
+These events were first discovered with the GRECO sample and are under further investigation within the IceCube collaboration.
+Two DOMs are known to emit light in this way at a rate of approximately once per day. 
+A third DOM is suspected to emit lower light levels, but at a much more frequent rate.
+
+The two known DOMs are removed from the reconstruction pending further investigation. 
+In addition, any event event with a single DOM observing more than 80\% of the total charge is removed to remove events with this characteristic signature.
+
