@@ -16,13 +16,12 @@ where $N$ is a normalization constant and, in the case of Poissonian statistics 
 	\sigma^2 = \mu = \sum{w}
 \end{equation}
 
+\improvement{This needs work. can't even be called a derivation. its just crap.}
 From this point, taking the logrithm yields the standard $\chi^2$ definition for the likelihood after dropping the constant terms.
 
 \begin{equation}
 	\chi^2 = \frac{\left(x-\mu\right)^2}{\mu}
 \end{equation}	
-
-
 
 \label{subsec:finite_stats}
 \subsection{Finite Statistics}
@@ -49,7 +48,7 @@ In this case, the numerator becomes simply
 	\lim_{N_{\mu}\rightarrow\infty} \left(x-\sum w\right)^2 = \left(\sum w\right)^2
 \end{equation}
 
-The resulting limit as the event weights become large is therefore
+The resulting limit in each bin as the event weights become large is therefore
 
 \label{eqn:mchi2_lim}
 \begin{equation}
@@ -59,8 +58,7 @@ The resulting limit as the event weights become large is therefore
 	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{1} = 0
 \end{equation}
 
-
-While this is a particular concern for all simulation types, the dominant contribution to the $sum{w^2}$ term is the atmospheric muons. 
+While this is a particular concern for all simulation types, the dominant contribution to the $\sum{w^2}$ term is the atmospheric muons. 
 In addition, the atmospheric muons have the strongest impacts from non-normalization systematic uncertaintines, particularly the DOM efficiency and the absorption.
 Modifying either of these parameters or the normalization systematics in the fit may lead to this runaway behavior.
 

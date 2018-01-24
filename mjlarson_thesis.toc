@@ -206,44 +206,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.4.1}The $\chi ^2$ Fit}{46}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Finite Statistics}{47}{section*.95}
+\contentsline {subsection}{\numberline {8.4.2}Finite Statistics}{47}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Parametrizing the Tau Neutrino Appearance}{47}{section*.97}
+\contentsline {section}{\numberline {8.5}Parametrizing the Tau Neutrino Appearance}{48}{section*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.1}CC vs CC+NC}{48}{section*.98}
+\contentsline {subsection}{\numberline {8.5.1}CC vs CC+NC}{48}{section*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.2}The $\nu _{\tau }$ Normalization}{48}{section*.99}
+\contentsline {subsection}{\numberline {8.5.2}The $\nu _{\tau }$ Normalization}{48}{section*.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Expectations from Monte Carlo}{48}{section*.100}
+\contentsline {section}{\numberline {8.6}Expectations from Monte Carlo}{49}{section*.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.1}Expected Contour}{48}{section*.101}
+\contentsline {subsection}{\numberline {8.6.1}Expected Contour}{49}{section*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.2}Expected Sensitivity over Time}{48}{section*.102}
+\contentsline {subsection}{\numberline {8.6.2}Expected Sensitivity over Time}{49}{section*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.3}Systematics Pulls}{48}{section*.103}
+\contentsline {subsection}{\numberline {8.6.3}Systematics Pulls}{49}{section*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.4}Feldman-Cousins vs WIlk's Theorem}{48}{section*.104}
+\contentsline {subsection}{\numberline {8.6.4}Feldman-Cousins vs WIlk's Theorem}{49}{section*.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.7}Fitting Data}{48}{section*.105}
+\contentsline {section}{\numberline {8.7}Fitting Data}{49}{section*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{48}{section*.106}
+\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{49}{section*.111}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{48}{section*.107}
+\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{49}{section*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.8}Results from the Analysis}{48}{section*.108}
+\contentsline {section}{\numberline {8.8}Results from the Analysis}{49}{section*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.1}Individual Years}{48}{section*.109}
+\contentsline {subsection}{\numberline {8.8.1}Individual Years}{49}{section*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{48}{section*.110}
+\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{49}{section*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{48}{section*.111}
+\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{49}{section*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{48}{section*.112}
+\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{49}{section*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{49}{chapter.9}
+\contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{50}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Goals of Phase1}{49}{section*.114}
+\contentsline {section}{\numberline {9.1}Goals of Phase1}{50}{section*.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{49}{section*.115}
+\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{50}{section*.120}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{49}{section*.116}
+\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{50}{section*.121}

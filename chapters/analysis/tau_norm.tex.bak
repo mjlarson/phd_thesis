@@ -1,0 +1,50 @@
+\section{Parametrizing the Tau Neutrino Appearance}
+In order to properly measure the appearance of $\nu_\tau$ events, a choise of "appearance parameter" must be selected.
+Here, we discuss the choice of parameter used in this analysis.
+
+\label{subsec:cc_vs_ccnc}
+\subsection{CC vs CC+NC}
+As described in \ref{sec:detection_methods}, neutrinos may interact in two distinct ways to produce light in the IceCube detector.
+These two methods, the charged-current and neutral-current interactions, provide separate windows into neutrino interactions.
+Tau neutrino events may interact in either of these channels depending on the neutrino energy.
+
+With a mass of 1776.82 $\pm$ 0.16 MeV and a lifetime of 290.3 $\pm$ 0.5 femtoseconds \findref{PDG}, $\tau$ leptons produced during neutrino oscillations in DeepCore tend to travel very short differences before decaying.
+The charged-current interactions of the $\nu_\tau$ result in a variety of signatures due to the unique decay behavior of the $\tau$ lepton.
+
+\label{eqn:tau_decay_modes}
+\begin{equation}
+	\tau^- \rightarrow 
+		\begin{cases} 
+			\mu^- \bar{\nu}_\mu \nu_\tau & \mbox{17.41 $\pm$ 0.04\%} \\ 
+			e^- \bar{\nu}_e \nu_\tau & \mbox{17.83 $\pm$ 0.04\%} \\ 
+			\mbox{Hadrons} & \mbox{Otherwise} \\ 
+		\end{cases}
+\end{equation}
+
+In either the muonic or the electronic decay modes, a fraction of the energy is lost to outgoing neutrinos, resulting in a smaller observed charge than would be associated with a corresponding interaction of another neutrino type.
+Furthermore, the muonic decay mode may lead to a visible muon track for the $\nu_\tau$ interaction.
+These muon tracks associated with the appearance of $\nu_\tau$ would appear at lower energies than the tracks corresponding to the $\nu_\mu$ disappearance, allowing both effects to be observed simultaneously.
+
+Unlike the varied results of the charged current interactions, neutral current interactions of neutrinos are assumed to have identical coupling and behavior, regardless of flavor and, therefore, undergo no observable change due to oscillations.
+Because of this, studies of the standard unitary PMNS matrix tend to treat neutral current events as effectively non-oscillating \findref{superk paper, opera paper sources for unoscillating NC}.
+In contrast, searches for new physics and sterile neutrinos result can result in a change in the apparent number of neutral current interactions in the detector.
+
+For this analysis, both approaches have been adopted.
+A fit using charged-current events as the signal is used to provide limits on the modifications to a 3x3 mixing matrix without the introduction of neutral-current altering behavior \findref{non-sterile explanations of non-unitarity? maybe the neutrino decay paper?}.
+A second fit, including both neutral current and charged current $\nu_\tau$ events, provides more insight into possible extra flavors of neutrinos.
+
+\label{subsec:norm_tau}
+\subsection{The $\nu_{\tau}$ Normalization}
+Because effectively all $\nu_\tau$ events observable in DeepCore are the result of neutrino oscillations, the total number of observed $\nu_\tau$ interactions is a direct measure of the appearance itself.
+The number of $\nu_\tau$ events interacting in DeepCore is, however, affected by many of the previously-discussed systematics.
+In particular, the number of events is strongly related to the assumed atmospheric oscillation parameters.
+
+In order to provide a quantitative measure of the appearance, the overall normalization of signal events is used as a final physics parameter. \improvement{think up a better phrasing to introduce the tau normalization}
+The normalization is a fit parameter, defined to be a total modification of the number of candidate $\nu_\tau$ events after all other systematic parameters are applied.
+
+\label{eqn:norm_tau_defition}
+\begin{equation}
+	f'_{ijk} = \sum_{m\neq\nu_\tau} f^m_{ijk}\left(\theta_{23}, \Delta m^2, ...\right) + N_{\nu_\tau} f^{\nu_\tau}_{ijk}\left(\theta_{23}, \Delta m^2, ...\right) 
+\end{equation}
+
+In this case, we end up with four general cases for the result.

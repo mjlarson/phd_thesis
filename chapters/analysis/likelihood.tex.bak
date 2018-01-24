@@ -36,7 +36,7 @@ For this analysis the statistical uncertainties of the underlying simulation set
 
 \label{eqn:mchi2}
 \begin{equation}
-	\chi^2_{FS} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
+	\chi^2_{1} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
 \end{equation}		
 
 Due to the large uncertainties associated with the atmospheric muon sample, further considerations are necessary.
@@ -53,22 +53,27 @@ The resulting limit as the event weights become large is therefore
 
 \label{eqn:mchi2_lim}
 \begin{equation}
-	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{FS} =  \frac{\left(\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
+	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{1} =  \frac{\left(\sum w\right)^2}{\left(\sum{w}\right)^2 + \sum{w^2}}
 \end{equation}
 \begin{equation}
-	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{FS} = 0
+	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{1} = 0
 \end{equation}
 
 
 While this is a particular concern for all simulation types, the dominant contribution to the $sum{w^2}$ term is the atmospheric muons. 
 In addition, the atmospheric muons have the strongest impacts from non-normalization systematic uncertaintines, particularly the DOM efficiency and the absorption.
-Modifying either of these parameters or the normalzation terms
+Modifying either of these parameters or the normalization systematics in the fit may lead to this runaway behavior.
 
-In order to prevent this runaway behavior, a further modification of the $\chi^2$ is necessary.
+In order to prevent this situation, a further modification of the $\chi^2$ is necessary.
 For this analysis, the total scale of the statistical uncertainty is assumed to be set by the seed values of the fit.
 
 \label{eqn:w2_constant}
 \begin{equation}
-	\N_{w^2} = \frac{\sum{w^2_{Seed}}}{\sum{w^2}} w^2
+	N_{w^2} = \frac{\sum{w^2_{Seed}}}{\sum{w^2}}
 \end{equation}
 
+With this modification, the $\chi^2$ is now defined to be
+
+\begin{equation}
+	\chi^2_{FS} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + N_{w^2}\sum{w^2}}
+\end{equation}

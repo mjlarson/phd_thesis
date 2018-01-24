@@ -40,13 +40,7 @@
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex}
 
 \label{sec:tau_parametrization}
-\section{Parametrizing the Tau Neutrino Appearance}
-
-\label{subsec:cc_vs_ccnc}
-\subsection{CC vs CC+NC}
-
-\label{subsec:norm_tau}
-\subsection{The $\nu_{\tau}$ Normalization}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex}
 
 \label{sec:mc_expectation}
 \section{Expectations from Monte Carlo}
