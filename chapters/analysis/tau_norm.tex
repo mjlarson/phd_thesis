@@ -49,10 +49,57 @@ The normalization is a fit parameter, defined to be a total modification of the 
 
 In this case, we end up with two general cases for the result.
 In the expected case, $N_{\nu_\tau}=1.0$, we find that the number of candidate events is consistent with our modeling of the $\nu_\tau$ and unitary PMNS mixing.
-If the value is significantly different from 1.0, we may have hints of either mismodeled cross-sections or of novel physics in the form of sterile neutrinos or neutrino mass state decay. \findref{Crazy shit that I will probably take out. but maybe find the neutrino decay paper again?}
-Due to the large existing uncertainties in the PMNS matrix described in \ref{sec:current_limits}, either situation is likely to yield value information.
+If the value is significantly different from 1.0, we may have hints of either mismodeled cross-sections or of novel physics. \findref{Crazy shit that I will probably take out. but maybe find the neutrino decay paper again?}
+Due to the large existing uncertainties in the PMNS matrix described in \ref{sec:current_limits}, either situation is likely to yield valuable information.
 
 
 \label{subsec:superk_and_opera}
 \subsection{Limits on the $\nu_\tau$ Normalization}
+This analysis is not the first to search for appearance in this way.
+Two other experiments, OPERA and Super-Kamiokande, have reported previous measurements parametrized in the same way.
 
+\label{subsubsec:opera_limit}
+\subsubsection{The OPERA Limit}
+The Oscillation Project with Emulsion-tRacking Apparatus, better known by the acronym OPERA, is an experiment designed to search for  $\nu_\tau$ appearance.
+Unlike IceCube's use of atmospheric neutrinos, OPERA uses muon neutrinos produced in the CERN Neutrinos to Gran Sasso (CNGS) beamline.
+OPERA uses an bricks of photographic films in order to accurately track and reconstruct neutrino interactions in the fiducial volume.
+This technique allows analysizers to clearly identify not only the initial neutrino interactionv vertex, but also the decay products along the path of the charged lepton produced in charged current interactions.
+In OPERA, the muon and tau lepton produce significantly different signals due to the short lifetime and unique decay properties of the tau lepton.
+The impressive ability to identify the particle dynamics is balanced by the small fiducial volume of the experiment, yielding only 5408 useful events for analysis from five years of data-taking.
+
+In 2015, OPERA released their final result in the search for $\nu_\tau$ appearance.
+Five candidate events, shown in \needfig{opera tau neutrino event views},  were identified in the data sample with a signal expectation of 2.64 $\pm$ 0.53 and a background expectation of 0.25 $\pm$ 0.05.
+The data unambiguously rules out the no-appearance hypothesis, with a rejection at 5.1$\sigma$ \findref{opera paper: https://arxiv.org/abs/1507.01417}.
+
+In terms of the normalization described above, OPERA reported a final value of $1.8^{+1.8}_{-1.1}$ at the 90\% level. 
+This value is consistant with the standard unitary oscillation scheme, but with large errors.
+
+\label{subsubsec:superk_limit}
+\subsubsection{The Super-Kamiokande Limit}
+Super-Kamiokande, described in \ref{sec:superk_atmo}, also has reported results in searches for $\nu_\tau$ appearance.
+The Super-Kamiokande collaboration developed a new event selection in the search for $\nu_\tau$ events, including the implementation of a neural net \findref{superk paper on appearance https://arxiv.org/pdf/1711.09436.pdf} to identify $\tau$-like and non-$\tau$-like events.
+The neural net itself includes information about the energy of the event and is trained against a background sample of simulated events.
+Events are analyzed in terms of the zenith angle and the neural net output variable.
+
+These two categories of events are fit with an unbinned likelihood including 28 systematic effects included in the analysis.
+
+\begin{table}[]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+Interaction Mode & Non-tau-like & tau-like & All    \\ \midrule
+CC nue       & 3071.0          & 1399.2      & 4470.2 \\
+CC numu     & 4231.9          & 783.4       & 5015.3 \\
+CC nutau    & 49.1            & 136.1       & 185.2  \\
+NC               & 291.8           & 548.3       & 840.1  \\ \bottomrule
+\end{tabular}
+\caption{The rates expected for each of the neutrino types in the Super-Kamiokande search for $\nu_\tau$ appearance. Reproduced from.}
+\label{tab:superk_appearance_rates}
+\end{table}
+ \findref{https://arxiv.org/pdf/1711.09436.pdf again}{here}
+
+The Super-Kamiokande measurement yields an expectation of 185.2 $\nu_\tau$ events in 5326 days or appoximately 12.7 events per year \unsure{wtf is going on here? table 1 in the paper gives an expectation of 185.2 events, but the stuff at the top right of page 11 says the expectation is 224...?! and NIETHER of these give the 1.47 that they quote. wtf}. 
+After fitting, the final rejection of the no-appearance hypothesis is found to be 4.6$\sigma$.
+Like OPERA, Super-Kamiokande finds more $\nu_\tau$ candidate events than expected, with a best-fit normalization of $1.47 \pm 0.32$.
+
+\needfig{figure 14 of https://arxiv.org/pdf/1711.09436.pdf}

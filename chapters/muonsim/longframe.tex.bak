@@ -45,8 +45,9 @@ In addition, emergent properties of the subthreshold muons are included in these
 Unfortunately, the production of long-frame CORSIKA simulation is particularly computationally expensive and of limited use for most higher energy analyses ongoing in the IceCube collaboration.
 Very little long-frame CORSIKA simulation is therefore available.
 
-For this work, long-frame CORSIKA simulation was cr
+For this work, long-frame CORSIKA simulation was crated with an effective livetime of approximately two weeks. 
+Such a sample required months of simulation time, severely limiting the potential usefulness for analyses.
+Still, the existing sets proved useful and necessary for the work in \ref{chapter:vuvuzela}. 
+Furthermore, the sets provided the first background estimates for both accidental triggers and atmospheric muons for the PINGU/Phase 1 detector described in \ref{chapter:pingu}.
 
-The latter is largely a calibration and computational issue: the free parameters are independent parameters associated with each DOM.
-Once those parameters are constrained, there exist many existing cuts to remove accidental triggers from the samples.
-While this does not abrograte the need for modeling this important background, there is little in the way of efficiency improvements that are possible for the accidental triggers.
+Initial tests with the long-frame CORSIKA simulation showed, for the first time, notable disagreement in the charge distributions in data and simulation described further in \ref{sec:vuvuzela_limitations}.
