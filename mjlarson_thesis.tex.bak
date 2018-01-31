@@ -26,6 +26,18 @@
 %\widowpenalty=500
 %\clubpenalty=500
 
+\includeonly{
+%./chapters/introduction,
+%./chapters/oscillations,
+%./chapters/detector,
+%./chapters/simulation,
+%./chapters/vuvuzela,
+%./chapters/muonsim,
+%./chapters/greco,
+./chapters/analysis,
+%./chapters/pingu
+}
+
 \title{A Search for Tau Neutrino Appearance with IceCube-DeepCore}
 \author{Michael. J. Larson}
 
@@ -37,31 +49,31 @@
 \listoftables
 
 \label{chapter:introduction}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/introduction.tex}
+\include{./chapters/introduction}
 
 \label{chapter:oscillations}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations.tex}
+\include{./chapters/oscillations}
 
 \label{chapter:detector}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/detector.tex}
+\include{./chapters/detector}
 
 \label{chapter:simulation}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation.tex}
+\include{./chapters/simulation}
 
 \label{chapter:vuvuzela}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/vuvuzela.tex}
+\include{./chapters/vuvuzela}
 
 \label{chapter:muonsim}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim.tex}
+\include{./chapters/muonsim}
 
 \label{chapter:greco}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/greco.tex}
+\include{./chapters/greco}
 
 \label{chapter:analysis}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis.tex}
+\include{./chapters/analysis}
 
 \label{chapter:pingu}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/pingu.tex}
+\include{./chapters/pingu}
 
 \listoftodos[Notes]
 
