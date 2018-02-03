@@ -16,13 +16,12 @@ where $N$ is a normalization constant and, in the case of Poissonian statistics 
 	\sigma^2 = \mu = \sum{w}
 \end{equation}
 
+\improvement{This needs work. can't even be called a derivation. its just crap.}
 From this point, taking the logrithm yields the standard $\chi^2$ definition for the likelihood after dropping the constant terms.
 
 \begin{equation}
 	\chi^2 = \frac{\left(x-\mu\right)^2}{\mu}
 \end{equation}	
-
-
 
 \label{subsec:finite_stats}
 \subsection{Finite Statistics}
@@ -49,7 +48,7 @@ In this case, the numerator becomes simply
 	\lim_{N_{\mu}\rightarrow\infty} \left(x-\sum w\right)^2 = \left(\sum w\right)^2
 \end{equation}
 
-The resulting limit as the event weights become large is therefore
+The resulting limit in each bin as the event weights become large is therefore
 
 \label{eqn:mchi2_lim}
 \begin{equation}
@@ -59,8 +58,7 @@ The resulting limit as the event weights become large is therefore
 	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{1} = 0
 \end{equation}
 
-
-While this is a particular concern for all simulation types, the dominant contribution to the $sum{w^2}$ term is the atmospheric muons. 
+While this is a particular concern for all simulation types, the dominant contribution to the $\sum{w^2}$ term is the atmospheric muons. 
 In addition, the atmospheric muons have the strongest impacts from non-normalization systematic uncertaintines, particularly the DOM efficiency and the absorption.
 Modifying either of these parameters or the normalization systematics in the fit may lead to this runaway behavior.
 
@@ -72,8 +70,72 @@ For this analysis, the total scale of the statistical uncertainty is assumed to 
 	N_{w^2} = \frac{\sum{w^2_{Seed}}}{\sum{w^2}}
 \end{equation}
 
-With this modification, the $\chi^2$ is now defined to be
+With this modification, the $\chi^2$ is now defined to be \improvement{this is only true for muons! how do i explain that?}
 
+\label{eqn:chi2_final}
 \begin{equation}
 	\chi^2_{FS} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + N_{w^2}\sum{w^2}}
 \end{equation}
+
+Taking the limit of this $\chi^2$ in a single bin as the event weights become large now gives
+
+\begin{equation}
+	\lim_{N_{\mu}\rightarrow\infty}  \chi^2_{FS} =\frac{1}{2}\frac{\left(x-\sum w\right)^2}{\left(\sum{w}\right)^2 + N_{w^2}\sum{w^2}}
+\end{equation}
+\begin{equation}
+	\lim_{N_{\mu}\rightarrow\infty} \chi^2_{FS} = 1
+\end{equation}
+
+This is in agreement with the limit obtained from the standard $\chi^2$.
+
+\subsection{Fit Priors}
+In many cases, the systematics listed in \ref{sec:systematics} have known constraints from external measurements.
+This information can be useful and should be included in the analysis to bias the minimization toward the most likely systematics values.
+These constraints are included in the form of \textbf{priors} in the analysis.
+Priors are additional terms included multiplicatively (additively) in the likelihood (log-likelihood) calculation.
+These often take the form of a Gaussian distribution with mean $\mu$ and variance $\sigma^2$ given by external measurements.
+For this measurement, most priors are handled assuming a standard Gaussian form.
+For a systematic $i$ with value $x_i$, these additional terms take the form
+
+\begin{equation}
+	\chi^2_{i} =  \frac{\left(x_i-x_0\right)^2}{\sigma^2}
+\end{equation}
+
+These additional terms are added to \ref{eqn:chi2_final} in order to calculate the final $\chi^2_{FS}$ used in the minimization for this analysis.
+
+\begin{equation}
+	\chi^2_{Total} = \sum_{bins} \chi^2_{FS} + \sum_{systematics} \chi^2_{i}
+\end{equation}
+
+A list of priors is shown in \ref{tab:priors}.
+Note that the coincident event fraction is effectively a one-sided Gaussian due to physical constraints on the value.
+
+
+% Please add the following required packages to your document preamble:
+\begin{table}[]
+\centering
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+                               & Systematic                            & Unit                        & Type       & Baseline/Seed Value     & Prior           & Allowed Range & Reference                     \\ \midrule
+Physics Parameter    & $N_{\nu_\tau}$                    & -                             & Analytic   & 1.0                     & -                       & 0.0 - 2.0     & -                             \\ \midrule
+\multirow{2}{*}{Oscillations}  & $\Delta m^2_{3j}$  & $10^{-3}$ $eV^2$ & Analytic   & 2.526                  & -                      & 2.0 - 3.0     & \findref{nufit}             \\
+                               & Sin$^2 \theta_{23}$            & -                             & Analytic   & 0.440 (NO), 0.66 (IO)   & -              & 0.0 - 1.0     & \findref{nufit}             \\ \midrule
+Total Rates              & $N_nu$, $N_mu$                  & Years                      & Analytic   & 2.25                    & -                      & 0.0 - 10.0    & -                             \\ \midrule
+\multirow{3}{*}{Cross-section} & Axial Mass (QE)     & $\sigma$                & Analytic   & 0.0                     & 0.0 $\pm$ 1.0   & -5.0 - 5.0    & \findref{GENIE}             \\
+                               & Axial Mass (RES)                    & $\sigma$               & Analytic   & 0.0                     & 0.0 $\pm$ 1.0   & -5.0 - 5.0    & \findref{GENIE}             \\
+                               & $N_{\nu^{NC}}$                   & -                            & Analytic   & 1.0                     & 1.0 $\pm$ 0.2   & 0.0 - 2.0     & \findref{NC prior}          \\ \midrule
+\multirow{6}{*}{Flux}& $\gamma_\nu$                    & -                            & Analytic   & 0.0                     & 0.0 $\pm$ 0.10  & -0.50 - 0.50  & \findref{Honda}             \\
+                               & $\gamma_\mu$                   & $\sigma$                & Analytic   & 0.0                     & 0.0 $\pm$ 1.0   & -5.0 - 5.0    & \findref{ste and davide's paper}       \\
+                               & Up/Horizontal Ratio               & $\sigma$                & Analytic   & 0.0                     & 0.0 $\pm$ 1.0   & -5.0 - 5.0    & \findref{Barr}              \\
+                               & $\nu$/$\bar{\nu}$ Ratio       & $\sigma$               & Analytic   & 0.0                     & 0.0 $\pm$ 1.0   & -5.0 - 5.0    & \findref{Barr}              \\
+                               & \Phi\_\{\nu\_e\}                  & -                             & Analytic   & 1.0                     & 1.0 $\pm$ 0.05 & 0.8 - 1.2     & \findref{Barr}              \\
+                               & Coincident Fraction                & -                            & Hyperplane & 0.0                     & 0.0 + 0.10        & 0.0 - 1.0     & \findref{coin fraction...?} \\ \midrule
+\multirow{5}{*}{Detector}      & DOM Efficiency        & -                             & Hyperplane & 1.0                     & 1.0 $\pm$ 0.1  & 0.7 - 1.3     & \findref{DOM eff}           \\
+                               & Hole Ice (Lateral)                   & -                            & Hyperplane & 0.25                    & 0.25 $\pm$ 0.10 & 0.0 - 0.5  & \findref{hole ice}          \\
+                               & Hole Ice (Forward)                 & -                            & Hyperplane & 0.0                     & -                        & -5.0 - 5.0    & \findref{hole ice}          \\
+                               & Absorption                            & -                            & Hyperplane & 1.0                     & 1.0 $\pm$ 0.1   & 0.5 - 1.5     & \findref{bulk ice}          \\
+                               & Scattering                             & -                            & Hyperplane & 1.0                     & 1.0 $\pm$ 0.1   & 0.5 - 1.5     & \findref{bulk ice}          \\ \bottomrule
+\end{tabular}
+\caption{Priors and allowed ranges for each systematic included in this analysis.}
+\label{tab:priors}
+\end{table}

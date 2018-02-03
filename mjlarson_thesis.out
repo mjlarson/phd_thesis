@@ -17,15 +17,18 @@
 \BOOKMARK [1][-]{section*.54}{The Method of Maximum Likelihood}{chapter.8}% 67
 \BOOKMARK [2][-]{section*.55}{The 2 Fit}{section*.54}% 68
 \BOOKMARK [2][-]{section*.57}{Finite Statistics}{section*.54}% 69
-\BOOKMARK [2][-]{section*.59}{Expected Contour}{section*.54}% 70
-\BOOKMARK [2][-]{section*.60}{Expected Sensitivity over Time}{section*.54}% 71
-\BOOKMARK [2][-]{section*.61}{Systematics Pulls}{section*.54}% 72
-\BOOKMARK [2][-]{section*.62}{Feldman-Cousins vs WIlk's Theorem}{section*.54}% 73
-\BOOKMARK [1][-]{section*.63}{Fitting Data}{chapter.8}% 74
-\BOOKMARK [2][-]{section*.64}{Burn Sample Fits: Testing the Fitting Code}{section*.63}% 75
-\BOOKMARK [2][-]{section*.65}{Blind Fits: Checking the Goodness-of-Fit}{section*.63}% 76
-\BOOKMARK [1][-]{section*.66}{Results from the Analysis}{chapter.8}% 77
-\BOOKMARK [2][-]{section*.67}{Individual Years}{section*.66}% 78
-\BOOKMARK [2][-]{section*.68}{Combining Years of Data}{section*.66}% 79
-\BOOKMARK [2][-]{section*.69}{Systematics Pulls in the Final Result}{section*.66}% 80
-\BOOKMARK [2][-]{section*.70}{Implications and Future Work}{section*.66}% 81
+\BOOKMARK [2][-]{section*.60}{Fit Priors}{section*.54}% 70
+\BOOKMARK [1][-]{section*.63}{Expected Sensitivity to Appearance}{chapter.8}% 71
+\BOOKMARK [2][-]{section*.64}{Fitting Code}{section*.63}% 72
+\BOOKMARK [2][-]{section*.72}{Sensitivity of the Analysis}{section*.63}% 73
+\BOOKMARK [2][-]{section*.77}{Impact of Systematics}{section*.63}% 74
+\BOOKMARK [2][-]{section*.79}{Expected Sensitivity over Time}{section*.63}% 75
+\BOOKMARK [2][-]{section*.80}{Feldman-Cousins vs WIlk's Theorem}{section*.63}% 76
+\BOOKMARK [1][-]{section*.81}{Fitting Data}{chapter.8}% 77
+\BOOKMARK [2][-]{section*.82}{Burn Sample Fits: Testing the Fitting Code}{section*.81}% 78
+\BOOKMARK [2][-]{section*.83}{Blind Fits: Checking the Goodness-of-Fit}{section*.81}% 79
+\BOOKMARK [1][-]{section*.84}{Results from the Analysis}{chapter.8}% 80
+\BOOKMARK [2][-]{section*.85}{Individual Years}{section*.84}% 81
+\BOOKMARK [2][-]{section*.86}{Combining Years of Data}{section*.84}% 82
+\BOOKMARK [2][-]{section*.87}{Systematics Pulls in the Final Result}{section*.84}% 83
+\BOOKMARK [2][-]{section*.88}{Implications and Future Work}{section*.84}% 84

@@ -9,26 +9,17 @@
 \label{sec:mc_expectation}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex}
 
+\label{sec:tau_parametrization}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex}
+
 \label{sec:systematics}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/systematics.tex}
 
 \label{sec:likelihood}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex}
 
-\label{sec:tau_parametrization}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex}
-
-\label{subsec:sensitivity}
-\subsection{Expected Contour}
-
-\label{subsec:sensitivity_vs_time}
-\subsection{Expected Sensitivity over Time}
-
-\label{subsec:systematic_pulls}
-\subsection{Systematics Pulls}
-
-\label{subsec:wilks}
-\subsection{Feldman-Cousins vs WIlk's Theorem}
+\label{sec:sensitivity}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex}
 
 \label{sec:fitting_data}
 \section{Fitting Data}

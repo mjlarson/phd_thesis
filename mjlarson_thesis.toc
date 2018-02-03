@@ -226,34 +226,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.6.2}Finite Statistics}{51}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.3}Expected Contour}{51}{section*.59}
+\contentsline {subsection}{\numberline {8.6.3}Fit Priors}{52}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.4}Expected Sensitivity over Time}{52}{section*.60}
+\contentsline {section}{\numberline {8.7}Expected Sensitivity to Appearance}{54}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.5}Systematics Pulls}{52}{section*.61}
+\contentsline {subsection}{\numberline {8.7.1}Fitting Code}{54}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.6}Feldman-Cousins vs WIlk's Theorem}{52}{section*.62}
+\contentsline {subsection}{\numberline {8.7.2}Sensitivity of the Analysis}{55}{section*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.7}Fitting Data}{52}{section*.63}
+\contentsline {subsection}{\numberline {8.7.3}Impact of Systematics}{55}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.1}Burn Sample Fits: Testing the Fitting Code}{52}{section*.64}
+\contentsline {subsubsection}{Total Systematics Impact}{56}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.2}Blind Fits: Checking the Goodness-of-Fit}{52}{section*.65}
+\contentsline {subsubsection}{N+1 Tests: Sensitivity of Analysis to Systematic}{56}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.8}Results from the Analysis}{52}{section*.66}
+\contentsline {subsubsection}{N-1 Tests: Redundancy Between Systematics}{56}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.1}Individual Years}{52}{section*.67}
+\contentsline {subsubsection}{"Hidden Potential" Tests: Non-Baseline Values}{56}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.2}Combining Years of Data}{52}{section*.68}
+\contentsline {subsection}{\numberline {8.7.4}Expected Sensitivity over Time}{56}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.3}Systematics Pulls in the Final Result}{52}{section*.69}
+\contentsline {subsection}{\numberline {8.7.5}Feldman-Cousins vs WIlk's Theorem}{56}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.4}Implications and Future Work}{52}{section*.70}
+\contentsline {section}{\numberline {8.8}Fitting Data}{56}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{52}{chapter.9}
+\contentsline {subsection}{\numberline {8.8.1}Burn Sample Fits: Testing the Fitting Code}{56}{section*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Goals of Phase1}{52}{section*.136}
+\contentsline {subsection}{\numberline {8.8.2}Blind Fits: Checking the Goodness-of-Fit}{56}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{52}{section*.137}
+\contentsline {section}{\numberline {8.9}Results from the Analysis}{56}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{52}{section*.138}
+\contentsline {subsection}{\numberline {8.9.1}Individual Years}{56}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.9.2}Combining Years of Data}{56}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.9.3}Systematics Pulls in the Final Result}{56}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.9.4}Implications and Future Work}{56}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{53}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Goals of Phase1}{53}{section*.138}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Preparing Simulation for the Upgrade}{53}{section*.139}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Potential Measurements of Phase1}{53}{section*.140}
