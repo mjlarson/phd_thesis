@@ -29,12 +29,12 @@
 \includeonly{
 %./chapters/introduction,
 %./chapters/oscillations,
-%./chapters/detector,
+./chapters/detector,
 %./chapters/simulation,
 %./chapters/vuvuzela,
 %./chapters/muonsim,
 %./chapters/greco,
-./chapters/analysis,
+%./chapters/analysis,
 %./chapters/pingu
 }
 

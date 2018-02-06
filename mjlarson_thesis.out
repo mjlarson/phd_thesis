@@ -1,34 +1,8 @@
-\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 51
-\BOOKMARK [1][-]{section*.2}{Unitarity of the PMNS Matrix}{chapter.8}% 52
-\BOOKMARK [1][-]{section*.3}{Current Limits on Unitarity}{chapter.8}% 53
-\BOOKMARK [1][-]{section*.4}{Expectations from Monte Carlo}{chapter.8}% 54
-\BOOKMARK [2][-]{section*.5}{Choice of Binning}{section*.4}% 55
-\BOOKMARK [2][-]{section*.13}{The MC Fit Templates}{section*.4}% 56
-\BOOKMARK [1][-]{section*.16}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 57
-\BOOKMARK [2][-]{section*.17}{CC vs CC+NC}{section*.16}% 58
-\BOOKMARK [2][-]{section*.21}{The \040Normalization}{section*.16}% 59
-\BOOKMARK [2][-]{section*.24}{Limits on the \040Normalization}{section*.16}% 60
-\BOOKMARK [1][-]{section*.32}{Systematics Considerations}{chapter.8}% 61
-\BOOKMARK [2][-]{section*.33}{Oscillation Parameters}{section*.32}% 62
-\BOOKMARK [2][-]{section*.34}{Flux Uncertainties}{section*.32}% 63
-\BOOKMARK [2][-]{section*.35}{Propagation Uncertainties}{section*.32}% 64
-\BOOKMARK [2][-]{section*.36}{Cross-section Uncertainties}{section*.32}% 65
-\BOOKMARK [2][-]{section*.37}{Detector Systematics}{section*.32}% 66
-\BOOKMARK [1][-]{section*.54}{The Method of Maximum Likelihood}{chapter.8}% 67
-\BOOKMARK [2][-]{section*.55}{The 2 Fit}{section*.54}% 68
-\BOOKMARK [2][-]{section*.57}{Finite Statistics}{section*.54}% 69
-\BOOKMARK [2][-]{section*.60}{Fit Priors}{section*.54}% 70
-\BOOKMARK [1][-]{section*.63}{Expected Sensitivity to Appearance}{chapter.8}% 71
-\BOOKMARK [2][-]{section*.64}{Fitting Code}{section*.63}% 72
-\BOOKMARK [2][-]{section*.72}{Sensitivity of the Analysis}{section*.63}% 73
-\BOOKMARK [2][-]{section*.77}{Impact of Systematics}{section*.63}% 74
-\BOOKMARK [2][-]{section*.79}{Expected Sensitivity over Time}{section*.63}% 75
-\BOOKMARK [2][-]{section*.80}{Feldman-Cousins vs WIlk's Theorem}{section*.63}% 76
-\BOOKMARK [1][-]{section*.81}{Fitting Data}{chapter.8}% 77
-\BOOKMARK [2][-]{section*.82}{Burn Sample Fits: Testing the Fitting Code}{section*.81}% 78
-\BOOKMARK [2][-]{section*.83}{Blind Fits: Checking the Goodness-of-Fit}{section*.81}% 79
-\BOOKMARK [1][-]{section*.84}{Results from the Analysis}{chapter.8}% 80
-\BOOKMARK [2][-]{section*.85}{Individual Years}{section*.84}% 81
-\BOOKMARK [2][-]{section*.86}{Combining Years of Data}{section*.84}% 82
-\BOOKMARK [2][-]{section*.87}{Systematics Pulls in the Final Result}{section*.84}% 83
-\BOOKMARK [2][-]{section*.88}{Implications and Future Work}{section*.84}% 84
+\BOOKMARK [0][-]{chapter.3}{The IceCube Detector}{}% 10
+\BOOKMARK [1][-]{section*.2}{The DOM: The Basic Unit of IceCube}{chapter.3}% 11
+\BOOKMARK [2][-]{section*.9}{The Photomultiplier Tube: From Light to Signal}{section*.2}% 12
+\BOOKMARK [2][-]{section*.10}{Digitization}{section*.2}% 13
+\BOOKMARK [2][-]{section*.11}{Local Coincidence}{section*.2}% 14
+\BOOKMARK [1][-]{section*.12}{The Geometry of the Detector}{chapter.3}% 15
+\BOOKMARK [2][-]{section*.13}{IceCube: A Detector for TeV Neutrinos}{section*.12}% 16
+\BOOKMARK [2][-]{section*.14}{DeepCore: Extending the Reach to GeV Scales}{section*.12}% 17

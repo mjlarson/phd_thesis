@@ -20,19 +20,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}The IceCube Detector}{7}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The DOM: The Basic Unit of IceCube}{7}{section*.11}
+\contentsline {section}{\numberline {3.1}The DOM: The Basic Unit of IceCube}{7}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}The Photomultiplier Tube: From Light to Signal}{7}{section*.12}
+\contentsline {subsection}{\numberline {3.1.1}The Photomultiplier Tube: From Light to Signal}{7}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Digitization}{7}{section*.13}
+\contentsline {subsection}{\numberline {3.1.2}Digitization}{7}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Local Coincidence}{7}{section*.14}
+\contentsline {subsection}{\numberline {3.1.3}Local Coincidence}{7}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The Geometry of the Detector}{7}{section*.15}
+\contentsline {section}{\numberline {3.2}The Geometry of the Detector}{8}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}IceCube: A Detector for TeV Neutrinos}{7}{section*.16}
+\contentsline {subsection}{\numberline {3.2.1}IceCube: A Detector for TeV Neutrinos}{8}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}DeepCore: Extending the Reach to GeV Scales}{7}{section*.17}
+\contentsline {subsection}{\numberline {3.2.2}DeepCore: Extending the Reach to GeV Scales}{8}{section*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Simulation of the IceCube-DeepCore Detector}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -240,29 +240,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{N+1 Tests: Sensitivity of Analysis to Systematic}{56}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{N-1 Tests: Redundancy Between Systematics}{56}{section*.78}
+\contentsline {subsubsection}{N-1 Tests: Redundancy Between Systematics}{56}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{"Hidden Potential" Tests: Non-Baseline Values}{56}{section*.78}
+\contentsline {subsubsection}{"Hidden Potential" Tests: Non-Baseline Values}{56}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.4}Expected Sensitivity over Time}{56}{section*.79}
+\contentsline {subsection}{\numberline {8.7.4}Expected Sensitivity over Time}{56}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.7.5}Feldman-Cousins vs WIlk's Theorem}{56}{section*.80}
+\contentsline {subsection}{\numberline {8.7.5}Feldman-Cousins vs WIlk's Theorem}{56}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.8}Fitting Data}{56}{section*.81}
+\contentsline {section}{\numberline {8.8}Fitting Data}{57}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.1}Burn Sample Fits: Testing the Fitting Code}{56}{section*.82}
+\contentsline {subsection}{\numberline {8.8.1}Burn Sample Fits: Testing the Fitting Code}{57}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.8.2}Blind Fits: Checking the Goodness-of-Fit}{56}{section*.83}
+\contentsline {subsection}{\numberline {8.8.2}Blind Fits: Checking the Goodness-of-Fit}{57}{section*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.9}Results from the Analysis}{56}{section*.84}
+\contentsline {section}{\numberline {8.9}Results from the Analysis}{57}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.9.1}Individual Years}{56}{section*.85}
+\contentsline {subsection}{\numberline {8.9.1}Individual Years}{57}{section*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.9.2}Combining Years of Data}{56}{section*.86}
+\contentsline {subsection}{\numberline {8.9.2}Combining Years of Data}{57}{section*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.9.3}Systematics Pulls in the Final Result}{56}{section*.87}
+\contentsline {subsection}{\numberline {8.9.3}Systematics Pulls in the Final Result}{57}{section*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.9.4}Implications and Future Work}{56}{section*.88}
+\contentsline {subsection}{\numberline {8.9.4}Implications and Future Work}{57}{section*.92}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Phase1: An Upgrade for Oscillation Searches}{53}{chapter.9}
 \defcounter {refsection}{0}\relax 

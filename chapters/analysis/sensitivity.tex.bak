@@ -89,13 +89,34 @@ It is clear from the comparison that the analysis is very sensitive to the inclu
 A different test is also possible: Instead of calculating likelihoods with no systematics included, a single systematic may be used at a time.
 This test, called an N+1 test for the addition of one systematic at a time, yields useful information on a sample's sensitivity to single systematics.
 A small change in sensitivity between the no-systematics case above and an N+1 Asimov sensitivity may have two possible explanations.
-The first, that the current analysis is unaffected by changes in 
-
+The first that the current analysis is unaffected by changes in the systematic, implying that the systematic may be investigated for removal in the analysis.
+The second possibllity is that the systematic may interact with other parameters in order to produce an effect.
+The second case is more difficult to diagnose, but further tests may be possible.
+\needfig{N+1 tests}
 
 \subsubsection{N-1 Tests: Redundancy Between Systematics}
+In contrast to the N+1 tests, N-1 tests start with the full suite of systematics included.
+One systematic is then fixed to the baseline value and removed before redoing minimization.
+The change in the contour as a result of the removal of systematics allows for the investigation of redundancy between systematics.
+If, for example, two systematics have similar effects in the final histogram, then the N-1 test will show no change in sensitivity due to the removal.
+It is also possible that the analysis is strongly sensitive to the value of the systematic and is unlikely to move from the baseline value.
+These tests can be useful in identifying redundant parameters for removal, although with the caveat that combinations of parameters are not tested.
+After removal of multiple redundant parameters, the updated Asimov sensitivity should be tested once again to verify that the combination of removed parameters remains irrelevant for the fit
+
+\needfig{N-1 tests}
 
 \subsubsection{"Hidden Potential" Tests: Non-Baseline Values}
+Both the N+1 and N-1 test suffer from a particular flaw.
+Both fail to test the analysis for exceptionally strong sensitivity to particular systematics.
+In order to identify these parameters, the "hidden potential" test has been proposed.
+In this test, the Asimov sensitivity of the full analysis containing all proposed systematics is used as a baseline.
+Each systematic is then fixed, one at a time, off of the baseline value before rerunning the minimization.
+The parameters with priors tend to be fixed to one standard deviation from the prior mean.
+The change in the sensitivity gives an indirect measure of the strength of the systematic effect in the analysis.
+If no change is observed, the parameter is likely to be redundant and may be investigated for removal from the analysis.
 
+\needfig{hidden potential martin n-1 tests}.
+\unsure{should i be including the dropped dis/theta13 systematics here? and maybe deltacp? otherwise this section feels a bit pointless}
 
 \label{subsec:sensitivity_vs_time}
 \subsection{Expected Sensitivity over Time}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 FEB 2018 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 FEB 2018 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,13 +1294,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./mjlarson_thesis.aux (./chapters/introduction.aux)
-(./chapters/oscillations.aux) (./chapters/detector.aux)
-(./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
-(./chapters/greco.aux) (./chapters/analysis.aux
-
-LaTeX Warning: Label `subsec:detector_systematics' multiply defined.
-
-) (./chapters/pingu.aux))
+(./chapters/oscillations.aux) (./chapters/detector.aux))
 \openout1 = `mjlarson_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1522,10 +1516,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./mjlarson_thesis.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 97.
+(./mjlarson_thesis.toc)
+\tf@toc=\write7
+\openout7 = `mjlarson_thesis.toc'.
+
+ (./mjlarson_thesis.lof)
+\tf@lof=\write8
+\openout8 = `mjlarson_thesis.lof'.
+
+ (./mjlarson_thesis.lot)
+\tf@lot=\write9
+\openout9 = `mjlarson_thesis.lot'.
+
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 52.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -1535,44 +1538,130 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [2]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3])
-\tf@toc=\write7
-\openout7 = `mjlarson_thesis.toc'.
-
- (./mjlarson_thesis.lof)
-\tf@lof=\write8
-\openout8 = `mjlarson_thesis.lof'.
-
- (./mjlarson_thesis.lot
-Underfull \vbox (badness 5008) has occurred while \output is active []
-
- [4])
-\tf@lot=\write9
-\openout9 = `mjlarson_thesis.lot'.
+\openout2 = `./chapters/detector.aux'.
 
 
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-\openout2 = `./chapters/analysis.aux'.
-
- (./chapters/analysis.tex
-chapter 8.
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex
+(./chapters/detector.tex
+chapter 3.
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/dom.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 7.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 10.
+ine 2.
 
+Overfull \hbox (33.52954pt too wide) in paragraph at lines 2--2
+\T1/bch/m/n/5 https://arxiv.org/abs/1612.05093 
+ []
+
+
+Overfull \hbox (33.52954pt too wide) in paragraph at lines 2--2
+\T1/bch/m/n/5 https://arxiv.org/abs/1612.05093 
+ []
+
+
+Overfull \hbox (33.52954pt too wide) in paragraph at lines 2--2
+\T1/bch/m/n/5 https://arxiv.org/abs/1612.05093 
+ []
+
+
+Overfull \hbox (33.52954pt too wide) in paragraph at lines 2--2
+\T1/bch/m/n/5 https://arxiv.org/abs/1612.05093 
+ []
+
+
+Overfull \hbox (147.9793pt too wide) in paragraph at lines 4--4
+[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
+0210006662?via%3Dihub 
+ []
+
+
+Overfull \hbox (147.9793pt too wide) in paragraph at lines 4--4
+[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
+0210006662?via%3Dihub 
+ []
+
+
+Overfull \hbox (147.9793pt too wide) in paragraph at lines 4--4
+[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
+0210006662?via%3Dihub 
+ []
+
+
+Overfull \hbox (147.9793pt too wide) in paragraph at lines 4--4
+[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
+0210006662?via%3Dihub 
+ []
+
+
+Overfull \hbox (100.29094pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+ []
+
+
+Overfull \hbox (13.65958pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 02%20data%20sheet.pdf  
+ []
+
+
+Overfull \hbox (100.29094pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+ []
+
+
+Overfull \hbox (13.65958pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 02%20data%20sheet.pdf  
+ []
+
+
+Overfull \hbox (100.29094pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+ []
+
+
+Overfull \hbox (13.65958pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 02%20data%20sheet.pdf  
+ []
+
+
+Overfull \hbox (100.29094pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+ []
+
+
+Overfull \hbox (13.65958pt too wide) in paragraph at lines 4--4
+\T1/bch/m/n/5 02%20data%20sheet.pdf  
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+[][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
+ []
+
+
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+[][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
+ []
+
+
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+[][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
+ []
+
+
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+[][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 24.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1582,224 +1671,40 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-LaTeX Warning: Marginpar on page 41 moved.
-
-[41
-
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
 
 
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+) [7
 
 
 
 
-
-
-]
-
-LaTeX Warning: Marginpar on page 42 moved.
-
-
-LaTeX Warning: Marginpar on page 42 moved.
-
-) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex
-Underfull \vbox (badness 1117) has occurred while \output is active []
-
-
+])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 9.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[8] (./mjlarson_thesis.tdo
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 44.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 57.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
-Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
-\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
- []
-
-
-Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
-\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
- []
-
-
-Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
-\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
- []
-
-
-Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
-\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 86.
-
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 96.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 96.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 96.
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
-[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
-[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
-[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
-[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
-\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
- []
-
-)
-
-LaTeX Warning: Marginpar on page 44 moved.
-
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/systematics.tex
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[45]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 11.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 47.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47]
-
-LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 48 undefined on inp
-ut line 86.
-
-
-LaTeX Warning: Reference `fig:hammamatsu_qe' on page 48 undefined on input line
- 98.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 98.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1807,145 +1712,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48
+ [9
 
 
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[49]
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-)) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\chi' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 116.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
-
-LaTeX Warning: Marginpar on page 54 moved.
-
-
-LaTeX Warning: Marginpar on page 54 moved.
-
-
-LaTeX Warning: Marginpar on page 54 moved.
-
-
-LaTeX Warning: Marginpar on page 54 moved.
-
-
-Underfull \vbox (badness 1565) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54
-
-
-]
-
-LaTeX Warning: Marginpar on page 55 moved.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55]))
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 9.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56] (./mjlarson_thesis.tdopdfTeX warning (ext4): destination with the same ide
-ntifier (name{page.54}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 ...rivation. its just crap.}{50}{section*.56}
-                                                   [54
 
 
 
@@ -1960,12 +1732,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.55}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \end{document}
-                    [55]
+[10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./mjlarson_thesis.aux (./chapters/introduction.aux)
@@ -1974,14 +1741,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 (./chapters/greco.aux) (./chapters/analysis.aux) (./chapters/pingu.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
-Package rerunfilecheck Info: File `mjlarson_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B8C94322734B5B259AC32CE476D61482;2484.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `mjlarson_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `mjlarson_thesis.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  E57225E39B8BB606F0D503D88861D7C1;607.
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
 \openout1 = `mjlarson_thesis.run.xml'.
@@ -1989,135 +1759,172 @@ Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 32290 strings out of 492995
- 596329 string characters out of 6132704
- 1135607 words of memory out of 5000000
- 34865 multiletter control sequences out of 15000+600000
- 104313 words of font info for 184 fonts, out of 8000000 for 9000
+ 31568 strings out of 492995
+ 581672 string characters out of 6132704
+ 1131609 words of memory out of 5000000
+ 34394 multiletter control sequences out of 15000+600000
+ 78555 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,106p,8847b,845s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.64} has been referenced but does n
-ot exist, replaced by a fixed one
+ 73i,13n,106p,8847b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.82} has been referenced but does not exi
+st, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.63} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.61} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.58} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.57} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.48} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.140} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.139} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.138} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.81} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.28} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.80} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section*.79} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section*.78} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section*.76} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
+pdfTeX warning (dest): name{section*.75} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.74} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.73} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.71} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.70} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.69} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.68} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.67} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.66} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.65} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.61} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.58} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.56} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.53} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.52} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.51} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.50} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.49} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.47} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.46} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.45} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.44} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.41} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.31} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.30} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.27} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.26} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.25} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.23} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.19} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.18} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.15} has been referenced but does not exist
+, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017
-/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dv
-ips/lm/lm-mathex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8
-r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/
-local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
-/lmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi6.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/lm/lmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
-/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
-/helvetic/uhvr8a.pfb>
-Output written on mjlarson_thesis.pdf (23 pages, 375963 bytes).
+xlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texm
+f-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2017/texmf-dist/fonts
+/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips
+/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/
+q-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8
+a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre
+/qhvb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qhvr.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on mjlarson_thesis.pdf (6 pages, 175514 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 674 compressed objects within 7 object streams
- 197 named destinations out of 1000 (max. 500000)
- 34589 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 24077 words of extra memory for PDF output out of 24883 (max. 10000000)
 
