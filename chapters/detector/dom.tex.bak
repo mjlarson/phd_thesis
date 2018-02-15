@@ -4,7 +4,11 @@ The basic unit of the IceCube detector is the \textbf{digital optical module}, o
 The DOM is designed around a downward-facing 10 inch R7081-02 photomultiplier tube (\textbf{PMT}) from Hammamatsu Photonics. \findref{https://www.sciencedirect.com/science/article/pii/S0168900210006662?via\%3Dihub (remove the backslash in the latex code if pasting the link)}\findref{probably also the hammamatsu documentation http://icecube.wisc.edu/~kitamura/NK/PMT/031112\%20R7081-02\%20data\%20sheet.pdf} and includes onboard electronics for standard operation. 
 Circuit boards are included for data acquisition, control, calibration, comminuications and power conversion as well as for high voltage input from the surface.
 The electronics of the DOM are encased in a spherical glass housing designed to withstand the high pressures associated with operation in the glacier of Antarctica.
+The PMT is optically coupled to the glass housing in order to minimize distortion of incoming light. \findref{something about the gel?}
+
 \needfig{steal figure 3 from the detector paper showing the DOM layout}
+
+\needfig{also grab figure 5 from https://arxiv.org/pdf/1612.05093.pdf for the next section}
 
 A discriminator onboard the DOM is used to identify signals from the PMT with a voltage threshold corresponding to 0.25 photoelectrons.
 Each discriminator crossing begins a \textbf{DOM launch}, the lowest level signal available in the IceCube detector containing a digitization of a raw PMT output in the form of a \textbf{waveform}.

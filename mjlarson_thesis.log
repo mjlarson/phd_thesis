@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 FEB 2018 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 FEB 2018 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,7 +1294,13 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./mjlarson_thesis.aux (./chapters/introduction.aux)
-(./chapters/oscillations.aux) (./chapters/detector.aux))
+(./chapters/oscillations.aux) (./chapters/detector.aux)
+(./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
+(./chapters/greco.aux) (./chapters/analysis.aux
+
+LaTeX Warning: Label `subsec:detector_systematics' multiply defined.
+
+) (./chapters/pingu.aux))
 \openout1 = `mjlarson_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1506,7 +1512,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 47.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 49.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1516,19 +1522,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./mjlarson_thesis.toc)
-\tf@toc=\write7
-\openout7 = `mjlarson_thesis.toc'.
-
- (./mjlarson_thesis.lof)
-\tf@lof=\write8
-\openout8 = `mjlarson_thesis.lof'.
-
- (./mjlarson_thesis.lot)
-\tf@lot=\write9
-\openout9 = `mjlarson_thesis.lot'.
-
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 52.
+(./mjlarson_thesis.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 97.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -1538,10 +1535,63 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [2]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3])
+\tf@toc=\write7
+\openout7 = `mjlarson_thesis.toc'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4] (./mjlarson_thesis.lof)
+\tf@lof=\write8
+\openout8 = `mjlarson_thesis.lof'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+(./mjlarson_thesis.lot)
+\tf@lot=\write9
+\openout9 = `mjlarson_thesis.lot'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+\openout2 = `./chapters/introduction.aux'.
+
+
+(./chapters/introduction.tex
+chapter 1.
+) [7
+
+
+]
+\openout2 = `./chapters/oscillations.aux'.
+
+ (./chapters/oscillations.tex
+chapter 2.
+) [8
+
+
+
+]
 \openout2 = `./chapters/detector.aux'.
 
-
-(./chapters/detector.tex
+ (./chapters/detector.tex
 chapter 3.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/dom.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
@@ -1631,37 +1681,61 @@ Overfull \hbox (13.65958pt too wide) in paragraph at lines 4--4
  []
 
 
-LaTeX Warning: Marginpar on page 7 moved.
+LaTeX Warning: Marginpar on page 9 moved.
 
 
-LaTeX Warning: Marginpar on page 7 moved.
+LaTeX Warning: Marginpar on page 9 moved.
 
 
-LaTeX Warning: Marginpar on page 7 moved.
+LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 11--11
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 11--11
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 11--11
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 11--11
+\T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 27--27
 [][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
  []
 
 
-Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 27--27
 [][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
  []
 
 
-Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 27--27
 [][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
  []
 
 
-Overfull \hbox (30.74954pt too wide) in paragraph at lines 23--23
+Overfull \hbox (30.74954pt too wide) in paragraph at lines 27--27
 [][][][]\T1/bch/m/n/5 https://arxiv.org/abs/0810.4930  
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 24.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 28.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1671,27 +1745,26 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 30--30
 \T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
  []
 
 
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 30--30
 \T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
  []
 
 
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 30--30
 \T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
  []
 
 
-Overfull \hbox (42.05954pt too wide) in paragraph at lines 26--26
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 30--30
 \T1/bch/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
  []
 
-) [7
-
+) [9
 
 
 
@@ -1702,9 +1775,710 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (./mjlarson_thesis.tdo
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 44.
+[10]
+\openout2 = `./chapters/simulation.aux'.
 
+ (./chapters/simulation.tex
+chapter 4.
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/generators.tex
+[11
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/propagation.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/electronics.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/eventbuilding.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]))
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+\openout2 = `./chapters/vuvuzela.aux'.
+
+ (./chapters/vuvuzela.tex
+chapter 5.
+
+LaTeX Warning: Reference `larson_masters' on page 22 undefined on input line 15
+.
+
+[22
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+LaTeX Warning: Reference `sec:pLLH' on page 24 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sec:pass2' on page 24 undefined on input line 114.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25])
+Underfull \vbox (badness 1762) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+\openout2 = `./chapters/muonsim.aux'.
+
+ (./chapters/muonsim.tex
+chapter 6.
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/longframe.tex
+
+LaTeX Warning: Citation 'heereman_thesis' on page 28 undefined on input line 14
+.
+
+[28
+
+
+
+])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/deepcore_muongun.tex)
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/kde.tex
+
+LaTeX Warning: Reference `fig:mg_generation' on page 29 undefined on input line
+ 9.
+
+
+LaTeX Warning: Citation 'h4a' on page 29 undefined on input line 10.
+
+
+LaTeX Warning: Reference `fig:mg_ineff' on page 29 undefined on input line 15.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+LaTeX Warning: Citation 'scipy' on page 30 undefined on input line 29.
+
+))
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+\openout2 = `./chapters/greco.aux'.
+
+ (./chapters/greco.tex
+chapter 7.
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level4.tex
+<chapters/greco/images/level4/FirstHitZ_log.png, id=694, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/FirstHitZ_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/FirstHitZ_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/FirstHitZ_log.png used on
+ input line 14.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 15.
+
+<chapters/greco/images/level4/NAbove200_log.png, id=696, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/NAbove200_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/NAbove200_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/NAbove200_log.png used on
+ input line 32.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+ [31
+
+
+
+ <./chapters/greco/images/level4/FirstHitZ_log.png>]
+<chapters/greco/images/level4/QR6_log.png, id=706, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/QR6_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/QR6_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/QR6_log.png used on input
+ line 44.
+(pdftex.def)             Requested size: 166.2212pt x 124.66147pt.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 44.
+
+<chapters/greco/images/level4/C2QR6_log.png, id=707, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/C2QR6_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/C2QR6_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/C2QR6_log.png used on inp
+ut line 45.
+(pdftex.def)             Requested size: 166.2212pt x 124.66147pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./chapters/greco/images/level4/NAbove200_log.png> <./chapters/greco/images
+/level4/QR6_log.png> <./chapters/greco/images/level4/C2QR6_log.png>]
+<chapters/greco/images/level4/ToIEval_log.png, id=717, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/ToIEval_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/ToIEval_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/ToIEval_log.png used on i
+nput line 76.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+<chapters/greco/images/level4/iLineFit_Log.png, id=718, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/iLineFit_Log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/iLineFit_Log.png>
+Package pdftex.def Info: chapters/greco/images/level4/iLineFit_Log.png used on 
+input line 103.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<chapters/greco/images/level4/BDT_log.png, id=719, 578.16pt x 433.62pt>
+File: chapters/greco/images/level4/BDT_log.png Graphic file (type png)
+
+<use chapters/greco/images/level4/BDT_log.png>
+Package pdftex.def Info: chapters/greco/images/level4/BDT_log.png used on input
+ line 113.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 <./chapters/greco/images/level4/ToIEval_log.png>])
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./chapters/greco/images/level4/iLineFit_Log.png> <./chapters/greco/images/
+level4/BDT_log.png>]
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex
+<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=734, 578.16pt x 433
+.62pt>
+File: chapters/greco/images/level5/Time_to_75_Charge_log.png Graphic file (type
+ png)
+ <use chapters/greco/images/level5/Time_to_75_Charge_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/Time_to_75_Charge_log.png
+ used on input line 19.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=735, 578.16pt x
+ 433.62pt>
+File: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png Graphic file (
+type png)
+ <use chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log
+.png used on input line 32.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:VICH_definition' on page 35 undefined on input li
+ne 41.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./chapters/greco/images/level5/Time_to_75_Charge_log.png>]
+<chapters/greco/images/level5/First_HLC_Rho_log.png, id=742, 578.16pt x 433.62p
+t>
+File: chapters/greco/images/level5/First_HLC_Rho_log.png Graphic file (type png
+)
+ <use chapters/greco/images/level5/First_HLC_Rho_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/First_HLC_Rho_log.png use
+d on input line 47.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=743, 578.16pt x 433.62
+pt>
+File: chapters/greco/images/level5/Q1-Q4_Distance_log.png Graphic file (type pn
+g)
+ <use chapters/greco/images/level5/Q1-Q4_Distance_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/Q1-Q4_Distance_log.png us
+ed on input line 59.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<chapters/greco/images/level5/Z-Travel_log.png, id=744, 578.16pt x 433.62pt>
+File: chapters/greco/images/level5/Z-Travel_log.png Graphic file (type png)
+
+<use chapters/greco/images/level5/Z-Travel_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/Z-Travel_log.png used on 
+input line 71.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png> <./chapters/
+greco/images/level5/First_HLC_Rho_log.png>]
+<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=751, 578.16pt x 433
+.62pt>
+File: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png Graphic file (type
+ png)
+ <use chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png
+ used on input line 83.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./chapters/greco/images/level5/Q1-Q4_Distance_log.png> <./chapters/greco/i
+mages/level5/Z-Travel_log.png> <./chapters/greco/images/level5/SPE11_Cos(Zenith
+)_log.png>]
+<chapters/greco/images/level5/BDT_Score_log.png, id=760, 578.16pt x 433.62pt>
+File: chapters/greco/images/level5/BDT_Score_log.png Graphic file (type png)
+
+<use chapters/greco/images/level5/BDT_Score_log.png>
+Package pdftex.def Info: chapters/greco/images/level5/BDT_Score_log.png used on
+ input line 105.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+
+
+LaTeX Warning: Reference `fig:L5BDT_log' on page 38 undefined on input line 118
+.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38 <./chapters/greco/images/level5/BDT_Score_log.png>])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level6.tex
+<chapters/greco/images/level6/FillRatio.png, id=766, 462.528pt x 346.896pt>
+File: chapters/greco/images/level6/FillRatio.png Graphic file (type png)
+
+<use chapters/greco/images/level6/FillRatio.png>
+Package pdftex.def Info: chapters/greco/images/level6/FillRatio.png used on inp
+ut line 14.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./chapters/greco/images/level6/FillRatio.png>]
+<chapters/greco/images/level6/nch.png, id=773, 462.528pt x 346.896pt>
+File: chapters/greco/images/level6/nch.png Graphic file (type png)
+
+<use chapters/greco/images/level6/nch.png>
+Package pdftex.def Info: chapters/greco/images/level6/nch.png used on input lin
+e 57.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40 <./chapters/greco/images/level6/nch.png>]
+<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=782, 462.528pt x 346.896
+pt>
+File: chapters/greco/images/level6/Corridor_Cut_nCh.png Graphic file (type png)
+
+ <use chapters/greco/images/level6/Corridor_Cut_nCh.png>
+Package pdftex.def Info: chapters/greco/images/level6/Corridor_Cut_nCh.png used
+ on input line 74.
+(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+
+<chapters/greco/images/level6/FiniteReco_Rho.png, id=783, 462.528pt x 346.896pt
+>
+File: chapters/greco/images/level6/FiniteReco_Rho.png Graphic file (type png)
+ <use chapters/greco/images/level6/FiniteReco_Rho.png>
+Package pdftex.def Info: chapters/greco/images/level6/FiniteReco_Rho.png used o
+n input line 96.
+(pdftex.def)             Requested size: 166.2212pt x 124.66544pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 96.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 96.
+
+<chapters/greco/images/level6/FiniteReco_Z.png, id=784, 462.528pt x 346.896pt>
+File: chapters/greco/images/level6/FiniteReco_Z.png Graphic file (type png)
+
+<use chapters/greco/images/level6/FiniteReco_Z.png>
+Package pdftex.def Info: chapters/greco/images/level6/FiniteReco_Z.png used on 
+input line 97.
+(pdftex.def)             Requested size: 166.2212pt x 124.66544pt.
+
+
+LaTeX Warning: Reference `fig:finitereco_zVsRho' on page 41 undefined on input 
+line 110.
+
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level7.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <./chapters/greco/images/level6/Corridor_Cut_nCh.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42 <./chapters/greco/images/level6/FiniteReco_Rho.png> <./chapters/greco/image
+s/level6/FiniteReco_Z.png>]
+
+LaTeX Warning: Reference `fig:pegleg_zVsRho' on page 43 undefined on input line
+ 34.
+
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/greco_properties.tex
+
+LaTeX Warning: Reference `fig:effective_areas' on page 43 undefined on input li
+ne 12.
+
+))
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+\openout2 = `./chapters/analysis.aux'.
+
+ (./chapters/analysis.tex
+chapter 8.
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+[44
+
+
+
+]
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nu' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nu' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
+\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
+ []
+
+
+Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
+\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
+ []
+
+
+Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
+\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
+ []
+
+
+Overfull \hbox (33.30954pt too wide) in paragraph at lines 72--72
+\T1/bch/m/n/5 https://arxiv.org/abs/1507.01417  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 80--80
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 86.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 96.
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
+[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
+[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
+[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 99--99
+[][][][]\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (42.05954pt too wide) in paragraph at lines 105--105
+\T1/bch/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+)
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/systematics.tex
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 11.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 47.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 51 undefined on inp
+ut line 86.
+
+
+LaTeX Warning: Reference `fig:hammamatsu_qe' on page 51 undefined on input line
+ 98.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 98.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1712,16 +2486,255 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9
+
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51
 
 
 
 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-])
+[52]
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+)) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\chi' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 116.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+Underfull \vbox (badness 1565) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57
+
+
+]
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/data_fits.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65]))
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+\openout2 = `./chapters/pingu.aux'.
+
+ (./chapters/pingu.tex
+chapter 9.
+) [67
+
+
+
+] (./mjlarson_thesis.tdo
+Overfull \hbox (14.88107pt too wide) in paragraph at lines 4--4
+ [][] [][][][] \T1/bch/m/n/10 (-20) https://www.sciencedirect.com/science/artic
+le/pii/S0168900210006662?via%3Dihub 
+ []
+
+
+Overfull \hbox (121.4171pt too wide) in paragraph at lines 6--6
+ [][] [][][][] \T1/bch/m/n/10 (-20) prob-a-bly also the ham-ma-matsu doc-u-men-
+ta-tion http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+ []
+
+[68
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 9.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69])
 \tf@tdo=\write10
 \openout10 = `mjlarson_thesis.tdo'.
 
@@ -1732,199 +2745,75 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+[70]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./mjlarson_thesis.aux (./chapters/introduction.aux)
 (./chapters/oscillations.aux) (./chapters/detector.aux)
 (./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
 (./chapters/greco.aux) (./chapters/analysis.aux) (./chapters/pingu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package rerunfilecheck Info: File `mjlarson_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: DF2F2067BC26F87882B93FB74781618F;6265.
 
 
-Package rerunfilecheck Warning: File `mjlarson_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `mjlarson_thesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  E57225E39B8BB606F0D503D88861D7C1;607.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                mjlarson_thesis
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
 \openout1 = `mjlarson_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 31568 strings out of 492995
- 581672 string characters out of 6132704
- 1131609 words of memory out of 5000000
- 34394 multiletter control sequences out of 15000+600000
- 78555 words of font info for 105 fonts, out of 8000000 for 9000
+ 33377 strings out of 492995
+ 623273 string characters out of 6132704
+ 1153771 words of memory out of 5000000
+ 35637 multiletter control sequences out of 15000+600000
+ 118134 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,106p,8847b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.82} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.81} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.80} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.79} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.78} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.76} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.75} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.74} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.73} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.71} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.70} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.69} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.68} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.67} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.66} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.65} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.61} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.58} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.56} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.53} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.52} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.51} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.50} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.49} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.47} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.46} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.45} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.44} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.41} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.31} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.30} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.27} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.26} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.25} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.23} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.19} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.18} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.15} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texm
-f-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2017/texmf-dist/fonts
-/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips
-/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/
-q-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8
-a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre
-/qhvb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qhvr.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on mjlarson_thesis.pdf (6 pages, 175514 bytes).
+ 73i,19n,106p,8847b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+17/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2017/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base
+/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/us
+r/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+lm/lmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi6.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/lm/lmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/lm/lmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/tex-gyre/qhvb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/tex-gyre/qhvr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb>
+Output written on mjlarson_thesis.pdf (70 pages, 1389838 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 24077 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1395 PDF objects out of 1440 (max. 8388607)
+ 1246 compressed objects within 13 object streams
+ 398 named destinations out of 1000 (max. 500000)
+ 41236 words of extra memory for PDF output out of 42996 (max. 10000000)
 

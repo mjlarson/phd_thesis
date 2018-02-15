@@ -27,15 +27,15 @@
 %\clubpenalty=500
 
 \includeonly{
-%./chapters/introduction,
-%./chapters/oscillations,
+./chapters/introduction,
+./chapters/oscillations,
 ./chapters/detector,
-%./chapters/simulation,
-%./chapters/vuvuzela,
-%./chapters/muonsim,
-%./chapters/greco,
-%./chapters/analysis,
-%./chapters/pingu
+./chapters/simulation,
+./chapters/vuvuzela,
+./chapters/muonsim,
+./chapters/greco,
+./chapters/analysis,
+./chapters/pingu
 }
 
 \title{A Search for Tau Neutrino Appearance with IceCube-DeepCore}
