@@ -2,15 +2,6 @@
 \label{sec:dom}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/dom.tex}
 
-\label{subsec:pmt}
-\subsection{The Photomultiplier Tube: From Light to Signal}
-
-\label{subsec:digitization}
-\subsection{Digitization}
-
-\label{subsec:LC}
-\subsection{Local Coincidence}
-
 \label{sec:geometry}
 \section{The Geometry of the Detector}
 
@@ -19,3 +10,7 @@
 
 \label{subsec:deepcore}
 \subsection{DeepCore: Extending the Reach to GeV Scales}
+
+\label{sec:triggering}
+\section{Triggering in IceCube}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/trigger.tex}

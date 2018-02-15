@@ -1,85 +1,98 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section*.2}{Cosmic Rays}{chapter.1}% 2
-\BOOKMARK [1][-]{section*.3}{Neutrinos}{chapter.1}% 3
-\BOOKMARK [1][-]{section*.4}{Methods of Detection}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Neutrino Oscillations}{}% 5
-\BOOKMARK [1][-]{section*.6}{Neutrino Experiments: Past and Present}{chapter.2}% 6
-\BOOKMARK [1][-]{section*.7}{Solar Neutrinos: A Hint of Multiple Flavors}{chapter.2}% 7
-\BOOKMARK [1][-]{section*.8}{Super-Kamiokande and Atmospheric Neutrinos}{chapter.2}% 8
-\BOOKMARK [1][-]{section*.9}{Oscillation Theory and the PMNS Matrix}{chapter.2}% 9
-\BOOKMARK [0][-]{chapter.3}{The IceCube Detector}{}% 10
-\BOOKMARK [1][-]{section*.11}{The DOM: The Basic Unit of IceCube}{chapter.3}% 11
-\BOOKMARK [2][-]{section*.20}{The Photomultiplier Tube: From Light to Signal}{section*.11}% 12
-\BOOKMARK [2][-]{section*.21}{Digitization}{section*.11}% 13
-\BOOKMARK [2][-]{section*.22}{Local Coincidence}{section*.11}% 14
-\BOOKMARK [1][-]{section*.23}{The Geometry of the Detector}{chapter.3}% 15
-\BOOKMARK [2][-]{section*.24}{IceCube: A Detector for TeV Neutrinos}{section*.23}% 16
-\BOOKMARK [2][-]{section*.25}{DeepCore: Extending the Reach to GeV Scales}{section*.23}% 17
-\BOOKMARK [0][-]{chapter.4}{Simulation of the IceCube-DeepCore Detector}{}% 18
-\BOOKMARK [1][-]{section*.27}{Monte Carlo Generators}{chapter.4}% 19
-\BOOKMARK [2][-]{section*.28}{Background Generation}{section*.27}% 20
-\BOOKMARK [2][-]{section*.29}{Signal Generation}{section*.27}% 21
-\BOOKMARK [1][-]{section*.30}{Propagation of the Particles and Light}{chapter.4}% 22
-\BOOKMARK [2][-]{section*.31}{Modeling with GEANT4}{section*.30}% 23
-\BOOKMARK [2][-]{section*.32}{Lepton Propagation with PROPOSAL}{section*.30}% 24
-\BOOKMARK [2][-]{section*.33}{CLSim for Photon Propagation}{section*.30}% 25
-\BOOKMARK [2][-]{section*.34}{Angular Acceptance and Hole Ice}{section*.30}% 26
-\BOOKMARK [1][-]{section*.35}{Simulating the Detector Electronics}{chapter.4}% 27
-\BOOKMARK [2][-]{section*.36}{Event Building}{section*.35}% 28
-\BOOKMARK [1][-]{section*.37}{Post-Simulation Processing}{chapter.4}% 29
-\BOOKMARK [2][-]{section*.38}{Pulse Extraction}{section*.37}% 30
-\BOOKMARK [2][-]{section*.39}{Hit Cleaning}{section*.37}% 31
-\BOOKMARK [2][-]{section*.40}{The DeepCoreFilter}{section*.37}% 32
-\BOOKMARK [0][-]{chapter.5}{Updates to the Noise Simulation}{}% 33
-\BOOKMARK [1][-]{section*.42}{A Summary of Previous Fits}{chapter.5}% 34
-\BOOKMARK [1][-]{section*.43}{Limitations and Disagreement with Previous Fits}{chapter.5}% 35
-\BOOKMARK [1][-]{section*.44}{Low-dt Noise from Vuvuzela}{chapter.5}% 36
-\BOOKMARK [1][-]{section*.45}{Updating the Fitting Code}{chapter.5}% 37
-\BOOKMARK [1][-]{section*.46}{Results of New Noise Fits}{chapter.5}% 38
-\BOOKMARK [0][-]{chapter.6}{Low-Energy Muon Simulation}{}% 39
-\BOOKMARK [1][-]{section*.48}{Long-Frame CORSIKA for DeepCore}{chapter.6}% 40
-\BOOKMARK [1][-]{section*.49}{MuonGun for DeepCore}{chapter.6}% 41
-\BOOKMARK [1][-]{section*.50}{Simulation Efficiency with KDE Filtering}{chapter.6}% 42
-\BOOKMARK [0][-]{chapter.7}{GRECO: An Event Selection at the Limits of DeepCore}{}% 43
-\BOOKMARK [1][-]{section*.52}{Low-En Level 3 Cuts}{chapter.7}% 44
-\BOOKMARK [2][-]{section*.53}{GRECO Level 4 Cuts}{section*.52}% 45
-\BOOKMARK [2][-]{section*.60}{GRECO Level 5 Cuts}{section*.52}% 46
-\BOOKMARK [2][-]{section*.68}{GRECO Level 6 Cuts}{section*.52}% 47
-\BOOKMARK [2][-]{section*.73}{GRECO Level 7: Final Level}{section*.52}% 48
-\BOOKMARK [1][-]{section*.75}{The Properties of the GRECO Event Selection}{chapter.7}% 49
-\BOOKMARK [2][-]{section*.76}{Energy and Zenith Reach}{section*.75}% 50
-\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 51
-\BOOKMARK [1][-]{section*.78}{Unitarity of the PMNS Matrix}{chapter.8}% 52
-\BOOKMARK [1][-]{section*.79}{Current Limits on Unitarity}{chapter.8}% 53
-\BOOKMARK [1][-]{section*.80}{Expectations from Monte Carlo}{chapter.8}% 54
-\BOOKMARK [2][-]{section*.81}{Choice of Binning}{section*.80}% 55
-\BOOKMARK [2][-]{section*.89}{The MC Fit Templates}{section*.80}% 56
-\BOOKMARK [1][-]{section*.92}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 57
-\BOOKMARK [2][-]{section*.93}{CC vs CC+NC}{section*.92}% 58
-\BOOKMARK [2][-]{section*.97}{The \040Normalization}{section*.92}% 59
-\BOOKMARK [2][-]{section*.100}{Limits on the \040Normalization}{section*.92}% 60
-\BOOKMARK [1][-]{section*.108}{Systematics Considerations}{chapter.8}% 61
-\BOOKMARK [2][-]{section*.109}{Oscillation Parameters}{section*.108}% 62
-\BOOKMARK [2][-]{section*.110}{Flux Uncertainties}{section*.108}% 63
-\BOOKMARK [2][-]{section*.111}{Propagation Uncertainties}{section*.108}% 64
-\BOOKMARK [2][-]{section*.112}{Cross-section Uncertainties}{section*.108}% 65
-\BOOKMARK [2][-]{section*.113}{Detector Systematics}{section*.108}% 66
-\BOOKMARK [1][-]{section*.130}{The Method of Maximum Likelihood}{chapter.8}% 67
-\BOOKMARK [2][-]{section*.131}{The 2 Fit}{section*.130}% 68
-\BOOKMARK [2][-]{section*.133}{Finite Statistics}{section*.130}% 69
-\BOOKMARK [2][-]{section*.136}{Fit Priors}{section*.130}% 70
-\BOOKMARK [1][-]{section*.139}{Expected Sensitivity to Appearance}{chapter.8}% 71
-\BOOKMARK [2][-]{section*.140}{Fitting Code}{section*.139}% 72
-\BOOKMARK [2][-]{section*.148}{Sensitivity of the Analysis}{section*.139}% 73
-\BOOKMARK [2][-]{section*.153}{Impact of Systematics}{section*.139}% 74
-\BOOKMARK [2][-]{section*.159}{Expected Sensitivity over Time}{section*.139}% 75
-\BOOKMARK [2][-]{section*.160}{Feldman-Cousins vs WIlk's Theorem}{section*.139}% 76
-\BOOKMARK [1][-]{section*.161}{Fitting Data}{chapter.8}% 77
-\BOOKMARK [2][-]{section*.163}{Burn Sample Fits: Testing the Fitting Code}{section*.161}% 78
-\BOOKMARK [2][-]{section*.165}{Blind Fits: Checking the Goodness-of-Fit}{section*.161}% 79
-\BOOKMARK [1][-]{section*.194}{Results from the Analysis}{chapter.8}% 80
-\BOOKMARK [2][-]{section*.195}{Implications and Future Work}{section*.194}% 81
-\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 82
-\BOOKMARK [1][-]{section*.202}{Goals of Phase1}{chapter.9}% 83
-\BOOKMARK [1][-]{section*.203}{Preparing Simulation for the Upgrade}{chapter.9}% 84
-\BOOKMARK [1][-]{section*.204}{Potential Measurements of Phase1}{chapter.9}% 85
+\BOOKMARK [1][-]{section*.2}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [1][-]{section*.3}{Cosmic Rays}{chapter.1}% 3
+\BOOKMARK [1][-]{section*.4}{Neutrinos}{chapter.1}% 4
+\BOOKMARK [2][-]{section*.5}{History of the Neutrino}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{Neutrino Interactions}{section*.4}% 6
+\BOOKMARK [1][-]{section*.7}{Methods of Detection}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Neutrino Oscillations}{}% 8
+\BOOKMARK [1][-]{section*.9}{Neutrino Experiments: Past and Present}{chapter.2}% 9
+\BOOKMARK [1][-]{section*.10}{Solar Neutrinos: A Hint of Multiple Flavors}{chapter.2}% 10
+\BOOKMARK [1][-]{section*.11}{Super-Kamiokande and Atmospheric Neutrinos}{chapter.2}% 11
+\BOOKMARK [1][-]{section*.12}{Oscillation Theory and the PMNS Matrix}{chapter.2}% 12
+\BOOKMARK [1][-]{section*.13}{Experimental Constraints on Neutrino Oscillations}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{The IceCube Detector}{}% 14
+\BOOKMARK [1][-]{section*.15}{The DOM: The Basic Unit of IceCube}{chapter.3}% 15
+\BOOKMARK [2][-]{section*.16}{The Photomultiplier Tube}{section*.15}% 16
+\BOOKMARK [2][-]{section*.23}{Local Coincidence}{section*.15}% 17
+\BOOKMARK [2][-]{section*.24}{Digitization}{section*.15}% 18
+\BOOKMARK [1][-]{section*.27}{The Geometry of the Detector}{chapter.3}% 19
+\BOOKMARK [2][-]{section*.28}{IceCube: A Detector for TeV Neutrinos}{section*.27}% 20
+\BOOKMARK [2][-]{section*.29}{DeepCore: Extending the Reach to GeV Scales}{section*.27}% 21
+\BOOKMARK [1][-]{section*.30}{Triggering in IceCube}{chapter.3}% 22
+\BOOKMARK [1][-]{section*.31}{Event Building}{chapter.3}% 23
+\BOOKMARK [2][-]{section*.32}{The Simple Majority Triggers}{section*.31}% 24
+\BOOKMARK [2][-]{section*.33}{Global Triggers}{section*.31}% 25
+\BOOKMARK [0][-]{chapter.4}{Simulation of the IceCube-DeepCore Detector}{}% 26
+\BOOKMARK [1][-]{section*.35}{Monte Carlo Generators}{chapter.4}% 27
+\BOOKMARK [2][-]{section*.36}{Background Generation}{section*.35}% 28
+\BOOKMARK [2][-]{section*.37}{Signal Generation}{section*.35}% 29
+\BOOKMARK [1][-]{section*.38}{Propagation of the Particles and Light}{chapter.4}% 30
+\BOOKMARK [2][-]{section*.39}{Modeling with GEANT4}{section*.38}% 31
+\BOOKMARK [2][-]{section*.40}{Lepton Propagation with PROPOSAL}{section*.38}% 32
+\BOOKMARK [2][-]{section*.41}{CLSim for Photon Propagation}{section*.38}% 33
+\BOOKMARK [2][-]{section*.42}{Angular Acceptance and Hole Ice}{section*.38}% 34
+\BOOKMARK [1][-]{section*.43}{Simulating the Detector Electronics}{chapter.4}% 35
+\BOOKMARK [1][-]{section*.44}{Post-Simulation Processing}{chapter.4}% 36
+\BOOKMARK [2][-]{section*.45}{Pulse Extraction}{section*.44}% 37
+\BOOKMARK [2][-]{section*.46}{Hit Cleaning}{section*.44}% 38
+\BOOKMARK [2][-]{section*.47}{The DeepCoreFilter}{section*.44}% 39
+\BOOKMARK [0][-]{chapter.5}{Updates to the Noise Simulation}{}% 40
+\BOOKMARK [1][-]{section*.49}{A Summary of Previous Fits}{chapter.5}% 41
+\BOOKMARK [1][-]{section*.50}{Limitations and Disagreement with Previous Fits}{chapter.5}% 42
+\BOOKMARK [1][-]{section*.51}{Low-dt Noise from Vuvuzela}{chapter.5}% 43
+\BOOKMARK [1][-]{section*.52}{Updating the Fitting Code}{chapter.5}% 44
+\BOOKMARK [1][-]{section*.53}{Results of New Noise Fits}{chapter.5}% 45
+\BOOKMARK [0][-]{chapter.6}{Low-Energy Muon Simulation}{}% 46
+\BOOKMARK [1][-]{section*.55}{Long-Frame CORSIKA for DeepCore}{chapter.6}% 47
+\BOOKMARK [1][-]{section*.56}{MuonGun for DeepCore}{chapter.6}% 48
+\BOOKMARK [1][-]{section*.57}{Simulation Efficiency with KDE Filtering}{chapter.6}% 49
+\BOOKMARK [0][-]{chapter.7}{GRECO: An Event Selection at the Limits of DeepCore}{}% 50
+\BOOKMARK [1][-]{section*.59}{Low-En Level 3 Cuts}{chapter.7}% 51
+\BOOKMARK [2][-]{section*.60}{GRECO Level 4 Cuts}{section*.59}% 52
+\BOOKMARK [2][-]{section*.67}{GRECO Level 5 Cuts}{section*.59}% 53
+\BOOKMARK [2][-]{section*.75}{GRECO Level 6 Cuts}{section*.59}% 54
+\BOOKMARK [2][-]{section*.80}{GRECO Level 7: Final Level}{section*.59}% 55
+\BOOKMARK [1][-]{section*.82}{The Properties of the GRECO Event Selection}{chapter.7}% 56
+\BOOKMARK [2][-]{section*.83}{Energy and Zenith Reach}{section*.82}% 57
+\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 58
+\BOOKMARK [1][-]{section*.85}{Unitarity of the PMNS Matrix}{chapter.8}% 59
+\BOOKMARK [1][-]{section*.86}{Current Limits on Unitarity}{chapter.8}% 60
+\BOOKMARK [1][-]{section*.87}{Expectations from Monte Carlo}{chapter.8}% 61
+\BOOKMARK [2][-]{section*.88}{Choice of Binning}{section*.87}% 62
+\BOOKMARK [2][-]{section*.96}{The MC Fit Templates}{section*.87}% 63
+\BOOKMARK [1][-]{section*.99}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 64
+\BOOKMARK [2][-]{section*.100}{CC vs CC+NC}{section*.99}% 65
+\BOOKMARK [2][-]{section*.104}{The \040Normalization}{section*.99}% 66
+\BOOKMARK [2][-]{section*.107}{Limits on the \040Normalization}{section*.99}% 67
+\BOOKMARK [1][-]{section*.115}{Systematics Considerations}{chapter.8}% 68
+\BOOKMARK [2][-]{section*.116}{Oscillation Parameters}{section*.115}% 69
+\BOOKMARK [2][-]{section*.117}{Flux Uncertainties}{section*.115}% 70
+\BOOKMARK [2][-]{section*.118}{Propagation Uncertainties}{section*.115}% 71
+\BOOKMARK [2][-]{section*.119}{Cross-section Uncertainties}{section*.115}% 72
+\BOOKMARK [2][-]{section*.120}{Detector Systematics}{section*.115}% 73
+\BOOKMARK [1][-]{section*.137}{The Method of Maximum Likelihood}{chapter.8}% 74
+\BOOKMARK [2][-]{section*.138}{The 2 Fit}{section*.137}% 75
+\BOOKMARK [2][-]{section*.140}{Finite Statistics}{section*.137}% 76
+\BOOKMARK [2][-]{section*.143}{Fit Priors}{section*.137}% 77
+\BOOKMARK [1][-]{section*.146}{Expected Sensitivity to Appearance}{chapter.8}% 78
+\BOOKMARK [2][-]{section*.147}{Fitting Code}{section*.146}% 79
+\BOOKMARK [2][-]{section*.155}{Sensitivity of the Analysis}{section*.146}% 80
+\BOOKMARK [2][-]{section*.160}{Impact of Systematics}{section*.146}% 81
+\BOOKMARK [2][-]{section*.166}{Expected Sensitivity over Time}{section*.146}% 82
+\BOOKMARK [2][-]{section*.167}{Feldman-Cousins vs WIlk's Theorem}{section*.146}% 83
+\BOOKMARK [1][-]{section*.168}{Fitting Data}{chapter.8}% 84
+\BOOKMARK [2][-]{section*.170}{Burn Sample Fits: Testing the Fitting Code}{section*.168}% 85
+\BOOKMARK [2][-]{section*.172}{Blind Fits: Checking the Goodness-of-Fit}{section*.168}% 86
+\BOOKMARK [1][-]{section*.201}{Results from the Analysis}{chapter.8}% 87
+\BOOKMARK [1][-]{section*.202}{Complementary Measurements from This Analysis}{chapter.8}% 88
+\BOOKMARK [2][-]{section*.203}{Oscillation Parameters}{section*.202}% 89
+\BOOKMARK [1][-]{section*.218}{New Constraints on Detector Systematics}{chapter.8}% 90
+\BOOKMARK [2][-]{section*.220}{Implications and Future Work}{section*.218}% 91
+\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 92
+\BOOKMARK [1][-]{section*.227}{Goals of Phase1}{chapter.9}% 93
+\BOOKMARK [1][-]{section*.228}{Preparing Simulation for the Upgrade}{chapter.9}% 94
+\BOOKMARK [2][-]{section*.229}{mDOMs}{section*.228}% 95
+\BOOKMARK [2][-]{section*.230}{The Volume Trigger}{section*.228}% 96
+\BOOKMARK [2][-]{section*.231}{Simulation Verification}{section*.228}% 97
+\BOOKMARK [1][-]{section*.232}{Potential Measurements of Phase1}{chapter.9}% 98

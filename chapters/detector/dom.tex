@@ -1,4 +1,7 @@
 \section{The DOM: The Basic Unit of IceCube}
+
+\label{subsec:pmt}
+\subsection{The Photomultiplier Tube}
 \findref{cite https://arxiv.org/abs/1612.05093 over and over and over and over ad infinitum}
 The basic unit of the IceCube detector is the \textbf{digital optical module}, often referred to simply as the \textbf{DOM}.
 The DOM is designed around a downward-facing 10 inch R7081-02 photomultiplier tube (\textbf{PMT}) from Hammamatsu Photonics. \findref{https://www.sciencedirect.com/science/article/pii/S0168900210006662?via\%3Dihub (remove the backslash in the latex code if pasting the link)}\findref{probably also the hammamatsu documentation http://icecube.wisc.edu/~kitamura/NK/PMT/031112\%20R7081-02\%20data\%20sheet.pdf} and includes onboard electronics for standard operation. 
@@ -16,9 +19,18 @@ Information from the PMT is digitized using the fast analog-to-digital converter
 Simultaneously, the analog signal is recorded by the onboard custom integrated circuits known as \textbf{Analog Transient Waveform Digitizers} (\textbf{ATWDs}) for possible high quality digitization.
 Launches are recorded in DOM memory while awaiting a decision from the triggering system.
 
-Nearby DOMs, here defined to be either of the two DOMs above or below the current DOM, are notified of the launch via a signal sent using the \textbf{local coincidence} wiring.
+\label{subsec:LC}
+\subsection{Local Coincidence}
 If any of the notified DOMs also record a launch within a configurable 1 microsecond window, both launches are said to form a \textbf{hard local coincidence} (\textbf{HLC}) pair.
-In this situation, all DOMs participating in the HLC begin producing higher quality digitizations from the recorded analog signals using theATWDs.
+Nearby DOMs, here defined to be either of the two DOMs above or below the current DOM, are notified of the launch via a signal sent using the \textbf{local coincidence} wiring.
+In this situation, all DOMs participating in the HLC begin producing higher quality digitizations from the recorded analog signals using the ATWDs.
+Launches which fail to satisfy the local coincidence conditions are referred to as \textbf{soft local coincidence} (\textbf{SLC}) hits.
+Launches digitized as part of an HLC pair receive a flag. 
+This flag may be used to later identify only those launches which satisfy the local coincident conditions, providing a simple, default method of identifying hits likely to be caused by particle interactions in the detector.
+
+\label{subsec:digitization}
+\subsection{Digitization}
+Signals from the PMT are digitized using a variety of digitizers.
 Each DOM contains two ATWD chips, each of which has access to three amplifier gain levels in order to cover the dynamic range of the PMT.
 The highest gain channel is used for most pulses, although lower gains are used in cases of particularly large pulses in order to avoid loss of information due to saturation of the channel.
 The ATWD chips sample the waveform at a rate of 300 megasamples/second with 128 samples per launch, recording a total of 427 nanoseconds.
@@ -27,12 +39,5 @@ A 10 meter long delay line embedded in the circuitry of the DOM allows the ATWD 
 When digitizing a signal, the ATWD chip experiences 29 microseconds of deadtime. \findref{https://arxiv.org/abs/0810.4930}
 During this time, the secondary ATWD is available to record further pulses, resulting in a total average fractional deadtime per DOM of $\mathtt{2.2 \times 10^{-5}}$ seconds/second.
 
-Examples of the waveforms from the ATWD and fADC are shown in \needfig{figure 6 of https://arxiv.org/pdf/1612.05093.pdf}.
-
-
-
-Signals from the PMT are digitized using a variety of digitizers.
-
-
-
-
+Examples of digitized waveforms from the ATWD and fADC are shown in \needfig{figure 6 of https://arxiv.org/pdf/1612.05093.pdf}.
+Digitized versions of the waveforms are transmitted from the DOM to the IceCube physics data acquisition system (\textbf{pDAQ}) for use in trigger and event building.

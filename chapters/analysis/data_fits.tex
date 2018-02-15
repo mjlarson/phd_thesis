@@ -199,6 +199,79 @@ The shaded band shows the assumed 1$\mathtt{\sigma}$ prior range for each of the
 \label{section:tau_results}
 \section{Results from the Analysis}
 
+
+\label{section:other_measurements}
+\section{Complementary Measurements from This Analysis}
+
+\label{subsec:oscil_results}
+\subsection{Oscillation Parameters}
+Thanks to significant contributions from others \findref{future reference to martin, elim's theses}, dedicated measurements of the atmospheric mixing parameters have also been performed using the GRECO selection.
+In these measurements, the value of $\mathtt{N_{\nu_\tau}}$ remains fixed to unity.
+The derived results are therefore directly comparable to results from other oscillation experiments.
+
+\label{subsubsec:disappearance_results}
+\subsubsection{$\nu_\mu$ Disappearance Results}
+Using similar tools as the appearance analysis, a complementary search for $\mathtt{\nu_\mu}$ disappearance was performed \findref{elim's thesis}.
+The measurement of the disappearance parameters, $\mathtt{\Delta m^2_{3j}}$ and $\mathtt{\theta_{23}}$, used an identical choice of binning and systematics set as the appearance search described above.
+The $\chi^2_{FS}$ statistic was found by minimization with the iMinuit package \findref{iminuit} across a grid of values arranged linearly in $\mathtt{\Delta m^2_{3j}}$ and $\mathtt{sin^2\theta_{23}}$ covering both octants.
+At each point, the disappearance parameters were fixed during minimization.
+Both the normal and inverted ordering are tested separately.
+
+The result is shown in \needfig{elim's result!} with comparisons to previous atmospheric oscillation measurements by IceCube \findref{icecube 2017 result}, Super-Kamiokande \findref{superk 2015 oscillation result} and the MINOS experiment \findref{minos oscillation with atm}.
+Results from accelerator measurements are shown from the $\mathtt{NO\nu A}$ \findref{nova oscillation} and T2K \findref{t2k oscillation result} experiments.
+All results show the 90\% contour around the best-fit point.
+The GRECO result mildly prefers the normal ordering and the second octant, although maximal mixing ($\mathtt{sin^2\theta_{23}=0.5}$ is well within the best-fit contours.
+
+The GRECO result improves upon the most recent IceCube result significantly, particularly in the measurement of the mass splitting.
+Both results are statistically consistent with one another, although the GRECO result perfers a larger mass splitting than the previous result.
+Global fits, which prefer a value of the mass splitting of $\mathtt{2.494^{+0.033}_{-0.031}}$ as of the time of this writing \findref{nufit 3.2}, favor the new GRECO result over the previous IceCube result.
+
+Precise measurements of the atmospheric mixing angle continue to elude us, however.
+While the GRECO result provides competive constraints on the mixing angle, no significant improvement is observed.
+
+\label{subsubsec:nmo_results}
+\subsubsection{Mass Ordering}
+In order to quantify the preference for the mass ordering, a dedicated measurement using the GRECO sample was performed \findref{martin's thesis}.
+This measurement included numerous differences relative to the appearance and disappearance measurements.
+Only upgoing reconstructed GRECO events were included, although the energy range was extended to 3-100 GeV.
+All simulation templates were smoothed during the analysis using a dedicated implementation of the kernal density estimation technique implemented in the C++ programming language \findref{martin's kdes from the aachen group. who did that?}.
+This code, unlike the SciPy KDE implementation used in \ref{sec:kde_filtering}, includes functionality for weighted event samples and variable bandwidth estimation.
+
+The systematics set used in the mass ordering analysis was identical to that of the disappearance measurement, with the value of $\mathtt{N_{\nu_\tau}}$ fixed to unity.
+Systematics included in the mass ordering measurement were applied using a parallel branch of the OscFit code used in the appearance measurement.
+
+Statistical uncertainties arising from the simulation statistics were estimated using a bootstrapping technique included in the KDE implementation.
+The test statistic used in the mass ordering measurement was defined to be the numerical convolution between the Poissonian uncertainty due to the expected event count and a Gaussian model of the bootstrapped Monte Carlo statistical uncertainty.
+
+Unlike the appearance and disappearance measurements, the neutrino mass ordering is not a continuous parameter. 
+The calculation of a final significance proceeds following the method described in \findref{pingu paper and/or pisa paper describing nmo measurement}, a full description of which is beyond the scope of this work.
+Using GRECO events, a good fit is obtained at the best-fit point with a pvalue of approximately 80\%.
+Using the cited technique, a weak preference for the normal mass ordering is found at approximately 0.3$\mathtt{\sigma}$ \unsure{Need martin's final result!}
+
+\label{subsec:syst_constraints}
+\section{New Constraints on Detector Systematics}
+The statistics available in the GRECO dataset provide a unique chance to derive new constraints on systematic variables.
+For each of the parametrized detector systematics, a scan was performed to evaluate constraints from the dataset.
+In all cases, the value of $\mathtt{N_{\nu_\tau}}$ remained fixed to unity.
+The results of these scans are shown in \needfig{chi2 scans of the detector systematics to show greco constraints on domeff, holeice, hifwd, absorption, and scattering}.
+
+These new constraints imply new, tighter limits derived from fits to the detector data.
+They do have limitations, however.
+During the parametrization process, all systematics were assumed to be uncorrelated, which is unlikely to be the case in practice.
+The DOM efficiency and absorption properties in the ice are known to have correlations in dedicated calibration work in the detector, for example.
+These correlations are included in the prior uncertainties for each parameter.
+Although
+
+Each also assumes an accurate modeling of the effects in question.
+All effects are assumed to equally apply to the entire detector.
+Bulk changes of the properties associated with each systematic are assumed to be more important than the spread of uncertainties for each DOM (DOM efficiency, hole ice parameters) or layer in the ice (absorption, scattering).
+This assumption indicates limited insight may be gained.
+Testing the properties for each DOM is unlikely to be within the statistical reach of any dataset in the foreseeable future given the number of DOMs in the detector.
+
+The new constraints from GRECO demonstrate significant power of the dataset to identify new effects like those discussed in \ref{subsec:blind_fits}.
+The dataset provides the collaboration with a novel set of low energy events sensitive to evaluate detector properties.
+These new constraints may be used in future analyses to limit systematic uncertainties affecting other measurements.
+
 \label{subsec:implications}
 \subsection{Implications and Future Work}
 There exist various ways to interpret the value of $\mathtt{N_{\nu_\tau}}$. 
@@ -252,4 +325,6 @@ Investigations described in \ref{subsubsec:bedrock} have spawned discussions of 
 While GENIE was originally planned to be used solely for very low energy oscillation analyses, the dawn of new event selections such as GRECO spanning wider energy ranges can lead to notable disagreement traceable to the generation scheme.
 To better describe the detector, GENIE generation must be exampled to identify unsimulated phase space necessary for further analyses.
 The simulation of events below the detector, in both the GENIE generator as well as in future MuonGun background simulations, must be given priority in order to explain the events occuring at the bottom or below the IceCube detector.
+
+
 

@@ -1,7 +1,7 @@
 \section{Systematics Considerations}
 
 \label{subsec:oscillation_params}
-\subsection{Oscillation Parameters}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/oscilparams.tex}
 
 \label{subsec:flux_systematics}
 \subsection{Flux Uncertainties}
