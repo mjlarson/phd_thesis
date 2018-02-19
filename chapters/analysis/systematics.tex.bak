@@ -3,14 +3,7 @@
 \label{subsec:oscillation_params}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/oscilparams.tex}
 
-\label{subsec:flux_systematics}
-\subsection{Flux Uncertainties}
-
-\label{subsubsec:muon_systematics}
-\subsubsection{Atmospheric Muon Flux}
-
-\label{subsubsec:neutrino_flux}
-\subsubsection{Neutrino Flux}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/fluxparams.tex}
 
 \label{subsec:propagation_systematics}
 \subsection{Propagation Uncertainties}

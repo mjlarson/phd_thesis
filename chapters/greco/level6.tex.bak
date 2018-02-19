@@ -67,7 +67,7 @@ In addition to providing a more robust reconstruction, the additional cut on the
 These accidental triggers make up about 0.3\% of events in the sample following these cuts.
 
 
-\label{
+\label{subsubsec:corridorcut}
 \subsubsection{CorridorCut}
 \begin{figure}[h]
 	\centering
@@ -111,7 +111,20 @@ The starting position of the resulting reconstructed particle may be used to est
 If an event begins outside of the DeepCore fiducial volume, particularly if the event appears at the top of the fiducial volume, the event is likely to contain a muon and can be removed from the sample.
 Cuts are applied at the positions shown, resulting in a significant reduction in the number of muon events expected at final level.
 
+\begin{center}
+\begin{table}
+\begin{tabular}{cc}
+    \includegraphics[width=0.45\linewidth]{z_rho_corsika.png} &  
+    \includegraphics[width=0.45\linewidth]{z_rho_data.png} \\  
 
+    \includegraphics[width=0.45\linewidth]{z_rho_noise.png} &  
+    \includegraphics[width=0.45\linewidth]{z_rho_genie_nue.png} \\  
 
-
+    \includegraphics[width=0.45\linewidth]{z_rho_genie_numu.png} &  
+    \includegraphics[width=0.45\linewidth]{z_rho_genie_nutau.png} \\ 
+\end{tabular}
+\label{fig:finitereco_zVsRho}
+\caption{The FiniteReco containment cut for each of the channels. The cut itself is shown with the black line.}
+\end{table}
+\end{center}
 

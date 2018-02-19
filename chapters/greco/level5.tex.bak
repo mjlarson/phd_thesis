@@ -57,7 +57,7 @@ In particular, the radial position of the first hit in a STW cleaned (7500 ns) h
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=2.5in]{Q1-Q4_Distance_log.png}
-		\caption[Quartil{The distance between the centers of gravity of the first and last quartile in time.}
+		\caption[Quartile Distance]{The distance between the centers of gravity of the first and last quartile in time.}
 	\label{fig:quartile_distance}
 \end{figure}
 
@@ -69,7 +69,7 @@ Looking at the first and last quartiles in charge, the length of the vector from
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=2.5in]{Z-Travel_log.png}
-		\caption{The distance traveled in Z between the first and last quartile of hits in time.}
+		\caption[Quartile Z-Travel]{The distance traveled in Z between the first and last quartile of hits in time.}
 	\label{fig:quartile_ztravel}
 \end{figure}
 
@@ -81,7 +81,7 @@ The first variable to utilize this, \textbf{Z-Travel}, identifies the distance i
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=2.5in]{SPE11_Cos(Zenith)_log.png}
-		\caption{The zenith angle distribution of events from an 11-iteration SPE fit. The fit assumes an infinite track hypothesis and uses only hit DOMs.}
+		\caption[SPE Reconstruction Zenith Angles]{The zenith angle distribution of events from an 11-iteration SPE fit. The fit assumes an infinite track hypothesis and uses only hit DOMs.}
 	\label{fig:spe11_zenith}
 \end{figure}
 
@@ -103,7 +103,7 @@ Therefore the direction of the reconstructed track is a useful tool for separati
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=4in]{BDT_Score_log.png}
-		\caption{The distribution of the boosted decision tree used at L5. A cut is again applied at 0.04 to remove a significant fraction of atmospheric muon background events.}
+		\caption[The L5 BDT Score]{The distribution of the boosted decision tree used at L5. A cut is again applied at 0.04 to remove a significant fraction of atmospheric muon background events.}
 	\label{fig:L5_bdt_log}
 \end{figure}
 

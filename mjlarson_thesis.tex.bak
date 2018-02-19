@@ -6,25 +6,17 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{multirow,lscape,booktabs}
-%\usepackage{tabularx}
 %\usepackage[round,sort&compress]{natbib}
-%\usepackage{lineno}
 
 %\newgeometry{margin=1in, bottom=1in, top=1in}
 
 \usepackage{xargs}                      % Use more than one optional parameter in a new commands
 \usepackage[dvipsnames]{xcolor}  % Coloured text etc.
-% 
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\findref}[2][1=]{\todo[linecolor=orange,backgroundcolor=orange!25,bordercolor=orange,#1]{#2}}
 \newcommandx{\needfig}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
-
-%\sloppy
-
-%\widowpenalty=500
-%\clubpenalty=500
 
 \includeonly{
 ./chapters/introduction,
@@ -78,6 +70,5 @@
 \include{./chapters/pingu}
 
 \listoftodos[Notes]
-
 
 \end{document}

@@ -1,7 +1,8 @@
+\graphicspath{{chapters/analysis/images/}}
 \label{sec:fitting_data}
 \section{Fitting Data}
 Icecube analyses are developed blindly in order to minimize bias.
-This proceeds in a few distinct stages.
+This proceeds in a few distinct stages, each described separately here.
 
 \unsure{may just remove the burn sample crap. its so out of date that its too weird to go back and redo it.}
 \label{subsec:burn_sample}
@@ -35,6 +36,7 @@ The first method generally will yield more accurate results, particularly if the
 If the fit is particularly poor, a large number of trials may be necessary in order to calculate an accurate p-value.
 In these cases, the second method may be used to provide an estimate of the p-value of the fit.
 
+During the first work with blind fits, this analysis used a wide range of reconstructed energies, including events up to 800 GeV in order to better constrain systematics terms in the non-oscillating higher energy regions.
 Blind fits in the GRECO analysis initially showed significant disagreement between the data and simulation, with a goodness-of-fit of $\mathtt{10^{-7}}$.
 Investigations yielded new discoveries about both the calibration of the Monte Carlo simulation and previously-unknown erroneous events in the data.
 
@@ -48,8 +50,16 @@ The first suspected cause was the erroneous splitting of waveform pulses in the 
 The expected charge from a single incident photoelectron is used in WaveDeform to convert the digitized waveforms from the FADC and ATWD into reconstructed photoelectrons consisting of charge and timing information.
 While the simulated response is known exactly, the associated charge response of the DOM in data requires careful calibration.
 Using a mismodeled charge response to extract pulses in the data can result in single photoelectrons being erroneously split into multiple smaller reconstructed pulses.
-Potential mismodeling effects of the charge extraction were checked in \needfig{2d maps showing the charge per pulse for data and mc.}. 
+Potential mismodeling effects of the charge extraction were checked in \ref{fig:pulse_timing_profile}. 
 In these figures, the charge of each individual pulse is shown as a function of the arrival time, which is normalized to the time of the largest extracted pulse in the DOM for each event.
+
+\begin{center}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{2d_maps_detail_raw.png}
+\label{fig:pulse_timing_profile}
+\caption{A comparison of the charge extraction in data and simulation at GRECO L7. Both the time and charge are shown for individual pulses on all DOMs. The time is measured relative to the largest pulse observed on each DOM during an event. The data and simulation histograms are independently normalized to 1.0. While the two show broad agreement, notable differences occur at low charge.}
+\end{figure}
+\end{center}
 
 Significant disagreements between the data and simulation are visible.
 The erroneously split pulses are visible in data as a low-charge tail from t=0 until t=50 nanoseconds.
@@ -111,20 +121,44 @@ The decision was made to investigate these quantities using the simulation weigh
 Past experience has shown that the uncertainties in the ice model can lead to significant disagreements.
 Existing uncertainties on the bulk ice assume that the coefficients for all ice layers are fully correlated.
 In practice, it is possible that the ice model coefficients in parts of the detector are more poorly modeled than others.
-By looking at the event rate in data and simulation as a function of the depth and radial distance from the center of the detector, discrepancies in the ice model can be identified.
+By looking at the event rate in data and simulation as a function of the depth and position in the detector, discrepancies in the ice model can be identified.
 
-The initial plots are shown in \needfig{recoz 1d plot for data and mc}.
+\begin{center}
+\label{fig:flaring_zrho}
+\begin{figure}
+	\includegraphics[width=0.6\linewidth]{L7_reco_z.png}
+\caption{The reconstructed Z position using PegLeg. The GRECO L7 cuts have not been applied in order to show discrepancies below the detector. Noticeable disagreement is seen around a depth of z=-450.}
+\end{figure}
+\end{center}
+
+The initial plots are shown in \ref{fig:flaring_zrho}.
 A significant difference is observed at a depth of around $\mathtt{Z\approx -400}$.
 Checks performed with other samples have shown similar disagreeements at these depths, indicating disagreement in the ice model.
 Previously unblinded oscillation samples showing this issue have not observed significant issues in the goodness-of-fit.
 New ice models are underway with dedicated work to fix this region is underway.
 
-Two-dimensional histograms of the depth and radial distance also show systematic disagreement in some regions, as shown in \needfig{recoz vs recorho 2d plots showing flaring doms}.
-These disagreements cluster around very particular DOMs in the detector.
+\begin{center}
+\label{fig:flaring_zrho}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{pegleg_fine_z_rho.png}
+\caption{The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near $\mathtt{\rho_{36}=75}$ at depths of -310 and -490. }
+\end{figure}
+\end{center}
+
+\begin{center}
+\label{fig:flaring_xy}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{pegleg_fine_x_y.png}
+\caption{The reconstructed X position and Y position of events in the detector. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. Once again, reasonable agreement is observed in most regions, although data events have a clear excess near x=110 m, y=-60 m. This position corresponds to string 83.}
+\end{figure}
+\end{center}
+
+Two-dimensional histograms of the depth and radial distance also show systematic disagreement in some regions, as shown in \ref{fig:flaring_zrho}.
+These excess events appear to occur on string 83, shown in \ref{fig:flaring_xy}, indicating an effect occuring due to the DOM hardware in the detector.
 Follow-up work has shown that these DOMs, known here as \textbf{flaring DOMs}, appear to spontaneously emit light for unknown reasons. 
 The light output is identifiable both based on the position of the hits and the amount of charge observed in nearby DOMs.
 These spurious events, first discovered in the GRECO selection, have since spawned dedicated searches to better understand spontaneous light emission from the DOMs.
-A small handful of DOMs have been identified by these searches.
+A small handful of DOMs have been identified by these searches with emission times as frequent as 1 Hz \findref{internal search for flaring doms}.
 
 The affected events may be identified based on the charge profiles. 
 In particular, DOMs directly adjacent to the emitting DOM observe a significant fraction of the total charge of the event.
@@ -134,6 +168,14 @@ This may be characterized using the 'charge RMS' of the event.
 \begin{equation}
 	q_{RMS} = \frac{\sigma_q}{\sum_{hits}{q_i}}
 \end{equation}
+
+\begin{center}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{L7_charge_rms_normalized.png}
+\label{fig:flaring_xy}
+\caption{The RMS of the charges within each event at final level. The value of the RMS is normalized using the total charge observed. The L7 cuts from GRECO are not applied here. The events with flaring DOMs cluster at high values of the charge RMS, visible in the inset.}
+\end{figure}
+\end{center}
 
 This is shown in \needfig{charge rms with the excess in data}.
 Events with a $\mathtt{q_{RMS}}>0.85$ are removed from the analysis, removing the most obvious spurious events. 
@@ -175,7 +217,7 @@ GENIE events therefore suffer solely from an incorrect interaction probability d
 The density of interaction medium enters as a linear term in the interaction probability, indicating that a correction of the form $\mathtt{\rho_{rock}/\rho_{ice}}$ is sufficient to correct the Monte Carlo.
 The fixed distributions in energy and zenith are shown in \needfig{energy and z distributions after reweighting genie bedrock events}.
 
-In order to limit other potential issues from the bedrock, the analysis space was further limited, removing events both at higher energies ($mathtt{E_{reco}>56 GeV}$) and those reconstructing at or below the bottom of the detector ($\mathtt{Z_{reco}\leq-500}$).
+In order to limit other potential issues from the bedrock, the analysis space was further limited, removing events both at higher energies ($\mathtt{E_{reco}>56 GeV}$) and those reconstructing at or below the bottom of the detector ($\mathtt{Z_{reco}\leq-500}$).
 These cuts significantly reduce the size of the sample by reducing the high energy events included at final level. 
 These changes have some impact on the expected sensitivity, but were deemed necessary to minimize the potential impact of systematics issues associated with the NuGen sample and, more broadly, limitations in the simulated event samples interacting below the detector.
 
@@ -197,7 +239,8 @@ The shaded band shows the assumed 1$\mathtt{\sigma}$ prior range for each of the
 
 
 \label{section:tau_results}
-\section{Results from the Analysis}
+\section{Results from the Search for Appearance}
+
 
 
 \label{section:other_measurements}
@@ -268,7 +311,7 @@ Bulk changes of the properties associated with each systematic are assumed to be
 This assumption indicates limited insight may be gained.
 Testing the properties for each DOM is unlikely to be within the statistical reach of any dataset in the foreseeable future given the number of DOMs in the detector.
 
-The new constraints from GRECO demonstrate significant power of the dataset to identify new effects like those discussed in \ref{subsec:blind_fits}.
+The new constraints from GRECO demonstrate significant power in the dataset to identify new effects like those discussed in \ref{subsec:blind_fits}.
 The dataset provides the collaboration with a novel set of low energy events sensitive to evaluate detector properties.
 These new constraints may be used in future analyses to limit systematic uncertainties affecting other measurements.
 

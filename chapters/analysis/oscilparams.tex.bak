@@ -1,3 +1,28 @@
 \subsection{Oscillation Parameters}
 The GRECO selection is primarily sensitive to atmospheric neutrinos around 30 GeV. 
-At these energies, 
+These neutrinos travel distances from approximately 30 km (directly downgoing) to 6400 km (directly upgoing).
+At these energies and distances, little effect is expected from the solar and reactor parameters.
+This has been tested with the GRECO sample by changing each parameter by the 1$\mathtt{\sigma}$ range given in \findref{nufit 2.2}.
+The total value of the $\mathtt{\chi^2}$, defined as in \ref{subsec:chi2}, was used to select the most important parameters for this fit.
+
+The results are shown in \ref{tab:oscil_impact}.
+The atmospheric mixing parameters have significantly larger impacts on the analysis histogram than the other parameters.
+For the purposes of GRECO analyses, only these parameters are therefore considered.
+
+\begin{table}[]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+Parameter                & Baseline                                         & Tested Shift                                   & $\sum_{bins}\chi^2$                     \\ \midrule
+$\Delta m^2_{31}$ & 2.2526$\mathtt{\times 10^{-3}}$ & +0.10 $\mathtt{\times 10^{-3}}$  & 2.776                                             \\
+$\Delta m^2_{21}$ & 7.49 $\mathtt{\times 10^{-5}}$    & +0.19 $\mathtt{\times 10^{-5}}$  & 5.392  $\mathtt{\times 10^{-4}}$  \\
+$\theta_{23}$        & 0.72431                                        & +0.02094                                       & 1.262                                             \\
+$\theta_{13}$        & 0.14765                                        & +0.00262                                       & 1.802 $\mathtt{\times 10^{-3}}$   \\
+$\theta_{12}$        & 0.58853                                        & +0.01379                                       & 2.978 $\mathtt{\times 10^{-4}}$   \\ 
+$\delta_{CP}$         & 0.0                                                & +$\frac{\pi}{2}$                             & 2.407 $\mathtt{\times 10^{-2}}$    \\ \bottomrule
+\end{tabular}
+\caption{Total $\chi^2$ impact of each of the oscillation parameters. The atmospheric mixing parameters, $\Delta m^2_{31}$ and $\theta_{23}$ are the most important oscillation parameters for the GRECO selection. Of the remaining parameters, the CP-violating phase is the next most imporant.}
+\label{tab:oscil_impact}
+\end{table}
+
+

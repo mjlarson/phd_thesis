@@ -52,47 +52,49 @@
 \BOOKMARK [2][-]{section*.60}{GRECO Level 4 Cuts}{section*.59}% 52
 \BOOKMARK [2][-]{section*.67}{GRECO Level 5 Cuts}{section*.59}% 53
 \BOOKMARK [2][-]{section*.75}{GRECO Level 6 Cuts}{section*.59}% 54
-\BOOKMARK [2][-]{section*.80}{GRECO Level 7: Final Level}{section*.59}% 55
-\BOOKMARK [1][-]{section*.82}{The Properties of the GRECO Event Selection}{chapter.7}% 56
-\BOOKMARK [2][-]{section*.83}{Energy and Zenith Reach}{section*.82}% 57
-\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 58
-\BOOKMARK [1][-]{section*.85}{Unitarity of the PMNS Matrix}{chapter.8}% 59
-\BOOKMARK [1][-]{section*.86}{Current Limits on Unitarity}{chapter.8}% 60
-\BOOKMARK [1][-]{section*.87}{Expectations from Monte Carlo}{chapter.8}% 61
-\BOOKMARK [2][-]{section*.88}{Choice of Binning}{section*.87}% 62
-\BOOKMARK [2][-]{section*.96}{The MC Fit Templates}{section*.87}% 63
-\BOOKMARK [1][-]{section*.99}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 64
-\BOOKMARK [2][-]{section*.100}{CC vs CC+NC}{section*.99}% 65
-\BOOKMARK [2][-]{section*.104}{The \040Normalization}{section*.99}% 66
-\BOOKMARK [2][-]{section*.107}{Limits on the \040Normalization}{section*.99}% 67
-\BOOKMARK [1][-]{section*.115}{Systematics Considerations}{chapter.8}% 68
-\BOOKMARK [2][-]{section*.116}{Oscillation Parameters}{section*.115}% 69
-\BOOKMARK [2][-]{section*.117}{Flux Uncertainties}{section*.115}% 70
-\BOOKMARK [2][-]{section*.118}{Propagation Uncertainties}{section*.115}% 71
-\BOOKMARK [2][-]{section*.119}{Cross-section Uncertainties}{section*.115}% 72
-\BOOKMARK [2][-]{section*.120}{Detector Systematics}{section*.115}% 73
-\BOOKMARK [1][-]{section*.137}{The Method of Maximum Likelihood}{chapter.8}% 74
-\BOOKMARK [2][-]{section*.138}{The 2 Fit}{section*.137}% 75
-\BOOKMARK [2][-]{section*.140}{Finite Statistics}{section*.137}% 76
-\BOOKMARK [2][-]{section*.143}{Fit Priors}{section*.137}% 77
-\BOOKMARK [1][-]{section*.146}{Expected Sensitivity to Appearance}{chapter.8}% 78
-\BOOKMARK [2][-]{section*.147}{Fitting Code}{section*.146}% 79
-\BOOKMARK [2][-]{section*.155}{Sensitivity of the Analysis}{section*.146}% 80
-\BOOKMARK [2][-]{section*.160}{Impact of Systematics}{section*.146}% 81
-\BOOKMARK [2][-]{section*.166}{Expected Sensitivity over Time}{section*.146}% 82
-\BOOKMARK [2][-]{section*.167}{Feldman-Cousins vs WIlk's Theorem}{section*.146}% 83
-\BOOKMARK [1][-]{section*.168}{Fitting Data}{chapter.8}% 84
-\BOOKMARK [2][-]{section*.170}{Burn Sample Fits: Testing the Fitting Code}{section*.168}% 85
-\BOOKMARK [2][-]{section*.172}{Blind Fits: Checking the Goodness-of-Fit}{section*.168}% 86
-\BOOKMARK [1][-]{section*.201}{Results from the Analysis}{chapter.8}% 87
-\BOOKMARK [1][-]{section*.202}{Complementary Measurements from This Analysis}{chapter.8}% 88
-\BOOKMARK [2][-]{section*.203}{Oscillation Parameters}{section*.202}% 89
-\BOOKMARK [1][-]{section*.218}{New Constraints on Detector Systematics}{chapter.8}% 90
-\BOOKMARK [2][-]{section*.220}{Implications and Future Work}{section*.218}% 91
-\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 92
-\BOOKMARK [1][-]{section*.227}{Goals of Phase1}{chapter.9}% 93
-\BOOKMARK [1][-]{section*.228}{Preparing Simulation for the Upgrade}{chapter.9}% 94
-\BOOKMARK [2][-]{section*.229}{mDOMs}{section*.228}% 95
-\BOOKMARK [2][-]{section*.230}{The Volume Trigger}{section*.228}% 96
-\BOOKMARK [2][-]{section*.231}{Simulation Verification}{section*.228}% 97
-\BOOKMARK [1][-]{section*.232}{Potential Measurements of Phase1}{chapter.9}% 98
+\BOOKMARK [2][-]{section*.81}{GRECO Level 7: Final Level}{section*.59}% 55
+\BOOKMARK [1][-]{section*.88}{The Properties of the GRECO Event Selection}{chapter.7}% 56
+\BOOKMARK [2][-]{section*.90}{Energy and Zenith Reach}{section*.88}% 57
+\BOOKMARK [2][-]{section*.92}{Reconstructed Variables}{section*.88}% 58
+\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 59
+\BOOKMARK [1][-]{section*.95}{Unitarity of the PMNS Matrix}{chapter.8}% 60
+\BOOKMARK [1][-]{section*.96}{Current Limits on Unitarity}{chapter.8}% 61
+\BOOKMARK [1][-]{section*.97}{Expectations from Monte Carlo}{chapter.8}% 62
+\BOOKMARK [2][-]{section*.98}{Choice of Binning}{section*.97}% 63
+\BOOKMARK [2][-]{section*.106}{The MC Fit Templates}{section*.97}% 64
+\BOOKMARK [1][-]{section*.109}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 65
+\BOOKMARK [2][-]{section*.110}{CC vs CC+NC}{section*.109}% 66
+\BOOKMARK [2][-]{section*.114}{The \040Normalization}{section*.109}% 67
+\BOOKMARK [2][-]{section*.117}{Limits on the \040Normalization}{section*.109}% 68
+\BOOKMARK [1][-]{section*.125}{Systematics Considerations}{chapter.8}% 69
+\BOOKMARK [2][-]{section*.126}{Oscillation Parameters}{section*.125}% 70
+\BOOKMARK [2][-]{section*.129}{Neutrino Flux Uncertainties}{section*.125}% 71
+\BOOKMARK [2][-]{section*.130}{Atmospheric Muon Flux}{section*.125}% 72
+\BOOKMARK [2][-]{section*.131}{Propagation Uncertainties}{section*.125}% 73
+\BOOKMARK [2][-]{section*.132}{Cross-section Uncertainties}{section*.125}% 74
+\BOOKMARK [2][-]{section*.133}{Detector Systematics}{section*.125}% 75
+\BOOKMARK [1][-]{section*.150}{The Method of Maximum Likelihood}{chapter.8}% 76
+\BOOKMARK [2][-]{section*.151}{The 2 Fit}{section*.150}% 77
+\BOOKMARK [2][-]{section*.153}{Finite Statistics}{section*.150}% 78
+\BOOKMARK [2][-]{section*.156}{Fit Priors}{section*.150}% 79
+\BOOKMARK [1][-]{section*.159}{Expected Sensitivity to Appearance}{chapter.8}% 80
+\BOOKMARK [2][-]{section*.160}{Fitting Code}{section*.159}% 81
+\BOOKMARK [2][-]{section*.168}{Sensitivity of the Analysis}{section*.159}% 82
+\BOOKMARK [2][-]{section*.173}{Impact of Systematics}{section*.159}% 83
+\BOOKMARK [2][-]{section*.179}{Expected Sensitivity over Time}{section*.159}% 84
+\BOOKMARK [2][-]{section*.180}{Feldman-Cousins vs WIlk's Theorem}{section*.159}% 85
+\BOOKMARK [1][-]{section*.181}{Fitting Data}{chapter.8}% 86
+\BOOKMARK [2][-]{section*.183}{Burn Sample Fits: Testing the Fitting Code}{section*.181}% 87
+\BOOKMARK [2][-]{section*.185}{Blind Fits: Checking the Goodness-of-Fit}{section*.181}% 88
+\BOOKMARK [1][-]{section*.217}{Results from the Search for Appearance}{chapter.8}% 89
+\BOOKMARK [1][-]{section*.218}{Complementary Measurements from This Analysis}{chapter.8}% 90
+\BOOKMARK [2][-]{section*.219}{Oscillation Parameters}{section*.218}% 91
+\BOOKMARK [1][-]{section*.234}{New Constraints on Detector Systematics}{chapter.8}% 92
+\BOOKMARK [2][-]{section*.236}{Implications and Future Work}{section*.234}% 93
+\BOOKMARK [0][-]{chapter.9}{Phase1: An Upgrade for Oscillation Searches}{}% 94
+\BOOKMARK [1][-]{section*.243}{Goals of Phase1}{chapter.9}% 95
+\BOOKMARK [1][-]{section*.244}{Preparing Simulation for the Upgrade}{chapter.9}% 96
+\BOOKMARK [2][-]{section*.245}{mDOMs}{section*.244}% 97
+\BOOKMARK [2][-]{section*.246}{The Volume Trigger}{section*.244}% 98
+\BOOKMARK [2][-]{section*.247}{Simulation Verification}{section*.244}% 99
+\BOOKMARK [1][-]{section*.248}{Potential Measurements of Phase1}{chapter.9}% 100
