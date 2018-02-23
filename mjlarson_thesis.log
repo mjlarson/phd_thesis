@@ -1,20 +1,50 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 FEB 2018 22:29
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  23 FEB 2018 02:51
+ restricted system commands enabled.
 **mjlarson_thesis.tex
 (./mjlarson_thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /Users/mjlarson/Library/texlive/2017/texmf-var/luat
+ex-cache/generic)(using read cache: /usr/local/texlive/2017/texmf-var/luatex-cac
+he/generic /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /Users/mjlarson/Library/texlive/2017
+/texmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/local/texlive/2017/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /Users/mjlarson/Library/texlive/2017
+/texmf-var/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.126 seconds
+Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/04/13 v3.23 KOMA-Script document class (report)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -40,21 +70,24 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 136.
-Package tocbasic Info: defining new hook before heading of `' on input line 161
-2.
+Package tocbasic Info: defining new hook before heading of `' on input line 1612
+.
 Package scrreprt Info: You've used standard option `10pt'.
 (scrreprt)             This is correct!
 (scrreprt)             Internally I'm using `fontsize=10pt'.
 (scrreprt)             If you'd like to set the option with \KOMAoptions,
 (scrreprt)             you'd have to use `fontsize=10pt' there
 (scrreprt)             instead of `10pt', too.
-Class scrreprt Info: File `scrsize10pt.clo' used to setup font sizes on input l
-ine 2272.
+Class scrreprt Info: File `scrsize10pt.clo' used to setup font sizes on input li
+ne 2272.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (10pt
-)
-)
+File: scrsize10pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (10pt)
+
+luaotfload | db : Font names database loaded from /Users/mjlarson/Library/texliv
+e/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /User
+s/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman
+10-regular.luc))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2017/04/13 v3.23 KOMA-Script package (type area)
 \ta@bcor=\skip42
@@ -111,8 +144,7 @@ Class scrreprt Info: Redefining `\numberline' on input line 5988.
 \bibindent=\dimen102
 )
 (./cleanthesis.sty
-Package: cleanthesis 2015/08/26 v0.3.1 Clean-looking thesis style inspired by A
-pple's user guide documents
+Package: cleanthesis 2015/08/26 v0.3.1 A clean LaTeX style for thesis documents
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -131,10 +163,10 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2017/01/12 v0.01h Graphics/Color for luaTeX
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -163,6 +195,11 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -202,17 +239,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/charter.sty
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fixltx2e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks17
 \MT@count=\count91
@@ -221,11 +248,22 @@ LaTeX Info: Redefining \textls on input line 774.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count92
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2016/05/14 v2.6a Definitions specific to luatex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+(/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2017/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count93
+)
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableExpl=\catcodetable6
+)
+Lua module: microtype 2016/05/14 2.6a microtype module.
+LaTeX Info: Redefining \lsstyle on input line 674.
+LaTeX Info: Redefining \lslig on input line 674.
 \MT@outer@space=\skip56
 )
 Package microtype Info: Loading configuration file microtype.cfg.
@@ -248,10 +286,29 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 )
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks18
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen108
+\TX@old@table=\dimen109
+\TX@old@col=\dimen110
+\TX@target=\dimen111
+\TX@delta=\dimen112
+\TX@cols=\count94
+\TX@ftn=\toks19
 )
 
 Class scrreprt Warning: Usage of package `fancyhdr' together
@@ -259,27 +316,27 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (scrreprt)              I'd suggest to use 
 (scrreprt)              package `scrlayer-scrpage'.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `fancyhdr' on input line 236.
+(scrreprt)              package `fancyhdr' on input line 242.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip57
-\f@ncyO@elh=\skip58
-\f@ncyO@erh=\skip59
-\f@ncyO@olh=\skip60
-\f@ncyO@orh=\skip61
-\f@ncyO@elf=\skip62
-\f@ncyO@erf=\skip63
-\f@ncyO@olf=\skip64
-\f@ncyO@orf=\skip65
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip66
-\enit@outerparindent=\dimen106
-\enit@toks=\toks18
+\labelindent=\skip68
+\enit@outerparindent=\dimen113
+\enit@toks=\toks20
 \enit@inbox=\box28
-\enitdp@description=\count93
+\enitdp@description=\count95
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -287,24 +344,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count94
-\c@Blindtext=\count95
-\c@blind@countparstart=\count96
-\blind@countxx=\count97
-\blindtext@numBlindtext=\count98
-\blind@countyy=\count99
-\c@blindlist=\count100
-\c@blindlistlevel=\count101
-\c@blindlist@level=\count102
-\blind@listitem=\count103
-\c@blind@listcount=\count104
-\c@blind@levelcount=\count105
-\blind@mathformula=\count106
-\blind@Mathformula=\count107
-\c@blind@randomcount=\count108
-\c@blind@randommax=\count109
-\c@blind@pangramcount=\count110
-\c@blind@pangrammax=\count111
+\c@blindtext=\count96
+\c@Blindtext=\count97
+\c@blind@countparstart=\count98
+\blind@countxx=\count99
+\blindtext@numBlindtext=\count100
+\blind@countyy=\count101
+\c@blindlist=\count102
+\c@blindlistlevel=\count103
+\c@blindlist@level=\count104
+\blind@listitem=\count105
+\c@blind@listcount=\count106
+\c@blind@levelcount=\count107
+\blind@mathformula=\count108
+\blind@Mathformula=\count109
+\c@blind@randomcount=\count110
+\c@blind@randommax=\count111
+\c@blind@pangramcount=\count112
+\c@blind@pangrammax=\count113
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -349,7 +406,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -394,34 +450,32 @@ Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/local/texlive/2017/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks21
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -444,14 +498,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen107
-\Hy@linkcounter=\count112
-\Hy@pagecounter=\count113
+\@linkdim=\dimen114
+\Hy@linkcounter=\count114
+\Hy@pagecounter=\count115
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count114
+\Hy@SavedSpaceFactor=\count116
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -463,17 +517,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count115
+\c@Hy@tempcnt=\count117
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen108
-\Fld@menulength=\count116
-\Field@Width=\dimen109
-\Fld@charsize=\dimen110
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count118
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -483,24 +537,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count117
-\c@Item=\count118
-\c@Hfootnote=\count119
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (autodetected): hluatex.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count120
-\c@bookmark@seq@number=\count121
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2017/03/14 v6.85a Hyperref driver for luaTeX
+\Fld@listcount=\count122
+\c@bookmark@seq@number=\count123
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
-\Hy@SectionHShift=\skip67
+\Hy@SectionHShift=\skip69
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -508,47 +562,47 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen111
-\captionmargin@=\dimen112
-\captionwidth=\dimen113
-\caption@tempdima=\dimen114
-\caption@indent=\dimen115
-\caption@parindent=\dimen116
-\caption@hangindent=\dimen117
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count122
+\c@ContinuedFloat=\count124
 Package caption Info: hyperref package is loaded.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count123
-\Gm@cntv=\count124
-\c@Gm@tempcnt=\count125
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
-\Gm@layoutwidth=\dimen122
-\Gm@layoutheight=\dimen123
-\Gm@layouthoffset=\dimen124
-\Gm@layoutvoffset=\dimen125
-\Gm@dimlist=\toks19
+\Gm@cnth=\count125
+\Gm@cntv=\count126
+\c@Gm@tempcnt=\count127
+\Gm@bindingoffset=\dimen125
+\Gm@wd@mp=\dimen126
+\Gm@odd@mp=\dimen127
+\Gm@even@mp=\dimen128
+\Gm@layoutwidth=\dimen129
+\Gm@layoutheight=\dimen130
+\Gm@layouthoffset=\dimen131
+\Gm@layoutvoffset=\dimen132
+\Gm@dimlist=\toks22
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count126
+\etb@tempcnta=\count128
 )
-\csq@reset=\count127
-\csq@gtype=\count128
-\csq@glevel=\count129
-\csq@qlevel=\count130
-\csq@maxlvl=\count131
-\csq@tshold=\count132
-\csq@ltx@everypar=\toks20
+\csq@reset=\count129
+\csq@gtype=\count130
+\csq@glevel=\count131
+\csq@qlevel=\count132
+\csq@maxlvl=\count133
+\csq@tshold=\count134
+\csq@ltx@everypar=\toks23
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
@@ -568,7 +622,7 @@ Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count133
+\lrq@indent=\count135
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -579,142 +633,142 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count134
-\decimalpart=\count135
+\integerpart=\count136
+\decimalpart=\count137
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count136
-\c@listtotal=\count137
-\c@listcount=\count138
-\c@liststart=\count139
-\c@liststop=\count140
-\c@citecount=\count141
-\c@citetotal=\count142
-\c@multicitecount=\count143
-\c@multicitetotal=\count144
-\c@instcount=\count145
-\c@maxnames=\count146
-\c@minnames=\count147
-\c@maxitems=\count148
-\c@minitems=\count149
-\c@citecounter=\count150
-\c@savedcitecounter=\count151
-\c@uniquelist=\count152
-\c@uniquename=\count153
-\c@refsection=\count154
-\c@refsegment=\count155
-\c@maxextratitle=\count156
-\c@maxextratitleyear=\count157
-\c@maxextrayear=\count158
-\c@maxextraalpha=\count159
-\c@abbrvpenalty=\count160
-\c@highnamepenalty=\count161
-\c@lownamepenalty=\count162
-\c@maxparens=\count163
-\c@parenlevel=\count164
-\blx@tempcnta=\count165
-\blx@tempcntb=\count166
-\blx@tempcntc=\count167
-\blx@maxsection=\count168
-\blx@maxsegment@0=\count169
-\blx@notetype=\count170
-\blx@parenlevel@text=\count171
-\blx@parenlevel@foot=\count172
-\blx@sectionciteorder@0=\count173
-\labelnumberwidth=\skip68
-\labelalphawidth=\skip69
-\biblabelsep=\skip70
-\bibitemsep=\skip71
-\bibnamesep=\skip72
-\bibinitsep=\skip73
-\bibparsep=\skip74
-\bibhang=\skip75
+\c@tabx@nest=\count138
+\c@listtotal=\count139
+\c@listcount=\count140
+\c@liststart=\count141
+\c@liststop=\count142
+\c@citecount=\count143
+\c@citetotal=\count144
+\c@multicitecount=\count145
+\c@multicitetotal=\count146
+\c@instcount=\count147
+\c@maxnames=\count148
+\c@minnames=\count149
+\c@maxitems=\count150
+\c@minitems=\count151
+\c@citecounter=\count152
+\c@savedcitecounter=\count153
+\c@uniquelist=\count154
+\c@uniquename=\count155
+\c@refsection=\count156
+\c@refsegment=\count157
+\c@maxextratitle=\count158
+\c@maxextratitleyear=\count159
+\c@maxextrayear=\count160
+\c@maxextraalpha=\count161
+\c@abbrvpenalty=\count162
+\c@highnamepenalty=\count163
+\c@lownamepenalty=\count164
+\c@maxparens=\count165
+\c@parenlevel=\count166
+\blx@tempcnta=\count167
+\blx@tempcntb=\count168
+\blx@tempcntc=\count169
+\blx@maxsection=\count170
+\blx@maxsegment@0=\count171
+\blx@notetype=\count172
+\blx@parenlevel@text=\count173
+\blx@parenlevel@foot=\count174
+\blx@sectionciteorder@0=\count175
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count174
-\c@maxcomprange=\count175
-\c@mincompwidth=\count176
+\c@mincomprange=\count176
+\c@maxcomprange=\count177
+\c@mincompwidth=\count178
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count177
-\c@savedafterword=\count178
-\c@annotator=\count179
-\c@savedannotator=\count180
-\c@author=\count181
-\c@savedauthor=\count182
-\c@bookauthor=\count183
-\c@savedbookauthor=\count184
-\c@commentator=\count185
-\c@savedcommentator=\count186
-\c@editor=\count187
-\c@savededitor=\count188
-\c@editora=\count189
-\c@savededitora=\count190
-\c@editorb=\count191
-\c@savededitorb=\count192
-\c@editorc=\count193
-\c@savededitorc=\count194
-\c@foreword=\count195
-\c@savedforeword=\count196
-\c@holder=\count197
-\c@savedholder=\count198
-\c@introduction=\count199
-\c@savedintroduction=\count266
-\c@namea=\count267
-\c@savednamea=\count268
-\c@nameb=\count269
-\c@savednameb=\count270
-\c@namec=\count271
-\c@savednamec=\count272
-\c@translator=\count273
-\c@savedtranslator=\count274
-\c@shortauthor=\count275
-\c@savedshortauthor=\count276
-\c@shorteditor=\count277
-\c@savedshorteditor=\count278
-\c@labelname=\count279
-\c@savedlabelname=\count280
-\c@institution=\count281
-\c@savedinstitution=\count282
-\c@lista=\count283
-\c@savedlista=\count284
-\c@listb=\count285
-\c@savedlistb=\count286
-\c@listc=\count287
-\c@savedlistc=\count288
-\c@listd=\count289
-\c@savedlistd=\count290
-\c@liste=\count291
-\c@savedliste=\count292
-\c@listf=\count293
-\c@savedlistf=\count294
-\c@location=\count295
-\c@savedlocation=\count296
-\c@organization=\count297
-\c@savedorganization=\count298
-\c@origlocation=\count299
-\c@savedoriglocation=\count300
-\c@origpublisher=\count301
-\c@savedorigpublisher=\count302
-\c@publisher=\count303
-\c@savedpublisher=\count304
-\c@language=\count305
-\c@savedlanguage=\count306
-\c@pageref=\count307
-\c@savedpageref=\count308
-\shorthandwidth=\skip76
-\shortjournalwidth=\skip77
-\shortserieswidth=\skip78
-\shorttitlewidth=\skip79
-\shortauthorwidth=\skip80
-\shorteditorwidth=\skip81
+\c@afterword=\count179
+\c@savedafterword=\count180
+\c@annotator=\count181
+\c@savedannotator=\count182
+\c@author=\count183
+\c@savedauthor=\count184
+\c@bookauthor=\count185
+\c@savedbookauthor=\count186
+\c@commentator=\count187
+\c@savedcommentator=\count188
+\c@editor=\count189
+\c@savededitor=\count190
+\c@editora=\count191
+\c@savededitora=\count192
+\c@editorb=\count193
+\c@savededitorb=\count194
+\c@editorc=\count195
+\c@savededitorc=\count196
+\c@foreword=\count197
+\c@savedforeword=\count198
+\c@holder=\count199
+\c@savedholder=\count266
+\c@introduction=\count267
+\c@savedintroduction=\count268
+\c@namea=\count269
+\c@savednamea=\count270
+\c@nameb=\count271
+\c@savednameb=\count272
+\c@namec=\count273
+\c@savednamec=\count274
+\c@translator=\count275
+\c@savedtranslator=\count276
+\c@shortauthor=\count277
+\c@savedshortauthor=\count278
+\c@shorteditor=\count279
+\c@savedshorteditor=\count280
+\c@labelname=\count281
+\c@savedlabelname=\count282
+\c@institution=\count283
+\c@savedinstitution=\count284
+\c@lista=\count285
+\c@savedlista=\count286
+\c@listb=\count287
+\c@savedlistb=\count288
+\c@listc=\count289
+\c@savedlistc=\count290
+\c@listd=\count291
+\c@savedlistd=\count292
+\c@liste=\count293
+\c@savedliste=\count294
+\c@listf=\count295
+\c@savedlistf=\count296
+\c@location=\count297
+\c@savedlocation=\count298
+\c@organization=\count299
+\c@savedorganization=\count300
+\c@origlocation=\count301
+\c@savedoriglocation=\count302
+\c@origpublisher=\count303
+\c@savedorigpublisher=\count304
+\c@publisher=\count305
+\c@savedpublisher=\count306
+\c@language=\count307
+\c@savedlanguage=\count308
+\c@pageref=\count309
+\c@savedpageref=\count310
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -736,13 +790,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count309
-\c@textcitetotal=\count310
-\c@textcitemaxnames=\count311
-\c@biburlnumpenalty=\count312
-\c@biburlucpenalty=\count313
-\c@biburllcpenalty=\count314
-\c@smartand=\count315
+\c@textcitecount=\count311
+\c@textcitetotal=\count312
+\c@textcitemaxnames=\count313
+\c@biburlnumpenalty=\count314
+\c@biburlucpenalty=\count315
+\c@biburllcpenalty=\count316
+\c@smartand=\count317
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -750,29 +804,30 @@ Package biblatex Info: ... file 'blx-natbib.def' found.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-natbib.def
 File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count316
-\c@bbx:relatedtotal=\count317
+\c@bbx:relatedcount=\count318
+\c@bbx:relatedtotal=\count319
 ))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
@@ -794,19 +849,19 @@ Class scrreprt Warning: Usage of package `titlesec' together
 (scrreprt)              the extended optional argument of the section
 (scrreprt)              commands.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `titlesec' on input line 527.
+(scrreprt)              package `titlesec' on input line 542.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box29
-\beforetitleunit=\skip82
-\aftertitleunit=\skip83
-\ttl@plus=\dimen126
-\ttl@minus=\dimen127
-\ttl@toksa=\toks21
-\titlewidth=\dimen128
-\titlewidthlast=\dimen129
-\titlewidthfirst=\dimen130
+\beforetitleunit=\skip84
+\aftertitleunit=\skip85
+\ttl@plus=\dimen133
+\ttl@minus=\dimen134
+\ttl@toksa=\toks24
+\titlewidth=\dimen135
+\titlewidthlast=\dimen136
+\titlewidthfirst=\dimen137
 
 
 Package titlesec Warning: Non standard sectioning command detected
@@ -831,54 +886,54 @@ Package titlesec Warning: Non standard sectioning command detected
 )
 
 Class scrreprt Warning: Activating an ugly workaround for a missing
-(scrreprt)              feature of package `titlesec` on input line 527.
+(scrreprt)              feature of package `titlesec` on input line 542.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip84
-\cftbeforetoctitleskip=\skip85
-\cftaftertoctitleskip=\skip86
-\cftbeforepartskip=\skip87
-\cftpartnumwidth=\skip88
-\cftpartindent=\skip89
-\cftbeforechapskip=\skip90
-\cftchapindent=\skip91
-\cftchapnumwidth=\skip92
-\cftbeforesecskip=\skip93
-\cftsecindent=\skip94
-\cftsecnumwidth=\skip95
-\cftbeforesubsecskip=\skip96
-\cftsubsecindent=\skip97
-\cftsubsecnumwidth=\skip98
-\cftbeforesubsubsecskip=\skip99
-\cftsubsubsecindent=\skip100
-\cftsubsubsecnumwidth=\skip101
-\cftbeforeparaskip=\skip102
-\cftparaindent=\skip103
-\cftparanumwidth=\skip104
-\cftbeforesubparaskip=\skip105
-\cftsubparaindent=\skip106
-\cftsubparanumwidth=\skip107
-\cftbeforeloftitleskip=\skip108
-\cftafterloftitleskip=\skip109
-\cftbeforefigskip=\skip110
-\cftfigindent=\skip111
-\cftfignumwidth=\skip112
-\c@lofdepth=\count318
-\c@lotdepth=\count319
-\cftbeforelottitleskip=\skip113
-\cftafterlottitleskip=\skip114
-\cftbeforetabskip=\skip115
-\cfttabindent=\skip116
-\cfttabnumwidth=\skip117
+\cftparskip=\skip86
+\cftbeforetoctitleskip=\skip87
+\cftaftertoctitleskip=\skip88
+\cftbeforepartskip=\skip89
+\cftpartnumwidth=\skip90
+\cftpartindent=\skip91
+\cftbeforechapskip=\skip92
+\cftchapindent=\skip93
+\cftchapnumwidth=\skip94
+\cftbeforesecskip=\skip95
+\cftsecindent=\skip96
+\cftsecnumwidth=\skip97
+\cftbeforesubsecskip=\skip98
+\cftsubsecindent=\skip99
+\cftsubsecnumwidth=\skip100
+\cftbeforesubsubsecskip=\skip101
+\cftsubsubsecindent=\skip102
+\cftsubsubsecnumwidth=\skip103
+\cftbeforeparaskip=\skip104
+\cftparaindent=\skip105
+\cftparanumwidth=\skip106
+\cftbeforesubparaskip=\skip107
+\cftsubparaindent=\skip108
+\cftsubparanumwidth=\skip109
+\cftbeforeloftitleskip=\skip110
+\cftafterloftitleskip=\skip111
+\cftbeforefigskip=\skip112
+\cftfigindent=\skip113
+\cftfignumwidth=\skip114
+\c@lofdepth=\count320
+\c@lotdepth=\count321
+\cftbeforelottitleskip=\skip115
+\cftafterlottitleskip=\skip116
+\cftbeforetabskip=\skip117
+\cfttabindent=\skip118
+\cfttabnumwidth=\skip119
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks25
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -886,7 +941,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip118
+\@mathmargin=\skip120
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -894,98 +949,778 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen131
+\@emptytoks=\toks26
+\ex@=\dimen138
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen132
+\pmbraise@=\dimen139
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count320
+\inf@bad=\count322
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count321
-\leftroot@=\count322
+\uproot@=\count323
+\leftroot@=\count324
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count323
-\DOTSCASE@=\count324
+\classnum@=\count325
+\DOTSCASE@=\count326
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen133
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count325
-\c@MaxMatrixCols=\count326
+\macc@depth=\count327
+\c@MaxMatrixCols=\count328
 \dotsspace@=\muskip11
-\c@parentequation=\count327
-\dspbrk@lvl=\count328
-\tag@help=\toks24
-\row@=\count329
-\column@=\count330
-\maxfields@=\count331
-\andhelp@=\toks25
-\eqnshift@=\dimen134
-\alignsep@=\dimen135
-\tagshift@=\dimen136
-\tagwidth@=\dimen137
-\totwidth@=\dimen138
-\lineht@=\dimen139
-\@envbody=\toks26
-\multlinegap=\skip119
-\multlinetaggap=\skip120
-\mathdisplay@stack=\toks27
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
+\tag@help=\toks27
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
+\andhelp@=\toks28
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks29
+\multlinegap=\skip121
+\multlinetaggap=\skip122
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count332
-\sf@farskip=\skip121
-\sf@captopadj=\dimen140
-\sf@capskip=\skip122
-\sf@nearskip=\skip123
-\c@subfigure=\count333
-\c@subfigure@save=\count334
-\c@subtable=\count335
-\c@subtable@save=\count336
-\sf@top=\skip124
-\sf@bottom=\skip125
+\c@KVtest=\count334
+\sf@farskip=\skip123
+\sf@captopadj=\dimen147
+\sf@capskip=\skip124
+\sf@nearskip=\skip125
+\c@subfigure=\count335
+\c@subfigure@save=\count336
+\c@subtable=\count337
+\c@subtable@save=\count338
+\sf@top=\skip126
+\sf@bottom=\skip127
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\ucharcat@table=\catcodetable7
+\c_max_int=\count339
+\l_tmpa_int=\count340
+\l_tmpb_int=\count341
+\g_tmpa_int=\count342
+\g_tmpb_int=\count343
+\g__prg_map_int=\count344
+\c_log_iow=\count345
+\l_iow_line_count_int=\count346
+\l__iow_line_target_int=\count347
+\l__iow_one_indent_int=\count348
+\l__iow_indent_int=\count349
+\c_zero_dim=\dimen148
+\c_max_dim=\dimen149
+\l_tmpa_dim=\dimen150
+\l_tmpb_dim=\dimen151
+\g_tmpa_dim=\dimen152
+\g_tmpb_dim=\dimen153
+\c_zero_skip=\skip128
+\c_max_skip=\skip129
+\l_tmpa_skip=\skip130
+\l_tmpb_skip=\skip131
+\g_tmpa_skip=\skip132
+\g_tmpb_skip=\skip133
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count350
+\c__fp_leading_shift_int=\count351
+\c__fp_middle_shift_int=\count352
+\c__fp_trailing_shift_int=\count353
+\c__fp_big_leading_shift_int=\count354
+\c__fp_big_middle_shift_int=\count355
+\c__fp_big_trailing_shift_int=\count356
+\c__fp_Bigg_leading_shift_int=\count357
+\c__fp_Bigg_middle_shift_int=\count358
+\c__fp_Bigg_trailing_shift_int=\count359
+\c__fp_rand_size_int=\count360
+\c__fp_rand_four_int=\count361
+\c__fp_rand_eight_int=\count362
+\l__sort_length_int=\count363
+\l__sort_min_int=\count364
+\l__sort_top_int=\count365
+\l__sort_max_int=\count366
+\l__sort_true_max_int=\count367
+\l__sort_block_int=\count368
+\l__sort_begin_int=\count369
+\l__sort_end_int=\count370
+\l__sort_A_int=\count371
+\l__sort_B_int=\count372
+\l__sort_C_int=\count373
+\c_empty_box=\box32
+\l_tmpa_box=\box33
+\l_tmpb_box=\box34
+\g_tmpa_box=\box35
+\g_tmpb_box=\box36
+\l__box_top_dim=\dimen154
+\l__box_bottom_dim=\dimen155
+\l__box_left_dim=\dimen156
+\l__box_right_dim=\dimen157
+\l__box_top_new_dim=\dimen158
+\l__box_bottom_new_dim=\dimen159
+\l__box_left_new_dim=\dimen160
+\l__box_right_new_dim=\dimen161
+\l__box_internal_box=\box37
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen162
+\l__coffin_offset_x_dim=\dimen163
+\l__coffin_offset_y_dim=\dimen164
+\l__coffin_x_dim=\dimen165
+\l__coffin_y_dim=\dimen166
+\l__coffin_x_prime_dim=\dimen167
+\l__coffin_y_prime_dim=\dimen168
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen169
+\l__coffin_display_x_dim=\dimen170
+\l__coffin_display_y_dim=\dimen171
+\l__coffin_bounding_shift_dim=\dimen172
+\l__coffin_left_corner_dim=\dimen173
+\l__coffin_right_corner_dim=\dimen174
+\l__coffin_bottom_corner_dim=\dimen175
+\l__coffin_top_corner_dim=\dimen176
+\l__coffin_scaled_total_height_dim=\dimen177
+\l__coffin_scaled_width_dim=\dimen178
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count374
+\l__driver_tmp_box=\box47
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count375
+\g__xparse_grabber_int=\count376
+\l__xparse_m_args_int=\count377
+\l__xparse_mandatory_args_int=\count378
+\l__xparse_v_nesting_int=\count379
+)
+Package: fontspec 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/03/31 2.6a Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count380
+\l__fontspec_language_int=\count381
+\l__fontspec_strnum_int=\count382
+\l__fontspec_tmp_int=\count383
+\l__fontspec_em_int=\count384
+\l__fontspec_emdef_int=\count385
+\l__fontspec_strong_int=\count386
+\l__fontspec_strongdef_int=\count387
+\l__fontspec_tmpa_dim=\dimen179
+\l__fontspec_tmpb_dim=\dimen180
+\l__fontspec_tmpc_dim=\dimen181
+\g__file_internal_ior=\read2
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 475.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 506.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 526.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 546.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 558.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 574.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 648.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 675.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 689.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 703.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 723.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 727.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 748.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 781.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 785.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 789.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 800.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3162.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3168.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3174.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3180.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3186.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3211.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3225.
+.................................................
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3410.
+LaTeX Info: Redefining \slshape on input line 3415.
+LaTeX Info: Redefining \scshape on input line 3420.
+LaTeX Info: Redefining \upshape on input line 3425.
+LaTeX Info: Redefining \em on input line 3455.
+LaTeX Info: Redefining \emph on input line 3480.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmromandemi10-regular.luc)(load luc: /Users/mjlarson/Library/texlive/20
+17/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3531.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3626.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3630.
+.................................................
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip126
-\multirow@cntb=\count337
-\multirow@dima=\skip127
-\bigstrutjot=\dimen141
+\multirow@colwidth=\skip134
+\multirow@cntb=\count388
+\multirow@dima=\skip135
+\bigstrutjot=\dimen182
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen142
-\lightrulewidth=\dimen143
-\cmidrulewidth=\dimen144
-\belowrulesep=\dimen145
-\belowbottomsep=\dimen146
-\aboverulesep=\dimen147
-\abovetopsep=\dimen148
-\cmidrulesep=\dimen149
-\cmidrulekern=\dimen150
-\defaultaddspace=\dimen151
-\@cmidla=\count338
-\@cmidlb=\count339
-\@aboverulesep=\dimen152
-\@belowrulesep=\dimen153
-\@thisruleclass=\count340
-\@lastruleclass=\count341
-\@thisrulewidth=\dimen154
+\heavyrulewidth=\dimen183
+\lightrulewidth=\dimen184
+\cmidrulewidth=\dimen185
+\belowrulesep=\dimen186
+\belowbottomsep=\dimen187
+\aboverulesep=\dimen188
+\abovetopsep=\dimen189
+\cmidrulesep=\dimen190
+\cmidrulekern=\dimen191
+\defaultaddspace=\dimen192
+\@cmidla=\count389
+\@cmidlb=\count390
+\@aboverulesep=\dimen193
+\@belowrulesep=\dimen194
+\@thisruleclass=\count391
+\@lastruleclass=\count392
+\@thisrulewidth=\dimen195
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen196
+\pgfutil@tempdimb=\dimen197
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box48
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen198
+\pgf@y=\dimen199
+\pgf@xa=\dimen256
+\pgf@ya=\dimen257
+\pgf@xb=\dimen258
+\pgf@yb=\dimen259
+\pgf@xc=\dimen260
+\pgf@yc=\dimen261
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count393
+\c@pgf@countb=\count394
+\c@pgf@countc=\count395
+\c@pgf@countd=\count396
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+ef
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count397
+\pgfsyssoftpath@bigbuffer@items=\count398
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count399
+\pgfmath@box=\box49
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count400
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count401
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen281
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen285
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count402
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box53
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box54
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count403
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count404
+\tikznumberofchildren=\count405
+\tikznumberofcurrentchild=\count406
+\tikz@fig@count=\count407
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count408
+\pgfmatrixcurrentcolumn=\count409
+\pgf@matrix@numberofcolumns=\count410
+)
+\tikz@expandcount=\count411
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.c
+ode.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen298
+\pgfarrowlength=\dimen299
+\pgfarrowwidth=\dimen300
+\pgfarrowlinewidth=\dimen301
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen302
+\pgfdecoratedremainingdistance=\dimen303
+\pgfdecoratedinputsegmentcompleteddistance=\dimen304
+\pgfdecoratedinputsegmentremainingdistance=\dimen305
+\pgf@decorate@distancetomove=\dimen306
+\pgf@decorate@repeatstate=\count412
+\pgfdecorationsegmentamplitude=\dimen307
+\pgfdecorationsegmentlength=\dimen308
+)
+\tikz@lib@dec@box=\box59
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count413
+\tikz@qnode@count=\count414
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrar
+ygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
+graphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
+\pgf@gd@parameter@stack@height=\count415
+\pgf@gd@node@box=\box60
+\pgf@gd@edge@box=\box61
+\pgf@gd@prekind@box=\box62
+\pgf@gd@postkind@box=\box63
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
+e.tex)))
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: 
 * paper: a4paper
@@ -1018,307 +1753,30 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xargs/xargs.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-\xargs@max=\count342
-\xargs@toksa=\toks28
-\xargs@toksb=\toks29
+\xargs@max=\count416
+\xargs@toksa=\toks45
+\xargs@toksb=\toks46
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
-\pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box32
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks31
-\pgfkeys@temptoks=\toks32
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
-\pgfkeys@tmptoks=\toks33
-))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
-\w@pgf@writea=\write5
-\r@pgf@reada=\read2
-\c@pgf@counta=\count343
-\c@pgf@countb=\count344
-\c@pgf@countc=\count345
-\c@pgf@countd=\count346
-\t@pgf@toka=\toks34
-\t@pgf@tokb=\toks35
-\t@pgf@tokc=\toks36
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count347
-\pgfsyssoftpath@bigbuffer@items=\count348
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen165
-\pgfmath@count=\count349
-\pgfmath@box=\box33
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count350
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen166
-\pgf@picmaxx=\dimen167
-\pgf@picminy=\dimen168
-\pgf@picmaxy=\dimen169
-\pgf@pathminx=\dimen170
-\pgf@pathmaxx=\dimen171
-\pgf@pathminy=\dimen172
-\pgf@pathmaxy=\dimen173
-\pgf@xx=\dimen174
-\pgf@xy=\dimen175
-\pgf@yx=\dimen176
-\pgf@yy=\dimen177
-\pgf@zx=\dimen178
-\pgf@zy=\dimen179
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen180
-\pgf@path@lasty=\dimen181
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen182
-\pgf@shorten@start@additional=\dimen183
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box34
-\pgf@hbox=\box35
-\pgf@layerbox@main=\box36
-\pgf@picture@serial@count=\count351
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen184
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen185
-\pgf@pt@y=\dimen186
-\pgf@pt@temp=\dimen187
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen188
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen189
-\pgf@sys@shading@range@num=\count352
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box37
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box38
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count353
-\pgfplotmarksize=\dimen194
-)
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen256
-\tikz@figbox=\box39
-\tikz@figbox@bg=\box40
-\tikz@tempbox=\box41
-\tikz@tempbox@bg=\box42
-\tikztreelevel=\count354
-\tikznumberofchildren=\count355
-\tikznumberofcurrentchild=\count356
-\tikz@fig@count=\count357
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count358
-\pgfmatrixcurrentcolumn=\count359
-\pgf@matrix@numberofcolumns=\count360
-)
-\tikz@expandcount=\count361
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count362
-\calc@Bcount=\count363
-\calc@Adimen=\dimen257
-\calc@Bdimen=\dimen258
-\calc@Askip=\skip128
-\calc@Bskip=\skip129
+\calc@Acount=\count417
+\calc@Bcount=\count418
+\calc@Adimen=\dimen309
+\calc@Bdimen=\dimen310
+\calc@Askip=\skip136
+\calc@Bskip=\skip137
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count364
-\calc@Cskip=\skip130
+\calc@Ccount=\count419
+\calc@Cskip=\skip138
 )
-\c@@todonotes@numberoftodonotes=\count365
+\c@@todonotes@numberoftodonotes=\count420
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1356,65 +1814,63 @@ LaTeX Warning: Label `fig:flaring_zrho' multiply defined.
 LaTeX Warning: Label `fig:flaring_xy' multiply defined.
 
 ) (./chapters/pingu.aux))
-\openout1 = `mjlarson_thesis.aux'.
+\openout1 = mjlarson_thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 36.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1bch.fd
-File: t1bch.fd 2004/10/18 font definitions for T1/bch.
-)
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen259
-\scratchbox=\box43
-\nofMPsegments=\count367
-\nofMParguments=\count368
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen260
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count421
+\scratchdimen=\dimen311
+\scratchbox=\box64
+\nofMPsegments=\count422
+\nofMParguments=\count423
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count424
+\MPscratchDim=\dimen312
+\MPnumerator=\count425
+\makeMPintoPDFobject=\count426
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
 ))
-LaTeX Info: Redefining \microtypecontext on input line 36.
+LaTeX Info: Redefining \microtypecontext on input line 37.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1422,32 +1878,666 @@ Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-bch.cfg
-File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
-
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
 )
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 36.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmr' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u A'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u a'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'C'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c C'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v C'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'c'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c c'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v c'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v D'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v d'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v E'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\k e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v e'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u G'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\u g'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.I'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`i'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'i'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^i'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"i'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'L'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v L'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'l'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v l'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'N'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~N'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v N'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'n'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~n'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v n'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H O'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\~o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H o'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'R'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v R'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'r'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v r'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'S'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c S'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v S'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'s'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c s'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v s'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c T'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v T'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\c t'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v t'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r U'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\`u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\^u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\H u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\r u'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'Y'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"Y'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'y'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\"y'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'Z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.Z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v Z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\'z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\.z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\v z'
+(microtype)                in font encoding `TU' in inheritance list
+(microtype)                `microtype.cfg/358(protrusion)'.
+
+\AtBeginShipoutBox=\box65
+Package hyperref Info: Link coloring OFF on input line 37.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count427
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./mjlarson_thesis.out) (./mjlarson_thesis.out)
 \@outlinefile=\write6
-\openout6 = `mjlarson_thesis.out'.
 
+\openout6 = mjlarson_thesis.out
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1486,67 +2576,87 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             Backend will reencode on the fly.
-Package biblatex Info: Input encoding 'ascii' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             Backend will reencode on the fly.
-\openout4 = `mjlarson_thesis-blx.bib'.
+(biblatex)             No need to reencode data.
 
+\openout4 = mjlarson_thesis-blx.bib
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'mjlarson_thesis.bbl' not found.
-No file mjlarson_thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
-ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 39.
+Package biblatex Info: ... file 'mjlarson_thesis.bbl' found.
+(./mjlarson_thesis.bbl
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Pauli-Nu':
+(biblatex)                - Can't use 'date' + 'year'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Danby-NuMu':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Neddermeyer-Muon':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Compton-CRAltitude':
+(biblatex)                - Invalid format of field 'month'.
+
 )
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
+ ABD: EveryShipout initializing macros
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[com
+pat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on i
+nput line 37.
+
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmsans10-regular.luc)
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: T1).
+(microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 39.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 40.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmsans10-bold.luc)
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <20.74> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 40.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman12-regular.luc)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 40.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 39.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 39.
+(Font)              <14.4> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 39.
+(Font)              <10> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 39.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+(Font)              <7> on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1554,7 +2664,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1566,40 +2676,53 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 40.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load luc
+: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/
+lmroman17-regular.luc)
+LaTeX Font Info:    Try loading font information for TU+phv on input line 41.
+LaTeX Font Info:    No file TUphv.fd. on input line 41.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+
+LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 41.
 
 (./mjlarson_thesis.toc
+LaTeX Font Info:    Try loading font information for T1+bch on input line 3.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-bch.cfg
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 99.
+LaTeX Font Info:    Try loading font information for TU+qhv on input line 103.
+LaTeX Font Info:    No file TUqhv.fd. on input line 103.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
+
+LaTeX Font Warning: Font shape `TU/qhv/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 103.
+
 Package microtype Info: Loading generic settings for font family
-(microtype)             `qhv' (encoding: T1).
+(microtype)             `qhv' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] [3])
+
+LaTeX Font Warning: Font shape `TU/qhv/b/n' undefined
+(Font)              using `TU/qhv/m/n' instead on input line 103.
+
+[2](load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generi
+c/fonts/otl/lmromanslant10-regular.luc) [3])
 \tf@toc=\write7
-\openout7 = `mjlarson_thesis.toc'.
 
-
-(./mjlarson_thesis.lof
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
- [4]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 65.
-
+\openout7 = mjlarson_thesis.toc
+Package microtype Info: Loading generic settings for font family
+(microtype)             `phv' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./mjlarson_thesis.lof [4]
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 75.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1610,149 +2733,265 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 )
 \tf@lof=\write8
-\openout8 = `mjlarson_thesis.lof'.
 
+\openout8 = mjlarson_thesis.lof
 
-(./mjlarson_thesis.lot [5])
+(./mjlarson_thesis.lot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
 \tf@lot=\write9
-\openout9 = `mjlarson_thesis.lot'.
 
- [6]
-\openout2 = `./chapters/introduction.aux'.
+\openout9 = mjlarson_thesis.lot
 
+[6]
+\openout2 = ./chapters/introduction.aux
  (./chapters/introduction.tex
 chapter 1.
-) [7
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
+ne 18.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman5-regular.luc)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
 ]
-\openout2 = `./chapters/oscillations.aux'.
+<chapters/introduction/images/ALEPH_NumNu.png, id=703, 516.93124pt x 513.92pt>
+File: chapters/introduction/images/ALEPH_NumNu.png Graphic file (type png)
 
+<use chapters/introduction/images/ALEPH_NumNu.png>
+Package luatex.def Info: chapters/introduction/images/ALEPH_NumNu.png used on in
+put line 59.
+(luatex.def)             Requested size: 226.48398pt x 225.16095pt.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman9-regular.luc)
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <9> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 61.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmromanslant8-regular.luc)(load luc: /Users/mjlarson/Library/texlive/20
+17/texmf-var/luatex-cache/generic/fonts/otl/lmromandemi10-oblique.luc)
+[8<./chapters/introduction/images/ALEPH_NumNu.png>]
+<chapters/introduction/images/CR_Spectrum_PDG15.png, id=726, 583.17876pt x 433.
+62pt>
+File: chapters/introduction/images/CR_Spectrum_PDG15.png Graphic file (type png)
+
+ <use chapters/introduction/images/CR_Spectrum_PDG15.png>
+Package luatex.def Info: chapters/introduction/images/CR_Spectrum_PDG15.png used
+ on input line 100.
+(luatex.def)             Requested size: 407.6684pt x 303.12833pt.
+
+<chapters/introduction/images/Standard_Model_of_Elementary_Particles.png, id=72
+8, 1146.2825pt x 1076.02pt>
+File: chapters/introduction/images/Standard_Model_of_Elementary_Particles.png Gr
+aphic file (type png)
+
+<use chapters/introduction/images/Standard_Model_of_Elementary_Particles.png>
+Package luatex.def Info: chapters/introduction/images/Standard_Model_of_Elementa
+ry_Particles.png used on input line 111.
+(luatex.def)             Requested size: 407.6684pt x 382.68758pt.
+
+[9]
+
+Package caption Warning: \label without proper reference on input line 150.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:nu_vertex' on page 10 undefined on input line 136.
+
+
+
+Package caption Warning: \label without proper reference on input line 166.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:xsec' on page 10 undefined on input line 156.
+
+
+<chapters/introduction/images/nu_xsec_formaggio.png, id=747, 788.9475pt x 563.1
+0374pt>
+File: chapters/introduction/images/nu_xsec_formaggio.png Graphic file (type png)
+
+ <use chapters/introduction/images/nu_xsec_formaggio.png>
+Package luatex.def Info: chapters/introduction/images/nu_xsec_formaggio.png used
+ on input line 161.
+(luatex.def)             Requested size: 181.18442pt x 129.3135pt.
+
+<chapters/introduction/images/nubar_xsec_formaggio.png, id=748, 959.585pt x 676
+.5275pt>
+File: chapters/introduction/images/nubar_xsec_formaggio.png Graphic file (type p
+ng)
+ <use chapters/introduction/images/nubar_xsec_formaggio.png>
+Package luatex.def Info: chapters/introduction/images/nubar_xsec_formaggio.png u
+sed on input line 163.
+(luatex.def)             Requested size: 181.18442pt x 127.73636pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 167.
+ [10<./chapters/introduction/images/CR_Spectrum_PDG15.png>] [11<./chapters/intro
+duction/images/Standard_Model_of_Elementary_Particles.png>]) [12<./chapters/intr
+oduction/images/nu_xsec_formaggio.png><./chapters/introduction/images/nubar_xsec
+_formaggio.png>]
+\openout2 = ./chapters/oscillations.aux
  (./chapters/oscillations.tex
 chapter 2.
-) [8
+) [13
 
 
 
 ]
-\openout2 = `./chapters/detector.aux'.
-
+\openout2 = ./chapters/detector.aux
  (./chapters/detector.tex
 chapter 3.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/dom.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 5.
-
-Overfull \hbox (85.73888pt too wide) in paragraph at lines 7--7
-[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
-0210006662?via%3Dihub 
+Overfull \hbox (6.13824pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 cle/pii/S0168900210006662?via%3Di- 
  []
 
 
-Overfull \hbox (85.73888pt too wide) in paragraph at lines 7--7
-[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
-0210006662?via%3Dihub 
+Overfull \hbox (6.13824pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 cle/pii/S0168900210006662?via%3Di- 
  []
 
 
-Overfull \hbox (85.73888pt too wide) in paragraph at lines 7--7
-[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
-0210006662?via%3Dihub 
+Overfull \hbox (6.13824pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 cle/pii/S0168900210006662?via%3Di- 
  []
 
 
-Overfull \hbox (85.73888pt too wide) in paragraph at lines 7--7
-[][][][]\T1/bch/m/n/5 https://www.sciencedirect.com/science/article/pii/S016890
-0210006662?via%3Dihub 
+Overfull \hbox (6.13824pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 cle/pii/S0168900210006662?via%3Di- 
  []
 
 
-Overfull \hbox (38.05052pt too wide) in paragraph at lines 7--7
-\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+Overfull \hbox (71.88326pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 mura/NK/PMT/031112%20R7081-02%20data%20sheet.pdf  
  []
 
 
-Overfull \hbox (38.05052pt too wide) in paragraph at lines 7--7
-\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+Overfull \hbox (71.88326pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 mura/NK/PMT/031112%20R7081-02%20data%20sheet.pdf  
  []
 
 
-Overfull \hbox (38.05052pt too wide) in paragraph at lines 7--7
-\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+Overfull \hbox (71.88326pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 mura/NK/PMT/031112%20R7081-02%20data%20sheet.pdf  
  []
 
 
-Overfull \hbox (38.05052pt too wide) in paragraph at lines 7--7
-\T1/bch/m/n/5 http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+Overfull \hbox (71.88326pt too wide) in paragraph at lines 7--7
+\TU/lmr/m/n/5 mura/NK/PMT/031112%20R7081-02%20data%20sheet.pdf  
  []
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
-) [9
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
+ []
+
+) [14
 
 
 
 ] (/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/trigger.tex))
-[10]
-\openout2 = `./chapters/simulation.aux'.
-
+[15]
+\openout2 = ./chapters/simulation.aux
  (./chapters/simulation.tex
 chapter 4.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/generators.tex
-Underfull \vbox (badness 1360) has occurred while \output is active []
+Underfull \vbox (badness 1371) has occurred while \output is active []
 
- [11
+ [16
 
 
 
 ]
-[12] [13])
+[17] [18])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/propagation.tex
-[14] [15])
+[19] [20])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/electronics.tex
-[16])
+[21])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/eventbuilding.tex
-[17] [18])) [19]
-\openout2 = `./chapters/vuvuzela.aux'.
-
+[22] [23])) [24]
+\openout2 = ./chapters/vuvuzela.aux
  (./chapters/vuvuzela.tex
 chapter 5.
 
-LaTeX Warning: Reference `larson_masters' on page 20 undefined on input line 15
-.
-
-[20
+LaTeX Warning: Reference `larson_masters' on page 25 undefined on input line 15.
 
 
-
-] [21]
-
-LaTeX Warning: Reference `sec:pLLH' on page 22 undefined on input line 102.
+[25
 
 
-LaTeX Warning: Reference `sec:pass2' on page 22 undefined on input line 114.
 
-[22] [23]) [24]
-\openout2 = `./chapters/muonsim.aux'.
+] [26]
 
+LaTeX Warning: Reference `sec:pLLH' on page 27 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sec:pass2' on page 27 undefined on input line 114.
+
+[27] [28]) [29]
+\openout2 = ./chapters/muonsim.aux
  (./chapters/muonsim.tex
 chapter 6.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/longframe.tex
 
-LaTeX Warning: Citation 'heereman_thesis' on page 25 undefined on input line 14
-.
+LaTeX Warning: Citation 'heereman_thesis' on page 30 undefined on input line 14.
 
-[25
+
+[30
 
 
 
@@ -1760,471 +2999,467 @@ LaTeX Warning: Citation 'heereman_thesis' on page 25 undefined on input line 14
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/deepcore_muongun.tex)
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/kde.tex
 
-LaTeX Warning: Reference `fig:mg_generation' on page 26 undefined on input line
- 9.
+LaTeX Warning: Reference `fig:mg_generation' on page 31 undefined on input line 
+9.
 
 
-LaTeX Warning: Citation 'h4a' on page 26 undefined on input line 10.
+LaTeX Warning: Citation 'h4a' on page 31 undefined on input line 10.
 
 
-LaTeX Warning: Reference `fig:mg_ineff' on page 26 undefined on input line 15.
+LaTeX Warning: Reference `fig:mg_ineff' on page 31 undefined on input line 15.
 
-[26]
+[31]
 
-LaTeX Warning: Citation 'scipy' on page 27 undefined on input line 29.
+LaTeX Warning: Citation 'scipy' on page 32 undefined on input line 29.
 
-)) [27]
-\openout2 = `./chapters/greco.aux'.
-
+)) [32]
+\openout2 = ./chapters/greco.aux
  (./chapters/greco.tex
 chapter 7.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level4.tex
-<chapters/greco/images/level4/FirstHitZ_log.png, id=818, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/FirstHitZ_log.png, id=932, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/FirstHitZ_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/FirstHitZ_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/FirstHitZ_log.png used on
- input line 14.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 15.
+Package luatex.def Info: chapters/greco/images/level4/FirstHitZ_log.png used on 
+input line 14.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level4/NAbove200_log.png, id=820, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/NAbove200_log.png, id=933, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/NAbove200_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/NAbove200_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/NAbove200_log.png used on
- input line 32.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level4/NAbove200_log.png used on 
+input line 32.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/greco/images/level4/QR6_log.png, id=821, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/QR6_log.png, id=934, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/QR6_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/QR6_log.png used on input
- line 44.
-(pdftex.def)             Requested size: 166.2212pt x 124.66147pt.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 44.
+Package luatex.def Info: chapters/greco/images/level4/QR6_log.png used on input 
+line 44.
+(luatex.def)             Requested size: 166.2212pt x 124.66147pt.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman8-regular.luc)
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 44.
 
-<chapters/greco/images/level4/C2QR6_log.png, id=822, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/C2QR6_log.png, id=935, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/C2QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/C2QR6_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/C2QR6_log.png used on inp
-ut line 45.
-(pdftex.def)             Requested size: 166.2212pt x 124.66147pt.
- [28
+Package luatex.def Info: chapters/greco/images/level4/C2QR6_log.png used on inpu
+t line 45.
+(luatex.def)             Requested size: 166.2212pt x 124.66147pt.
+ [33
 
 
 
- <./chapters/greco/images/level4/FirstHitZ_log.png>]
-<chapters/greco/images/level4/ToIEval_log.png, id=831, 578.16pt x 433.62pt>
+<./chapters/greco/images/level4/FirstHitZ_log.png>]
+<chapters/greco/images/level4/ToIEval_log.png, id=944, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/ToIEval_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/ToIEval_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/ToIEval_log.png used on i
-nput line 76.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
- [29 <./chapters/greco/images/level4/NAbove200_log.png> <./chapters/greco/image
-s/level4/QR6_log.png> <./chapters/greco/images/level4/C2QR6_log.png>]
-<chapters/greco/images/level4/iLineFit_Log.png, id=841, 578.16pt x 433.62pt>
+Package luatex.def Info: chapters/greco/images/level4/ToIEval_log.png used on in
+put line 76.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
+ [34<./chapters/greco/images/level4/NAbove200_log.png><./chapters/greco/images/l
+evel4/QR6_log.png><./chapters/greco/images/level4/C2QR6_log.png>]
+<chapters/greco/images/level4/iLineFit_Log.png, id=955, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/iLineFit_Log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/iLineFit_Log.png>
-Package pdftex.def Info: chapters/greco/images/level4/iLineFit_Log.png used on 
-input line 103.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level4/iLineFit_Log.png used on i
+nput line 103.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level4/BDT_log.png, id=842, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/BDT_log.png, id=956, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/BDT_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/BDT_log.png>
-Package pdftex.def Info: chapters/greco/images/level4/BDT_log.png used on input
- line 113.
-(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+Package luatex.def Info: chapters/greco/images/level4/BDT_log.png used on input 
+line 113.
+(luatex.def)             Requested size: 289.07999pt x 216.80946pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <./chapters/greco/images/level4/ToIEval_log.png> <./chapters/greco/images/l
-evel4/iLineFit_Log.png>])
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex [31 <./chapters
-/greco/images/level4/BDT_log.png>]
-<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=859, 578.16pt x 433
+[35<./chapters/greco/images/level4/ToIEval_log.png><./chapters/greco/images/leve
+l4/iLineFit_Log.png>])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex [36<./chapters/g
+reco/images/level4/BDT_log.png>]
+<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=971, 578.16pt x 433
 .62pt>
-File: chapters/greco/images/level5/Time_to_75_Charge_log.png Graphic file (type
- png)
+File: chapters/greco/images/level5/Time_to_75_Charge_log.png Graphic file (type 
+png)
  <use chapters/greco/images/level5/Time_to_75_Charge_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/Time_to_75_Charge_log.png
- used on input line 19.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level5/Time_to_75_Charge_log.png 
+used on input line 19.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=860, 578.16pt x
+<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=972, 578.16pt x
  433.62pt>
-File: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png Graphic file (
-type png)
+File: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png Graphic file (t
+ype png)
  <use chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log
-.png used on input line 32.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.
+png used on input line 32.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
 
-LaTeX Warning: Reference `fig:VICH_definition' on page 32 undefined on input li
-ne 41.
+LaTeX Warning: Reference `fig:VICH_definition' on page 37 undefined on input lin
+e 41.
 
 
-<chapters/greco/images/level5/First_HLC_Rho_log.png, id=861, 578.16pt x 433.62p
+<chapters/greco/images/level5/First_HLC_Rho_log.png, id=973, 578.16pt x 433.62p
 t>
-File: chapters/greco/images/level5/First_HLC_Rho_log.png Graphic file (type png
-)
+File: chapters/greco/images/level5/First_HLC_Rho_log.png Graphic file (type png)
+
  <use chapters/greco/images/level5/First_HLC_Rho_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/First_HLC_Rho_log.png use
-d on input line 47.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32 <./chapters/greco/images/level5/Time_to_75_Charge_log.png> <./chapters/grec
-o/images/level5/Veto_Causal_Hits_(PE)_log.png>]
-<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=868, 578.16pt x 433.62
+Package luatex.def Info: chapters/greco/images/level5/First_HLC_Rho_log.png used
+ on input line 47.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
+ [37<./chapters/greco/images/level5/Time_to_75_Charge_log.png><./chapters/greco/
+images/level5/Veto_Causal_Hits_(PE)_log.png>]
+<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=980, 578.16pt x 433.62
 pt>
-File: chapters/greco/images/level5/Q1-Q4_Distance_log.png Graphic file (type pn
-g)
+File: chapters/greco/images/level5/Q1-Q4_Distance_log.png Graphic file (type png
+)
  <use chapters/greco/images/level5/Q1-Q4_Distance_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/Q1-Q4_Distance_log.png us
-ed on input line 59.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level5/Q1-Q4_Distance_log.png use
+d on input line 59.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Z-Travel_log.png, id=869, 578.16pt x 433.62pt>
+<chapters/greco/images/level5/Z-Travel_log.png, id=981, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/Z-Travel_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/Z-Travel_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/Z-Travel_log.png used on 
-input line 71.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level5/Z-Travel_log.png used on i
+nput line 71.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=870, 578.16pt x 433
+<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=982, 578.16pt x 433
 .62pt>
-File: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png Graphic file (type
- png)
+File: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png Graphic file (type 
+png)
  <use chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png
- used on input line 83.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png 
+used on input line 83.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33 <./chapters/greco/images/level5/First_HLC_Rho_log.png> <./chapters/greco/im
-ages/level5/Q1-Q4_Distance_log.png>]
-<chapters/greco/images/level5/BDT_Score_log.png, id=877, 578.16pt x 433.62pt>
+[38<./chapters/greco/images/level5/First_HLC_Rho_log.png><./chapters/greco/image
+s/level5/Q1-Q4_Distance_log.png>]
+<chapters/greco/images/level5/BDT_Score_log.png, id=989, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/BDT_Score_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/BDT_Score_log.png>
-Package pdftex.def Info: chapters/greco/images/level5/BDT_Score_log.png used on
- input line 105.
-(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+Package luatex.def Info: chapters/greco/images/level5/BDT_Score_log.png used on 
+input line 105.
+(luatex.def)             Requested size: 289.07999pt x 216.80946pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:L5BDT_log' on page 34 undefined on input line 118
-.
+LaTeX Warning: Reference `fig:L5BDT_log' on page 39 undefined on input line 118.
 
-) (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level6.tex [34 <./chapte
-rs/greco/images/level5/Z-Travel_log.png> <./chapters/greco/images/level5/SPE11_
-Cos(Zenith)_log.png>]
-<chapters/greco/images/level6/FillRatio.png, id=884, 462.528pt x 346.896pt>
+
+
+Underfull \vbox (badness 2318) has occurred while \output is active []
+
+ [39<./chapters/greco/images/level5/Z-Travel_log.png><./chapters/greco/images/le
+vel5/SPE11_Cos(Zenith)_log.png>])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level6.tex
+<chapters/greco/images/level6/FillRatio.png, id=996, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FillRatio.png Graphic file (type png)
 
 <use chapters/greco/images/level6/FillRatio.png>
-Package pdftex.def Info: chapters/greco/images/level6/FillRatio.png used on inp
-ut line 14.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
- [35 <./chapters/greco/images/level5/BDT_Score_log.png> <./chapters/greco/image
-s/level6/FillRatio.png>]
-<chapters/greco/images/level6/nch.png, id=892, 462.528pt x 346.896pt>
+Package luatex.def Info: chapters/greco/images/level6/FillRatio.png used on inpu
+t line 14.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
+ [40<./chapters/greco/images/level5/BDT_Score_log.png><./chapters/greco/images/l
+evel6/FillRatio.png>]
+<chapters/greco/images/level6/nch.png, id=1004, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/nch.png Graphic file (type png)
 
 <use chapters/greco/images/level6/nch.png>
-Package pdftex.def Info: chapters/greco/images/level6/nch.png used on input lin
-e 57.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
- [36 <./chapters/greco/images/level6/nch.png>]
-<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=901, 462.528pt x 346.896
-pt>
+Package luatex.def Info: chapters/greco/images/level6/nch.png used on input line
+ 57.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
+ [41<./chapters/greco/images/level6/nch.png>]
+<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=1015, 462.528pt x 346.89
+6pt>
 File: chapters/greco/images/level6/Corridor_Cut_nCh.png Graphic file (type png)
-
  <use chapters/greco/images/level6/Corridor_Cut_nCh.png>
-Package pdftex.def Info: chapters/greco/images/level6/Corridor_Cut_nCh.png used
- on input line 74.
-(pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
+Package luatex.def Info: chapters/greco/images/level6/Corridor_Cut_nCh.png used 
+on input line 74.
+(luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level6/FiniteReco_Rho.png, id=902, 462.528pt x 346.896pt
->
+<chapters/greco/images/level6/FiniteReco_Rho.png, id=1016, 462.528pt x 346.896p
+t>
 File: chapters/greco/images/level6/FiniteReco_Rho.png Graphic file (type png)
  <use chapters/greco/images/level6/FiniteReco_Rho.png>
-Package pdftex.def Info: chapters/greco/images/level6/FiniteReco_Rho.png used o
-n input line 96.
-(pdftex.def)             Requested size: 166.2212pt x 124.66544pt.
+Package luatex.def Info: chapters/greco/images/level6/FiniteReco_Rho.png used on
+ input line 96.
+(luatex.def)             Requested size: 166.2212pt x 124.66544pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 96.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 96.
 
-<chapters/greco/images/level6/FiniteReco_Z.png, id=903, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/FiniteReco_Z.png, id=1017, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FiniteReco_Z.png Graphic file (type png)
-
 <use chapters/greco/images/level6/FiniteReco_Z.png>
-Package pdftex.def Info: chapters/greco/images/level6/FiniteReco_Z.png used on 
-input line 97.
-(pdftex.def)             Requested size: 166.2212pt x 124.66544pt.
+Package luatex.def Info: chapters/greco/images/level6/FiniteReco_Z.png used on i
+nput line 97.
+(luatex.def)             Requested size: 166.2212pt x 124.66544pt.
 
 
 Package caption Warning: \label without proper reference on input line 126.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:finitereco_zVsRho' on page 37 undefined on input 
-line 110.
+LaTeX Warning: Reference `fig:finitereco_zVsRho' on page 42 undefined on input l
+ine 110.
 
-<chapters/greco/images/level6/z_rho_corsika.png, id=905, 505.89pt x 433.62pt>
+[42<./chapters/greco/images/level6/Corridor_Cut_nCh.png>]
+<chapters/greco/images/level6/z_rho_corsika.png, id=1025, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_corsika.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_corsika.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_corsika.png used on
- input line 117.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level6/z_rho_corsika.png used on 
+input line 117.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_data.png, id=906, 505.89pt x 433.62pt>
+<chapters/greco/images/level6/z_rho_data.png, id=1026, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_data.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_data.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_data.png used on in
-put line 118.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level6/z_rho_data.png used on inp
+ut line 118.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_noise.png, id=907, 505.89pt x 433.62pt>
+<chapters/greco/images/level6/z_rho_noise.png, id=1027, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_noise.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_noise.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_noise.png used on i
-nput line 120.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level6/z_rho_noise.png used on in
+put line 120.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_genie_nue.png, id=908, 505.89pt x 433.62pt>
-File: chapters/greco/images/level6/z_rho_genie_nue.png Graphic file (type png)
-<use chapters/greco/images/level6/z_rho_genie_nue.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_genie_nue.png used 
-on input line 121.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
-
-<chapters/greco/images/level6/z_rho_genie_numu.png, id=909, 505.89pt x 433.62pt
+<chapters/greco/images/level6/z_rho_genie_nue.png, id=1028, 505.89pt x 433.62pt
 >
-File: chapters/greco/images/level6/z_rho_genie_numu.png Graphic file (type png)
+File: chapters/greco/images/level6/z_rho_genie_nue.png Graphic file (type png)
+ <use chapters/greco/images/level6/z_rho_genie_nue.png>
+Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_nue.png used o
+n input line 121.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
- <use chapters/greco/images/level6/z_rho_genie_numu.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_genie_numu.png used
- on input line 123.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
-
-<chapters/greco/images/level6/z_rho_genie_nutau.png, id=910, 505.89pt x 433.62p
+<chapters/greco/images/level6/z_rho_genie_numu.png, id=1029, 505.89pt x 433.62p
 t>
-File: chapters/greco/images/level6/z_rho_genie_nutau.png Graphic file (type png
-)
+File: chapters/greco/images/level6/z_rho_genie_numu.png Graphic file (type png)
+ <use chapters/greco/images/level6/z_rho_genie_numu.png>
+Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_numu.png used 
+on input line 123.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
+
+<chapters/greco/images/level6/z_rho_genie_nutau.png, id=1030, 505.89pt x 433.62
+pt>
+File: chapters/greco/images/level6/z_rho_genie_nutau.png Graphic file (type png)
+
  <use chapters/greco/images/level6/z_rho_genie_nutau.png>
-Package pdftex.def Info: chapters/greco/images/level6/z_rho_genie_nutau.png use
-d on input line 124.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_nutau.png used
+ on input line 124.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 )
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level7.tex [37 <./chapters
-/greco/images/level6/Corridor_Cut_nCh.png>] [38 <./chapters/greco/images/level6
-/z_rho_corsika.png> <./chapters/greco/images/level6/z_rho_data.png> <./chapters
-/greco/images/level6/z_rho_noise.png> <./chapters/greco/images/level6/z_rho_gen
-ie_nue.png> <./chapters/greco/images/level6/z_rho_genie_numu.png> <./chapters/g
-reco/images/level6/z_rho_genie_nutau.png>]
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level7.tex [43<./chapters/g
+reco/images/level6/FiniteReco_Rho.png><./chapters/greco/images/level6/FiniteReco
+_Z.png>] [44<./chapters/greco/images/level6/z_rho_corsika.png><./chapters/greco/
+images/level6/z_rho_data.png><./chapters/greco/images/level6/z_rho_noise.png><./
+chapters/greco/images/level6/z_rho_genie_nue.png><./chapters/greco/images/level6
+/z_rho_genie_numu.png><./chapters/greco/images/level6/z_rho_genie_nutau.png>]
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
-[39 <./chapters/greco/images/level6/FiniteReco_Rho.png> <./chapters/greco/image
-s/level6/FiniteReco_Z.png>]
 
 Package caption Warning: \label without proper reference on input line 61.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pegleg_zVsRho' on page 40 undefined on input line
- 44.
+LaTeX Warning: Reference `fig:pegleg_zVsRho' on page 45 undefined on input line 
+44.
 
 
-<chapters/greco/images/level7/pegleg_z_rho_muongun.png, id=945, 505.89pt x 433.
-62pt>
-File: chapters/greco/images/level7/pegleg_z_rho_muongun.png Graphic file (type 
-png)
+<chapters/greco/images/level7/pegleg_z_rho_muongun.png, id=1056, 505.89pt x 433
+.62pt>
+File: chapters/greco/images/level7/pegleg_z_rho_muongun.png Graphic file (type p
+ng)
  <use chapters/greco/images/level7/pegleg_z_rho_muongun.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_muongun.png 
-used on input line 52.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_muongun.png u
+sed on input line 52.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_data.png, id=946, 505.89pt x 433.62p
-t>
-File: chapters/greco/images/level7/pegleg_z_rho_data.png Graphic file (type png
-)
- <use chapters/greco/images/level7/pegleg_z_rho_data.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_data.png use
-d on input line 53.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
-
-<chapters/greco/images/level7/pegleg_z_rho_noise.png, id=947, 505.89pt x 433.62
+<chapters/greco/images/level7/pegleg_z_rho_data.png, id=1057, 505.89pt x 433.62
 pt>
-File: chapters/greco/images/level7/pegleg_z_rho_noise.png Graphic file (type pn
-g)
+File: chapters/greco/images/level7/pegleg_z_rho_data.png Graphic file (type png)
+
+ <use chapters/greco/images/level7/pegleg_z_rho_data.png>
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_data.png used
+ on input line 53.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
+
+<chapters/greco/images/level7/pegleg_z_rho_noise.png, id=1058, 505.89pt x 433.6
+2pt>
+File: chapters/greco/images/level7/pegleg_z_rho_noise.png Graphic file (type png
+)
  <use chapters/greco/images/level7/pegleg_z_rho_noise.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_noise.png us
-ed on input line 55.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_noise.png use
+d on input line 55.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_genie_nue.png, id=948, 505.89pt x 43
-3.62pt>
-File: chapters/greco/images/level7/pegleg_z_rho_genie_nue.png Graphic file (typ
-e png)
- <use chapters/greco/images/level7/pegleg_z_rho_genie_nue.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_nue.pn
-g used on input line 56.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
-
-<chapters/greco/images/level7/pegleg_z_rho_genie_numu.png, id=949, 505.89pt x 4
+<chapters/greco/images/level7/pegleg_z_rho_genie_nue.png, id=1059, 505.89pt x 4
 33.62pt>
-File: chapters/greco/images/level7/pegleg_z_rho_genie_numu.png Graphic file (ty
-pe png)
- <use chapters/greco/images/level7/pegleg_z_rho_genie_numu.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_numu.p
-ng used on input line 58.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+File: chapters/greco/images/level7/pegleg_z_rho_genie_nue.png Graphic file (type
+ png)
+ <use chapters/greco/images/level7/pegleg_z_rho_genie_nue.png>
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_nue.png
+ used on input line 56.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png, id=950, 505.89pt x 
+<chapters/greco/images/level7/pegleg_z_rho_genie_numu.png, id=1060, 505.89pt x 
 433.62pt>
-File: chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png Graphic file (t
-ype png)
+File: chapters/greco/images/level7/pegleg_z_rho_genie_numu.png Graphic file (typ
+e png)
+ <use chapters/greco/images/level7/pegleg_z_rho_genie_numu.png>
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_numu.pn
+g used on input line 58.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
+
+<chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png, id=1061, 505.89pt x
+ 433.62pt>
+File: chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png Graphic file (ty
+pe png)
  <use chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png>
-Package pdftex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_nutau.
-png used on input line 59.
-(pdftex.def)             Requested size: 203.8342pt x 174.71529pt.
+Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_nutau.p
+ng used on input line 59.
+(luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
 
 Package caption Warning: \label without proper reference on input line 55.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:gev_per_nch' on page 40 undefined on input line 7
-7.
+LaTeX Warning: Reference `fig:gev_per_nch' on page 45 undefined on input line 77
+.
 
 
 Package caption Warning: \label without proper reference on input line 56.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:t_rms' on page 40 undefined on input line 77.
+LaTeX Warning: Reference `fig:t_rms' on page 45 undefined on input line 77.
 
 
-<chapters/greco/images/level7/L7_GeV_per_channel.png, id=955, 462.528pt x 346.8
-96pt>
-File: chapters/greco/images/level7/L7_GeV_per_channel.png Graphic file (type pn
-g)
+<chapters/greco/images/level7/L7_GeV_per_channel.png, id=1066, 462.528pt x 346.
+896pt>
+File: chapters/greco/images/level7/L7_GeV_per_channel.png Graphic file (type png
+)
  <use chapters/greco/images/level7/L7_GeV_per_channel.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_GeV_per_channel.png us
-ed on input line 90.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
+Package luatex.def Info: chapters/greco/images/level7/L7_GeV_per_channel.png use
+d on input line 90.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_t_rms.png, id=956, 462.528pt x 346.896pt>
+<chapters/greco/images/level7/L7_t_rms.png, id=1067, 462.528pt x 346.896pt>
 File: chapters/greco/images/level7/L7_t_rms.png Graphic file (type png)
 
 <use chapters/greco/images/level7/L7_t_rms.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_t_rms.png used on inpu
-t line 91.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
+Package luatex.def Info: chapters/greco/images/level7/L7_t_rms.png used on input
+ line 91.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 )
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/greco_properties.tex
 
-LaTeX Warning: Reference `fig:event_rates' on page 40 undefined on input line 4
-.
+LaTeX Warning: Reference `fig:event_rates' on page 45 undefined on input line 4.
+
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7.
 
+[45] [46<./chapters/greco/images/level7/pegleg_z_rho_muongun.png><./chapters/gre
+co/images/level7/pegleg_z_rho_data.png><./chapters/greco/images/level7/pegleg_z_
+rho_noise.png><./chapters/greco/images/level7/pegleg_z_rho_genie_nue.png><./chap
+ters/greco/images/level7/pegleg_z_rho_genie_numu.png><./chapters/greco/images/le
+vel7/pegleg_z_rho_genie_nutau.png>]
 
 Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:true_nuproperties' on page 40 undefined on input 
-line 30.
+LaTeX Warning: Reference `fig:true_nuproperties' on page 47 undefined on input l
+ine 30.
 
-[40] [41 <./chapters/greco/images/level7/pegleg_z_rho_muongun.png> <./chapters/
-greco/images/level7/pegleg_z_rho_data.png> <./chapters/greco/images/level7/pegl
-eg_z_rho_noise.png> <./chapters/greco/images/level7/pegleg_z_rho_genie_nue.png>
- <./chapters/greco/images/level7/pegleg_z_rho_genie_numu.png> <./chapters/greco
-/images/level7/pegleg_z_rho_genie_nutau.png>] [42 <./chapters/greco/images/leve
-l7/L7_GeV_per_channel.png> <./chapters/greco/images/level7/L7_t_rms.png>]
-<chapters/greco/images/level7/L7_true_coszen.png, id=983, 462.528pt x 346.896pt
->
+
+<chapters/greco/images/level7/L7_true_coszen.png, id=1091, 462.528pt x 346.896p
+t>
 File: chapters/greco/images/level7/L7_true_coszen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_true_coszen.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_true_coszen.png used o
-n input line 37.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
+Package luatex.def Info: chapters/greco/images/level7/L7_true_coszen.png used on
+ input line 37.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_true_logen.png, id=984, 462.528pt x 346.896pt>
-File: chapters/greco/images/level7/L7_true_logen.png Graphic file (type png)
-<use chapters/greco/images/level7/L7_true_logen.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_true_logen.png used on
- input line 38.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 41.
-
-<chapters/greco/images/level7/L7_reco_coszen.png, id=985, 462.528pt x 346.896pt
+<chapters/greco/images/level7/L7_true_logen.png, id=1092, 462.528pt x 346.896pt
 >
+File: chapters/greco/images/level7/L7_true_logen.png Graphic file (type png)
+ <use chapters/greco/images/level7/L7_true_logen.png>
+Package luatex.def Info: chapters/greco/images/level7/L7_true_logen.png used on 
+input line 38.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
+ [47<./chapters/greco/images/level7/L7_GeV_per_channel.png><./chapters/greco/ima
+ges/level7/L7_t_rms.png>]
+<chapters/greco/images/level7/L7_reco_coszen.png, id=1102, 462.528pt x 346.896p
+t>
 File: chapters/greco/images/level7/L7_reco_coszen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_reco_coszen.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_reco_coszen.png used o
-n input line 55.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
+Package luatex.def Info: chapters/greco/images/level7/L7_reco_coszen.png used on
+ input line 55.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_reco_logen.png, id=986, 462.528pt x 346.896pt>
+<chapters/greco/images/level7/L7_reco_logen.png, id=1103, 462.528pt x 346.896pt
+>
 File: chapters/greco/images/level7/L7_reco_logen.png Graphic file (type png)
-<use chapters/greco/images/level7/L7_reco_logen.png>
-Package pdftex.def Info: chapters/greco/images/level7/L7_reco_logen.png used on
- input line 56.
-(pdftex.def)             Requested size: 203.8342pt x 152.87819pt.
-)) [43 <./chapters/greco/images/level7/L7_true_coszen.png> <./chapters/greco/im
-ages/level7/L7_true_logen.png>] [44 <./chapters/greco/images/level7/L7_reco_cos
-zen.png> <./chapters/greco/images/level7/L7_reco_logen.png>]
-\openout2 = `./chapters/analysis.aux'.
-
+ <use chapters/greco/images/level7/L7_reco_logen.png>
+Package luatex.def Info: chapters/greco/images/level7/L7_reco_logen.png used on 
+input line 56.
+(luatex.def)             Requested size: 203.8342pt x 152.87819pt.
+)) [48<./chapters/greco/images/level7/L7_true_coszen.png><./chapters/greco/image
+s/level7/L7_true_logen.png><./chapters/greco/images/level7/L7_reco_coszen.png><.
+/chapters/greco/images/level7/L7_reco_logen.png>]
+\openout2 = ./chapters/analysis.aux
  (./chapters/analysis.tex
 chapter 8.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex
-[45
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+[49
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 46 moved.
+LaTeX Warning: Marginpar on page 50 moved.
 
-) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex [50]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 37.
@@ -2245,7 +3480,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 37.
 
-[46]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 57.
@@ -2267,16 +3501,72 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 57.
 
 
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 80--80
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 80--80
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 80--80
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 80--80
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 86.
 
-[47]
+[51]
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 99--99
+[][][][]\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
 
-LaTeX Warning: Marginpar on page 48 moved.
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 99--99
+[][][][]\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 99--99
+[][][][]\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 99--99
+[][][][]\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 105--105
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 105--105
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 105--105
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
+
+
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 105--105
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf  
+ []
 
 )
 
-LaTeX Warning: Marginpar on page 48 moved.
+LaTeX Warning: Marginpar on page 52 moved.
 
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/systematics.tex
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/oscilparams.tex
@@ -2285,52 +3575,60 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 12.
 
 ) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/fluxparams.tex
-[48]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex
-[49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52])
+
+LaTeX Warning: Reference `fig:qe_res_effects' on page 53 undefined on input line
+ 18.
+
+
+LaTeX Warning: Reference `tab:qe_res_dis' on page 53 undefined on input line 19.
+
+
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex [53]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 11.
 
-[50]
+[54]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 47.
 
-[51]
+[55]
 
-LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 52 undefined on inp
-ut line 86.
+LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 56 undefined on inpu
+t line 86.
 
 
-LaTeX Warning: Reference `fig:hammamatsu_qe' on page 52 undefined on input line
- 98.
+LaTeX Warning: Reference `fig:hammamatsu_qe' on page 56 undefined on input line 
+98.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 98.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmmono8-regular.luc)
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
+(microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
-[52
-
-
+[56
 
 
-] [53]
 
-LaTeX Warning: Marginpar on page 54 moved.
+
+] [57]
+
+LaTeX Warning: Marginpar on page 58 moved.
 
 )) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex
 
@@ -2349,166 +3647,175 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 5.
 
-[54] [55]
+[58] [59]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 116.
 
-[56]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
+[60]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
 
-LaTeX Warning: Marginpar on page 57 moved.
+LaTeX Warning: Marginpar on page 61 moved.
 
 
-LaTeX Warning: Marginpar on page 57 moved.
+LaTeX Warning: Marginpar on page 61 moved.
 
-[57
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+[61
 
 
 ]
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
-[58]
+[62]
 
-LaTeX Warning: Marginpar on page 59 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
 ) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/data_fits.tex
-[59]
+[63]
 
 Package caption Warning: \label without proper reference on input line 59.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pulse_timing_profile' on page 60 undefined on inp
-ut line 53.
+LaTeX Warning: Reference `fig:pulse_timing_profile' on page 64 undefined on inpu
+t line 53.
 
 
-<chapters/analysis/images/2d_maps_detail_raw.png, id=1205, 939.51pt x 578.16pt>
+<chapters/analysis/images/2d_maps_detail_raw.png, id=1322, 939.51pt x 578.16pt>
 File: chapters/analysis/images/2d_maps_detail_raw.png Graphic file (type png)
 <use chapters/analysis/images/2d_maps_detail_raw.png>
-Package pdftex.def Info: chapters/analysis/images/2d_maps_detail_raw.png used o
-n input line 58.
-(pdftex.def)             Requested size: 407.6684pt x 250.8712pt.
- [60]
+Package luatex.def Info: chapters/analysis/images/2d_maps_detail_raw.png used on
+ input line 58.
+(luatex.def)             Requested size: 407.6684pt x 250.8712pt.
+ [64]
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 65 moved.
 
-[61 <./chapters/analysis/images/2d_maps_detail_raw.png>]
+[65<./chapters/analysis/images/2d_maps_detail_raw.png>]
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 66 moved.
 
-<chapters/analysis/images/L7_reco_z.png, id=1226, 462.528pt x 346.896pt>
+<chapters/analysis/images/L7_reco_z.png, id=1343, 462.528pt x 346.896pt>
 File: chapters/analysis/images/L7_reco_z.png Graphic file (type png)
 
 <use chapters/analysis/images/L7_reco_z.png>
-Package pdftex.def Info: chapters/analysis/images/L7_reco_z.png used on input l
-ine 129.
-(pdftex.def)             Requested size: 271.78352pt x 203.8464pt.
+Package luatex.def Info: chapters/analysis/images/L7_reco_z.png used on input li
+ne 129.
+(luatex.def)             Requested size: 271.78352pt x 203.8464pt.
 
-<chapters/analysis/images/pegleg_fine_z_rho.png, id=1228, 722.7pt x 433.62pt>
+<chapters/analysis/images/pegleg_fine_z_rho.png, id=1345, 722.7pt x 433.62pt>
 File: chapters/analysis/images/pegleg_fine_z_rho.png Graphic file (type png)
 
 <use chapters/analysis/images/pegleg_fine_z_rho.png>
-Package pdftex.def Info: chapters/analysis/images/pegleg_fine_z_rho.png used on
- input line 143.
-(pdftex.def)             Requested size: 407.6684pt x 244.59877pt.
+Package luatex.def Info: chapters/analysis/images/pegleg_fine_z_rho.png used on 
+input line 143.
+(luatex.def)             Requested size: 407.6684pt x 244.59877pt.
 
-<chapters/analysis/images/pegleg_fine_x_y.png, id=1229, 722.7pt x 433.62pt>
+<chapters/analysis/images/pegleg_fine_x_y.png, id=1346, 722.7pt x 433.62pt>
 File: chapters/analysis/images/pegleg_fine_x_y.png Graphic file (type png)
 
 <use chapters/analysis/images/pegleg_fine_x_y.png>
-Package pdftex.def Info: chapters/analysis/images/pegleg_fine_x_y.png used on i
-nput line 151.
-(pdftex.def)             Requested size: 407.6684pt x 244.59877pt.
+Package luatex.def Info: chapters/analysis/images/pegleg_fine_x_y.png used on in
+put line 151.
+(luatex.def)             Requested size: 407.6684pt x 244.59877pt.
 
 
 Package caption Warning: \label without proper reference on input line 175.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:flaring_xy' on page 62 undefined on input line 15
-7.
+LaTeX Warning: Reference `fig:flaring_xy' on page 66 undefined on input line 157
+.
 
-[62] [63 <./chapters/analysis/images/L7_reco_z.png> <./chapters/analysis/images
-/pegleg_fine_z_rho.png>]
-<chapters/analysis/images/L7_charge_rms_normalized.png, id=1244, 462.528pt x 34
+[66] [67<./chapters/analysis/images/L7_reco_z.png><./chapters/analysis/images/pe
+gleg_fine_z_rho.png>]
+<chapters/analysis/images/L7_charge_rms_normalized.png, id=1363, 462.528pt x 34
 6.896pt>
-File: chapters/analysis/images/L7_charge_rms_normalized.png Graphic file (type 
-png)
+File: chapters/analysis/images/L7_charge_rms_normalized.png Graphic file (type p
+ng)
  <use chapters/analysis/images/L7_charge_rms_normalized.png>
-Package pdftex.def Info: chapters/analysis/images/L7_charge_rms_normalized.png 
-used on input line 174.
-(pdftex.def)             Requested size: 407.6684pt x 305.76697pt.
+Package luatex.def Info: chapters/analysis/images/L7_charge_rms_normalized.png u
+sed on input line 174.
+(luatex.def)             Requested size: 407.6684pt x 305.76697pt.
 
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
-[64 <./chapters/analysis/images/pegleg_fine_x_y.png>] [65 <./chapters/analysis/
-images/L7_charge_rms_normalized.png>]
+[68<./chapters/analysis/images/pegleg_fine_x_y.png>] [69<./chapters/analysis/ima
+ges/L7_charge_rms_normalized.png>]
 
-LaTeX Warning: Marginpar on page 66 moved.
-
-
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
-[66]
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
-[67] [68])) [69]
-\openout2 = `./chapters/pingu.aux'.
+[70]
 
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71] [72])) [73]
+\openout2 = ./chapters/pingu.aux
  (./chapters/pingu.tex
 chapter 9.
-) [70
+) [74
 
 
 
-] (./mjlarson_thesis.tdo
-Overfull \hbox (63.90096pt too wide) in paragraph at lines 6--6
- [][] [][][][] \T1/bch/m/n/10 (-20) prob-a-bly also the ham-ma-matsu doc-u-men-
-ta-tion http://icecube.wisc.edu/ kitamura/NK/PMT/031112%20R7081- 
+](load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/
+fonts/otl/lmmono10-regular.luc) [75
+
+
+] [76] (./mjlarson_thesis.tdo
+Overfull \hbox (156.7084pt too wide) in paragraph at lines 12--12
+ [][] [][][][] \TU/qhv/b/n/10 prob-a-bly also the ham-ma-matsu doc-u-men-ta-tio
+n http://ice-cube.wisc.edu/ ki-ta-mura/NK/PMT/031112%20R7081-02%20data%20sheet.
+pdf[] [][]  
  []
 
-[71
+[77
 
-
-] [72])
+] [78])
 \tf@tdo=\write10
-\openout10 = `mjlarson_thesis.tdo'.
 
- [73]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+\openout10 = mjlarson_thesis.tdo
+ [79]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
  (./mjlarson_thesis.aux (./chapters/introduction.aux)
 (./chapters/oscillations.aux) (./chapters/detector.aux)
 (./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
 (./chapters/greco.aux) (./chapters/analysis.aux) (./chapters/pingu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `mjlarson_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C5C07E7F6A483DEC8646BCECB4D8296D;7377.
+(rerunfilecheck)             Checksum: 5A81711764844C2A644F67475C780C19;7315.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
@@ -2522,54 +3829,65 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
-\openout1 = `mjlarson_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
- ) 
-Here is how much of TeX's memory you used:
- 33852 strings out of 492995
- 635978 string characters out of 6132704
- 1148679 words of memory out of 5000000
- 35983 multiletter control sequences out of 15000+600000
- 120994 words of font info for 232 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 73i,19n,106p,8847b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/
-fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/
-dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-
-mathex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/us
-r/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-lm/lmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi6.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/lm/lmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/lm/lmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/lm/lmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/lm/lmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt
-10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on mjlarson_thesis.pdf (73 pages, 2228078 bytes).
-PDF statistics:
- 1670 PDF objects out of 1728 (max. 8388607)
- 1466 compressed objects within 15 object streams
- 460 named destinations out of 1000 (max. 500000)
- 41471 words of extra memory for PDF output out of 42996 (max. 10000000)
+\openout1 = mjlarson_thesis.run.xml
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 47826 strings out of 494481
+ 125006,1648299 words of node,token memory allocated
+ 16123 words of node memory still in use:
+   226 hlist, 28 vlist, 2 rule, 50 disc, 18 local_par, 485 glue, 17 kern, 26 pen
+alty, 2 sub_mlist, 10 margin_kern, 544 glyph, 936 attribute, 108 glue_spec, 936 
+attribute_list, 13 write, 12 save_pos, 570 pdf_literal, 27 pdf_action nodes
+   avail lists: 1:15,2:5721,3:2091,4:589,5:873,6:6002,7:2335,8:293,9:958,10:17,1
+1:600
+ 49125 multiletter control sequences out of 65536+600000
+ 82 fonts using 6680479 bytes
+ 72i,20n,106p,8846b,1714s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
+f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
+otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono8-regular
+.otf>{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/loca
+l/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
+017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-d
+ist/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/local/texlive/2017/texmf-dist/fonts/ope
+ntype/public/lm/lmroman8-regular.otf>{/usr/local/texlive/2017/texmf-dist/fonts/e
+nc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2017/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/p
+ublic/lm/lmromanslant8-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/ope
+ntype/public/lm/lmromandemi10-oblique.otf></usr/local/texlive/2017/texmf-dist/fo
+nts/opentype/public/lm/lmroman5-regular.otf></usr/local/texlive/2017/texmf-dist/
+fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/local/texlive/2017/tex
+mf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2017/
+texmf-dist/fonts/opentype/public/lm/lmromandemi10-regular.otf>{/usr/local/texliv
+e/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dis
+t/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2017/texmf-
+dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2017/tex
+mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2017/texm
+f-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi5.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/
+lmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr6.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/lm/lmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/lm/lmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on mjlarson_thesis.pdf (79 pages, 3008063 bytes).
+
+PDF statistics: 1817 PDF objects out of 2073 (max. 8388607)
+ 1563 compressed objects within 16 object streams
+ 497 named destinations out of 1000 (max. 131072)
+ 808 words of extra memory for PDF output out of 10000 (max. 100000000)
 

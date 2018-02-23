@@ -2,7 +2,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The number of active neutrinos as measured by ALEPH, DELPHI, L3, and OPAL. The data from the four experiments strongly favors only three neutrinos coupling to the Z boson. Image taken from \cite {ALEPH-3Nu}.\relax }}{8}{figure.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite {PDG-2015}\relax }}{10}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The Standard Model of particle physics is made up of charged and uncharged leptons, quarks, and the various bosons. Image taken from \cite {StandardModel-Image}\relax }}{11}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson\relax }}{11}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The relative contributions to the cross section for $\nu $ (left) and $\mathaccentV {bar}016{\nu }$ (right). The QE events dominate below 1 GeV while the DIS events dominate above 10 GeV. Note the different scales for the neutrino and antineutrinos. Images taken from \cite {Formaggio-Xsec}\relax }}{12}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -14,58 +22,60 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The FirstHit Z position}}{28}{figure.caption.61}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Number of Hits Above Z=-200}}{29}{figure.caption.62}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The FirstHit Z position}}{33}{figure.caption.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces QR6 and C2QR6}}{29}{figure.caption.63}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Number of Hits Above Z=-200}}{34}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {QR6}}}{29}{subfigure.3.1}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces QR6 and C2QR6}}{34}{figure.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C2QR6}}}{29}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {QR6}}}{34}{subfigure.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Tensor-of-Inertia Eigenvalue Ratio}}{30}{figure.caption.64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C2QR6}}}{34}{subfigure.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The improvedLineFit Speed}}{30}{figure.caption.65}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Tensor-of-Inertia Eigenvalue Ratio}}{35}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The L4 BDT Score}}{31}{figure.caption.66}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The improvedLineFit Speed}}{35}{figure.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Time to 75\% Charge}}{32}{figure.caption.68}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces The L4 BDT Score}}{36}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Veto Identified Causal Hits}}{32}{figure.caption.69}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Time to 75\% Charge}}{37}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces First Hit $\rho $ Position}}{33}{figure.caption.70}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Veto Identified Causal Hits}}{37}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Quartile Distance}}{33}{figure.caption.71}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces First Hit $\rho $ Position}}{38}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Quartile Z-Travel}}{34}{figure.caption.72}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Quartile Distance}}{38}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces SPE Reconstruction Zenith Angles}}{34}{figure.caption.73}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Quartile Z-Travel}}{39}{figure.caption.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces The L5 BDT Score}}{35}{figure.caption.74}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces SPE Reconstruction Zenith Angles}}{39}{figure.caption.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Fill-Ratio}}{35}{figure.caption.76}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces The L5 BDT Score}}{40}{figure.caption.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.15}{\ignorespaces The NChannel Distribution}}{36}{figure.caption.77}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Fill-Ratio}}{40}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.16}{\ignorespaces CorridorCut Distribution}}{37}{figure.caption.78}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces The NChannel Distribution}}{41}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.17}{\ignorespaces The FiniteReco Containment Cuts}}{39}{figure.caption.79}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces CorridorCut Distribution}}{42}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\rho _{FiniteReco}$}}}{39}{subfigure.17.1}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces The FiniteReco Containment Cuts}}{43}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z_{FiniteReco}$}}}{39}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\rho _{FiniteReco}$}}}{43}{subfigure.17.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z_{FiniteReco}$}}}{43}{subfigure.17.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces A comparison of the charge extraction in data and simulation at GRECO L7. Both the time and charge are shown for individual pulses on all DOMs. The time is measured relative to the largest pulse observed on each DOM during an event. The data and simulation histograms are independently normalized to 1.0. While the two show broad agreement, notable differences occur at low charge.\relax }}{61}{figure.caption.189}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces A comparison of the charge extraction in data and simulation at GRECO L7. Both the time and charge are shown for individual pulses on all DOMs. The time is measured relative to the largest pulse observed on each DOM during an event. The data and simulation histograms are independently normalized to 1.0. While the two show broad agreement, notable differences occur at low charge.\relax }}{65}{figure.caption.197}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The reconstructed Z position using PegLeg. The GRECO L7 cuts have not been applied in order to show discrepancies below the detector. Noticeable disagreement is seen around a depth of z=-450.\relax }}{63}{figure.caption.198}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The reconstructed Z position using PegLeg. The GRECO L7 cuts have not been applied in order to show discrepancies below the detector. Noticeable disagreement is seen around a depth of z=-450.\relax }}{67}{figure.caption.206}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near $\mathtt {\rho _{36}=75}$ at depths of -310 and -490. \relax }}{63}{figure.caption.199}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near $\mathtt {\rho _{36}=75}$ at depths of -310 and -490. \relax }}{67}{figure.caption.207}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces The reconstructed X position and Y position of events in the detector. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. Once again, reasonable agreement is observed in most regions, although data events have a clear excess near x=110 m, y=-60 m. This position corresponds to string 83.\relax }}{64}{figure.caption.200}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces The reconstructed X position and Y position of events in the detector. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. Once again, reasonable agreement is observed in most regions, although data events have a clear excess near x=110 m, y=-60 m. This position corresponds to string 83.\relax }}{68}{figure.caption.208}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces The RMS of the charges within each event at final level. The value of the RMS is normalized using the total charge observed. The L7 cuts from GRECO are not applied here. The events with flaring DOMs cluster at high values of the charge RMS, visible in the inset.\relax }}{65}{figure.caption.202}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The RMS of the charges within each event at final level. The value of the RMS is normalized using the total charge observed. The L7 cuts from GRECO are not applied here. The events with flaring DOMs cluster at high values of the charge RMS, visible in the inset.\relax }}{69}{figure.caption.210}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

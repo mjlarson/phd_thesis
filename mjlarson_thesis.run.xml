@@ -56,9 +56,9 @@
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
-      <file>alphabetic.bbx</file>
+      <file>numeric.bbx</file>
       <file>standard.bbx</file>
-      <file>alphabetic.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -84,7 +84,7 @@
       <file>mjlarson_thesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>bib-refs.bib</file>
+      <file>./mjlarson_thesis.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

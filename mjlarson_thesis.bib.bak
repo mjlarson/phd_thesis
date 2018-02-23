@@ -1,0 +1,288 @@
+@article{Becquerel,
+author={Becquerel,H.},
+year={1896},
+title={Sur les radiations émises par phosphorescence},
+journal={Comptes Rendus},
+volume={122},
+}
+
+@article{Chadwick,
+      author        = "Chadwick, J",
+      title         = "{Intensitatsverteilung im magnetischen Spectrum der
+                       $\beta$-Strahlen von radium B + C}",
+      journal       = "Verhandl. Dtsc. Phys. Ges.",
+      volume        = "16",
+      pages         = "383",
+      year          = "1914",
+      url           = "http://cds.cern.ch/record/262756",
+}
+
+@misc{Pauli-Nu,
+author = {Pauli, W},
+year = {1930},
+note = {German, Translated},
+journal = {Physics Today},
+date = {09/1978},
+doi = {10.1063/1.2995181},
+}
+
+@ARTICLE{Cowan-Reines,
+   author = {{Cowan}, Jr., C.~L. and {Reines}, F. and {Harrison}, F.~B. and 
+	{Kruse}, H.~W. and {McGuire}, A.~D.},
+    title = "{Detection of the Free Neutrino: A Confirmation}",
+  journal = {Science},
+     year = 1956,
+    month = jul,
+   volume = 124,
+    pages = {103-104},
+      doi = {10.1126/science.124.3212.103},
+   adsurl = {http://adsabs.harvard.edu/abs/1956Sci...124..103C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@misc{NobelPrize:1936-Hess,
+author = {Foundation, Nobel},
+title = {Nobel Prize in Physics},
+year = {1936},
+}
+
+@misc{NobelPrize:1995-Reines,
+author = {Foundation, Nobel},
+title = {Nobel Prize in Physics},
+year = {1995},
+}
+
+@article{Danby-NuMu,
+  title = {Observation of High-Energy Neutrino Reactions and the Existence of Two Kinds of Neutrinos},
+  author = {Danby, G. and Gaillard, J-M. and Goulianos, K. and Lederman, L. M. and Mistry, N. and Schwartz, M. and Steinberger, J.},
+  journal = {Phys. Rev. Lett.},
+  volume = {9},
+  issue = {1},
+  pages = {36--44},
+  numpages = {0},
+  year = {1962},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.9.36},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.9.36}
+}
+
+@article{Neddermeyer-Muon,
+  title = {Note on the Nature of Cosmic-Ray Particles},
+  author = {Neddermeyer, Seth H. and Anderson, Carl D.},
+  journal = {Phys. Rev.},
+  volume = {51},
+  issue = {10},
+  pages = {884--886},
+  numpages = {0},
+  year = {1937},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.51.884},
+  url = {https://link.aps.org/doi/10.1103/PhysRev.51.884}
+}
+
+@ARTICLE{Perl-Tau,
+   author = {{Perl}, M.~L. and {Abrams}, G.~S. and {Boyarski}, A.~M. and 
+	{Breidenbach}, M. and {Briggs}, D.~D. and {Bulos}, F. and {Chinowsky}, W. and 
+	{Dakin}, J.~T. and {Feldman}, G.~J. and {Friedberg}, C.~E. and 
+	{Fryberger}, D. and {Goldhaber}, G. and {Hanson}, G. and {Heile}, F.~B. and 
+	{Jean-Marie}, B. and {et al.}},
+    title = "{Evidence for anomalous lepton production in e$^{ + }$e$^{ - }$ annihilation}",
+  journal = {Physical Review Letters},
+     year = 1975,
+    month = dec,
+   volume = 35,
+    pages = {1489-1492},
+      doi = {10.1103/PhysRevLett.35.1489},
+   adsurl = {http://adsabs.harvard.edu/abs/1975PhRvL..35.1489P},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{DONUT-2001,
+   author = {{DONUT Collaboration} and {Kodama}, K. and {Ushida}, N. and 
+	{Andreopoulos}, C. and {Saoulidou}, N. and {Tzanakos}, G. and 
+	{Yager}, P. and {Baller}, B. and {Boehnlein}, D. and {Freeman}, W. and 
+	{Lundberg}, B. and {Morfin}, J. and {Rameika}, R. and {Yun}, J.~C. and 
+	{Song}, J.~S. and {Yoon}, C.~S. and {Chung}, S.~H. and {Berghaus}, P. and 
+	{Kubantsev}, M. and {Reay}, N.~W. and {Sidwell}, R. and {Stanton}, N. and 
+	{Yoshida}, S. and {Aoki}, S. and {Hara}, T. and {Rhee}, J.~T. and 
+	{Ciampa}, D. and {Erickson}, C. and {Graham}, M. and {Heller}, K. and 
+	{Rusack}, R. and {Schwienhorst}, R. and {Sielaff}, J. and {Trammell}, J. and 
+	{Wilcox}, J. and {Hoshino}, K. and {Jiko}, H. and {Miyanishi}, M. and 
+	{Komatsu}, M. and {Nakamura}, M. and {Nakano}, T. and {Niwa}, K. and 
+	{Nonaka}, N. and {Okada}, K. and {Sato}, O. and {Akdogan}, T. and 
+	{Paolone}, V. and {Rosenfeld}, C. and {Kulik}, A. and {Kafka}, T. and 
+	{Oliver}, W. and {Patzak}, T. and {Schneps}, J.},
+    title = "{Observation of tau neutrino interactions}",
+  journal = {Physics Letters B},
+   eprint = {hep-ex/0012035},
+     year = 2001,
+    month = apr,
+   volume = 504,
+    pages = {218-224},
+      doi = {10.1016/S0370-2693(01)00307-0},
+   adsurl = {http://adsabs.harvard.edu/abs/2001PhLB..504..218D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{DONUT-2007,
+   author = {{Kodama}, K. and {Ushida}, N. and {Andreopoulos}, C. and {Saoulidou}, N. and 
+	{Tzanakos}, G. and {Yager}, P. and {Baller}, B. and {Boehnlein}, D. and 
+	{Freeman}, W. and {Lundberg}, B. and {Morfin}, J. and {Rameika}, R. and 
+	{Chung}, S.~H. and {Song}, J.~S. and {Yoon}, C.~S. and {Berghaus}, P. and 
+	{Kubantsev}, M. and {Reay}, N.~W. and {Sidwell}, R. and {Stanton}, N. and 
+	{Yoshida}, S. and {Aoki}, S. and {Hara}, T. and {Rhee}, J.~T. and 
+	{Ciampa}, D. and {Erickson}, C. and {Graham}, M. and {Maher}, E. and 
+	{Heller}, K. and {Rusack}, R. and {Schwienhorst}, R. and {Sielaff}, J. and 
+	{Trammell}, J. and {Wilcox}, J. and {Furukawa}, T. and {Hoshino}, K. and 
+	{Jiko}, H. and {Komatsu}, M. and {Nakamura}, M. and {Nakano}, T. and 
+	{Niwa}, K. and {Nonaka}, N. and {Okada}, K. and {Park}, B.~D. and 
+	{Sato}, O. and {Takahashi}, S. and {Paolone}, V. and {Rosenfeld}, C. and 
+	{Kulik}, A. and {Kafka}, T. and {Oliver}, W. and {Patzak}, T. and 
+	{Schneps}, J.},
+    title = "{Final tau-neutrino results from the DONuT experiment}",
+  journal = {PRD},
+archivePrefix = "arXiv",
+   eprint = {0711.0728},
+ primaryClass = "hep-ex",
+ keywords = {Ordinary neutrinos (nuW bosons, Multivariate analysis, Decays of charmed mesons, Decays of taus},
+     year = 2008,
+    month = sep,
+   volume = 78,
+   number = 5,
+      eid = {052002},
+    pages = {052002},
+      doi = {10.1103/PhysRevD.78.052002},
+   adsurl = {http://adsabs.harvard.edu/abs/2008PhRvD..78e2002K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{ALEPH-3Nu,
+   author = {{The ALEPH Collaboration} and {the DELPHI Collaboration} and 
+	{the L3 Collaboration} and {the OPAL Collaboration} and {the SLD Collaboration} and 
+	{the LEP Electroweak Working Group} and {SLD electroweak}, t. and 
+	{heavy flavour groups}},
+    title = "{Precision Electroweak Measurements on the Z Resonance}",
+  journal = {ArXiv High Energy Physics - Experiment e-prints},
+   eprint = {hep-ex/0509008},
+ keywords = {High Energy Physics - Experiment, High Energy Physics - Phenomenology},
+     year = 2005,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2005hep.ex....9008T},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Pacini-CRSource,
+   author = {{De Angelis}, A.},
+    title = "{Domenico Pacini, uncredited pioneer of the discovery of cosmic rays}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1103.4392},
+ keywords = {Physics - History and Philosophy of Physics, Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2011,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2011arXiv1103.4392D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@INPROCEEDINGS{Hoerandel-CRHistory,
+   author = {{Hoerandel}, J.~R.},
+    title = "{Early cosmic-ray work published in German}",
+ keywords = {cosmic rays, history, History of science, Cosmic rays},
+booktitle = {American Institute of Physics Conference Series},
+     year = 2013,
+   series = {American Institute of Physics Conference Series},
+   volume = 1516,
+archivePrefix = "arXiv",
+   eprint = {1212.0706},
+   editor = {{Ormes}, J.~F.},
+    month = feb,
+    pages = {52-60},
+      doi = {10.1063/1.4792540},
+   adsurl = {http://adsabs.harvard.edu/abs/2013AIPC.1516...52H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Compton-CRAltitude,
+  title = {A Geographic Study of Cosmic Rays},
+  author = {Compton, Arthur H.},
+  journal = {Phys. Rev.},
+  volume = {43},
+  issue = {6},
+  pages = {387--403},
+  numpages = {0},
+  year = {1933},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.43.387},
+  url = {https://link.aps.org/doi/10.1103/PhysRev.43.387}
+}
+
+
+@article{Blau-HadronicShowers,
+author = {Blau, M and Wambacher, H},
+year = {1937},
+month = {01},
+pages = {585-585},
+title = {Disintegration Processes by Cosmic Rays with the Simultaneous Emission of Several Heavy Particles},
+volume = {140},
+booktitle = {Nature}
+}
+
+
+@ARTICLE{Kolhoerster-CoincidenceDetectors,
+   author = {{Bothe}, W. and {Kolhoerster}, W.},
+    title = "{Das Wesen der Hoehenstrahlung}",
+  journal = {Zeitschrift fur Physik},
+     year = 1929,
+    month = nov,
+   volume = 56,
+    pages = {751-777},
+      doi = {10.1007/BF01340137},
+   adsurl = {http://adsabs.harvard.edu/abs/1929ZPhy...56..751B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{PDG-2015,
+      author         = "Olive, K. A. and others",
+      title          = "{Review of Particle Physics}",
+      collaboration  = "Particle Data Group",
+      journal        = "Chin. Phys.",
+      volume         = "C38",
+      year           = "2014",
+      pages          = "090001",
+      doi            = "10.1088/1674-1137/38/9/090001",
+      SLACcitation   = "%%CITATION = CHPHD,C38,090001;%%"
+}
+
+
+
+ @misc{StandardModel-Image,
+   author = "Wikimedia Commons",
+   title = "File:Standard Model of Elementary Particles.svg --- Wikimedia Commons{,} the free media repository",
+   year = "2017",
+   url = "https://commons.wikimedia.org/w/index.php?title=File:Standard_Model_of_Elementary_Particles.svg&oldid=269046622",
+   note = "[Online; accessed 23-February-2018]"
+ }
+ 
+ @ARTICLE{Formaggio-Xsec,
+   author = {{Formaggio}, J.~A. and {Zeller}, G.~P.},
+    title = "{From eV to EeV: Neutrino cross sections across energy scales}",
+  journal = {Reviews of Modern Physics},
+archivePrefix = "arXiv",
+   eprint = {1305.7513},
+ primaryClass = "hep-ex",
+ keywords = {Neutrino scattering, Neutrino interactions, Ordinary neutrinos (nuW bosons},
+     year = 2012,
+    month = jul,
+   volume = 84,
+    pages = {1307-1341},
+      doi = {10.1103/RevModPhys.84.1307},
+   adsurl = {http://adsabs.harvard.edu/abs/2012RvMP...84.1307F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+ 
