@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  23 FEB 2018 02:51
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  24 FEB 2018 22:38
  restricted system commands enabled.
 **mjlarson_thesis.tex
 (./mjlarson_thesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.126 seconds
+luaotfload | main : initialization completed in 0.226 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/04/13 v3.23 KOMA-Script document class (report)
@@ -1720,7 +1720,886 @@ File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
 \pgf@gd@postkind@box=\box63
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
-e.tex)))
+e.tex))) (/usr/local/texlive/2017/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vnabla with sig. '' on line 25.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \varE with sig. '' on line 29.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ordersymbol with sig. '' on line 30.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lparen with sig. '' on line 31.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \rparen with sig. '' on line 32.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \quantity with sig. '' on line 35.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
+. d|| ' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qty with sig. '' on line 63.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pqty with sig. ' l m ' on line 64.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bqty with sig. ' l m ' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Bqty with sig. ' l m ' on line 66.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vqty with sig. ' l m ' on line 67.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmqty with sig. 'm' on line 70.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Pmqty with sig. 'm' on line 71.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bmqty with sig. 'm' on line 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vmqty with sig. 'm' on line 73.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixquantity with sig. '' on line 74.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@matrixquantity with sig. ' s g o d() d|| ' on line 100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mqty with sig. '' on line 101.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixdeterminant with sig. 'm' on line 102.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdet with sig. '' on line 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \spmqty with sig. 'm' on line 105.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sPmqty with sig. 'm' on line 106.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sbmqty with sig. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \svmqty with sig. 'm' on line 108.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixquantity with sig. ' s g o d() d|| ' on line
+. 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smqty with sig. '' on line 134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixdeterminant with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smdet with sig. '' on line 136.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argopen with sig. 's' on line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argclose with sig. 's' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braces with sig. '' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
+. line 156.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
+. on line 174.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \absolutevalue with sig. ' l m ' on line 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \abs with sig. '' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \norm with sig. ' l m ' on line 178.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \order with sig. ' l m ' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \evaluated with sig. ' s g d[| d(| ' on line 194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eval with sig. '' on line 195.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \poissonbracket with sig. ' l m m ' on line 197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pb with sig. '' on line 198.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \commutator with sig. ' l m m ' on line 201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \comm with sig. '' on line 202.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \anticommutator with sig. ' l m m ' on line 203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acommutator with sig. '' on line 204.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acomm with sig. '' on line 205.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorbold with sig. ' s m ' on line 208.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vb with sig. '' on line 209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorarrow with sig. ' s m ' on line 211.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \va with sig. '' on line 212.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorunit with sig. ' s m ' on line 214.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vu with sig. '' on line 215.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dotproduct with sig. '' on line 217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vdot with sig. '' on line 218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \crossproduct with sig. '' on line 220.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cross with sig. '' on line 221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cp with sig. '' on line 222.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gradient with sig. ' g o d() ' on line 232.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \grad with sig. '' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \divergence with sig. ' g o d() ' on line 243.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \div with sig. '' on line 246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \curl with sig. ' g o d() ' on line 256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \laplacian with sig. ' g o d() ' on line 266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \principalvalue with sig. 'g' on line 274.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pv with sig. '' on line 275.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \PV with sig. 'g' on line 276.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Re with sig. 'g' on line 277.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Im with sig. 'g' on line 278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \opbraces with sig. ' m g o d() ' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \trigbraces with sig. ' m o d() ' on line 305.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sin with sig. '' on line 309.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cos with sig. '' on line 310.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tan with sig. '' on line 311.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \csc with sig. '' on line 312.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sec with sig. '' on line 313.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cot with sig. '' on line 314.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arcsin with sig. '' on line 316.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arccos with sig. '' on line 317.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arctan with sig. '' on line 318.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccsc with sig. '' on line 320.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcsec with sig. '' on line 322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccot with sig. '' on line 324.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asin with sig. '' on line 327.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acos with sig. '' on line 329.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atan with sig. '' on line 331.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsc with sig. '' on line 333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asec with sig. '' on line 335.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acot with sig. '' on line 337.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sinh with sig. '' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cosh with sig. '' on line 340.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tanh with sig. '' on line 341.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \csch with sig. '' on line 343.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sech with sig. '' on line 345.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \coth with sig. '' on line 346.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \exp with sig. '' on line 348.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \log with sig. '' on line 349.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \ln with sig. '' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \det with sig. '' on line 351.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Pr with sig. '' on line 352.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tr with sig. '' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Tr with sig. '' on line 354.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Res with sig. '' on line 355.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qqtext with sig. ' s m ' on line 377.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qq with sig. '' on line 378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcomma with sig. '' on line 380.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qc with sig. '' on line 381.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qif with sig. 's' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qthen with sig. 's' on line 384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qelse with sig. 's' on line 385.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qotherwise with sig. 's' on line 386.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qunless with sig. 's' on line 387.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qgiven with sig. 's' on line 388.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qusing with sig. 's' on line 389.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qassume with sig. 's' on line 390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qsince with sig. 's' on line 391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qlet with sig. 's' on line 392.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qfor with sig. 's' on line 393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qall with sig. 's' on line 394.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qeven with sig. 's' on line 395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qodd with sig. 's' on line 396.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qinteger with sig. 's' on line 397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qand with sig. 's' on line 398.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qor with sig. 's' on line 399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qas with sig. 's' on line 400.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qin with sig. 's' on line 401.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcc with sig. 's' on line 402.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \differential with sig. ' o g d() ' on line 415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dd with sig. '' on line 416.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \derivative with sig. ' s o m g d() ' on line 435.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dv with sig. '' on line 436.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \partialderivative with sig. ' s o m g g d() ' on line 460.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pderivative with sig. '' on line 461.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pdv with sig. '' on line 462.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \variation with sig. ' o g d() ' on line 474.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \var with sig. '' on line 475.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \functionalderivative with sig. ' s o m g d() ' on line
+. 494.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fderivative with sig. '' on line 495.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fdv with sig. '' on line 496.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bra with sig. ' s m t\ket s g ' on line 526.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ket with sig. ' s m ' on line 533.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \innerproduct with sig. ' s m g ' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braket with sig. '' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ip with sig. '' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \outerproduct with sig. ' s m g ' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dyad with sig. '' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \op with sig. '' on line 567.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ketbra with sig. '' on line 568.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expectationvalue with sig. ' s s m g ' on line 587.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expval with sig. '' on line 588.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ev with sig. '' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vev with sig. ' m ' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixelement with sig. ' s s m m m ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixel with sig. '' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mel with sig. '' on line 603.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \identitymatrix with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \imat with sig. '' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmatrix with sig. ' s m m m ' on line 659.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmat with sig. '' on line 660.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zeromatrix with sig. ' m g ' on line 662.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zmat with sig. '' on line 663.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulixmatrix with sig. '' on line 665.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pauliymatrix with sig. '' on line 666.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulizmatrix with sig. '' on line 667.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulimatrix with sig. 'm' on line 678.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmat with sig. '' on line 679.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \diagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on line
+. 681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@dmat with sig. 'mmggggggg' on line 714.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dmat with sig. '' on line 715.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \antidiagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on
+. line 717.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@admat with sig. 'mmggggggg' on line 750.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \admat with sig. '' on line 751.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \flatfrac with sig. ' m m ' on line 754.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \homework with sig. '' on line 764.
+.................................................
+)
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: 
 * paper: a4paper
@@ -1753,7 +2632,8 @@ e.tex)))
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/xargs/xargs.sty
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
 \xargs@max=\count416
 \xargs@toksa=\toks45
@@ -1784,8 +2664,11 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./mjlarson_thesis.aux (./chapters/introduction.aux)
-(./chapters/oscillations.aux) (./chapters/detector.aux)
+(./mjlarson_thesis.aux (./chapters/introduction.aux
+
+LaTeX Warning: Label `fig:discrete_emissions' multiply defined.
+
+) (./chapters/oscillations.aux) (./chapters/detector.aux)
 (./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
 (./chapters/greco.aux
 
@@ -1804,6 +2687,9 @@ LaTeX Warning: Label `fig:t_rms' multiply defined.
 LaTeX Warning: Label `fig:true_nuproperties' multiply defined.
 
 ) (./chapters/analysis.aux
+
+LaTeX Warning: Label `sec:unitarity' multiply defined.
+
 
 LaTeX Warning: Label `subsec:detector_systematics' multiply defined.
 
@@ -2697,12 +3583,12 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
-LaTeX Font Info:    Try loading font information for TU+qhv on input line 103.
-LaTeX Font Info:    No file TUqhv.fd. on input line 103.
+LaTeX Font Info:    Try loading font information for TU+qhv on input line 95.
+LaTeX Font Info:    No file TUqhv.fd. on input line 95.
 
 
 LaTeX Font Warning: Font shape `TU/qhv/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 103.
+(Font)              using `TU/lmr/m/n' instead on input line 95.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `qhv' (encoding: TU).
@@ -2710,7 +3596,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 LaTeX Font Warning: Font shape `TU/qhv/b/n' undefined
-(Font)              using `TU/qhv/m/n' instead on input line 103.
+(Font)              using `TU/qhv/m/n' instead on input line 95.
 
 [2](load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generi
 c/fonts/otl/lmromanslant10-regular.luc) [3])
@@ -2721,8 +3607,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./mjlarson_thesis.lof [4]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 75.
+ (./mjlarson_thesis.lof
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2731,12 +3617,37 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
+
+! Missing { inserted.
+<to be read again> 
+\begingroup 
+l.21 ...to 30$^\o $.\relax }}{19}{figure.caption.23}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 21.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.21 ...to 30$^\o $.\relax }}{19}{figure.caption.23}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ø (U+00F8) in font lmmi7!
+[4])
 \tf@lof=\write8
 
 \openout8 = mjlarson_thesis.lof
-
-(./mjlarson_thesis.lot
+ (./mjlarson_thesis.lot
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5])
@@ -2758,7 +3669,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<chapters/introduction/images/ALEPH_NumNu.png, id=703, 516.93124pt x 513.92pt>
+<chapters/introduction/images/ALEPH_NumNu.png, id=722, 516.93124pt x 513.92pt>
 File: chapters/introduction/images/ALEPH_NumNu.png Graphic file (type png)
 
 <use chapters/introduction/images/ALEPH_NumNu.png>
@@ -2773,75 +3684,165 @@ LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <9> not available
 onts/otl/lmromanslant8-regular.luc)(load luc: /Users/mjlarson/Library/texlive/20
 17/texmf-var/luatex-cache/generic/fonts/otl/lmromandemi10-oblique.luc)
 [8<./chapters/introduction/images/ALEPH_NumNu.png>]
-<chapters/introduction/images/CR_Spectrum_PDG15.png, id=726, 583.17876pt x 433.
+<chapters/introduction/images/CR_Spectrum_PDG15.png, id=744, 583.17876pt x 433.
 62pt>
 File: chapters/introduction/images/CR_Spectrum_PDG15.png Graphic file (type png)
 
  <use chapters/introduction/images/CR_Spectrum_PDG15.png>
 Package luatex.def Info: chapters/introduction/images/CR_Spectrum_PDG15.png used
- on input line 100.
+ on input line 95.
 (luatex.def)             Requested size: 407.6684pt x 303.12833pt.
 
-<chapters/introduction/images/Standard_Model_of_Elementary_Particles.png, id=72
-8, 1146.2825pt x 1076.02pt>
+<chapters/introduction/images/Standard_Model_of_Elementary_Particles.png, id=74
+7, 1146.2825pt x 1076.02pt>
 File: chapters/introduction/images/Standard_Model_of_Elementary_Particles.png Gr
 aphic file (type png)
 
 <use chapters/introduction/images/Standard_Model_of_Elementary_Particles.png>
 Package luatex.def Info: chapters/introduction/images/Standard_Model_of_Elementa
-ry_Particles.png used on input line 111.
-(luatex.def)             Requested size: 407.6684pt x 382.68758pt.
+ry_Particles.png used on input line 110.
+(luatex.def)             Requested size: 317.07619pt x 297.6386pt.
 
-[9]
+[9] [10<./chapters/introduction/images/CR_Spectrum_PDG15.png><./chapters/introdu
+ction/images/Standard_Model_of_Elementary_Particles.png>]
 
-Package caption Warning: \label without proper reference on input line 150.
+Package caption Warning: \label without proper reference on input line 149.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:nu_vertex' on page 10 undefined on input line 136.
+LaTeX Warning: Reference `fig:nu_vertex' on page 11 undefined on input line 135.
 
 
 
-Package caption Warning: \label without proper reference on input line 166.
+Package caption Warning: \label without proper reference on input line 175.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:xsec' on page 10 undefined on input line 156.
+LaTeX Warning: Reference `fig:xsec' on page 11 undefined on input line 165.
 
 
-<chapters/introduction/images/nu_xsec_formaggio.png, id=747, 788.9475pt x 563.1
+<chapters/introduction/images/nu_xsec_formaggio.png, id=774, 788.9475pt x 563.1
 0374pt>
 File: chapters/introduction/images/nu_xsec_formaggio.png Graphic file (type png)
 
  <use chapters/introduction/images/nu_xsec_formaggio.png>
 Package luatex.def Info: chapters/introduction/images/nu_xsec_formaggio.png used
- on input line 161.
+ on input line 170.
 (luatex.def)             Requested size: 181.18442pt x 129.3135pt.
 
-<chapters/introduction/images/nubar_xsec_formaggio.png, id=748, 959.585pt x 676
+<chapters/introduction/images/nubar_xsec_formaggio.png, id=775, 959.585pt x 676
 .5275pt>
 File: chapters/introduction/images/nubar_xsec_formaggio.png Graphic file (type p
 ng)
  <use chapters/introduction/images/nubar_xsec_formaggio.png>
 Package luatex.def Info: chapters/introduction/images/nubar_xsec_formaggio.png u
-sed on input line 163.
+sed on input line 172.
 (luatex.def)             Requested size: 181.18442pt x 127.73636pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 167.
+(Font)              <9> on input line 176.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 167.
- [10<./chapters/introduction/images/CR_Spectrum_PDG15.png>] [11<./chapters/intro
-duction/images/Standard_Model_of_Elementary_Particles.png>]) [12<./chapters/intr
-oduction/images/nu_xsec_formaggio.png><./chapters/introduction/images/nubar_xsec
-_formaggio.png>]
+(Font)              <6> on input line 176.
+
+Underfull \vbox (badness 4713) has occurred while \output is active []
+
+ [11]
+[12<./chapters/introduction/images/nu_xsec_formaggio.png><./chapters/introductio
+n/images/nubar_xsec_formaggio.png>]
+<chapters/introduction/images/discrete_emissions_MMC.png, id=799, 733.74126pt x
+ 724.7075pt>
+File: chapters/introduction/images/discrete_emissions_MMC.png Graphic file (type
+ png)
+ <use chapters/introduction/images/discrete_emissions_MMC.png>
+Package luatex.def Info: chapters/introduction/images/discrete_emissions_MMC.png
+ used on input line 224.
+(luatex.def)             Requested size: 271.78352pt x 268.43614pt.
+
+<chapters/introduction/images/bethe_bloche-PDG15.png, id=804, 601.24625pt x 396
+.48125pt>
+File: chapters/introduction/images/bethe_bloche-PDG15.png Graphic file (type png
+)
+ <use chapters/introduction/images/bethe_bloche-PDG15.png>
+Package luatex.def Info: chapters/introduction/images/bethe_bloche-PDG15.png use
+d on input line 246.
+(luatex.def)             Requested size: 362.37573pt x 238.96744pt.
+ [13<./chapters/introduction/images/discrete_emissions_MMC.png>] [14<./chapters/
+introduction/images/bethe_bloche-PDG15.png>]) [15]
 \openout2 = ./chapters/oscillations.aux
  (./chapters/oscillations.tex
+
 chapter 2.
-) [13
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/theory.tex [16
 
 
 
 ]
+
+LaTeX Warning: Citation 'OscillationWavePackets' on page 17 undefined on input l
+ine 131.
+
+[17]
+Overfull \hbox (19.9981pt too wide) detected at line 186
+\OML/lmm/m/it/10 P [] \OT1/lmr/m/n/10 = \OML/lmm/m/it/10 [] \OMS/lmsy/m/n/10  
+ \OT1/lmr/m/n/10 4 [] \OML/lmm/m/it/10 Re [] sin[] [] \OT1/lmr/m/n/10 + 2 [] \O
+ML/lmm/m/it/10 Im [] [] []
+ []
+
+[18] <chapters/oscillations/images/twoflavor.pdf, id=928, 650.43pt x 289.08pt>
+File: chapters/oscillations/images/twoflavor.pdf Graphic file (type pdf)
+
+<use chapters/oscillations/images/twoflavor.pdf>
+Package luatex.def Info: chapters/oscillations/images/twoflavor.pdf used on inpu
+t line 235.
+(luatex.def)             Requested size: 407.6684pt x 181.19063pt.
+
+! Missing { inserted.
+<to be read again> 
+\begingroup 
+l.237 ... while fixing the mixing angle to 30$^\o$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 237.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.237 ... while fixing the mixing angle to 30$^\o$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ø (U+00F8) in font lmmi6!
+
+Package caption Warning: \label without proper reference on input line 236.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:twoflavor_probs' on page 19 undefined on input lin
+e 240.
+
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmmono10-regular.luc)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman7-regular.luc)(load luc: /Users/mjlarson/Library/texlive/2017/te
+xmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc) [19<./chapters/oscil
+lations/images/twoflavor.pdf>])
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/solar.tex)
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/atmospheric.tex)
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/constraints.tex)
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/unitarity.tex))
+[20]
 \openout2 = ./chapters/detector.aux
  (./chapters/detector.tex
 chapter 3.
@@ -2886,21 +3887,16 @@ Overfull \hbox (71.88326pt too wide) in paragraph at lines 7--7
  []
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
-
-
-Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
-\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
- []
+LaTeX Warning: Marginpar on page 21 moved.
 
 
 Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
@@ -2918,7 +3914,12 @@ Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
  []
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+Overfull \hbox (8.20828pt too wide) in paragraph at lines 14--14
+\TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf 
+ []
+
+
+LaTeX Warning: Marginpar on page 21 moved.
 
 
 Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
@@ -2940,58 +3941,58 @@ Overfull \hbox (8.20828pt too wide) in paragraph at lines 42--42
 \TU/lmr/m/n/5 https://arxiv.org/pdf/1612.05093.pdf  
  []
 
-) [14
+) [21
 
 
 
 ] (/Users/mjlarson/Documents/PhD_Thesis/chapters/detector/trigger.tex))
-[15]
+[22]
 \openout2 = ./chapters/simulation.aux
  (./chapters/simulation.tex
 chapter 4.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/generators.tex
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
- [16
+ [23
 
 
 
 ]
-[17] [18])
+[24] [25])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/propagation.tex
-[19] [20])
+[26] [27])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/electronics.tex
-[21])
+[28])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/eventbuilding.tex
-[22] [23])) [24]
+[29] [30])) [31]
 \openout2 = ./chapters/vuvuzela.aux
  (./chapters/vuvuzela.tex
 chapter 5.
 
-LaTeX Warning: Reference `larson_masters' on page 25 undefined on input line 15.
+LaTeX Warning: Reference `larson_masters' on page 32 undefined on input line 15.
 
 
-[25
+[32
 
 
 
-] [26]
+] [33]
 
-LaTeX Warning: Reference `sec:pLLH' on page 27 undefined on input line 102.
+LaTeX Warning: Reference `sec:pLLH' on page 34 undefined on input line 102.
 
 
-LaTeX Warning: Reference `sec:pass2' on page 27 undefined on input line 114.
+LaTeX Warning: Reference `sec:pass2' on page 34 undefined on input line 114.
 
-[27] [28]) [29]
+[34] [35]) [36]
 \openout2 = ./chapters/muonsim.aux
  (./chapters/muonsim.tex
 chapter 6.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/longframe.tex
 
-LaTeX Warning: Citation 'heereman_thesis' on page 30 undefined on input line 14.
+LaTeX Warning: Citation 'heereman_thesis' on page 37 undefined on input line 14.
 
 
-[30
+[37
 
 
 
@@ -2999,25 +4000,25 @@ LaTeX Warning: Citation 'heereman_thesis' on page 30 undefined on input line 14.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/deepcore_muongun.tex)
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/muonsim/kde.tex
 
-LaTeX Warning: Reference `fig:mg_generation' on page 31 undefined on input line 
+LaTeX Warning: Reference `fig:mg_generation' on page 38 undefined on input line 
 9.
 
 
-LaTeX Warning: Citation 'h4a' on page 31 undefined on input line 10.
+LaTeX Warning: Citation 'h4a' on page 38 undefined on input line 10.
 
 
-LaTeX Warning: Reference `fig:mg_ineff' on page 31 undefined on input line 15.
+LaTeX Warning: Reference `fig:mg_ineff' on page 38 undefined on input line 15.
 
-[31]
+[38]
 
-LaTeX Warning: Citation 'scipy' on page 32 undefined on input line 29.
+LaTeX Warning: Citation 'scipy' on page 39 undefined on input line 29.
 
-)) [32]
+)) [39]
 \openout2 = ./chapters/greco.aux
  (./chapters/greco.tex
 chapter 7.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level4.tex
-<chapters/greco/images/level4/FirstHitZ_log.png, id=932, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/FirstHitZ_log.png, id=1141, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/FirstHitZ_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/FirstHitZ_log.png>
@@ -3025,7 +4026,7 @@ Package luatex.def Info: chapters/greco/images/level4/FirstHitZ_log.png used on
 input line 14.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level4/NAbove200_log.png, id=933, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/NAbove200_log.png, id=1142, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/NAbove200_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/NAbove200_log.png>
@@ -3036,7 +4037,7 @@ input line 32.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapters/greco/images/level4/QR6_log.png, id=934, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/QR6_log.png, id=1143, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/QR6_log.png>
@@ -3048,28 +4049,28 @@ onts/otl/lmroman8-regular.luc)
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <8> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 44.
 
-<chapters/greco/images/level4/C2QR6_log.png, id=935, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/C2QR6_log.png, id=1144, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/C2QR6_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/C2QR6_log.png>
 Package luatex.def Info: chapters/greco/images/level4/C2QR6_log.png used on inpu
 t line 45.
 (luatex.def)             Requested size: 166.2212pt x 124.66147pt.
- [33
+ [40
 
 
 
 <./chapters/greco/images/level4/FirstHitZ_log.png>]
-<chapters/greco/images/level4/ToIEval_log.png, id=944, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/ToIEval_log.png, id=1154, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/ToIEval_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/ToIEval_log.png>
 Package luatex.def Info: chapters/greco/images/level4/ToIEval_log.png used on in
 put line 76.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
- [34<./chapters/greco/images/level4/NAbove200_log.png><./chapters/greco/images/l
+ [41<./chapters/greco/images/level4/NAbove200_log.png><./chapters/greco/images/l
 evel4/QR6_log.png><./chapters/greco/images/level4/C2QR6_log.png>]
-<chapters/greco/images/level4/iLineFit_Log.png, id=955, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/iLineFit_Log.png, id=1166, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/iLineFit_Log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/iLineFit_Log.png>
@@ -3077,7 +4078,7 @@ Package luatex.def Info: chapters/greco/images/level4/iLineFit_Log.png used on i
 nput line 103.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level4/BDT_log.png, id=956, 578.16pt x 433.62pt>
+<chapters/greco/images/level4/BDT_log.png, id=1167, 578.16pt x 433.62pt>
 File: chapters/greco/images/level4/BDT_log.png Graphic file (type png)
 
 <use chapters/greco/images/level4/BDT_log.png>
@@ -3088,12 +4089,12 @@ line 113.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35<./chapters/greco/images/level4/ToIEval_log.png><./chapters/greco/images/leve
+[42<./chapters/greco/images/level4/ToIEval_log.png><./chapters/greco/images/leve
 l4/iLineFit_Log.png>])
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex [36<./chapters/g
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level5.tex [43<./chapters/g
 reco/images/level4/BDT_log.png>]
-<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=971, 578.16pt x 433
-.62pt>
+<chapters/greco/images/level5/Time_to_75_Charge_log.png, id=1182, 578.16pt x 43
+3.62pt>
 File: chapters/greco/images/level5/Time_to_75_Charge_log.png Graphic file (type 
 png)
  <use chapters/greco/images/level5/Time_to_75_Charge_log.png>
@@ -3101,8 +4102,8 @@ Package luatex.def Info: chapters/greco/images/level5/Time_to_75_Charge_log.png
 used on input line 19.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=972, 578.16pt x
- 433.62pt>
+<chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png, id=1183, 578.16pt 
+x 433.62pt>
 File: chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png Graphic file (t
 ype png)
  <use chapters/greco/images/level5/Veto_Causal_Hits_(PE)_log.png>
@@ -3111,22 +4112,22 @@ png used on input line 32.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
 
-LaTeX Warning: Reference `fig:VICH_definition' on page 37 undefined on input lin
+LaTeX Warning: Reference `fig:VICH_definition' on page 44 undefined on input lin
 e 41.
 
 
-<chapters/greco/images/level5/First_HLC_Rho_log.png, id=973, 578.16pt x 433.62p
-t>
+<chapters/greco/images/level5/First_HLC_Rho_log.png, id=1184, 578.16pt x 433.62
+pt>
 File: chapters/greco/images/level5/First_HLC_Rho_log.png Graphic file (type png)
 
  <use chapters/greco/images/level5/First_HLC_Rho_log.png>
 Package luatex.def Info: chapters/greco/images/level5/First_HLC_Rho_log.png used
  on input line 47.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
- [37<./chapters/greco/images/level5/Time_to_75_Charge_log.png><./chapters/greco/
+ [44<./chapters/greco/images/level5/Time_to_75_Charge_log.png><./chapters/greco/
 images/level5/Veto_Causal_Hits_(PE)_log.png>]
-<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=980, 578.16pt x 433.62
-pt>
+<chapters/greco/images/level5/Q1-Q4_Distance_log.png, id=1191, 578.16pt x 433.6
+2pt>
 File: chapters/greco/images/level5/Q1-Q4_Distance_log.png Graphic file (type png
 )
  <use chapters/greco/images/level5/Q1-Q4_Distance_log.png>
@@ -3134,7 +4135,7 @@ Package luatex.def Info: chapters/greco/images/level5/Q1-Q4_Distance_log.png use
 d on input line 59.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level5/Z-Travel_log.png, id=981, 578.16pt x 433.62pt>
+<chapters/greco/images/level5/Z-Travel_log.png, id=1192, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/Z-Travel_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/Z-Travel_log.png>
@@ -3146,8 +4147,8 @@ nput line 71.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=982, 578.16pt x 433
-.62pt>
+<chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png, id=1193, 578.16pt x 43
+3.62pt>
 File: chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png Graphic file (type 
 png)
  <use chapters/greco/images/level5/SPE11_Cos(Zenith)_log.png>
@@ -3158,9 +4159,9 @@ used on input line 83.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38<./chapters/greco/images/level5/First_HLC_Rho_log.png><./chapters/greco/image
+[45<./chapters/greco/images/level5/First_HLC_Rho_log.png><./chapters/greco/image
 s/level5/Q1-Q4_Distance_log.png>]
-<chapters/greco/images/level5/BDT_Score_log.png, id=989, 578.16pt x 433.62pt>
+<chapters/greco/images/level5/BDT_Score_log.png, id=1200, 578.16pt x 433.62pt>
 File: chapters/greco/images/level5/BDT_Score_log.png Graphic file (type png)
 
 <use chapters/greco/images/level5/BDT_Score_log.png>
@@ -3172,33 +4173,33 @@ input line 105.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:L5BDT_log' on page 39 undefined on input line 118.
+LaTeX Warning: Reference `fig:L5BDT_log' on page 46 undefined on input line 118.
 
 
 
 Underfull \vbox (badness 2318) has occurred while \output is active []
 
- [39<./chapters/greco/images/level5/Z-Travel_log.png><./chapters/greco/images/le
+ [46<./chapters/greco/images/level5/Z-Travel_log.png><./chapters/greco/images/le
 vel5/SPE11_Cos(Zenith)_log.png>])
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level6.tex
-<chapters/greco/images/level6/FillRatio.png, id=996, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/FillRatio.png, id=1207, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FillRatio.png Graphic file (type png)
 
 <use chapters/greco/images/level6/FillRatio.png>
 Package luatex.def Info: chapters/greco/images/level6/FillRatio.png used on inpu
 t line 14.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
- [40<./chapters/greco/images/level5/BDT_Score_log.png><./chapters/greco/images/l
+ [47<./chapters/greco/images/level5/BDT_Score_log.png><./chapters/greco/images/l
 evel6/FillRatio.png>]
-<chapters/greco/images/level6/nch.png, id=1004, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/nch.png, id=1215, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/nch.png Graphic file (type png)
 
 <use chapters/greco/images/level6/nch.png>
 Package luatex.def Info: chapters/greco/images/level6/nch.png used on input line
  57.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
- [41<./chapters/greco/images/level6/nch.png>]
-<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=1015, 462.528pt x 346.89
+ [48<./chapters/greco/images/level6/nch.png>]
+<chapters/greco/images/level6/Corridor_Cut_nCh.png, id=1224, 462.528pt x 346.89
 6pt>
 File: chapters/greco/images/level6/Corridor_Cut_nCh.png Graphic file (type png)
  <use chapters/greco/images/level6/Corridor_Cut_nCh.png>
@@ -3206,7 +4207,7 @@ Package luatex.def Info: chapters/greco/images/level6/Corridor_Cut_nCh.png used
 on input line 74.
 (luatex.def)             Requested size: 180.67499pt x 135.5059pt.
 
-<chapters/greco/images/level6/FiniteReco_Rho.png, id=1016, 462.528pt x 346.896p
+<chapters/greco/images/level6/FiniteReco_Rho.png, id=1225, 462.528pt x 346.896p
 t>
 File: chapters/greco/images/level6/FiniteReco_Rho.png Graphic file (type png)
  <use chapters/greco/images/level6/FiniteReco_Rho.png>
@@ -3216,7 +4217,7 @@ Package luatex.def Info: chapters/greco/images/level6/FiniteReco_Rho.png used on
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 96.
 
-<chapters/greco/images/level6/FiniteReco_Z.png, id=1017, 462.528pt x 346.896pt>
+<chapters/greco/images/level6/FiniteReco_Z.png, id=1226, 462.528pt x 346.896pt>
 File: chapters/greco/images/level6/FiniteReco_Z.png Graphic file (type png)
 <use chapters/greco/images/level6/FiniteReco_Z.png>
 Package luatex.def Info: chapters/greco/images/level6/FiniteReco_Z.png used on i
@@ -3228,11 +4229,11 @@ Package caption Warning: \label without proper reference on input line 126.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:finitereco_zVsRho' on page 42 undefined on input l
+LaTeX Warning: Reference `fig:finitereco_zVsRho' on page 49 undefined on input l
 ine 110.
 
-[42<./chapters/greco/images/level6/Corridor_Cut_nCh.png>]
-<chapters/greco/images/level6/z_rho_corsika.png, id=1025, 505.89pt x 433.62pt>
+[49<./chapters/greco/images/level6/Corridor_Cut_nCh.png>]
+<chapters/greco/images/level6/z_rho_corsika.png, id=1234, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_corsika.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_corsika.png>
@@ -3240,7 +4241,7 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_corsika.png used on
 input line 117.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_data.png, id=1026, 505.89pt x 433.62pt>
+<chapters/greco/images/level6/z_rho_data.png, id=1235, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_data.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_data.png>
@@ -3248,7 +4249,7 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_data.png used on inp
 ut line 118.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_noise.png, id=1027, 505.89pt x 433.62pt>
+<chapters/greco/images/level6/z_rho_noise.png, id=1236, 505.89pt x 433.62pt>
 File: chapters/greco/images/level6/z_rho_noise.png Graphic file (type png)
 
 <use chapters/greco/images/level6/z_rho_noise.png>
@@ -3256,7 +4257,7 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_noise.png used on in
 put line 120.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_genie_nue.png, id=1028, 505.89pt x 433.62pt
+<chapters/greco/images/level6/z_rho_genie_nue.png, id=1237, 505.89pt x 433.62pt
 >
 File: chapters/greco/images/level6/z_rho_genie_nue.png Graphic file (type png)
  <use chapters/greco/images/level6/z_rho_genie_nue.png>
@@ -3264,7 +4265,7 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_nue.png used o
 n input line 121.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_genie_numu.png, id=1029, 505.89pt x 433.62p
+<chapters/greco/images/level6/z_rho_genie_numu.png, id=1238, 505.89pt x 433.62p
 t>
 File: chapters/greco/images/level6/z_rho_genie_numu.png Graphic file (type png)
  <use chapters/greco/images/level6/z_rho_genie_numu.png>
@@ -3272,7 +4273,7 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_numu.png used
 on input line 123.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level6/z_rho_genie_nutau.png, id=1030, 505.89pt x 433.62
+<chapters/greco/images/level6/z_rho_genie_nutau.png, id=1239, 505.89pt x 433.62
 pt>
 File: chapters/greco/images/level6/z_rho_genie_nutau.png Graphic file (type png)
 
@@ -3281,25 +4282,25 @@ Package luatex.def Info: chapters/greco/images/level6/z_rho_genie_nutau.png used
  on input line 124.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 )
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level7.tex [43<./chapters/g
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/level7.tex [50<./chapters/g
 reco/images/level6/FiniteReco_Rho.png><./chapters/greco/images/level6/FiniteReco
-_Z.png>] [44<./chapters/greco/images/level6/z_rho_corsika.png><./chapters/greco/
+_Z.png>] [51<./chapters/greco/images/level6/z_rho_corsika.png><./chapters/greco/
 images/level6/z_rho_data.png><./chapters/greco/images/level6/z_rho_noise.png><./
 chapters/greco/images/level6/z_rho_genie_nue.png><./chapters/greco/images/level6
 /z_rho_genie_numu.png><./chapters/greco/images/level6/z_rho_genie_nutau.png>]
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 52 moved.
 
 
 Package caption Warning: \label without proper reference on input line 61.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pegleg_zVsRho' on page 45 undefined on input line 
+LaTeX Warning: Reference `fig:pegleg_zVsRho' on page 52 undefined on input line 
 44.
 
 
-<chapters/greco/images/level7/pegleg_z_rho_muongun.png, id=1056, 505.89pt x 433
+<chapters/greco/images/level7/pegleg_z_rho_muongun.png, id=1266, 505.89pt x 433
 .62pt>
 File: chapters/greco/images/level7/pegleg_z_rho_muongun.png Graphic file (type p
 ng)
@@ -3308,7 +4309,7 @@ Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_muongun.png u
 sed on input line 52.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_data.png, id=1057, 505.89pt x 433.62
+<chapters/greco/images/level7/pegleg_z_rho_data.png, id=1267, 505.89pt x 433.62
 pt>
 File: chapters/greco/images/level7/pegleg_z_rho_data.png Graphic file (type png)
 
@@ -3317,7 +4318,7 @@ Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_data.png used
  on input line 53.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_noise.png, id=1058, 505.89pt x 433.6
+<chapters/greco/images/level7/pegleg_z_rho_noise.png, id=1268, 505.89pt x 433.6
 2pt>
 File: chapters/greco/images/level7/pegleg_z_rho_noise.png Graphic file (type png
 )
@@ -3326,7 +4327,7 @@ Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_noise.png use
 d on input line 55.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_genie_nue.png, id=1059, 505.89pt x 4
+<chapters/greco/images/level7/pegleg_z_rho_genie_nue.png, id=1269, 505.89pt x 4
 33.62pt>
 File: chapters/greco/images/level7/pegleg_z_rho_genie_nue.png Graphic file (type
  png)
@@ -3335,7 +4336,7 @@ Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_nue.png
  used on input line 56.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_genie_numu.png, id=1060, 505.89pt x 
+<chapters/greco/images/level7/pegleg_z_rho_genie_numu.png, id=1270, 505.89pt x 
 433.62pt>
 File: chapters/greco/images/level7/pegleg_z_rho_genie_numu.png Graphic file (typ
 e png)
@@ -3344,7 +4345,7 @@ Package luatex.def Info: chapters/greco/images/level7/pegleg_z_rho_genie_numu.pn
 g used on input line 58.
 (luatex.def)             Requested size: 203.8342pt x 174.71529pt.
 
-<chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png, id=1061, 505.89pt x
+<chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png, id=1271, 505.89pt x
  433.62pt>
 File: chapters/greco/images/level7/pegleg_z_rho_genie_nutau.png Graphic file (ty
 pe png)
@@ -3358,7 +4359,7 @@ Package caption Warning: \label without proper reference on input line 55.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:gev_per_nch' on page 45 undefined on input line 77
+LaTeX Warning: Reference `fig:gev_per_nch' on page 52 undefined on input line 77
 .
 
 
@@ -3366,10 +4367,10 @@ Package caption Warning: \label without proper reference on input line 56.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:t_rms' on page 45 undefined on input line 77.
+LaTeX Warning: Reference `fig:t_rms' on page 52 undefined on input line 77.
 
 
-<chapters/greco/images/level7/L7_GeV_per_channel.png, id=1066, 462.528pt x 346.
+<chapters/greco/images/level7/L7_GeV_per_channel.png, id=1276, 462.528pt x 346.
 896pt>
 File: chapters/greco/images/level7/L7_GeV_per_channel.png Graphic file (type png
 )
@@ -3378,7 +4379,7 @@ Package luatex.def Info: chapters/greco/images/level7/L7_GeV_per_channel.png use
 d on input line 90.
 (luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_t_rms.png, id=1067, 462.528pt x 346.896pt>
+<chapters/greco/images/level7/L7_t_rms.png, id=1277, 462.528pt x 346.896pt>
 File: chapters/greco/images/level7/L7_t_rms.png Graphic file (type png)
 
 <use chapters/greco/images/level7/L7_t_rms.png>
@@ -3388,14 +4389,14 @@ Package luatex.def Info: chapters/greco/images/level7/L7_t_rms.png used on input
 )
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/greco/greco_properties.tex
 
-LaTeX Warning: Reference `fig:event_rates' on page 45 undefined on input line 4.
+LaTeX Warning: Reference `fig:event_rates' on page 52 undefined on input line 4.
 
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7.
 
-[45] [46<./chapters/greco/images/level7/pegleg_z_rho_muongun.png><./chapters/gre
+[52] [53<./chapters/greco/images/level7/pegleg_z_rho_muongun.png><./chapters/gre
 co/images/level7/pegleg_z_rho_data.png><./chapters/greco/images/level7/pegleg_z_
 rho_noise.png><./chapters/greco/images/level7/pegleg_z_rho_genie_nue.png><./chap
 ters/greco/images/level7/pegleg_z_rho_genie_numu.png><./chapters/greco/images/le
@@ -3405,11 +4406,11 @@ Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:true_nuproperties' on page 47 undefined on input l
+LaTeX Warning: Reference `fig:true_nuproperties' on page 54 undefined on input l
 ine 30.
 
 
-<chapters/greco/images/level7/L7_true_coszen.png, id=1091, 462.528pt x 346.896p
+<chapters/greco/images/level7/L7_true_coszen.png, id=1301, 462.528pt x 346.896p
 t>
 File: chapters/greco/images/level7/L7_true_coszen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_true_coszen.png>
@@ -3417,16 +4418,16 @@ Package luatex.def Info: chapters/greco/images/level7/L7_true_coszen.png used on
  input line 37.
 (luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_true_logen.png, id=1092, 462.528pt x 346.896pt
+<chapters/greco/images/level7/L7_true_logen.png, id=1302, 462.528pt x 346.896pt
 >
 File: chapters/greco/images/level7/L7_true_logen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_true_logen.png>
 Package luatex.def Info: chapters/greco/images/level7/L7_true_logen.png used on 
 input line 38.
 (luatex.def)             Requested size: 203.8342pt x 152.87819pt.
- [47<./chapters/greco/images/level7/L7_GeV_per_channel.png><./chapters/greco/ima
+ [54<./chapters/greco/images/level7/L7_GeV_per_channel.png><./chapters/greco/ima
 ges/level7/L7_t_rms.png>]
-<chapters/greco/images/level7/L7_reco_coszen.png, id=1102, 462.528pt x 346.896p
+<chapters/greco/images/level7/L7_reco_coszen.png, id=1313, 462.528pt x 346.896p
 t>
 File: chapters/greco/images/level7/L7_reco_coszen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_reco_coszen.png>
@@ -3434,14 +4435,14 @@ Package luatex.def Info: chapters/greco/images/level7/L7_reco_coszen.png used on
  input line 55.
 (luatex.def)             Requested size: 203.8342pt x 152.87819pt.
 
-<chapters/greco/images/level7/L7_reco_logen.png, id=1103, 462.528pt x 346.896pt
+<chapters/greco/images/level7/L7_reco_logen.png, id=1314, 462.528pt x 346.896pt
 >
 File: chapters/greco/images/level7/L7_reco_logen.png Graphic file (type png)
  <use chapters/greco/images/level7/L7_reco_logen.png>
 Package luatex.def Info: chapters/greco/images/level7/L7_reco_logen.png used on 
 input line 56.
 (luatex.def)             Requested size: 203.8342pt x 152.87819pt.
-)) [48<./chapters/greco/images/level7/L7_true_coszen.png><./chapters/greco/image
+)) [55<./chapters/greco/images/level7/L7_true_coszen.png><./chapters/greco/image
 s/level7/L7_true_logen.png><./chapters/greco/images/level7/L7_reco_coszen.png><.
 /chapters/greco/images/level7/L7_reco_logen.png>]
 \openout2 = ./chapters/analysis.aux
@@ -3449,17 +4450,17 @@ s/level7/L7_true_logen.png><./chapters/greco/images/level7/L7_reco_coszen.png><.
 chapter 8.
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
-[49
+[56
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
-) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex [50]
+) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/tau_norm.tex [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 37.
@@ -3524,7 +4525,7 @@ Overfull \hbox (8.20828pt too wide) in paragraph at lines 80--80
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 86.
 
-[51]
+[58]
 Overfull \hbox (8.20828pt too wide) in paragraph at lines 99--99
 [][][][]\TU/lmr/m/n/5 https://arxiv.org/pdf/1711.09436.pdf 
  []
@@ -3566,7 +4567,7 @@ Overfull \hbox (8.20828pt too wide) in paragraph at lines 105--105
 
 )
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 59 moved.
 
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/systematics.tex
 (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/oscilparams.tex
@@ -3577,58 +4578,51 @@ LaTeX Warning: No positions in optional float specifier.
 ) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/fluxparams.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52])
+ [59])
 
-LaTeX Warning: Reference `fig:qe_res_effects' on page 53 undefined on input line
+LaTeX Warning: Reference `fig:qe_res_effects' on page 60 undefined on input line
  18.
 
 
-LaTeX Warning: Reference `tab:qe_res_dis' on page 53 undefined on input line 19.
+LaTeX Warning: Reference `tab:qe_res_dis' on page 60 undefined on input line 19.
 
 
-(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex [53]
+(/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/detsys.tex [60]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 11.
 
-[54]
+[61]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 47.
 
-[55]
+[62]
 
-LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 56 undefined on inpu
+LaTeX Warning: Reference `fig:coin_f_notNormalized' on page 63 undefined on inpu
 t line 86.
 
 
-LaTeX Warning: Reference `fig:hammamatsu_qe' on page 56 undefined on input line 
+LaTeX Warning: Reference `fig:hammamatsu_qe' on page 63 undefined on input line 
 98.
 
-(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/f
-onts/otl/lmmono8-regular.luc)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+
+LaTeX Warning: Marginpar on page 63 moved.
 
 
-LaTeX Warning: Marginpar on page 56 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
 
-LaTeX Warning: Marginpar on page 56 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
-
-LaTeX Warning: Marginpar on page 56 moved.
-
-[56
+[63
 
 
 
 
-] [57]
+] [64]
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 65 moved.
 
 )) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/likelihood.tex
 
@@ -3647,58 +4641,58 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 5.
 
-[58] [59]
+[65] [66]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 116.
 
-[60]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
+[67]) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/sensitivity.tex
 
-LaTeX Warning: Marginpar on page 61 moved.
-
-
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
-[61
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+[68
 
 
 ]
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 69 moved.
 
-[62]
+[69]
 
-LaTeX Warning: Marginpar on page 63 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 ) (/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/data_fits.tex
-[63]
+[70]
 
 Package caption Warning: \label without proper reference on input line 59.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pulse_timing_profile' on page 64 undefined on inpu
+LaTeX Warning: Reference `fig:pulse_timing_profile' on page 71 undefined on inpu
 t line 53.
 
 
-<chapters/analysis/images/2d_maps_detail_raw.png, id=1322, 939.51pt x 578.16pt>
+<chapters/analysis/images/2d_maps_detail_raw.png, id=1532, 939.51pt x 578.16pt>
 File: chapters/analysis/images/2d_maps_detail_raw.png Graphic file (type png)
 <use chapters/analysis/images/2d_maps_detail_raw.png>
 Package luatex.def Info: chapters/analysis/images/2d_maps_detail_raw.png used on
  input line 58.
 (luatex.def)             Requested size: 407.6684pt x 250.8712pt.
- [64]
+ [71]
 
-LaTeX Warning: Marginpar on page 65 moved.
+LaTeX Warning: Marginpar on page 72 moved.
 
-[65<./chapters/analysis/images/2d_maps_detail_raw.png>]
+[72<./chapters/analysis/images/2d_maps_detail_raw.png>]
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 73 moved.
 
-<chapters/analysis/images/L7_reco_z.png, id=1343, 462.528pt x 346.896pt>
+<chapters/analysis/images/L7_reco_z.png, id=1554, 462.528pt x 346.896pt>
 File: chapters/analysis/images/L7_reco_z.png Graphic file (type png)
 
 <use chapters/analysis/images/L7_reco_z.png>
@@ -3706,7 +4700,7 @@ Package luatex.def Info: chapters/analysis/images/L7_reco_z.png used on input li
 ne 129.
 (luatex.def)             Requested size: 271.78352pt x 203.8464pt.
 
-<chapters/analysis/images/pegleg_fine_z_rho.png, id=1345, 722.7pt x 433.62pt>
+<chapters/analysis/images/pegleg_fine_z_rho.png, id=1556, 722.7pt x 433.62pt>
 File: chapters/analysis/images/pegleg_fine_z_rho.png Graphic file (type png)
 
 <use chapters/analysis/images/pegleg_fine_z_rho.png>
@@ -3714,7 +4708,7 @@ Package luatex.def Info: chapters/analysis/images/pegleg_fine_z_rho.png used on
 input line 143.
 (luatex.def)             Requested size: 407.6684pt x 244.59877pt.
 
-<chapters/analysis/images/pegleg_fine_x_y.png, id=1346, 722.7pt x 433.62pt>
+<chapters/analysis/images/pegleg_fine_x_y.png, id=1557, 722.7pt x 433.62pt>
 File: chapters/analysis/images/pegleg_fine_x_y.png Graphic file (type png)
 
 <use chapters/analysis/images/pegleg_fine_x_y.png>
@@ -3727,12 +4721,12 @@ Package caption Warning: \label without proper reference on input line 175.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:flaring_xy' on page 66 undefined on input line 157
+LaTeX Warning: Reference `fig:flaring_xy' on page 73 undefined on input line 157
 .
 
-[66] [67<./chapters/analysis/images/L7_reco_z.png><./chapters/analysis/images/pe
+[73] [74<./chapters/analysis/images/L7_reco_z.png><./chapters/analysis/images/pe
 gleg_fine_z_rho.png>]
-<chapters/analysis/images/L7_charge_rms_normalized.png, id=1363, 462.528pt x 34
+<chapters/analysis/images/L7_charge_rms_normalized.png, id=1573, 462.528pt x 34
 6.896pt>
 File: chapters/analysis/images/L7_charge_rms_normalized.png Graphic file (type p
 ng)
@@ -3742,77 +4736,83 @@ sed on input line 174.
 (luatex.def)             Requested size: 407.6684pt x 305.76697pt.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
-[68<./chapters/analysis/images/pegleg_fine_x_y.png>] [69<./chapters/analysis/ima
+[75<./chapters/analysis/images/pegleg_fine_x_y.png>] [76<./chapters/analysis/ima
 ges/L7_charge_rms_normalized.png>]
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
-[70]
+[77]
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 78 moved.
 
-[71] [72])) [73]
-\openout2 = ./chapters/pingu.aux
- (./chapters/pingu.tex
-chapter 9.
-) [74
+[78] [79])) [80]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.75'
+[75
 
 
 
-](load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/
-fonts/otl/lmmono10-regular.luc) [75
-
-
-] [76] (./mjlarson_thesis.tdo
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.76'
+[76
+Missing character: There is no γ (U+03B3) in font [lmroman10-regular]:+tlig;!
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.77'
+[77] (./mjlarson_thesis.tdo
 Overfull \hbox (156.7084pt too wide) in paragraph at lines 12--12
  [][] [][][][] \TU/qhv/b/n/10 prob-a-bly also the ham-ma-matsu doc-u-men-ta-tio
 n http://ice-cube.wisc.edu/ ki-ta-mura/NK/PMT/031112%20R7081-02%20data%20sheet.
 pdf[] [][]  
  []
 
-[77
 
-] [78])
+warning  (pdf backend): ignoring duplicate destination with the name 'page.78'
+[78
+
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.79'
+[79])
 \tf@tdo=\write10
 
 \openout10 = mjlarson_thesis.tdo
- [79]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.80'
+[80]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (./mjlarson_thesis.aux (./chapters/introduction.aux)
 (./chapters/oscillations.aux) (./chapters/detector.aux)
 (./chapters/simulation.aux) (./chapters/vuvuzela.aux) (./chapters/muonsim.aux)
 (./chapters/greco.aux) (./chapters/analysis.aux) (./chapters/pingu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `mjlarson_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5A81711764844C2A644F67475C780C19;7315.
+(rerunfilecheck)             Checksum: 42CC7F211BDF3ADE26BEA35E48AC091A;7177.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3831,29 +4831,32 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'mjlarson_thesis.run.xml'.
 
 \openout1 = mjlarson_thesis.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47826 strings out of 494481
- 125006,1648299 words of node,token memory allocated
- 16123 words of node memory still in use:
-   226 hlist, 28 vlist, 2 rule, 50 disc, 18 local_par, 485 glue, 17 kern, 26 pen
-alty, 2 sub_mlist, 10 margin_kern, 544 glyph, 936 attribute, 108 glue_spec, 936 
-attribute_list, 13 write, 12 save_pos, 570 pdf_literal, 27 pdf_action nodes
-   avail lists: 1:15,2:5721,3:2091,4:589,5:873,6:6002,7:2335,8:293,9:958,10:17,1
-1:600
- 49125 multiletter control sequences out of 65536+600000
- 82 fonts using 6680479 bytes
+ 48652 strings out of 494481
+ 156259,1977958 words of node,token memory allocated
+ 46433 words of node memory still in use:
+   722 hlist, 84 vlist, 2 rule, 126 disc, 60 local_par, 1507 glue, 75 kern, 76 p
+enalty, 2 sub_mlist, 16 margin_kern, 1278 glyph, 2947 attribute, 108 glue_spec, 
+2947 attribute_list, 41 write, 40 save_pos, 1900 pdf_literal, 32 pdf_action node
+s
+   avail lists: 1:15,2:6498,3:2320,4:581,5:873,6:5474,7:2609,8:292,9:1064,10:17,
+11:556
+ 49832 multiletter control sequences out of 65536+600000
+ 84 fonts using 6938255 bytes
  72i,20n,106p,8846b,1714s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
-f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
-otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono8-regular
-.otf>{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/loca
-l/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
-017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-d
-ist/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/local/texlive/2017/texmf-dist/fonts/ope
-ntype/public/lm/lmroman8-regular.otf>{/usr/local/texlive/2017/texmf-dist/fonts/e
+
+warning  (pdf backend): unreferenced destination with name 'chapter.9'
+</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf
+>{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/
+texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/
+fonts/enc/dvips/lm/lm-rmtt.enc}</usr/local/texlive/2017/texmf-dist/fonts/opentyp
+e/public/lm/lmroman8-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opent
+ype/public/lm/lmmono10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/ope
+ntype/public/lm/lmroman10-italic.otf>{/usr/local/texlive/2017/texmf-dist/fonts/e
 nc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2017/texmf-dist/fonts/opentype/pub
 lic/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/p
 ublic/lm/lmromanslant8-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/ope
@@ -3880,14 +4883,15 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/lm/lmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on mjlarson_thesis.pdf (79 pages, 3008063 bytes).
+c/lm/lmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy7.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on mjlarson_thesis.pdf (86 pages, 3273526 bytes).
 
-PDF statistics: 1817 PDF objects out of 2073 (max. 8388607)
- 1563 compressed objects within 16 object streams
- 497 named destinations out of 1000 (max. 131072)
- 808 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2058 PDF objects out of 2073 (max. 8388607)
+ 1760 compressed objects within 18 object streams
+ 550 named destinations out of 1000 (max. 131072)
+ 792 words of extra memory for PDF output out of 10000 (max. 100000000)
 

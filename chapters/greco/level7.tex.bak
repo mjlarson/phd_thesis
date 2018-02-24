@@ -87,7 +87,7 @@ This limits the loss of neutrino events while removing a fraction of the remaini
 \begin{center}
 \begin{table}
 \begin{tabular}{cc}
-	\label{fig:gev_per_nch} \includegraphics[width=0.45\linewidth]{L7_GeV_per_nchannel.png} &
+	\label{fig:gev_per_nch} \includegraphics[width=0.45\linewidth]{L7_GeV_per_channel.png} &
 	\label{fig:t_rms} \includegraphics[width=0.45\linewidth]{L7_t_rms.png} \\
 \end{tabular}
 \caption{The final two cuts applied to the sample prior to the analysis binning. All events are included here, although each cut is only applied to events with fewer than 14 hit DOMs. Note that the total simulation rate is scaled downward by 20\% to approximately match the rate of the data events.}

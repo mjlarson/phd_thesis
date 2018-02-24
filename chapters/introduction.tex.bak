@@ -58,7 +58,7 @@ A precision measurement of the Z resonance completed at the LEP coillider demons
 \centering
 \includegraphics[width=0.5\linewidth]{ALEPH_NumNu.png} 
 \label{fig:ALEPH}
-\caption{The number of active neutrinos as measured by ALEPH, DELPHI, L3, and OPAL. The data from the four experiments strongly favors only three neutrinos coupling to the Z boson. Image taken from \cite{ALEPH-NumNu}.}
+\caption{The number of active neutrinos as measured by ALEPH, DELPHI, L3, and OPAL. The data from the four experiments strongly favors only three neutrinos coupling to the Z boson. Image taken from \cite{ALEPH-3Nu}.}
 \end{figure}
 
 \label{sec:cosmic_rays}
@@ -90,11 +90,6 @@ Instead of consisting of single particles reaching detectors, Kolhoerster showed
 These showers begin with a cosmic ray primary particle, often a single proton accelerated to high energies, which interacts with particles of the Earth's atmosphere.
 The interaction leads to the creation of various daughters, including neutrinos, muons, pions, kaons, and other hadrons.
 
-Modern measurements have shown that the cosmic ray spectrum primarily consists of protons with a small contribution from helium and heavier elements \cite{PDG-2015}
-These ions are accelerated in unknown astrophysical sources up to extremely high energies.
-The cosmic ray spectrum extends over many orders of magnitude, with the highest energy observations reaching $\mathtt{10^{20}}$ electronvolts - far higher than any Earth-based accelerator.
-The spectrum has multiple features that are believed to arise from different accelerator sources at different scales.
-
 \begin{figure}
 \centering
 \includegraphics[width=0.9\linewidth]{CR_Spectrum_PDG15.png}
@@ -102,13 +97,17 @@ The spectrum has multiple features that are believed to arise from different acc
 \caption{The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite{PDG-2015}}
 \end{figure}
 
+Modern measurements have shown that the cosmic ray spectrum primarily consists of protons with a small contribution from helium and heavier elements \cite{PDG-2015}
+These ions are accelerated in unknown astrophysical sources up to extremely high energies.
+The cosmic ray spectrum extends over many orders of magnitude, with the highest energy observations reaching $\mathtt{10^{20}}$ electronvolts - far higher than any Earth-based accelerator.
+The spectrum has multiple features that are believed to arise from different accelerator sources at different scales.
 
 \label{sec:standard_model}
 \section{The Standard Model}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.9\linewidth]{Standard_Model_of_Elementary_Particles.png}
+\includegraphics[width=0.7\linewidth]{Standard_Model_of_Elementary_Particles.png}
 \label{fig:standard_model}
 \caption{The Standard Model of particle physics is made up of charged and uncharged leptons, quarks, and the various bosons. Image taken from \cite{StandardModel-Image}}
 \end{figure}
@@ -133,7 +132,7 @@ For the purposes of this work, the most significant parts of the Standard model 
 \label{subsec:interactions}
 \subsection{Neutrino Interactions}
 In the Standard Model, neutrinos are assumed to be massless, left-handed spin-1/2 leptons which interact solely via the weak force.
-Two basic Feynman diagrams, shown in \ref{fig:nu_vertex}, may be used to represent the interaction verticies.
+Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to represent the interaction verticies.
 
 \begin{figure}
 \centering
@@ -148,12 +147,22 @@ Two basic Feynman diagrams, shown in \ref{fig:nu_vertex}, may be used to represe
 }; \\ 
 \end{tabular}
 \label{fig:nu_vertex}
-\caption{Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson}
+\caption{Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson.}
 \end{figure}
 
 From these two vertices, the various interactions relevent for this work may be derived.
-There exist three important interactions for neutrinos in the energy range used in this work: the quasi-elastic, resonant, and deep inelastic interactions \cite{Formaggio-Xsec}.
-Each occurs at different energies, as shown in \needfig{nu xsec plot with qe, res, dis}.
+During so-called \textbf{charged-current} (\textbf{CC}) interactions, a $\mathtt{W^{\pm}}$ boson is exchanged between a neutrino and target particle, in the process converting the uncharged neutrino to the corresponding charged lepton.
+The \textbf{neutral-current} (\textbf{NC}) interactions are those in which the uncharged Z boson is exchanged with the target and the neutrino, although losing a fraction of the initial energy, does not get converted to a charged lepton.
+Outgoing charged leptons in charged-current interactions may be detected, although the direction will not necessarily correspond to that of the incident neutrino. 
+The average angle between the incident neutrino and outgoing lepton may be approximated following Equation~\ref{eqn:kinematic_angle}.
+
+\begin{equation}
+\bar{\theta_{\nu l}} \approx \frac{\mathtt{1.5\deg}}{\sqrt{E_\nu \left[TeV\right]}}
+\label{eqn:kinematic_angle}
+\end{equation}
+
+There exist three further classifications of neutral-current and charged-current neutrino interactions in the energy range used in this work: the quasi-elastic, resonant, and deep inelastic interactions \cite{Formaggio-Xsec}.
+Each occurs at different energies, as shown in Figure~\ref{fig:xsec}.
 
 \begin{figure}
 \centering
@@ -173,8 +182,8 @@ In the QE interaction, the neutrino scatters off an entire nucleon instead of th
 In a charged current QE neutrino (anti-neutrino) interaction, the target neutron (proton) is converted to a proton (neutron) while the neutrino is converted to a charged lepton.
 
 The cross section for QE interactions depends on various nuclear form factors that must be fit to experimental data.
-Many of these form factors may be fit to electron scattering data, leaving only the axial vector nuclear form factors to be measured in the neutrino sector \findref{formaggio xsec}.
-This form factor is normally assumed to have a dipole form 
+Many of these form factors may be fit to electron scattering data, leaving only the axial vector nuclear form factors to be measured in the neutrino sector \cite{Formaggio-Xsec}.
+This form factor is normally assumed to have the dipole form 
 
 \begin{equation}
 F_A\left(Q^2\right) = \frac{g_A}{\left(1+\frac{Q^2}{M_A^2}\right)^2}
@@ -191,8 +200,93 @@ Resonant interactions are modeled in a similar way as the quasi-elastic interact
 Above a few GeV, the neutrino cross section rises approximatley linearly and is dominated by \textbf{deep inelastic scattering} (\textbf{DIS}) interactions.
 In DIS events, the exchange of the Z or W boson probes the internal structure of the nucleons.
 This results in disruption of the nucleon and the larger nucleus.
-The daughter particles form what is known as a \textbf{hadronic shower}.
+The collection of daughter particles form what is known as a \textbf{hadronic shower}.
+
 
 \label{sec:detection_methods}
 \section{Methods of Detection}
-Neutrinos may be detected if you're very very careful and don't scare them too badly.
+Neutrinos may be detected through these various interaction channels, with each possessing a distinct signature.
+For many events, the interaction of the neutrino leads to the emission of various hadrons in a hadronic shower.
+This may be composed of many particles, as is the case with most DIS events, or it may consist solely of a limited number of pions, as is typical for RES events.
+
+In addition to the hadronic shower, charged-current interactions possess an outgoing charged lepton, the result of which depends on the flavor of the lepton.
+Outgoing electrons will often quickly scatter in interactions with the surrounding media, ionizing atoms and producing a secondary \textbf{electromagnetic shower} of particles.
+Muons, on the other hand, travel longer distances before scattering or being absorped in the medium, leading to an extended track.
+
+The signature of a tau decay varies significantly.
+Because the tau lepton has a very short lifetime, outgoing taus tend to decay immediately, producing daughter particles in a secondary hadronic shower that may or may not be spatially separated from the initial shower.
+
+In each case, the charged particles deposit energy into the interaction medium during travel through a series of stochastic and continuous emissions.
+
+\subsection{Stochastic Emission Mechanisms}
+\begin{figure}
+\centering
+\includegraphics[width=0.6\linewidth]{discrete_emissions_MMC.png}
+\label{fig:discrete_emissions}
+\caption{Average energy losses ($\mathtt{\frac{-dE}{dX}}$) for a muon in ice. At very low energies, ionization losses dominate. Above approximately 1 TeV, pair production and photonuclear effects become more important. Image taken from \cite{Dima-MMC}}
+\end{figure}
+A total of five major stochastic emission mechanisms are important for the energy losses in neutrino experiments \cite{Dima-MMC}.
+The simplest such mechanism is the decay of the particle, a process which splits the energy of the parent into multiple, lower energy daughters.
+Decays can often by important in the identification of the neutrino type, particularly for tau neutrino candidates, which show a unique, background-free decay signature.
+
+Ionization losses occur when the charged lepton interacts with electrons in the medium, transferring enough energy to librerate the electrons from bound states.
+At low energies, these losses may be the most significant form of energy loss for charged particles, providing a significant source of additional electrons for detection.
+Ionization losses occur roughly independently of the energy of the charged lepton.
+
+For higher energies, radiative losses become important \cite{PDG-2015}.
+Bremmstrahlung, photon emission from charged particles accelerating in a magnetic field, becomes one of the dominant sources of emission around 1 TeV.
+Pair production, in which a particle and antiparticle (typically electron and positron) are created, is equally important.
+At the highest energies, hadronic interactions of photons lead to still-stronger emission.
+
+There exists a minimum in the energy loss rates.
+Particles emitting near this minimum rate are known as \textbf{minimum-ionizing} particles \cite{PDG-2015}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{bethe_bloche-PDG15.png}
+\label{fig:discrete_emissions}
+\caption{An example of the energy emission ($\mathtt{\frac{-dE}{dX}}$) calculated for muons incident on copper. Note the radiative losses due to bremsstrahlung, pair production, and photonuclear interactions at high energies. Note also the labeled minimum demonstrating the energy of a minimum ionizing particle. Image taken from \cite{PDG-2015}.}
+\end{figure}
+
+Stochastic emissions result in additional particles in the detector, leading to improved light yield.
+In addition, some detectors use photosensitive emulsions  \cite{Description-OPERA, DONUT-2001}, scintillators \cite{Description-MINOS, Description-NOvA, Description-MINERvA, Description-T2K}, or time projection chambers \cite{Description-ICARUS2} in order to track ionization losses.
+These emulsions yield precise characterization of particle decays, allowing experimentalists to uniquely determine the flavor state of the interacting neutrino.
+
+\subsection{Cherenkov Emission}
+When a charged particle passes through a dielectric medium with a speed larger than the local phase velocity of light, it will emit \textbf{Cherenkov radiation}\cite{Cherenkov-Radiation-Confirmation}.
+The effect, first reported by Pavel Cherenkov in 1934 \cite{Cherenkov-Radiation-Observation} remained unexplained theortically until work done by Ilya Frank and Igor Tamm in 1937 \cite{Frank-Tamm}.
+
+For a dielectric medium, the electric field of the charged particle will polarize atoms in the medium by inducing a small dipole moment due to electromagetic effects in nuclei of atoms in the medium \cite{Griffiths-EM}.
+The resulting disturbance of the medium propagates with the phase velocity of light in the medium, given by the speed of light, \textit{c}, and the index of refraction as a function of the frequency of light, \textit{n(\omega)}.
+If the charged particle is traveling faster than the local phase velocity, the electromagnetic disturbance propagates with constructive interference, resulting in a planar wavefront of emission known as \textbf{Cherenkov emission}.
+The angle of the wavefront relative to the propagation direction is given by ratio of the distance traveled by the particle and photons in a given time.
+
+\begin{equation}
+cos(\theta_C) = \frac{\frac{c}{n(\omega)} t}{v t} = \frac{c}{n(\omega) v}
+\end{equation} 
+
+The energy threshold for Cherenkov emission is set by a combination of the particle mass and the local phase velocity for light, $\frac{c}{n}$.
+Using the relativitistic kinetic energy \cite{Tavernier-Particles},
+
+\begin{equation}
+E_{C} \geq \frac{mc^2}{\sqrt{1-\left(\frac{c/n}{c}\right)^2}}
+\end{equation}
+
+\begin{equation}
+E_{C} \geq mc^2\sqrt{\frac{n^2}{n^2-1}}
+\end{equation}
+
+For ice with a index of fraction of 1.32 at 400 nanometers \cite{ChinesePhysC-2014}, this works out to a minimum energy of 270 keV for electrons and 56.2 MeV for muons.
+The number of photons emitted increases with energy, with approximately 50\% more photos produced in blue visible light than in red\cite{Tavernier-Particles}
+The full emission spectrum, first worked out by Ilya Frank and Igor Tamm in 1937 \cite{Frank-Tamm}, depends on a number of parameters, including the energy and charge of the emitting particle as well as the properties of the medium.
+In the case of a particle traveling a distance $L$ much larger than the photon frequency of interest, $\lambda$, the number of emitted photons may be approximated by
+
+\begin{equation}
+\frac{dN}{d\lambda}=\frac{2\pi \alpha}{\lambda^2}Lsin^2\theta_C \;\;\; L >> \lambda
+\end{equation}
+
+Cherenkov emission is not limited to a single charged lepton. 
+All charged particles emit Cherenkov radiation, including any hadrons and charged daughter particles, resulting in measurable signals.
+While the total amount of energy lost via Cherenkov emission is small relative to losses due to stochastic processes, this emission type is both continous and results directly in photons which may be observed by photodetectors.
+This technique is used by multiple experiments, including SNO \cite{Description-SNO}, Super-Kamiokande \cite{Description-SuperK}, ANTARES \cite{Description-ANTARES}, and IceCube \cite{Description-IceCube}.
+

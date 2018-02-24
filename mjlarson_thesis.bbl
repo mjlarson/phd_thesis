@@ -1356,5 +1356,1254 @@
     \field{month}{07}
     \field{year}{2012}
   \endentry
+
+  \entry{Dima-MMC}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CD}{%
+         family={{Chirkin}},
+         familyi={C\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={{Rhode}},
+         familyi={R\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{High Energy Physics - Phenomenology}
+    \strng{namehash}{CDRW1}
+    \strng{fullhash}{CDRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb hep-ph/0407075
+    \endverb
+    \field{title}{{Propagating leptons through matter with Muon Monte Carlo
+  (MMC)}}
+    \field{journaltitle}{ArXiv High Energy Physics - Phenomenology e-prints}
+    \field{month}{07}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Description-OPERA}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=PH}{%
+         family={{Pessard}},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=CH}{%
+         family={{Chen}},
+         familyi={C\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={{Du}},
+         familyi={D\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={{Li}},
+         familyi={L\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={{Lu}},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PH1}
+    \strng{fullhash}{PH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{High Energy Physics, ICHEP 2004}
+    \verb{doi}
+    \verb 10.1142/9789812702227_0033
+    \endverb
+    \verb{eprint}
+    \verb hep-ex/0504033
+    \endverb
+    \field{pages}{299\bibrangedash 303}
+    \field{title}{{The Opera Experiment}}
+    \field{month}{04}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Description-MINOS}{article}{}
+    \name{author}{11}{}{%
+      {{hash=M}{%
+         family={{Minos Collaboration}},
+         familyi={M\bibinitperiod},
+      }}%
+      {{hash=MDG}{%
+         family={{Michael}},
+         familyi={M\bibinitperiod},
+         given={D.\bibnamedelima G.},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={{Adamson}},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={{Alexopoulos}},
+         familyi={A\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AWWM}{%
+         family={{Allison}},
+         familyi={A\bibinitperiod},
+         given={W.\bibnamedelima W.\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=AGJ}{%
+         family={{Alner}},
+         familyi={A\bibinitperiod},
+         given={G.\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={{Anderson}},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={{Andreopoulos}},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Andrews}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={{Andrews}},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M+1}
+    \strng{fullhash}{MMDGAPATAWWMAGJAKACAMARae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2008.08.003
+    \endverb
+    \verb{eprint}
+    \verb 0805.3170
+    \endverb
+    \field{pages}{190\bibrangedash 228}
+    \field{title}{{The magnetized steel and scintillator calorimeters of the
+  MINOS experiment}}
+    \field{volume}{596}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{11}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Description-NOvA}{article}{}
+    \name{author}{11}{}{%
+      {{hash=MS}{%
+         family={{Mufson}},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={{Baugh}},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={{Bower}},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CTE}{%
+         family={{Coan}},
+         familyi={C\bibinitperiod},
+         given={T.\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={{Cooper}},
+         familyi={C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={{Corwin}},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KJA}{%
+         family={{Karty}},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={{Mason}},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MMD}{%
+         family={{Messier}},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={{Pla-Dalmau}},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={{Proudfoot}},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Liquid scintillator, Neutrino detectors, Neutrino physics}
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSBBBCCTECJCLKJAMPMMDPAPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2015.07.026
+    \endverb
+    \verb{eprint}
+    \verb 1504.04035
+    \endverb
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{{Liquid scintillator production for the NOvA experiment}}
+    \field{volume}{799}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{11}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Description-MINERvA}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AL}{%
+         family={{Aliaga}},
+         familyi={A\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \keyw{NuMI, MINERvA, Neutrinos, Cross-sections, Nuclear effects}
+    \strng{namehash}{ALae1}
+    \strng{fullhash}{ALae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2013.12.053
+    \endverb
+    \verb{eprint}
+    \verb 1305.5199
+    \endverb
+    \field{pages}{130\bibrangedash 159}
+    \field{title}{{Design, calibration, and performance of the MINERvA
+  detector}}
+    \field{volume}{743}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{04}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Description-T2K}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KY}{%
+         family={{Kudenko}},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=T}{%
+         family={{T2K Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KYT1}
+    \strng{fullhash}{KYT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2008.08.029
+    \endverb
+    \verb{eprint}
+    \verb 0805.0411
+    \endverb
+    \field{pages}{289\bibrangedash 295}
+    \field{title}{{The near neutrino detector for the T2K experiment}}
+    \field{volume}{598}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{01}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Description-ICARUS2}{article}{}
+    \name{author}{66}{}{%
+      {{hash=AM}{%
+         family={{Antonello}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={{Baibussinov}},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={{Bellini}},
+         familyi={B\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={{Bilokon}},
+         familyi={B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={{Boffelli}},
+         familyi={B\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={{Bonesini}},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={{Calligarich}},
+         familyi={C\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={{Centro}},
+         familyi={C\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={{Cieslik}},
+         familyi={C\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CDB}{%
+         family={{Cline}},
+         familyi={C\bibinitperiod},
+         given={D.\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CAG}{%
+         family={{Cocco}},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={{Curioni}},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={{Dermenev}},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={{Dolfini}},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={{Falcone}},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={{Farnese}},
+         familyi={F\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={{Fava}},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={{Ferrari}},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={{Gibin}},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={{Gninenko}},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={{Guber}},
+         familyi={G\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={{Guglielmi}},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={{Haranczyk}},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={{Holeczek}},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={{Ivashkin}},
+         familyi={I\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={{Kirsanov}},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={{Kisiel}},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={{Kochanek}},
+         familyi={K\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={{Kurepin}},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={{Lagoda}},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={{Mammoliti}},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={{Mania}},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={{Mannocchi}},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MV}{%
+         family={{Matveev}},
+         familyi={M\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={{Menegolli}},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={{Meng}},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MGB}{%
+         family={{Mills}},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={{Montanari}},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={{Noto}},
+         familyi={N\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={{Otwinowski}},
+         familyi={O\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PTJ}{%
+         family={{Palczewski}},
+         familyi={P\bibinitperiod},
+         given={T.\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={{Picchi}},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={{Pietropaolo}},
+         familyi={P\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={{Plonski}},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={{Potenza}},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={{Rappoldi}},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RGL}{%
+         family={{Raselli}},
+         familyi={R\bibinitperiod},
+         given={G.\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={{Rossella}},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={{Rubbia}},
+         familyi={R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={{Sala}},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={{Scaramelli}},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={{Segreto}},
+         familyi={S\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={{Stefan}},
+         familyi={S\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={{Stepaniak}},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={{Sulej}},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={{Sutera}},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={{Tlisov}},
+         familyi={T\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={{Torti}},
+         familyi={T\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VRG}{%
+         family={{Van de Water}},
+         familyi={V\bibinitperiod},
+         given={R.\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={{Varanini}},
+         familyi={V\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={{Ventura}},
+         familyi={V\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={{Vignoli}},
+         familyi={V\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WHG}{%
+         family={{Wang}},
+         familyi={W\bibinitperiod},
+         given={H.\bibnamedelima G.},
+         giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={{Yang}},
+         familyi={Y\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{Zani}},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={{Zaremba}},
+         familyi={Z\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Physics - Instrumentation and Detectors, High Energy Physics -
+  Phenomenology}
+    \strng{namehash}{AM+1}
+  \strng{fullhash}{AMBBBVBHBFBMCECSCKCDBCAGCADADRFAFCFAFAGDGSGFGAHMHJIAKMKJKIKALJMFMSMGMVMAMGMGBMCNFOSPTJPPPFPPPRRARGLRMRCSPSASESDSJSRSCMTDTMVRGVFVSVCWHGYXZAZK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1312.7252
+    \endverb
+    \field{title}{{ICARUS at FNAL}}
+    \field{journaltitle}{ArXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{12}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Cherenkov-Radiation-Confirmation}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CPA}{%
+         family={{{\v C}erenkov}},
+         familyi={{\v C}\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPA2}
+    \strng{fullhash}{CPA2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.52.378
+    \endverb
+    \field{pages}{378\bibrangedash 379}
+    \field{title}{{Visible Radiation Produced by Electrons Moving in a Medium
+  with Velocities Exceeding that of Light}}
+    \field{volume}{52}
+    \field{journaltitle}{Physical Review}
+    \field{month}{08}
+    \field{year}{1937}
+  \endentry
+
+  \entry{Cherenkov-Radiation-Observation}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CPA}{%
+         family={Cherenkov},
+         familyi={C\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPA1}
+    \strng{fullhash}{CPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3367/UFNr.0093.196710n.0385
+    \endverb
+    \field{note}{[Usp. Fiz. Nauk93,no.2,385(1967)]}
+    \field{number}{8}
+    \field{pages}{451\bibrangedash 454}
+    \field{title}{{Visible luminescence of pure liquids under the influence of
+  γ-radiation}}
+    \field{volume}{2}
+    \field{journaltitle}{Dokl. Akad. Nauk SSSR}
+    \field{year}{1934}
+  \endentry
+
+  \entry{Frank-Tamm}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FIM}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={I.\bibnamedelima M.},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TIE}{%
+         family={Tamm},
+         familyi={T\bibinitperiod},
+         given={I.\bibnamedelima E.},
+         giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FIMTIE1}
+    \strng{fullhash}{FIMTIE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-3-642-74626-0_2, 10.3367/UFNr.0093.196710o.0388
+    \endverb
+    \field{note}{[Usp. Fiz. Nauk93,no.2,388(1967)]}
+    \field{number}{3}
+    \field{pages}{109\bibrangedash 114}
+    \field{title}{{Coherent visible radiation of fast electrons passing through
+  matter}}
+    \field{volume}{14}
+    \field{journaltitle}{Compt. Rend. Acad. Sci. URSS}
+    \field{year}{1937}
+  \endentry
+
+  \entry{Griffiths-EM}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={D.J.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=LPE}{%
+         family={Limited},
+         familyi={L\bibinitperiod},
+         given={Pearson\bibnamedelima Education},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{Fourth}
+    \field{title}{Introduction to Electrodynamics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Tavernier-Particles}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TS}{%
+         family={Tavernier},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=SV}{%
+         family={Springer-Verlag},
+         familyi={S\bibinitperiod-V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TS1}
+    \strng{fullhash}{TS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Experimental Techniques in Nuclear and Particle Physics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{ChinesePhysC-2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OK}{%
+         family={Olive},
+         familyi={O\bibinitperiod},
+         given={K.A.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GPD}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={Particle\bibnamedelima Data},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OKGPD1}
+    \strng{fullhash}{OKGPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{090001}
+    \field{title}{Review of Particle Physics}
+    \verb{url}
+    \verb http://stacks.iop.org/1674-1137/38/i=9/a=090001
+    \endverb
+    \field{volume}{38}
+    \field{journaltitle}{Chinese Physics C}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Description-SNO}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={{Boger}},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJae1}
+    \strng{fullhash}{BJae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0168-9002(99)01469-2
+    \endverb
+    \verb{eprint}
+    \verb nucl-ex/9910016
+    \endverb
+    \field{pages}{172\bibrangedash 207}
+    \field{title}{{The Sudbury Neutrino Observatory}}
+    \field{volume}{449}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{month}{07}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Description-SuperK}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=WCW}{%
+         family={{Walter}},
+         familyi={W\bibinitperiod},
+         given={C.\bibnamedelima W.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=TJA}{%
+         family={{Thomas}},
+         familyi={T\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=VPL}{%
+         family={{Vahle}},
+         familyi={V\bibinitperiod},
+         given={P.\bibnamedelima L.},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific Publishing Co}%
+    }
+    \strng{namehash}{WCW1}
+    \strng{fullhash}{WCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Neutrino Oscillations: Present Status and Future Plans}
+    \verb{doi}
+    \verb 10.1142/9789812771971_0002
+    \endverb
+    \field{pages}{19\bibrangedash 43}
+    \field{title}{{The Super-Kamiokande Experiment}}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Description-ANTARES}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MF}{%
+         family={{Montanet}},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MF1}
+    \strng{fullhash}{MF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0920-5632(00)00715-5
+    \endverb
+    \verb{eprint}
+    \verb astro-ph/0001380
+    \endverb
+    \field{pages}{436\bibrangedash 438}
+    \field{title}{{Design and expected performance of the ANTARES neutrino
+  telescope}}
+    \field{volume}{87}
+    \field{journaltitle}{Nuclear Physics B Proceedings Supplements}
+    \field{month}{06}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Description-IceCube}{article}{}
+    \name{author}{11}{}{%
+      {{hash=AMG}{%
+         family={{Aartsen}},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ackermann}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={{Adams}},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AJA}{%
+         family={{Aguilar}},
+         familyi={A\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ahlers}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ahrens}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={{Altmann}},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={{Andeen}},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={{Anderson}},
+         familyi={A\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={{Ansseau}},
+         familyi={A\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMG+1}
+    \strng{fullhash}{AMGAMAJAJAAMAMADAKATAIae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/12/03/P03012
+    \endverb
+    \verb{eprint}
+    \verb 1612.05093
+    \endverb
+    \field{pages}{P03012}
+    \field{title}{{The IceCube Neutrino Observatory: instrumentation and online
+  systems}}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.IM}
+    \field{month}{03}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Pontecorvo-Mesonium}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pontecorvo},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PB1}
+    \strng{fullhash}{PB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Zh. Eksp. Teor. Fiz.33,549(1957)]}
+    \field{pages}{429}
+    \field{title}{{Mesonium and anti-mesonium}}
+    \field{volume}{6}
+    \field{journaltitle}{Sov. Phys. JETP}
+    \field{year}{1957}
+  \endentry
+
+  \entry{Pontecorvo-Oscillations}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pontecorvo},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PB1}
+    \strng{fullhash}{PB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Zh. Eksp. Teor. Fiz.53,1717(1967)]}
+    \field{pages}{984\bibrangedash 988}
+    \field{title}{{Neutrino Experiments and the Problem of Conservation of
+  Leptonic Charge}}
+    \field{volume}{26}
+    \field{journaltitle}{Sov. Phys. JETP}
+    \field{year}{1968}
+  \endentry
+
+  \entry{Maki-Nakagawa-Sakata}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MZ}{%
+         family={{Maki}},
+         familyi={M\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={{Nakagawa}},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={{Sakata}},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MZ+1}
+    \strng{fullhash}{MZNMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1143/PTP.28.870
+    \endverb
+    \field{pages}{870\bibrangedash 880}
+    \field{title}{{Remarks on the Unified Model of Elementary Particles}}
+    \field{volume}{28}
+    \field{journaltitle}{Progress of Theoretical Physics}
+    \field{month}{11}
+    \field{year}{1962}
+  \endentry
+
+  \entry{Review-PMNS}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GC}{%
+         family={{Giganti}},
+         familyi={G\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={{Lavignac}},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={{Zito}},
+         familyi={Z\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Neutrino oscillations, Neutrino masses and mixing, PMNS matrix, CP
+  violation}
+    \strng{namehash}{GC+1}
+    \strng{fullhash}{GCLSZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.ppnp.2017.10.001
+    \endverb
+    \verb{eprint}
+    \verb 1710.00715
+    \endverb
+    \field{pages}{1\bibrangedash 54}
+    \field{title}{{Neutrino oscillations: The rise of the PMNS paradigm}}
+    \field{volume}{98}
+    \field{journaltitle}{Progress in Particle and Nuclear Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Review-MajoranaNu}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PST}{%
+         family={Petcov},
+         familyi={P\bibinitperiod},
+         given={S.\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PST1}
+    \strng{fullhash}{PST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1155/2013/852987
+    \endverb
+    \verb{eprint}
+    \verb 1303.5819
+    \endverb
+    \field{pages}{852987}
+    \field{title}{{The Nature of Massive Neutrinos}}
+    \field{volume}{2013}
+    \field{journaltitle}{Adv. High Energy Phys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2013}
+  \endentry
 \endsortlist
 \endinput

@@ -1,16 +1,17 @@
+\graphicspath{{chapters/oscillations/images/}}
 \chapter{Neutrino Oscillations}
 
-\label{sec:past_experiments}
-\section{Neutrino Experiments: Past and Present}
+\label{sec:oscillation_theory}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/theory.tex}
 
 \label{sec:solar_neutrinos}
-\section{Solar Neutrinos: A Hint of Multiple Flavors}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/solar.tex}
 
 \label{sec:superk_atmo}
-\section{Super-Kamiokande and Atmospheric Neutrinos}
-
-\label{sec:oscillation_theory}
-\section{Oscillation Theory and the PMNS Matrix}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/atmospheric.tex}
 
 \label{sec:oscillation_constraints}
-\section{Experimental Constraints on Neutrino Oscillations}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/constraints.tex}
+
+\label{sec:unitarity}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/unitarity.tex}

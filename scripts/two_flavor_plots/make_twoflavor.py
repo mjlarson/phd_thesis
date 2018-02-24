@@ -1,0 +1,53 @@
+#!/usr/bin/python
+import matplotlib, numpy
+matplotlib.use('Agg')
+from matplotlib import pyplot
+
+colors = [r'#B03A2E', r'#7D3C98', r'#2E87C1'] 
+L_E = numpy.linspace( 0, 12000, 201 )
+
+def prob(le, dm, theta):
+    amplitude = numpy.sin(2*theta)**2 
+    phase = dm * le / 4.0
+    return 1 - amplitude * numpy.sin(phase)**2 
+
+
+fig, ax = pyplot.subplots(1, 2, figsize=(9, 4), sharey=True)
+
+# Show the effect of changing theta first
+for i, theta in enumerate(numpy.array([20, 45])):
+    probs = prob(L_E, 1e-3, theta*numpy.pi/180.)
+    ax[0].plot( L_E, probs,
+                color = colors[i],
+                linewidth = 3,
+                label = r'$\theta$ = %i $\deg$' % theta)
+
+    ax[0].plot( L_E, 1-probs,
+                color = colors[i],
+                linewidth = 3,
+                linestyle = '--')
+
+
+    
+# Also vary the dm^2 alone
+for i, dm2 in enumerate(numpy.array([1,1.5]) * 1e-3):
+    probs = prob(L_E, dm2, 20*numpy.pi/180.)
+    ax[1].plot( L_E, probs,
+                color = colors[i],
+                linewidth = 3,
+                label = r'$\Delta m^2$ = %2.1f $\times$ $10^{-3}$' % (dm2*1e3) )
+
+    ax[1].plot( L_E, 1-probs,
+                color = colors[i],
+                linewidth = 3,
+                linestyle = '--')
+
+ax[0].legend(loc='upper right', framealpha=1.)
+ax[1].legend(loc='upper right', framealpha=1.)
+ax[0].grid(alpha=0.2)
+ax[1].grid(alpha=0.2)
+ax[0].set_ylabel(r'$P(\nu_\alpha \rightarrow \nu_\beta)$')
+ax[0].set_xlabel("L/E")
+ax[1].set_xlabel("L/E")
+fig.tight_layout()
+fig.savefig("twoflavor.pdf")
