@@ -1,24 +1,38 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The number of active neutrinos as measured by ALEPH, DELPHI, L3, and OPAL. The data from the four experiments strongly favors only three neutrinos coupling to the Z boson. Image taken from \cite {ALEPH-3Nu}.\relax }}{8}{figure.caption.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite {PDG-2015}\relax }}{10}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces The Standard Model of particle physics is made up of charged and uncharged leptons, quarks, and the various bosons. Image taken from \cite {StandardModel-Image}\relax }}{10}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson.\relax }}{11}{figure.caption.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces The relative contributions to the cross section for $\nu $ (left) and $\mathaccentV {bar}016{\nu }$ (right). The QE events dominate below 1 GeV while the DIS events dominate above 10 GeV. Note the different scales for the neutrino and antineutrinos. Images taken from \cite {Formaggio-Xsec}\relax }}{12}{figure.caption.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Average energy losses ($\mathtt {\frac {-dE}{dX}}$) for a muon in ice. At very low energies, ionization losses dominate. Above approximately 1 TeV, pair production and photonuclear effects become more important. Image taken from \cite {Dima-MMC}\relax }}{13}{figure.caption.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces An example of the energy emission ($\mathtt {\frac {-dE}{dX}}$) calculated for muons incident on copper. Note the radiative losses due to bremsstrahlung, pair production, and photonuclear interactions at high energies. Note also the labeled minimum demonstrating the energy of a minimum ionizing particle. Image taken from \cite {PDG-2015}.\relax }}{14}{figure.caption.17}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The oscillation probabilities for survival (solid) and disappearance (dotted) in the two flavor regime. Left: Effect of changing the mixing angle while keeping the mass splitting at $10^-3$. Right: Effect of changing the mass splitting while fixing the mixing angle to 30$^\o $.\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The number of active neutrinos as measured by ALEPH, DELPHI, L3, and OPAL. The data from the four experiments strongly favors only three neutrinos coupling to the Z boson. Image taken from \cite {ALEPH-3Nu}.\relax }}{11}{figure.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite {PDG-2015}\relax }}{12}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The Standard Model of particle physics is made up of charged and uncharged leptons, quarks, and the various bosons. Image taken from \cite {StandardModel-Image}\relax }}{13}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson.\relax }}{14}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The relative contributions to the cross section for $\nu $ (left) and $\mathaccentV {bar}016{\nu }$ (right). The QE events dominate below 1 GeV while the DIS events dominate above 10 GeV. Note the different scales for the neutrino and antineutrinos. Images taken from \cite {Formaggio-Xsec}\relax }}{15}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Average energy losses ($\mathtt {\frac {-dE}{dX}}$) for a muon in ice. At very low energies, ionization losses dominate. Above approximately 1 TeV, pair production and photonuclear effects become more important. Image taken from \cite {Dima-MMC}\relax }}{16}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces An example of the energy emission ($\mathtt {\frac {-dE}{dX}}$) calculated for muons incident on copper. Note the radiative losses due to bremsstrahlung, pair production, and photonuclear interactions at high energies. Note also the labeled minimum demonstrating the energy of a minimum ionizing particle. Image taken from \cite {PDG-2015}.\relax }}{17}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The oscillation probabilities for survival (solid) and disappearance (dotted) in the two flavor regime. Left: Effect of changing the mixing angle while keeping the mass splitting at $10^-3$. Right: Effect of changing the mass splitting while fixing the mixing angle to 30 degrees.\relax }}{24}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The expected neutrino flux at Kamioka mine, Japan (Super-Kamiokande, top left), Ino Peak, India (India-based Neutrino Observator, top right), the South Pole (IceCube, bottom left), and Pyhasalmi mine, Finland (EMMA experiment, bottom right) as a function of energy. Note that the neutrino and anti-neutrino fluxes are characterized separately. The differences in the flux at each site is due to differences in the Earth's magnetic field and temperature profile. Figure taken from \cite {Honda-2015}.\relax }}{29}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The expected flux of 3.2 GeV neutrinos at Kamioka mine, Japan; Ino Peak, India; the South Pole; and Pyhasalmi mine, Finland as a function of zenith angle. A value of $\cos \theta _Z=-1$ indicates neutrinos passing through the entire Earth and entering the detector from below while a value of $\cos \theta _Z=+1$ indicates neutrinos interacting in the atmosphere directly above the detector. The differences in the flux at each site is due to differences in the Earth's magnetic field and temperature profile. Figure taken from \cite {Honda-2015}.\relax }}{30}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The first atmospheric neutrino oscillation measurements from the Super-K experiment. (a) The $\nu _e$-like events show no shape in L/E, as expected from a lack of neutrino oscillations. The $\nu _\mu $-like interactions, however, show a clear drop, indicating the presence of oscillation effects. (b) Using the two neutrino approximation, Super-K produced contours of the best-fit oscillation parameters for $\nu _\mu \rightarrow \nu _\tau $ oscillations. Both figures from \cite {SuperK-Oscillations}\relax }}{30}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {L/E From \cite {SuperK-Oscillations}}}}{30}{subfigure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Oscillation Measurement from \cite {SuperK-Oscillations}}}}{30}{subfigure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The global best-fit values for the three flavor neutrino oscillation fits as of November 2017. The first column shows results assuming the normal ordering while the second colum shows the results for the inverted ordering. \relax }}{31}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -30,58 +44,70 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The FirstHit Z position}}{40}{figure.caption.76}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The FirstHit Z position}}{58}{figure.caption.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Number of Hits Above Z=-200}}{41}{figure.caption.77}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Number of Hits Above Z=-200}}{59}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces QR6 and C2QR6}}{41}{figure.caption.78}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces QR6 and C2QR6}}{59}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {QR6}}}{41}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {QR6}}}{59}{subfigure.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C2QR6}}}{41}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C2QR6}}}{59}{subfigure.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Tensor-of-Inertia Eigenvalue Ratio}}{42}{figure.caption.79}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Tensor-of-Inertia Eigenvalue Ratio}}{60}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The improvedLineFit Speed}}{42}{figure.caption.80}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The improvedLineFit Speed}}{61}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The L4 BDT Score}}{43}{figure.caption.81}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces The L4 BDT Score}}{62}{figure.caption.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Time to 75\% Charge}}{44}{figure.caption.83}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Time to 75\% Charge}}{63}{figure.caption.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Veto Identified Causal Hits}}{44}{figure.caption.84}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Veto Identified Causal Hits}}{63}{figure.caption.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces First Hit $\rho $ Position}}{45}{figure.caption.85}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces First Hit $\rho $ Position}}{64}{figure.caption.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Quartile Distance}}{45}{figure.caption.86}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Quartile Distance}}{64}{figure.caption.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Quartile Z-Travel}}{46}{figure.caption.87}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Quartile Z-Travel}}{65}{figure.caption.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces SPE Reconstruction Zenith Angles}}{46}{figure.caption.88}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces SPE Reconstruction Zenith Angles}}{65}{figure.caption.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces The L5 BDT Score}}{47}{figure.caption.89}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces The L5 BDT Score}}{66}{figure.caption.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Fill-Ratio}}{47}{figure.caption.91}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Fill-Ratio}}{67}{figure.caption.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.15}{\ignorespaces The NChannel Distribution}}{48}{figure.caption.92}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces The NChannel Distribution}}{68}{figure.caption.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.16}{\ignorespaces CorridorCut Distribution}}{49}{figure.caption.93}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces CorridorCut Distribution}}{69}{figure.caption.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.17}{\ignorespaces The FiniteReco Containment Cuts}}{50}{figure.caption.94}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces The FiniteReco Containment Cuts}}{70}{figure.caption.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\rho _{FiniteReco}$}}}{50}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\rho _{FiniteReco}$}}}{70}{subfigure.17.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z_{FiniteReco}$}}}{50}{subfigure.17.2}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces A comparison of the charge extraction in data and simulation at GRECO L7. Both the time and charge are shown for individual pulses on all DOMs. The time is measured relative to the largest pulse observed on each DOM during an event. The data and simulation histograms are independently normalized to 1.0. While the two show broad agreement, notable differences occur at low charge.\relax }}{72}{figure.caption.205}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The reconstructed Z position using PegLeg. The GRECO L7 cuts have not been applied in order to show discrepancies below the detector. Noticeable disagreement is seen around a depth of z=-450.\relax }}{74}{figure.caption.214}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near $\mathtt {\rho _{36}=75}$ at depths of -310 and -490. \relax }}{74}{figure.caption.215}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces The reconstructed X position and Y position of events in the detector. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. Once again, reasonable agreement is observed in most regions, although data events have a clear excess near x=110 m, y=-60 m. This position corresponds to string 83.\relax }}{75}{figure.caption.216}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces The RMS of the charges within each event at final level. The value of the RMS is normalized using the total charge observed. The L7 cuts from GRECO are not applied here. The events with flaring DOMs cluster at high values of the charge RMS, visible in the inset.\relax }}{76}{figure.caption.218}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z_{FiniteReco}$}}}{70}{subfigure.17.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces The sensitivity of this analysis in the (a) NC+CC and (b) CC-only channel. The top plot shows the Asimov expectation (black dotted line) and the Brazilian flag (green, yellow bands). The significances assuming Wilk's theorem (gray horizontal lines) and Feldman-Cousins (red horizontal lines) are also shown. The bottom plot shows the expected 1$\sigma $ and 90\% ranges for Wilks theorem and Feldman-Cousins compared to the most recent results from the OPERA and Super-Kamiokande analyses.\relax }}{93}{figure.caption.191}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NC+CC}}}{93}{subfigure.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CC Only}}}{93}{subfigure.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The test statistic distributions for 11 points in ${N_\tau ^{True}}$ in the NC+CC fit. The assumption of 1 degree of freedom from Wilk's theorem is tested by looking at the location of ${\left (\Delta \chi ^2_{FS}\right )_{90\%}}$ for each point. The distribution calculated from Monte Carlo trials is narrower than that predicted by Wilk's theorem, indicating that a more complete treatment with the Feldman-Cousins procedure is necessary.\relax }}{96}{figure.caption.196}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces A comparison of the charge extraction in data and simulation at GRECO L7. Both the time and charge are shown for individual pulses on all DOMs. The time is measured relative to the largest pulse observed on each DOM during an event. The data and simulation histograms are independently normalized to 1.0. While the two show broad agreement, notable differences occur at low charge.\relax }}{100}{figure.caption.211}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces The reconstructed Z position using PegLeg. The GRECO L7 cuts have not been applied in order to show discrepancies below the detector. Noticeable disagreement is seen around a depth of z=-450.\relax }}{103}{figure.caption.220}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near ${\rho _{36}=75}$ at depths of -310 and -490. \relax }}{104}{figure.caption.221}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The reconstructed X position and Y position of events in the detector. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. Once again, reasonable agreement is observed in most regions, although data events have a clear excess near x=110 m, y=-60 m. This position corresponds to string 83.\relax }}{104}{figure.caption.222}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces The RMS of the charges within each event at final level. The value of the RMS is normalized using the total charge observed. The L7 cuts from GRECO are not applied here. The events with flaring DOMs cluster at high values of the charge RMS, visible in the inset.\relax }}{105}{figure.caption.224}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces The value of each systematic with priors. The best-fit values are shown for each while the priors are shown by the yellow band. The CC and NC+CC fits are highly correlated, as expected, with very little difference in the systematics best-fit values. All values fit well within the expected 1$\sigma $ ranges.\relax }}{107}{figure.caption.237}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces A comparison of the posterior expected from trials to the final data fit value for each parameter for the CC-only fit. The trials used to build the posterior distribution in each parameter assume baseline values for systematics, $N_\tau ^{CC}=1$, and Nu-Fit 2.2 values \cite {NuFit_2.2}. The green vertical line shows the true injected value. The blue dotted line shows the best-fit value from data. The black bar shows the 1$\sigma $ and 90\% ranges calculated from the posterior distribution.\relax }}{108}{figure.caption.238}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces A comparison of the posterior expected from trials to the final data fit value for each parameter for the NC+CC fit. The trials used to build the posterior distribution in each parameter assume baseline values for systematics, $N_\tau ^{NC+CC}=1$, and Nu-Fit 2.2 values \cite {NuFit_2.2}\relax }}{109}{figure.caption.239}

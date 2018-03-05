@@ -24,9 +24,9 @@ The second is the regular hexagonal structure of the IceCube volume, with long "
 Cuts designed to look for hits left in the veto region produce these azimuthal biases when muons close to strings (ie, outside of the "corridors") are more likely to be identified and removed than those further from strings (inside of the "corridors").
 
 In order to improve simulation statistics at final level, the existing MuonGun simulation scheme was modified to include an energy-, zenith-, and azimuthally-dependent prescale factor.
-This approach, here entitled \textbf{KDE Filtering}, allows simulation to be produced with a known bias matching that of a given set of input files.
+This approach, here entitled \emph{KDE Filtering}, allows simulation to be produced with a known bias matching that of a given set of input files.
 
-In this scheme, the \textbf{kernal density estimator} (\textbf{KDE}) from SciPy \cite{scipy} is applied to all remaining events at final level of the GRECO event selection. 
+In this scheme, the \emph{kernal density estimator} (\emph{KDE}) from SciPy \cite{scipy} is applied to all remaining events at final level of the GRECO event selection. 
 The KDE uses a Gaussian kernal to represent each event in energy, zenith, and azimuth. 
 The resulting KDE is normalized to produce an approximation of the final selection probability density function.
 

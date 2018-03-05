@@ -14,8 +14,8 @@ The spectrum provided a major puzzle for physicists due to the contradition with
 A conundrum for many years, one possible solution was suggested in 1930 by Wolfgang Pauli.
 In his letter, Pauli suggested that the conservation of energy and momentum could be saved if '... there could exist in the nuclei electrically neutral particles... which have spin 1/2 and obey the exclusion principle, and additionally different from light quanta in that they do not travel with the velocity of light' \cite{Pauli-Nu}.
 The solution to the beta decay puzzle was, then, that this additional 'neutron' particle was emitted simultaneously with the observed daughter particles.
+This newly proposed particle would be electrically neutral and, therefore, unable to be seen through traditional methods.
 The resulting spectrum of the observed particles could then be continuous, as verified experimentally.
-\improvement{may want to include a plot of the beta spectrum}
 
 Pauli's suggestion provided a way to save the beloved conservation laws in physics, but at the expense of the assumption of a new particle.
 The particle, called the 'neutron' in Pauli's letter and later renamed the 'neutrino' by Fermi, was proposed to be electrically neutral and, therefore, completely undetectable at the time.
@@ -46,7 +46,7 @@ These particles would possess higher masses than the then-known electron and muo
 Perl suggested that the new particle, dubbed the tau lepton, could explain the result.
 
 With the addition of a new charged lepton, theorists immediately predicted a third neutrino as well.
-The new tau neutrino, $\nu_\tau$ remained solely a theoretical prediction until 2004, when the DONuT (\textbf{D}irect \textbf{O}bservation of \textbf{N}u-\textbf{T}au) collaboration published their first results.
+The new tau neutrino, $\nu_\tau$ remained solely a theoretical prediction until 2004, when the DONuT (\emph{D}irect \emph{O}bservation of \emph{N}u-\emph{T}au) collaboration published their first results.
 In the initial paper, the DONuT experiment identified 4 candidate tau neutrino events with an estimated background of 0.34 events \cite{DONUT-2001}.
 A total of 9 events were detected by the DONuT collaboration between 1997 and 2007, when the experiment ended \cite{DONUT-2007}.
 
@@ -86,16 +86,16 @@ The dawn of coicidence counters led to the remarkable observation that cosmic ra
 While the original objective was to determine the random coincidence rate between two counters, the coupled Geiger-Mueller counters showed coupled behavior out to a distance of at least 75 meters.
 Work by Pierre Auger later confirmed the findings of Kolhoerster \findref{P. Auger et al., Comptes renduz 206, 1721 (1938)}.
 
-Instead of consisting of single particles reaching detectors, Kolhoerster showed that the detected particles were due to extended air showers originating from cosmic ray interactions high in the atmosphere.
-These showers begin with a cosmic ray primary particle, often a single proton accelerated to high energies, which interacts with particles of the Earth's atmosphere.
-The interaction leads to the creation of various daughters, including neutrinos, muons, pions, kaons, and other hadrons.
-
-\begin{figure}
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\linewidth]{CR_Spectrum_PDG15.png}
 \label{fig:CR_spectrum}
 \caption{The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite{PDG-2015}}
 \end{figure}
+
+Instead of consisting of single particles reaching detectors, Kolhoerster showed that the detected particles were due to extended air showers originating from cosmic ray interactions high in the atmosphere.
+These showers begin with a cosmic ray primary particle, often a single proton accelerated to high energies, which interacts with particles of the Earth's atmosphere.
+The interaction leads to the creation of various daughters, including neutrinos, muons, pions, kaons, and other hadrons.
 
 Modern measurements have shown that the cosmic ray spectrum primarily consists of protons with a small contribution from helium and heavier elements \cite{PDG-2015}
 These ions are accelerated in unknown astrophysical sources up to extremely high energies.
@@ -132,6 +132,8 @@ For the purposes of this work, the most significant parts of the Standard model 
 \label{subsec:interactions}
 \subsection{Neutrino Interactions}
 In the Standard Model, neutrinos are assumed to be massless, left-handed spin-1/2 leptons which interact solely via the weak force.
+Neutrinos, therefore, are only visible via indirect effects, such as scattering or production of charged particles that may, in turn, give off their own visible signature.
+An understanding of the methods by which neutrinos are detected therefore forms an important basis for the study of these elusive particles.
 Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to represent the interaction verticies.
 
 \begin{figure}
@@ -151,13 +153,13 @@ Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to 
 \end{figure}
 
 From these two vertices, the various interactions relevent for this work may be derived.
-During so-called \textbf{charged-current} (\textbf{CC}) interactions, a $\mathtt{W^{\pm}}$ boson is exchanged between a neutrino and target particle, in the process converting the uncharged neutrino to the corresponding charged lepton.
-The \textbf{neutral-current} (\textbf{NC}) interactions are those in which the uncharged Z boson is exchanged with the target and the neutrino, although losing a fraction of the initial energy, does not get converted to a charged lepton.
+During so-called \emph{charged-current} (\emph{CC}) interactions, a $\mathtt{W^{\pm}}$ boson is exchanged between a neutrino and target particle, in the process converting the uncharged neutrino to the corresponding charged lepton.
+The \emph{neutral-current} (\emph{NC}) interactions are those in which the uncharged Z boson is exchanged with the target and the neutrino, although losing a fraction of the initial energy, does not get converted to a charged lepton.
 Outgoing charged leptons in charged-current interactions may be detected, although the direction will not necessarily correspond to that of the incident neutrino. 
 The average angle between the incident neutrino and outgoing lepton may be approximated following Equation~\ref{eqn:kinematic_angle}.
 
 \begin{equation}
-\bar{\theta_{\nu l}} \approx \frac{\mathtt{1.5\deg}}{\sqrt{E_\nu \left[TeV\right]}}
+\bar{\theta_{\nu l}} \approx \frac{\mathtt{1.5^o}}{\sqrt{E_\nu \left[TeV\right]}}
 \label{eqn:kinematic_angle}
 \end{equation}
 
@@ -177,7 +179,7 @@ Each occurs at different energies, as shown in Figure~\ref{fig:xsec}.
 \end{figure}
 
 \subsubsection{Quasi-Elastic and Resonant Interactions}
-At low energies of approximately 100 MeV to around 2 GeV, the neutrinos interact via \textbf{quasi-elastic scattering} (\textbf{QE}) interactions.
+At low energies of approximately 100 MeV to around 2 GeV, the neutrinos interact via \emph{quasi-elastic scattering} (\emph{QE}) interactions.
 In the QE interaction, the neutrino scatters off an entire nucleon instead of the individual quarks.
 In a charged current QE neutrino (anti-neutrino) interaction, the target neutron (proton) is converted to a proton (neutron) while the neutrino is converted to a charged lepton.
 
@@ -193,14 +195,14 @@ F_A\left(Q^2\right) = \frac{g_A}{\left(1+\frac{Q^2}{M_A^2}\right)^2}
 where $\mathtt{g_A}$ is a constant fit to experimental data, $\mathtt{Q^2}$ is the 4-momentum transferred in the interaction, and $\mathtt{M_A}$ is known as the "axial mass".
 This last term is fit to experimental data with a value of $\mathtt{M_A = 0.999 \pm 0.011}$ GeV \findref{formaggio}.
 
-\textbf{Resonant scattering} interactions (\textbf{RES}), which result in the excitation of a nucleon followed by decay via emission of (typically) pions, occur for neutrinos of slightly higher energies of around 500 MeV to 10 GeV.
+\emph{Resonant scattering} interactions (\emph{RES}), which result in the excitation of a nucleon followed by decay via emission of (typically) pions, occur for neutrinos of slightly higher energies of around 500 MeV to 10 GeV.
 Resonant interactions are modeled in a similar way as the quasi-elastic interactions, with an associated axial mass term used to describe nuclear uncertainties.
 
 \subsubsection{Deep Inelastic Interactions}
-Above a few GeV, the neutrino cross section rises approximatley linearly and is dominated by \textbf{deep inelastic scattering} (\textbf{DIS}) interactions.
+Above a few GeV, the neutrino cross section rises approximatley linearly and is dominated by \emph{deep inelastic scattering} (\emph{DIS}) interactions.
 In DIS events, the exchange of the Z or W boson probes the internal structure of the nucleons.
 This results in disruption of the nucleon and the larger nucleus.
-The collection of daughter particles form what is known as a \textbf{hadronic shower}.
+The collection of daughter particles form what is known as a \emph{hadronic shower}.
 
 
 \label{sec:detection_methods}
@@ -210,7 +212,7 @@ For many events, the interaction of the neutrino leads to the emission of variou
 This may be composed of many particles, as is the case with most DIS events, or it may consist solely of a limited number of pions, as is typical for RES events.
 
 In addition to the hadronic shower, charged-current interactions possess an outgoing charged lepton, the result of which depends on the flavor of the lepton.
-Outgoing electrons will often quickly scatter in interactions with the surrounding media, ionizing atoms and producing a secondary \textbf{electromagnetic shower} of particles.
+Outgoing electrons will often quickly scatter in interactions with the surrounding media, ionizing atoms and producing a secondary \emph{electromagnetic shower} of particles.
 Muons, on the other hand, travel longer distances before scattering or being absorped in the medium, leading to an extended track.
 
 The signature of a tau decay varies significantly.
@@ -239,7 +241,7 @@ Pair production, in which a particle and antiparticle (typically electron and po
 At the highest energies, hadronic interactions of photons lead to still-stronger emission.
 
 There exists a minimum in the energy loss rates.
-Particles emitting near this minimum rate are known as \textbf{minimum-ionizing} particles \cite{PDG-2015}.
+Particles emitting near this minimum rate are known as \emph{minimum-ionizing} particles \cite{PDG-2015}.
 
 \begin{figure}
 \centering
@@ -253,12 +255,12 @@ In addition, some detectors use photosensitive emulsions  \cite{Description-OPER
 These emulsions yield precise characterization of particle decays, allowing experimentalists to uniquely determine the flavor state of the interacting neutrino.
 
 \subsection{Cherenkov Emission}
-When a charged particle passes through a dielectric medium with a speed larger than the local phase velocity of light, it will emit \textbf{Cherenkov radiation}\cite{Cherenkov-Radiation-Confirmation}.
+When a charged particle passes through a dielectric medium with a speed larger than the local phase velocity of light, it will emit \emph{Cherenkov radiation}\cite{Cherenkov-Radiation-Confirmation}.
 The effect, first reported by Pavel Cherenkov in 1934 \cite{Cherenkov-Radiation-Observation} remained unexplained theortically until work done by Ilya Frank and Igor Tamm in 1937 \cite{Frank-Tamm}.
 
 For a dielectric medium, the electric field of the charged particle will polarize atoms in the medium by inducing a small dipole moment due to electromagetic effects in nuclei of atoms in the medium \cite{Griffiths-EM}.
 The resulting disturbance of the medium propagates with the phase velocity of light in the medium, given by the speed of light, \textit{c}, and the index of refraction as a function of the frequency of light, \textit{n(\omega)}.
-If the charged particle is traveling faster than the local phase velocity, the electromagnetic disturbance propagates with constructive interference, resulting in a planar wavefront of emission known as \textbf{Cherenkov emission}.
+If the charged particle is traveling faster than the local phase velocity, the electromagnetic disturbance propagates with constructive interference, resulting in a planar wavefront of emission known as \emph{Cherenkov emission}.
 The angle of the wavefront relative to the propagation direction is given by ratio of the distance traveled by the particle and photons in a given time.
 
 \begin{equation}

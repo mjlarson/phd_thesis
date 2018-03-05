@@ -11,13 +11,13 @@ At the time, the muon neutrino was not yet known as a separate particle, a disco
 Pontecorvo noted that this process would be rather slow, with a rate $\mathtt{10^{10}}$ times slower than the typical muon decay. 
 If, however, the muonium and anti-munium possessed different masses and could interact directly, the mixing between the states could proceed significantly faster with a rate only 300 times slower than muon decays.
 
-While there is not known direct mixing between the muonium and anti-muonium atoms, Pontecorvo's work laid the groundwork for understanding the process of \textbf{neutrino oscillations}, a process to which it was applied by Pontecorvo himself in 1968 \cite{Pontecorvo-Oscillations}.
+While there is not known direct mixing between the muonium and anti-muonium atoms, Pontecorvo's work laid the groundwork for understanding the process of \emph{neutrino oscillations}, a process to which it was applied by Pontecorvo himself in 1968 \cite{Pontecorvo-Oscillations}.
 The process was further developed for the neutrino sector by Ziro Maki, Masami Nakagawa and Shoichi Sakata in 1962 \cite{Maki-Nakagawa-Sakata}.
 
 \subsection{The PMNS Mixing Matrix}
 
 We now understand there to be three distinct flavors of neutrinos.
-Specifically, there exist three weak eigenstates of the left-handed neutrino fields that are related to three known neutrino mass eigenstates via the lepton mixing matrix known as the \textbf{PMNS} (Pontecorvo-Maki-Nakagawa-Sakata).
+Specifically, there exist three weak eigenstates of the left-handed neutrino fields that are related to three known neutrino mass eigenstates via the lepton mixing matrix known as the \emph{PMNS} (Pontecorvo-Maki-Nakagawa-Sakata).
 
 \begin{equation}
 \begin{pmatrix} \nu_e\left(x\right) \\ 	\nu_\mu\left(x\right) \\	\nu_\tau\left(x\right) \end{pmatrix} = 
@@ -27,7 +27,7 @@ U_{PMNS} \begin{pmatrix} \nu_e\left(x\right) \\ 	\nu_\mu\left(x\right) \\	\nu_\t
  U_{\mu 1} & U_{\mu 2} & U_{\mu 3} \\
  U_{\tau 1} & U_{\tau 2} & U_{\tau 3} \\
 \end{pmatrix} 	
-\begin{pmatrix} \nu_e\left(x\right) \\ 	\nu_\mu\left(x\right) \\	\nu_\tau\left(x\right) \end{pmatrix}
+\begin{pmatrix} \nu_1\left(x\right) \\ 	\nu_2\left(x\right) \\	\nu_3\left(x\right) \end{pmatrix}
 \label{eqn:3flavor_pmns}
 \end{equation}
 
@@ -228,13 +228,14 @@ The disappearance probability in the two flavor approximation is similarly given
 
 \begin{equation}
 P\left(\nu_\alpha\rightarrow\nu_\alpha\right) = \sin^2 \left(2\theta\right) \sin^2\left(\frac{m^2 L}{4E}\right)
+\label{eqn:two_flavor_disappearance}
 \end{equation}
 
 \begin{figure}
 \centering
 \includegraphics[width=0.9 \linewidth]{twoflavor.pdf}
 \label{fig:twoflavor_probs}
-\caption{The oscillation probabilities for survival (solid) and disappearance (dotted) in the two flavor regime. Left: Effect of changing the mixing angle while keeping the mass splitting at $10^-3$. Right: Effect of changing the mass splitting while fixing the mixing angle to 30$^\degree$.}
+\caption{The oscillation probabilities for survival (solid) and disappearance (dotted) in the two flavor regime. Left: Effect of changing the mixing angle while keeping the mass splitting at $10^-3$. Right: Effect of changing the mass splitting while fixing the mixing angle to 30 degrees.}
 \end{figure}
 
 The survival and disappearance probabilities are shown in Figure~\ref{fig:twoflavor_probs}.
@@ -244,6 +245,7 @@ In the two flavor regime, the survival and disappearance probabilities sum to un
 There is no dependence on the absolute mass scale or on the octant of the mixing angle.
 
 For many experiments, careful planning may lead to the two flavor mixing being a reasonable approximation to the overall oscillation probability.
+
 
 \label{subsec:msw}
 \subsection{Matter Effects in Oscillation}
@@ -258,10 +260,10 @@ H = H_0 + V
 The value of $\mathtt{H_0}$ is the value of vacuum Hamiltonian and can be shown \cite{Review-PMNS} to be
 
 \begin{equation}
-H_0 = \frac{\Delta m^2}{4E} 
+H_0 = \frac{\Delta m^2}{4E}
 \begin{pmatrix}
-- 2 \cos 2\theta & \sin 2\theta \\
-\sin 2\theta & 0 \\
+- 2 \cos 2 \theta & \sin 2 \theta \\
+\sin 2 \theta & 0 \\
 \end{pmatrix}
 \end{equation}
 
@@ -273,11 +275,63 @@ The potential, expressed in the flavor basis, is then
 \begin{equation}
 V_{CC,\alpha} = 
 \begin{cases}
-\sqrt{2}G_F n_e\left(x\right) & \alpha = e \\
+\sqrt{2} \pm G_F n_e \left( x\right) & \alpha = e \\
 0 & \alpha = \mu, \tau
-\end{cases}\;\;\;\;\;
-
+\end{cases}\ \ \ \ \ 
 V_{NC,\alpha} = -\frac{G_F}{\sqrt{2}} n_e\left(x\right)\;\;\; \alpha = e, \mu, \tau
 \end{equation}
 
+where a + is used for neutrinos and a - is used for antineutrinos.
+The density of electrons, $n_e$ is a property of the medium while the value of $G_F$ is the Fermi coupling constant.
+Note that the angle included here is that of the PMNS matrix in two diemsions.
+The total Hamiltonian may be diagonalized by introducing $\theta_m$, an effective mixing angle in matter.
+
+\begin{equation}
+H = U_m 
+\begin{pmatrix}
+E_1^m & 0 \\
+0 & E_2^m \\
+\end{pmatrix}
+U_m^\dagger \ \ \ \ \ 
+U_m = \begin{pmatrix}
+\cos \theta_m & \sin \theta_m \\
+-\sin \theta_m & \cos \theta_m \\
+\end{pmatrix}
+\end{equation}
+
+A number of quantities have here been introduced. 
+A resonance density, known as the \emph{MSW resonance} for the names of theorists, Mikheyev, Smirnov, and Wolfenstein, who first proposed the effect
+This density is defined by 
+
+\begin{equation}
+n_{res} = \frac{\Delta m^2 \cos 2 \theta}{2 \sqrt{2} G_F E}
+\end{equation}
+
+The resonant density is used to simplify the form of the matter energy states and mixing angles
+
+\begin{equation}
+E_2^m - E_1^m = \frac{\Delta m^2}{2 E} \sqrt{\left(1 \mp \frac{n_e}{n_{res}}\right)^2 \cos^2 2 \theta + \sin^2 2 \theta}
+\end{equation}
+\begin{equation}
+\sin 2 \theta_m = \frac{\sin 2 \theta}{\left(1 \mp \frac{n_e}{n_{res}}\right)^2 \cos^2 2 \theta + \sin^2 2 \theta}
+\end{equation}
+
+where the negative sign is used for neutrinos and positive for antineutrinos.
+The matter angle reaches maximal when $n_e = n_{res}$, at which point the oscillations are said to be at resonance.
+This resonance occurs regardless of the standard oscillation mixing angle, although the mixing angle sets the overall scale of matter oscillations just as it does for vacuum oscillations.
+
+In the case of constant matter densities, the oscillation probabilities in matter are then found straightforwadly in a manner identical to the vacuum case.
+The disapperance probability is given by
+
+\begin{equation}
+P_m \left( \nu_\alpha \rightarrow \nu_\beta \right) = \sin^2 2 \theta_m \sin^2 \frac{\left( E_2^m - E_1^m\right) t}{2} \ \ \ \alpha \neq \beta
+\label{eqn:twoflavor_msw}
+\end{equation}
+
+Here it becomes clear that the oscillation probabilities in matter follow the same form as Equation~\ref{eqn:two_flavor_disappearance}, but with an effect mixing angle $\theta_m$ and energy states $E_i^m$ set by the electron density of the medium.
+
+Similar derivations may be performed using the full three-flavor framework. 
+A full description of three flavor neutrino oscillation in the presence of a matter potential is beyond the scope of this work.
+Further information and explicit forms may be found in \cite{Barger-Oscillations, Review-PMNS}.
+In practice, many experiments are adequately described in the two-flavor framework described here.
 

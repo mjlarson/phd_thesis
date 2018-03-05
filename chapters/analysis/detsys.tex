@@ -1,7 +1,7 @@
 \label{subsec:detector_systematics}
 \subsection{Detector Systematics}
 While the previous systematics have been concerned with global physics parameters, the remainder are dedicated to understanding the uncertainties associated with the IceCube detector itself, such as the properties of the PMTs and the ice.
-These parameters, collectively referred to as the \textbf{detector systematics}, do not have known analytic forms and may affect the rate of events, the reconstruction properties of a given event, or both.
+These parameters, collectively referred to as the \emph{detector systematics}, do not have known analytic forms and may affect the rate of events, the reconstruction properties of a given event, or both.
 The effect of these uncertainties must be evaluated using additional Monte Carlo simulations.
 
 The GRECO event selection uses a number of simulation sets, shown in \ref{table:geniesets} for signal and \ref{table:mgsets} for background, to characterize the effects of these detector systematics.
@@ -99,7 +99,7 @@ Indeed, the total efficiency of detecting incident photons as measured by Hammam
 Before and during deployment, the net quantum efficiency of some DOMs were tested \unsure{How many were tested in a lab before deployment?}.
 The efficiency of the DOMs was again measured in-situo \findref{Where does the domeff prior come from?} in order to better account for local effects like cable shadowing and the glass-ice interface.
 Dedicated measurement spost-deployment have used minimum ionizing muons in data and simulation and derived 
-a modification of the assumed efficiency, hereafter referred to as the \textbf{DOM efficiency}, of 99\%$\pm$10\%. 
+a modification of the assumed efficiency, hereafter referred to as the \emph{DOM efficiency}, of 99\%$\pm$10\%. 
 
 The DOM efficiency scales the probability of observing photons incident at the face of the DOM.
 A higher DOM efficiency leads to more information about individual particle interactions, leading to better reconstructions.
@@ -110,7 +110,7 @@ The net effect of changing the DOM efficiency by 10\% is shown in \needfig{domef
 \subsubsection{Bulk Absorption and Scattering}
 \label{subsubsec:bulkice}
 The ice model used in IceCube is fit in-situo using various data from the deployment and detector operation in a process similar to the one described in \ref{sec:vuvuzela_fitting}.
-The model, here referred to as the \textbf{bulk ice model}, consists of scattering and absorption coefficients fit as a function of depth within the detector as well as information about anisotropy in the scattering properties of the ice \findref{ice model}.
+The model, here referred to as the \emph{bulk ice model}, consists of scattering and absorption coefficients fit as a function of depth within the detector as well as information about anisotropy in the scattering properties of the ice \findref{ice model}.
 Uncertainties for these scattering and absorption coefficients, shown in \needfig{bulk ice uncertainties vs depth}, provide a significant source of uncertainty for physics measurements in IceCube.
 To handle these effects, global scale factors are used to modify all scattering or absorption coefficients in the bulk ice model simultaneously.
 Using the most recent published uncertainties on our ice model, a total uncertainty of approximately 10\% is assumed for these global scale factors.
@@ -139,10 +139,10 @@ This is a known effect of the reconstruction, where we use a version of the ice 
 While the bulk ice refers to the scattering and absorption properties of the entire interaction volume, additional care must be taken for the ice close to the face of a PMT.
 During deployment, contaminants, including air, were introduced into the drill holes.
 These contaminants have been seen to form a dense column with unique scattering properties near the center of the drill holes.
-This bubble column, known as the \textbf{hole ice}, has properties separate from the rest of the ice model.
+This bubble column, known as the \emph{hole ice}, has properties separate from the rest of the ice model.
 
 The uncertainties associated with the hole ice are significant and tend to elicit more attention than bulk ice uncertainties in searches for oscillations with DeepCore.
-The simulation of the hole ice model used here, discussed briefly in \ref{subsec:holeice_sim}, requires two free parameters which will be referred to as the \textbf{lateral} and \textbf{forward} scattering parameters here for clarity.
+The simulation of the hole ice model used here, discussed briefly in \ref{subsec:holeice_sim}, requires two free parameters which will be referred to as the \emph{lateral} and \emph{forward} scattering parameters here for clarity.
 The lateral scattering modifies the efficiency of accepting photons incident from the horizon at each DOM while the forward scattering modifies only the acceptance of the very-forward region.
 The models of the angular acceptance are shown in \needfig{hole ice and hifwd}.
 

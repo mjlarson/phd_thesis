@@ -9,14 +9,14 @@ This proceeds in a few distinct stages, each described separately here.
 \subsection{Burn Sample Fits: Testing the Fitting Code}
 Analyzers are initially restricted to a small fraction of the full dataset while developing the event selection and fitting codes.
 The size of the burn sample, here limited to 1\% of the total dataset, is selected in order to provide reasonable statistics while maintaining limited sensitivity to the final physics parameters.
-Once end-to-end tests are completed using solely simulated events, this small sample, known as the \textbf{burn sample}, is fit in order to verify that results obtained are reasonable.
+Once end-to-end tests are completed using solely simulated events, this small sample, known as the \emph{burn sample}, is fit in order to verify that results obtained are reasonable.
 
 \improvement{blahdy blahdy blahdy. no point spending time here if i may just kill it}
 
 
 \label{subsec:blind_fits}
 \subsection{Blind Fits: Checking the Goodness-of-Fit}
-Once the burn sample tests are complete, the next stage is to perform what is known as a \textbf{blind fit}.
+Once the burn sample tests are complete, the next stage is to perform what is known as a \emph{blind fit}.
 The concept, developed for oscillation analyses in IceCube, exists as an intermediate stage between the low-sensitivity burn sample tests and the final fit 
 Unlike the burn sample fits, the blind fits use the full data sample for testing.
 All systematics are included in the fit as normal.
@@ -30,14 +30,14 @@ The goodness-of-fit, known more informally as the p-value associated with the fi
 An ensemble of Monte Carlo trials is fit and the resulting $\chi_{FS}^2$ values are used.
 The fraction of trials with $\chi_{FS}^2$ larger than that observed in data gives the first p-value.
 The second method uses SciPy \findref{scipy} to fit a $\chi^2$ distribution. 
-The p-value may then be calculated from the continuous distribution by finding the total probability of observing a fit with a $\chi_{FS}^2$ value equally or worse than the data fit, $\mathtt{P_2\left(\chi_{FS}^2 \geq \left(\chi_{FS}^2\right)_{Data}\right)}$.
+The p-value may then be calculated from the continuous distribution by finding the total probability of observing a fit with a $\chi_{FS}^2$ value equally or worse than the data fit, ${P_2\left(\chi_{FS}^2 \geq \left(\chi_{FS}^2\right)_{Data}\right)}$.
 
 The first method generally will yield more accurate results, particularly if the resulting distribution is poorly fit by a simple $\chi^2$ distribution. 
 If the fit is particularly poor, a large number of trials may be necessary in order to calculate an accurate p-value.
 In these cases, the second method may be used to provide an estimate of the p-value of the fit.
 
 During the first work with blind fits, this analysis used a wide range of reconstructed energies, including events up to 800 GeV in order to better constrain systematics terms in the non-oscillating higher energy regions.
-Blind fits in the GRECO analysis initially showed significant disagreement between the data and simulation, with a goodness-of-fit of $\mathtt{10^{-7}}$.
+Blind fits in the GRECO analysis initially showed significant disagreement between the data and simulation, with a goodness-of-fit of ${10^{-7}}$.
 Investigations yielded new discoveries about both the calibration of the Monte Carlo simulation and previously-unknown erroneous events in the data.
 
 \label{subsubsec:charge_templates}
@@ -73,7 +73,7 @@ Regardless, the presence of unsimulated features indicates that at least some ch
 The absence of features led to investigations of the charge produced in PMTResponseSim module of DOMLauncher.
 In the module, photoelectrons at the photocathode of the PMT are propagated through the dynodes to the anode.
 The resulting output, a series of pulses emitted from the PMT to be passed onto the simulation of the DOM discriminator and digitization processes, requires a conversion from the number of raw incident photoelectrons to a total charge profile in the form of a waveform.
-The conversion, known as the \textbf{single photoelectron template}, or \textbf{SPE template}, is calculated from calibration measurements performed prior to deployment of the DOMs in the ice \findref{TA003 charge template}.
+The conversion, known as the \emph{single photoelectron template}, or \emph{SPE template}, is calculated from calibration measurements performed prior to deployment of the DOMs in the ice \findref{TA003 charge template}.
 The SPE template, used for all DOMs, has been known to vary somewhat between DOMs in a lab setting for many years, but the problem was deemed unimportant given other ongoing calibration work.
 
 With the identification of the issue using the GRECO event selection, new efforts were dedicated to the production of in-situo measurements of the SPE templates for each DOM.
@@ -81,14 +81,14 @@ These new template are entering production as of the time of this analysis, but 
 Other methods are therefore necessary to avoid introducing spurious systematic biases into the final results.
 
 In order to attempt to characterize the expected effect due to the change in the SPE templates, a new method of reweighting was developed with the GRECO selection.
-The average charge per DOM, $\mathtt{\bar{q}}$, is shifted by a known amount, $\mathtt{\Delta \bar{q}}$ and binned.
+The average charge per DOM, ${\bar{q}}$, is shifted by a known amount, ${\Delta \bar{q}}$ and binned.
 The ratio of the shifted and unshifted average charge histograms is calculated.
-An example of this process for the $\mathtt{\nu_\mu^{CC}}$ is shown in \needfig{example of shifted and unshifted charges for eg numu}.
-This process is performed for various values of $\mathtt{\Delta \bar{q}}$ and the resulting ratios are splined using the SciPy splining function RectBivariateSpline \findref{scipy rectbivariatespline}, yielding a continuous function describing the change in the number of events at each charge as a function of $\mathtt{\Delta \bar{q}}$.
-This spline, an example of which is shown in \needfig{2d splines for mc charge scale correction}, may be evaluated for each event by providing the values of $\mathtt{\bar{q}}$ of the given event and the $\mathtt{\Delta \bar{q}}$ requested.
+An example of this process for the ${\nu_\mu^{CC}}$ is shown in \needfig{example of shifted and unshifted charges for eg numu}.
+This process is performed for various values of ${\Delta \bar{q}}$ and the resulting ratios are splined using the SciPy splining function RectBivariateSpline \findref{scipy rectbivariatespline}, yielding a continuous function describing the change in the number of events at each charge as a function of ${\Delta \bar{q}}$.
+This spline, an example of which is shown in \needfig{2d splines for mc charge scale correction}, may be evaluated for each event by providing the values of ${\bar{q}}$ of the given event and the ${\Delta \bar{q}}$ requested.
 The output is interpreted as a rescaling factor for the event weight.
 
-This process, referred to as \textbf{MC charge rescaling}, has limitations.
+This process, referred to as \emph{MC charge rescaling}, has limitations.
 In particular, threshold and selection events are completely ignored in this formulation.
 A changed charge response of the detector acts roughly as a DOM efficiency shift, discussed in \ref{subsubsec:domeff}, which may lead to significantly different numbers of atmospheric muon background events reaching final level.
 The average charge per DOM is also potentially a poor proxy if the variation in the SPE templates for each DOM is large.
@@ -132,7 +132,7 @@ By looking at the event rate in data and simulation as a function of the depth a
 \end{center}
 
 The initial plots are shown in \ref{fig:flaring_zrho}.
-A significant difference is observed at a depth of around $\mathtt{Z\approx -400}$.
+A significant difference is observed at a depth of around ${Z\approx -400}$.
 Checks performed with other samples have shown similar disagreeements at these depths, indicating disagreement in the ice model.
 Previously unblinded oscillation samples showing this issue have not observed significant issues in the goodness-of-fit.
 New ice models are underway with dedicated work to fix this region is underway.
@@ -141,7 +141,7 @@ New ice models are underway with dedicated work to fix this region is underway.
 \label{fig:flaring_zrho}
 \begin{figure}
 	\includegraphics[width=0.9\linewidth]{pegleg_fine_z_rho.png}
-\caption{The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near $\mathtt{\rho_{36}=75}$ at depths of -310 and -490. }
+\caption{The reconstructed Z position plotted against the reconstructed distance from string 36. The L7 cuts from GRECO have been removed for this plot. The colorbars in both plots have been normalized to be identical. The data and simulation show reasonable agreement except for two points in the data, near ${\rho_{36}=75}$ at depths of -310 and -490. }
 \end{figure}
 \end{center}
 
@@ -155,7 +155,7 @@ New ice models are underway with dedicated work to fix this region is underway.
 
 Two-dimensional histograms of the depth and radial distance also show systematic disagreement in some regions, as shown in \ref{fig:flaring_zrho}.
 These excess events appear to occur on string 83, shown in \ref{fig:flaring_xy}, indicating an effect occuring due to the DOM hardware in the detector.
-Follow-up work has shown that these DOMs, known here as \textbf{flaring DOMs}, appear to spontaneously emit light for unknown reasons. 
+Follow-up work has shown that these DOMs, known here as \emph{flaring DOMs}, appear to spontaneously emit light for unknown reasons. 
 The light output is identifiable both based on the position of the hits and the amount of charge observed in nearby DOMs.
 These spurious events, first discovered in the GRECO selection, have since spawned dedicated searches to better understand spontaneous light emission from the DOMs.
 A small handful of DOMs have been identified by these searches with emission times as frequent as 1 Hz \findref{internal search for flaring doms}.
@@ -178,7 +178,7 @@ This may be characterized using the 'charge RMS' of the event.
 \end{center}
 
 This is shown in \needfig{charge rms with the excess in data}.
-Events with a $\mathtt{q_{RMS}}>0.85$ are removed from the analysis, removing the most obvious spurious events. 
+Events with a ${q_{RMS}}>0.85$ are removed from the analysis, removing the most obvious spurious events. 
 A total of \unsure{find the number removed by the charge rms cut in data} events are removed from the GRECO data, resulting in a total reduction of \unsure{percent reduction in number of data events}\%.
 The removal of these events in data and simulation does not significantly impact the goodness-of-fit of the sample due to the low event rates involved.
 
@@ -214,33 +214,87 @@ The problems with the bedrock were mistakenly overlooked during the upgrades of 
 
 The bedrock has been properly included in both the NuGen generator as well as the PROPOSAL module for propagating the charged leptons.
 GENIE events therefore suffer solely from an incorrect interaction probability due to the discovered bug.
-The density of interaction medium enters as a linear term in the interaction probability, indicating that a correction of the form $\mathtt{\rho_{rock}/\rho_{ice}}$ is sufficient to correct the Monte Carlo.
+The density of interaction medium enters as a linear term in the interaction probability, indicating that a correction of the form ${\rho_{rock}/\rho_{ice}}$ is sufficient to correct the Monte Carlo.
 The fixed distributions in energy and zenith are shown in \needfig{energy and z distributions after reweighting genie bedrock events}.
 
-In order to limit other potential issues from the bedrock, the analysis space was further limited, removing events both at higher energies ($\mathtt{E_{reco}>56 GeV}$) and those reconstructing at or below the bottom of the detector ($\mathtt{Z_{reco}\leq-500}$).
+In order to limit other potential issues from the bedrock, the analysis space was further limited, removing events both at higher energies (${E_{reco}>56 GeV}$) and those reconstructing at or below the bottom of the detector (${Z_{reco}\leq-500}$).
 These cuts significantly reduce the size of the sample by reducing the high energy events included at final level. 
 These changes have some impact on the expected sensitivity, but were deemed necessary to minimize the potential impact of systematics issues associated with the NuGen sample and, more broadly, limitations in the simulated event samples interacting below the detector.
 
 \improvement{these updates with event rates should be lines on a data/mc rate table in the selection section.}
 
-\label{subsubsec:final_blind_fits}
-\subsubsection{Updated Results}
+\label{section:tau_results}
+\section{Results from the Search for Appearance}
 After the removal of the flaring DOM events, the correction of bedrock events, and the elimination of the charge in the PegLeg fit, a new blind fit was performed and the goodness-of-fit was again tested.
 The resulting $\chi^2_{FS}$ for the charged-current only and neutral-current + charged-current fits were 127.095 and 127.623 respectively.
 One thousand trials were run for each fit using the updated sample, yielding estimates of the probability density function shown in \needfig{PDFs for gof}.
 The data is well-described by the systematics set, with a pvalue of approximately 57\% for both fits.
+The full map of the ${\chi^2_{FS}}$ values is shown in Figure~\ref{fig:chi2_map}.
+No single region of disagreement is visible, indicating that there are no significant remaining unmodeled systematic uncertainties.
 
-The final value of the systematics, plotted in \needfig{final systematics best-fits}, are within 1$\mathtt{\sigma}$ of the expectation at the best-fit points.
+With the observation of good fit p-values, the final results for both the CC-only and NC+CC fits were fully unblinded.
+Both results, shown in Figure~\ref{fig:final_contour_cc} and Figure~\ref{fig:final_contour_nccc}, fit lower than expected from unitary 3-flavor oscillations, although both are consistent with such a model.
+
+The final value of the systematics, shown numerically in Table~\ref{tab:bestfit_systematics} and graphically in Figure~\ref{fig:syst_pulls}, are within 1${\sigma}$ of the expectation at the best-fit points.
 Many systematics were expected to be determined primarily from the data instead of from priors. 
-\needfig{trials systematics distributions} shows the expected values of each systematic for 1000 trials.
-The shaded band shows the assumed 1$\mathtt{\sigma}$ prior range for each of the parameters, if present.
+Figures~\ref{fig:posteriors_cc} and \ref{fig:posteriors_nc_cc} shows the expected values of each systematic for 1000 trials.
+The shaded band shows the assumed 1${\sigma}$ prior range for each of the parameters, if present.
+Not only are all systematics within the relevent priors, but most systematics fit within the expected posteriors.
 
-\improvement{no idea wtf to write. its all boring stuff that's just a woooo yay it works}
+\begin{figure}{}
+	\centering \includegraphics[width=\textwidth]{pulls.pdf}
+	\caption{The value of each systematic with priors. The best-fit values are shown for each while the priors are shown by the yellow band. The CC and NC+CC fits are highly correlated, as expected, with very little difference in the systematics best-fit values. All values fit well within the expected 1$\sigma$ ranges.}
+	\label{fig:syst_pulls}
+\end{figure}
+
+\begin{figure}{}
+	\centering \includegraphics[width=\textwidth]{cc_systematics.pdf}
+	\caption{A comparison of the posterior expected from trials to the final data fit value for each parameter for the CC-only fit. The trials used to build the posterior distribution in each parameter assume baseline values for systematics, $N_\tau^{CC}=1$, and Nu-Fit 2.2 values \cite{NuFit_2.2}. The green vertical line shows the true injected value. The blue dotted line shows the best-fit value from data. The black bar shows the 1$\sigma$ and 90\% ranges calculated from the posterior distribution.}
+	\label{fig:posteriors_cc}
+\end{figure}
+
+\begin{figure}{}
+	\centering \includegraphics[width=\textwidth]{nc+cc_systematics.pdf}
+	\caption{A comparison of the posterior expected from trials to the final data fit value for each parameter for the NC+CC fit. The trials used to build the posterior distribution in each parameter assume baseline values for systematics, $N_\tau^{NC+CC}=1$, and Nu-Fit 2.2 values \cite{NuFit_2.2}}
+	\label{fig:posteriors_nc_cc}
+\end{figure}
+
+\begin{landscape}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+\multirow{2}{*}{Parameter Type} & \multirow{2}{*}{Fit Parameter}    & \multirow{2}{*}{Units} & \multirow{2}{*}{Prior} & \multicolumn{1}{c}{\multirow{2}{*}{Disappearance}} & \multicolumn{2}{l}{Appearance} \\
+                                &                                   &                &             & \multicolumn{1}{c}{} & CC-Only        & NC+CC         \\ \midrule
+Oscillations               & $\Delta m^2_{32}$     & $10^{-3}$ $eV^2$ & -        & 2.548           & 2.625          & 2.602         \\
+                                & $\sin^2 \left(\theta_{23}\right)$  & -          & -        & 0.576           & 0.590          & 0.584         \\ 
+                                & $N_\tau$                   & -               & -                      & 1.0 (Fixed)    & 0.566          & 0.733         \\\midrule
+Cross-section            & Axial Mass (QE)           & $\sigma$  & 0 $\pm$ 1.0    & -0.250          & -0.357         & -0.332        \\
+                                & Axial Mass (RES)         & $\sigma$   & 0 $\pm$ 1.0   & -0.3737        & -0.583         & -0.526        \\
+                                & $N_{NC}$                  & -                & 1 $\pm$ 0.2   & 1.016           & 1.063          & 1.048         \\ \midrule
+Neutrino Flux             & $\nu_\mu$ Norm       & Years         & -                     & 2.151           & 2.210          & 2.219         \\
+                                & $\nu_e$/$\nu_\mu$  & -               & 1 $\pm$ 0.05  & 1.031           & 1.034          & 1.033         \\
+                                & $\gamma_\nu$          & -               & 0 $\pm$ 0.10  & 0.045           & 0.034          & 0.033         \\
+                                & $\nu$/$\bar{\nu}$    & $\sigma$  & 0 $\pm$ 1.0     & -0.700         & -0.330         & -0.422        \\
+                                & Up/Hor                       & $\sigma$  & 0 $\pm$ 1.0    & -0.207          & -0.184         & -0.191        \\
+                                & $f_{Coincident}$        & \%            & 0 + 0.1            & 0.027           & 0.006          & 0.012         \\ \midrule
+Muon Flux                  & $\mu$ Norm              & Years        & -                      & 1.845           & 1.795          & 1.830         \\
+                                & $\gamma_{CR}$       & $\sigma$  & 0 $\pm$ 1.0    & 0.113          & 0.148          & 0.148         \\ \midrule
+Detector                   & DOM Efficiency            & -               & 1.0 $\pm$ 0.1 & 0.980          & 0.984          & 0.984         \\
+                                & Hole Ice (Flasher)        & -               & 25 $\pm$ 10   & 30.526        & 29.833         & 29.894        \\
+                                & Forward Scattering      & -               & -                      & -0.839         & -0.638         & -0.630        \\
+                                & Absorption                  & \%           & 1.0 $\pm$ 0.1  & 1.014          & 1.017          & 1.016         \\
+                                & Scattering                   & \%           & 1.0 $\pm$ 0.1   & 1.033         & 1.028          & 1.030         \\ \bottomrule
+\end{tabular}%
+}
+\caption{The best-fit systematics values for each nuisance parameter in the fit. The corresponding parameters for $N_\tau=1$ (ie, the disappearance fit) are included for reference. The CC-only and NC+CC fits are highly correlated, as expected. }
+\label{tab:bestfit_systematics}
+\end{table}
+\end{landscape}
 
 
-\label{section:tau_results}
-\section{Results from the Search for Appearance}
-With the 
+
 
 
 \label{section:other_measurements}
@@ -249,25 +303,25 @@ With the
 \label{subsec:oscil_results}
 \subsection{Oscillation Parameters}
 Thanks to significant contributions from others \findref{future reference to martin, elim's theses}, dedicated measurements of the atmospheric mixing parameters have also been performed using the GRECO selection.
-In these measurements, the value of $\mathtt{N_{\nu_\tau}}$ remains fixed to unity.
+In these measurements, the value of ${N_{\nu_\tau}}$ remains fixed to unity.
 The derived results are therefore directly comparable to results from other oscillation experiments.
 
 \label{subsubsec:disappearance_results}
 \subsubsection{$\nu_\mu$ Disappearance Results}
-Using similar tools as the appearance analysis, a complementary search for $\mathtt{\nu_\mu}$ disappearance was performed \findref{elim's thesis}.
-The measurement of the disappearance parameters, $\mathtt{\Delta m^2_{3j}}$ and $\mathtt{\theta_{23}}$, used an identical choice of binning and systematics set as the appearance search described above.
-The $\chi^2_{FS}$ statistic was found by minimization with the iMinuit package \findref{iminuit} across a grid of values arranged linearly in $\mathtt{\Delta m^2_{3j}}$ and $\mathtt{sin^2\theta_{23}}$ covering both octants.
+Using similar tools as the appearance analysis, a complementary search for ${\nu_\mu}$ disappearance was performed \findref{elim's thesis}.
+The measurement of the disappearance parameters, ${\Delta m^2_{3j}}$ and ${\theta_{23}}$, used an identical choice of binning and systematics set as the appearance search described above.
+The $\chi^2_{FS}$ statistic was found by minimization with the iMinuit package \findref{iminuit} across a grid of values arranged linearly in ${\Delta m^2_{3j}}$ and ${sin^2\theta_{23}}$ covering both octants.
 At each point, the disappearance parameters were fixed during minimization.
 Both the normal and inverted ordering are tested separately.
 
 The result is shown in \needfig{elim's result!} with comparisons to previous atmospheric oscillation measurements by IceCube \findref{icecube 2017 result}, Super-Kamiokande \findref{superk 2015 oscillation result} and the MINOS experiment \findref{minos oscillation with atm}.
-Results from accelerator measurements are shown from the $\mathtt{NO\nu A}$ \findref{nova oscillation} and T2K \findref{t2k oscillation result} experiments.
+Results from accelerator measurements are shown from the ${NO\nu A}$ \findref{nova oscillation} and T2K \findref{t2k oscillation result} experiments.
 All results show the 90\% contour around the best-fit point.
-The GRECO result mildly prefers the normal ordering and the second octant, although maximal mixing ($\mathtt{sin^2\theta_{23}=0.5}$ is well within the best-fit contours.
+The GRECO result mildly prefers the normal ordering and the second octant, although maximal mixing (${sin^2\theta_{23}=0.5}$ is well within the best-fit contours.
 
 The GRECO result improves upon the most recent IceCube result significantly, particularly in the measurement of the mass splitting.
 Both results are statistically consistent with one another, although the GRECO result perfers a larger mass splitting than the previous result.
-Global fits, which prefer a value of the mass splitting of $\mathtt{2.494^{+0.033}_{-0.031}}$ as of the time of this writing \findref{nufit 3.2}, favor the new GRECO result over the previous IceCube result.
+Global fits, which prefer a value of the mass splitting of ${2.494^{+0.033}_{-0.031}}$ as of the time of this writing \findref{nufit 3.2}, favor the new GRECO result over the previous IceCube result.
 
 Precise measurements of the atmospheric mixing angle continue to elude us, however.
 While the GRECO result provides competive constraints on the mixing angle, no significant improvement is observed.
@@ -280,7 +334,7 @@ Only upgoing reconstructed GRECO events were included, although the energy range
 All simulation templates were smoothed during the analysis using a dedicated implementation of the kernal density estimation technique implemented in the C++ programming language \findref{martin's kdes from the aachen group. who did that?}.
 This code, unlike the SciPy KDE implementation used in \ref{sec:kde_filtering}, includes functionality for weighted event samples and variable bandwidth estimation.
 
-The systematics set used in the mass ordering analysis was identical to that of the disappearance measurement, with the value of $\mathtt{N_{\nu_\tau}}$ fixed to unity.
+The systematics set used in the mass ordering analysis was identical to that of the disappearance measurement, with the value of ${N_{\nu_\tau}}$ fixed to unity.
 Systematics included in the mass ordering measurement were applied using a parallel branch of the OscFit code used in the appearance measurement.
 
 Statistical uncertainties arising from the simulation statistics were estimated using a bootstrapping technique included in the KDE implementation.
@@ -289,13 +343,13 @@ The test statistic used in the mass ordering measurement was defined to be the n
 Unlike the appearance and disappearance measurements, the neutrino mass ordering is not a continuous parameter. 
 The calculation of a final significance proceeds following the method described in \findref{pingu paper and/or pisa paper describing nmo measurement}, a full description of which is beyond the scope of this work.
 Using GRECO events, a good fit is obtained at the best-fit point with a pvalue of approximately 80\%.
-Using the cited technique, a weak preference for the normal mass ordering is found at approximately 0.3$\mathtt{\sigma}$ \unsure{Need martin's final result!}
+Using the cited technique, a weak preference for the normal mass ordering is found at approximately 0.3${\sigma}$ \unsure{Need martin's final result!}
 
 \label{subsec:syst_constraints}
 \section{New Constraints on Detector Systematics}
 The statistics available in the GRECO dataset provide a unique chance to derive new constraints on systematic variables.
 For each of the parametrized detector systematics, a scan was performed to evaluate constraints from the dataset.
-In all cases, the value of $\mathtt{N_{\nu_\tau}}$ remained fixed to unity.
+In all cases, the value of ${N_{\nu_\tau}}$ remained fixed to unity.
 The results of these scans are shown in \needfig{chi2 scans of the detector systematics to show greco constraints on domeff, holeice, hifwd, absorption, and scattering}.
 
 These new constraints imply new, tighter limits derived from fits to the detector data.
@@ -317,15 +371,15 @@ These new constraints may be used in future analyses to limit systematic uncerta
 
 \label{subsec:implications}
 \subsection{Implications and Future Work}
-There exist various ways to interpret the value of $\mathtt{N_{\nu_\tau}}$. 
+There exist various ways to interpret the value of ${N_{\nu_\tau}}$. 
 The value of the tau neutrino normalizations in the exclusive and inclusive channels \improvement{change cc and nc+cc to exclusive and inclusive respectively?} are both consistent with the expected value of 1.0.
 The standard 3-flavor oscillation model is not strongly disfavored from the GRECO oscillation result.
-The current result does, however, provide some tension with the most recent exclusive result from Super-Kamiokande \findref{superk result}, which reported $\mathtt{1.47\pm0.32}$. 
-The GRECO and Super-Kamiokande inclusive results differ by approximately 1.8$\mathtt{\sigma}$, assuming the total uncertainties are added in quadrature.
-In practice, various systematics, including the atmospheric mixing angle and mass splitting, are likely correlated between the analyses, implying approximately 2$\mathtt{\sigma}$ of tension between the two results.
+The current result does, however, provide some tension with the most recent exclusive result from Super-Kamiokande \findref{superk result}, which reported ${1.47\pm0.32}$. 
+The GRECO and Super-Kamiokande inclusive results differ by approximately 1.8${\sigma}$, assuming the total uncertainties are added in quadrature.
+In practice, various systematics, including the atmospheric mixing angle and mass splitting, are likely correlated between the analyses, implying approximately 2${\sigma}$ of tension between the two results.
 
 Assuming Gaussian uncertainties for the two results, the simple weighted average can be calculated in order to estimate the expectation from a combined fit.
-This value, $\mathtt{1.06\pm0.22}$, shows remarkable agreement with the expected value of 1.0, favoring the standard 3-flavor mixing matrix with large uncertainties.
+This value, ${1.06\pm0.22}$, shows remarkable agreement with the expected value of 1.0, favoring the standard 3-flavor mixing matrix with large uncertainties.
 The OPERA value \findref{opera result}, which strongly excludes the no-appearance hypothesis but little else, has a negligible effect on this average.
 
 This analysis, like previous oscillation analyses produced by IceCube, has limitations.

@@ -10,7 +10,7 @@ The noise hits appear uniformly in time with a known or measureable average rate
 This model of the noise was successfully used in the past in IceCube. 
 With the introduction of the lower trigger threshold in DeepCore, however, it quickly became clear that additional sources of noise exist.
 These additional hits appeared to occur in 'bursts' on a single PMT extending for up to a millisecond.
-Due to the time-correlations of these hits, the phenomenon was labeled \textbf{correlated noise}.
+Due to the time-correlations of these hits, the phenomenon was labeled \emph{correlated noise}.
 
 Work done in 2011-2014 \ref{larson_masters} showed that the overall noise of the IceCube and DeepCore detectors is well-modeled using a combination of correlated and uncorrelated noise.
 The empirical model, consisting of a Poisson process for electronic noise and a Poisson process-triggered correlated component modeled with a log-normal distribution, contains five free parameters per DOM fit to each DOM using untriggered raw data from the detector collected over a span of approximately 10 minutes.
@@ -52,7 +52,7 @@ The limit of 2 microseconds was implemented due to the inherent difficulty in ch
 \label{sec:lowdt_vuvuzela}
 \section{Low-dt Noise from Vuvuzela}
 In an attempt to address the abitrary limit imposed, a new version of the Vuvuzela code was created with the ability to remove the cutoff.
-The resulting noise, labeled \textbf{low-dt} noise for the short timescales ($\Delta$t), was used to produce a simulation of accidental noise triggers for testing without further calibration.
+The resulting noise, labeled \emph{low-dt} noise for the short timescales ($\Delta$t), was used to produce a simulation of accidental noise triggers for testing without further calibration.
 These events were used with standard CORSIKA simulation to test the effect of the low-dt noise on low level variable distributions.
 
 The low-dt noise was shown to increase the rate of accidental triggers, leading to better agreement in data and simulation rates.

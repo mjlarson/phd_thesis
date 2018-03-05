@@ -1,7 +1,7 @@
 \graphicspath{{chapters/greco/images/level5/}}
 
 \subsection{GRECO Level 5 Cuts}
-The next stage of cuts, know as the \textbf{GRECO Level 5}, or more simply, \textbf{L5}, is structured in a similar manner. 
+The next stage of cuts, know as the \emph{GRECO Level 5}, or more simply, \emph{L5}, is structured in a similar manner. 
 Once again, there exists both a relatively simple cut dedicated to removing accidental triggers due to noise as well as a BDT consisting of six variables.
 
 \subsubsection{L5 Straight Cuts}
@@ -21,7 +21,7 @@ After the two time window cleaning algorithms are applied, the resulting hit ser
 	\label{fig:time_to_75}
 \end{figure}
 
-The first variable used to create the L5 BDT is the amount of time to accumulate 75\% of the total charge, the \textbf{$t_{75}$}. 
+The first variable used to create the L5 BDT is the amount of time to accumulate 75\% of the total charge, the \emph{$t_{75}$}. 
 The idea behind this variable is again similar to that of the QR6 and C2QR6 variables and will not be repeated here.
 However, the variable is now produced in the reverse manner: where the QR6 variable refers to the amount of a charge in a given window, the $t_{75}$ instead attempts to find the amount of time for a given charge level, providing an additional handle on the total event length and timing distribution.
 
@@ -34,7 +34,7 @@ However, the variable is now produced in the reverse manner: where the QR6 varia
 	\label{fig:vich}
 \end{figure}
 
-The \textbf{Veto Identified Causal Hits} (\textbf{VICH}) algorithm is a second choise for the L5 cuts that relies solely on low-level charge information.
+The \emph{Veto Identified Causal Hits} (\emph{VICH}) algorithm is a second choise for the L5 cuts that relies solely on low-level charge information.
 In this case, we improve on causality constraints using the trigger time and the position of the first DOM to contribute to the trigger.
 The time and distance are calculated to each other hit relative to this simplistic event vertex.
 Any hits that occur in a window before the trigger that are approximately causally connected to this hit are recorded, with the total charge thus recorded giving the cut variable.
@@ -75,7 +75,7 @@ Looking at the first and last quartiles in charge, the length of the vector from
 
 Atmospheric muons are primarily a downgoing feature of the detector, with a flux that approaches zero at the horizon.
 Muons will, therefore, leave some information in the depth and directional information collected by the detector.
-The first variable to utilize this, \textbf{Z-Travel}, identifies the distance in the z-direction between the first and the last quartile of hits using the CoGs calculated in the previous variable.
+The first variable to utilize this, \emph{Z-Travel}, identifies the distance in the z-direction between the first and the last quartile of hits using the CoGs calculated in the previous variable.
 
 \subsubsection{SPE Zenith}
 \begin{figure}[h]

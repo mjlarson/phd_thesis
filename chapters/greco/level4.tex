@@ -1,7 +1,7 @@
 \graphicspath{{chapters/greco/images/level4/}}
 
 \subsection{GRECO Level 4 Cuts}
-The first GRECO-specific cut level, designated \textbf{level 4}, or \textbf{L4}, was first introduced in 2011 using variables common to higher energy cascade analyses within IceCube. 
+The first GRECO-specific cut level, designated \emph{level 4}, or \emph{L4}, was first introduced in 2011 using variables common to higher energy cascade analyses within IceCube. 
 
 At the start of this series of cuts is requirement of at least three hit DOMs in the hit series associated with an event. 
 This is an extremely loose cut, required solely for the successful processing of other cuts.
@@ -24,7 +24,7 @@ Because the muon tracks are primarily steeply inclined, most will leave hits in 
 Neutrinos, on the other hand, will emit light following an interaction.
 For the low-energy neutrinos of interest to this analysis, interactions will occur primarily in the DeepCore fiducial region, leading to little or no light emission in the top half of the detector. 
 This difference between neutrino and muon emission in the upper part of the detector can be used to identify background muons with little additional processing.
-For this analysis, the first hit in a cleaned hit series, the time-window cleaned DeepCore pulses, is called the \textbf{FirstHit Z} in the Level 4 cuts.
+For this analysis, the first hit in a cleaned hit series, the time-window cleaned DeepCore pulses, is called the \emph{FirstHit Z} in the Level 4 cuts.
 
 \subsubsection{NAbove200}
 \begin{figure}[h]
@@ -36,7 +36,7 @@ For this analysis, the first hit in a cleaned hit series, the time-window cleane
 
 The position of the first hit in DeepCore is not the only low-level cut to arise from the emissions of the muon and neutrinos. 
 The total charge of recorded hits occuring in the top of the detector is also used in the analysis. 
-This variable, known as \textbf{NAbove200}, counts the amount of charge occuring before the SMT3 trigger above a depth of -200 meters.
+This variable, known as \emph{NAbove200}, counts the amount of charge occuring before the SMT3 trigger above a depth of -200 meters.
 
 \subsubsection{QR6/C2QR6}
 \begin{figure}{h}%
@@ -55,7 +55,7 @@ A muon, however, acts as an extended source and will emit at multiple points alo
 The light emission is, therefore, more likely to be "peaked" in time for neutrinos than for muons. 
 Using this information, two variables are designed to seach for this peakedness in the light detection over time.
 
-The first of these, the \textbf{charge-ratio within 600 ns} (hereafter \textbf{QR6}), is the ratio of the charge occuring within 600 ns of the first hit compared to the total charge of the event.
+The first of these, the \emph{charge-ratio within 600 ns} (hereafter \emph{QR6}), is the ratio of the charge occuring within 600 ns of the first hit compared to the total charge of the event.
 The value of 600 ns was chosen in a previous analysis and is not re-optimized here.
 Regardless, this time corresponds to roughly two ATWD time windows or approximately 180 meters at the speed of light in vacuum.
 This distance, which will correspond to a wide swath of the DeepCore fiducial volume, provides some separation between muons and neutrinos.
@@ -64,10 +64,10 @@ This distance, which will correspond to a wide swath of the DeepCore fiducial vo
 
 Neutrinos and muons do not produce the only hits observed in the detector, however. 
 Random detector noise, in particular, can significantly change the choice of time used.
-In order to check the effect of random noise contributing the first few hits of the event, a second variable, known as \textbf{C2QR6}, is introduced.
+In order to check the effect of random noise contributing the first few hits of the event, a second variable, known as \emph{C2QR6}, is introduced.
 This variable is calculated in an identical way to QR6, but the first two observed hits are ignored.
 
-\textbf{C2QR6 plot}
+\emph{C2QR6 plot}
 
 
 \subsubsection{Tensor of Inertia}
@@ -80,7 +80,7 @@ This variable is calculated in an identical way to QR6, but the first two observ
 
 At this early level, the shape difference in the observed hit pattern will be relatively clear.
 Neutrinos with energies in the range of 1-100 GeV will appear to be rather small and compact, while muons will have a longer extent in one direction along the muon track than perpendicular to it.
-In order to utilize the shape differences between these two types of particles, the \textbf{Tensor of Inertia eigenvalue ratio} (more briefly, \textbf{ToI}) is used.
+In order to utilize the shape differences between these two types of particles, the \emph{Tensor of Inertia eigenvalue ratio} (more briefly, \emph{ToI}) is used.
 This variable is defined in a similar way to the tensor of inertia from mechanics, with the measured charge taking the place of the mass.
 
 \begin{eqnarray}
@@ -115,7 +115,7 @@ The eigenvalue ratio is defined as
 	\label{fig:L4_bdt_log}
 \end{figure}
 
-A Boosted Decision Tree (\textbf{BDT}) is trained at L4 to further reduce the atmospheric muon background by a factor of 10x. 
+A Boosted Decision Tree (\emph{BDT}) is trained at L4 to further reduce the atmospheric muon background by a factor of 10x. 
 
 The variables described above were provided to a BDT training using the CORSIKA 7437 and IceSim3 GENIE simulation. 
 

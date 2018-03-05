@@ -13,7 +13,6 @@ A level-1 auxilliary file: ./chapters/vuvuzela.aux
 A level-1 auxilliary file: ./chapters/muonsim.aux
 A level-1 auxilliary file: ./chapters/greco.aux
 A level-1 auxilliary file: ./chapters/analysis.aux
-A level-1 auxilliary file: ./chapters/pingu.aux
 Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
 Reallocated global_strs (elt_size=20001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=8) to 10 items from 0.
@@ -31,21 +30,36 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 11394 items from 5000.
+Reallocated field_info (elt_size=8) to 13618 items from 5000.
 Database file #1: mjlarson_thesis-blx.bib
 Database file #2: ./mjlarson_thesis.bib
+Repeated entry---line 651 of file ./mjlarson_thesis.bib
+ : @article{Description-SNO
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "heereman_thesis"
 Warning--I didn't find a database entry for "h4a"
-Warning--I didn't find a database entry for "scipy"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Warning--you've exceeded 250, the entry-string-size, for entry Description-SNO
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Oscillations
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Oscillations
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry Description-SNO
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:                43 out of 750
- Fields:             5976 out of 11394
- Hash table:        29343 out of 30000
- Strings:            1548 out of 30000
- Free string pool:  20981 out of 65000
+ Cites:                60 out of 750
+ Fields:             8339 out of 13618
+ Hash table:        29324 out of 30000
+ Strings:            1685 out of 30000
+ Free string pool:  30970 out of 65000
  Wizard functions:   6256 out of 9000
-(There were 3 warnings)
+(There was 1 error message)

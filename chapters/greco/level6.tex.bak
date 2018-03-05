@@ -21,7 +21,7 @@ While the rate of these accidental triggers is low at this stage relative to the
 In order to limit their effect, various cuts were investigated for the potential to separate signal neutrinos from the accidental background.
 
 The most promising cut was discovered to be a remnant of earlier AMANDA processing efforts at separating atmospheric muon background and cascade signal events.
-This cut, called \textbf{Fill-Ratio}, looks at the topology and compactness of hits within an event.
+This cut, called \emph{Fill-Ratio}, looks at the topology and compactness of hits within an event.
 
 Fill-Ratio requires a reconstructed vertex and pulse series.
 In the case of the GRECO L6, the first hit position in DeepCore within a 7.5 microsecond STW cleaned pulse series is used as an approximate event vertex.
@@ -80,7 +80,7 @@ At later cut levels, atmospheric muons continue to be problematic.
 Unfortunately muons at this level tend to be difficult to identify muons based on many parameters.
 Indeed, any muons that were easily identifiable have been removed already by this stage of the selection.
 
-In the past, minimum-ionizing muons were discovered to be leaking into the DeepCore fiducial volume along \textbf{corridors}, lines connecting the inner part of the detector to the outer edge without crossing any strings.
+In the past, minimum-ionizing muons were discovered to be leaking into the DeepCore fiducial volume along \emph{corridors}, lines connecting the inner part of the detector to the outer edge without crossing any strings.
 These events pass between strings and leave little trace in the form of coincident hits in the outer detector.
 
 In order to identify these muons, a cut was developed to look specifically along these pre-defined corridors for hits potentially correlated with pulses in DeepCore.
@@ -100,7 +100,7 @@ At this stage, there are few events due to atmospheric muons with detectable ene
 \end{figure}
 
 The SPE reconstruction used in L5 was created using an infinite muon hypothesis. 
-In order to refine this reconstruction, the \textbf{FiniteReco} algorithm is employed.
+In order to refine this reconstruction, the \emph{FiniteReco} algorithm is employed.
 
 FiniteReco is a module that accepts a previous reconstruction and a given set of pulses.
 The pulses are then used in a likelihood reconstruction in order to obtain estimates for the starting and stoppoing positions as well as the starting time for the given muon track.
