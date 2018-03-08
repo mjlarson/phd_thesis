@@ -7,9 +7,17 @@ Something about how great and wonderous and slow it is at doing particle interac
 
 \subsection{Lepton Propagation with PROPOSAL}
 \label{subsec:proposal}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\linewidth]{discrete_emissions_MMC.png}
+\caption{Average energy losses ($\mathtt{\frac{-dE}{dX}}$) for a muon in ice. At very low energies, ionization losses dominate. Above approximately 1 TeV, pair production and photonuclear effects become more important. Image taken from \cite{Dima-MMC}}
+\label{fig:discrete_emissions}
+\end{figure}
+
 At higher energies, events may be simulated following a parametrization of the energy losses instead of direct simulation of the processes and particles themselves.
 This parametrization, known as \emph{PROPOSAL}, contains tools to simulate the propagation of leptons and hadrons with ionization, electron pair-production, bremsstrahlung, photonuclear interactions, and decay processes.
-Each of these is done with a parametrization of the associated energy deposition for a given true particle energy.
+Each of these is done with a parametrization of the associated energy deposition for a given true particle energy as shown in Figure~\ref{fig:discrete_emissions}.
 PROPOSAL may be configured with a minimum energy for the stochastic losses, with all losses below this threshold energy being simulated as continuous, rather than stochastic, losses.
 
 Each of the PROPOSAL parametrizations has its own associated uncertainty ranging between 2\% and 10\%.
@@ -46,8 +54,7 @@ Once the photons have been propagated to the face of the PMT, an effective angul
 This acceptance, calculated from a combination of lab and in-ice measurements, represents the PMT efficiency as a function of the arrival direction.
 As expected, the PMT is parametrized to have a negligible efficiency for photons arriving in the downward direction and high efficiency for photons traveling in the upward direction.
 All other directions follow a curve between these two points.
-The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is thought to be affected by the refrozen ice from deployment. 
-This ice, known as \emph{hole ice}, is believed to have higher concentrations of dust and bubbles, leading to decreased sensitivity for photons arriving from that direction.
+The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is thought to be affected by the hole ice (see Section~\ref{subsec:hole_ice}). 
 
 There exist three models of the hole ice, two of which utilize the angular acceptance parametrization.
 The first, known as \emph{H2} gives a model with a scattering length of 50 cm in the bubble column. 

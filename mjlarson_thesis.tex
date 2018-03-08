@@ -14,6 +14,7 @@
 \usepackage{amsfonts}
 
 \newgeometry{top=1in}
+\linespread{1.0}
 
 \usepackage{xargs}                      % Use more than one optional parameter in a new commands
 \usepackage[dvipsnames]{xcolor}  % Coloured text etc.
@@ -29,6 +30,8 @@
 %\renewcommand{\textfraction}{0.3}
 %\renewcommand{\floatpagefraction}{0.7}
 
+\setcounter{tocdepth}{1} % Show sections
+
 \includeonly{
 ./chapters/introduction,
 ./chapters/oscillations,
@@ -38,7 +41,6 @@
 ./chapters/muonsim,
 ./chapters/greco,
 ./chapters/analysis,
-%./chapters/pingu
 }
 
 

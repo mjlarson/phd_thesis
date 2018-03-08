@@ -1,11 +1,5 @@
 \chapter{A Search for Tau Neutrinos from Oscillations}
 
-\label{sec:unitarity}
-\section{Unitarity of the PMNS Matrix}
-
-\label{sec:current_limits}
-\section{Current Limits on Unitarity}
-
 \label{sec:mc_expectation}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/analysis/mc_expectations.tex}
 

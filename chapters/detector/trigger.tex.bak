@@ -1,20 +1,11 @@
 \section{Event Building}
 \subsection{The Simple Majority Triggers}
-After the DOM has made a decision regarding HLC/SLC status and completed digitizing the waveform, the information is provided to the trigger system.
-In the actual detector, this occurs at the surface in a system known as the \textbf{Joint Event Builder} or \textbf{JEB} while in simulation, this is handled by the \textbf{Trigger-Sim} module. 
-The JEB system collates information from all DOMs in order to evaluate triggering conditions.
 
-The most common type of trigger used in IceCube analyses is the \textbf{Simple Majority Trigger} or \textbf{SMT}. 
-This trigger is designed to look for coincidences between DOMs using HLC launches.
-Each of the SMTs is defined by three fundamental configurations: a DOMSet, which lists the DOMs available for use in the trigger conditions; a threshold number of HLC launches before the trigger fires; and a time window length in which the HLC are required to coexist.
-In the standard IceCube detector, an SMT using all DOMs with a threshold of 8 HLC launches within 5 microseconds is typically used.
-This trigger, known as \textbf{SMT8} after the number of required hits, is designed for high signal efficiency at energies above 100 GeV with a minimum number of accidental triggers due to random detector noise.
-
-In DeepCore, the desire for lower energy events led to the introduction of a separate trigger, known as \textbf{SMT3}.
+In DeepCore, the desire for lower energy events led to the introduction of a separate trigger, known as \emph{SMT3}.
 This trigger, using only DOMs within the DeepCore fiducial volume, searches for at least three HLC launches occuring within 2.5 microseconds.
 This effectively lowers the triggering threshold from roughly 100 GeV with the larger IceCube array to approximately 10 GeV.
 
 \subsection{Global Triggers}
-Once all triggers are identified, a \textbf{global trigger} is defined. 
+Once all triggers are identified, a \emph{global trigger} is defined. 
 This consists of the superset of all triggers occurring within 10 microseconds (?) of one another.
-All detector readout enclosed within the global trigger as well as additional information within 10 microseconds both before and after the trigger is combined into a single \textbf{event}.
+All detector readout enclosed within the global trigger as well as additional information within 10 microseconds both before and after the trigger is combined into a single \emph{event}.

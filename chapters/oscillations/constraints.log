@@ -1,0 +1,1007 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  5 MAR 2018 13:37
+ restricted system commands enabled.
+**constraints.tex
+(./constraints.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /Users/mjlarson/Library/texlive/2017/texmf-var/luat
+ex-cache/generic)(using read cache: /usr/local/texlive/2017/texmf-var/luatex-cac
+he/generic /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /Users/mjlarson/Library/texlive/2017
+/texmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/local/texlive/2017/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /Users/mjlarson/Library/texlive/2017
+/texmf-var/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.121 seconds
+Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
+! Undefined control sequence.
+l.1 \section
+          {Experimental Constraints on Neutrino Oscillations}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{E
+            xperimental Constraints on Neutrino Oscillations}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\citation{NuFit_2.2}
+luaotfload | db : Font names database loaded from /Users/mjlarson/Library/texliv
+e/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /User
+s/mjlarson/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman
+10-regular.luc)(load luc: /Users/mjlarson/Library/texlive/2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmroman10-bold.luc)
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 ...updated regularly \cite{NuFit_2.2, NuFit.org}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `NuFit_2.2' on page  undefined on input line 3.
+
+\citation{NuFit.org}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 ...updated regularly \cite{NuFit_2.2, NuFit.org}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `NuFit.org' on page  undefined on input line 3.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+[]Experimental
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 1--4
+[[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 1--4
+[]]. 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 T
+   he most recent results are shown in Figure~\ref{nufit_v32.pdf} and includ...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...ng: Reference `nufit_v32.pdf' on page \thepage 
+                                                  \space undefined\on@line .
+l.5 ...sults are shown in Figure~\ref{nufit_v32.pdf}
+                                                   and include information f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `nufit_v32.pdf' on page  undefined on input line 5.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--7
+[]The
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 5--7
+Figure[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{figure}
+                [!h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{figure}[
+                 !h]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.9 \includegraphics
+                  [width=\linewidth]{nufit_v32.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.9 \includegraphics[width=\linewidth]
+                                    {nufit_v32.pdf}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.9 \includegraphics[width=\linewidth]
+                                    {nufit_v32.pdf}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.9 \includegraphics[width=\linewidth]{nufit_
+                                           v32.pdf}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Extra }, or forgotten $.
+l.9 ...ludegraphics[width=\linewidth]{nufit_v32.pdf}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \caption
+           {The global best-fit values for the three flavor neutrino oscilla...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.12 \end{figure}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.12 \end{figure}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--13
+[][!h]
+ []
+
+
+Overfull \hbox (960.84549pt too wide) in paragraph at lines 8--13
+[width=]nufit$[][]\OT1/cmr/m/n/10 32\OML/cmm/m/it/10 :pdf[][]$ 
+ []
+
+! Undefined control sequence.
+l.14 \subsection
+              {Unitarity and Sterile Neutrinos}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsection{U
+                nitarity and Sterile Neutrinos}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...ng: Reference `sec:neutrinos' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 ...asurements of ALEPH (see \ref{sec:neutrinos}
+                                                   and \cite{ALEPH-3Nu}), al...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `sec:neutrinos' on page  undefined on input line 17.
+
+\citation{ALEPH-3Nu}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 ...see \ref{sec:neutrinos} and \cite{ALEPH-3Nu}
+                                                  ), although such measureme...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `ALEPH-3Nu' on page  undefined on input line 17.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--19
+[]Unitarity
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 14--19
+[]
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 14--19
+[[]]),
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 M
+    odels of sterile neutrinos typically assume that no weak interactions ar...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\citation{Review-PMNS}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.21 ...r larger NxN) PMNS matrix \cite{Review-PMNS}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Review-PMNS' on page  undefined on input line 21.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--22
+[]Models
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 20--22
+[[]]. 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{equation}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--23
+[] 
+ []
+
+! Misplaced alignment tab character &.
+l.27  U_{e 1} &
+              U_{e 2} & U_{e 3} & U_{e 4} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  U_{e 1} & U_{e 2} &
+                        U_{e 3} & U_{e 4} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.27  U_{e 1} & U_{e 2} & U_{e 3} &
+                                  U_{e 4} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.28  U_{\mu 1} &
+                U_{\mu 2} & U_{\mu 3} & U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.28  U_{\mu 1} & U_{\mu 2} &
+                            U_{\mu 3} & U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.28  U_{\mu 1} & U_{\mu 2} & U_{\mu 3} &
+                                        U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.29  U_{\tau 1} &
+                 U_{\tau 2} & U_{\tau 3} & U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.29  U_{\tau 1} & U_{\tau 2} &
+                              U_{\tau 3} & U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.29  U_{\tau 1} & U_{\tau 2} & U_{\tau 3} &
+                                           U_{\tau 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.30  U_{s 1} &
+              U_{s 2} & U_{s 3} & U_{s 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.30  U_{s 1} & U_{s 2} &
+                        U_{s 3} & U_{s 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.30  U_{s 1} & U_{s 2} & U_{s 3} &
+                                  U_{s 4}  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (659.30661pt too wide) detected at line 34
+[][] [] [] \OML/cmm/m/it/10 [] [] [] [] [] [] [] [] \OT1/cmr/m/n/10 = \OML/c
+mm/m/it/10 U[] [][] [] [] [] [] [] [] [] [] [] [] \OT1/cmr/m/n/10 = [][] \OM
+L/cmm/m/it/10 U[]U[]U[][] U[]U[]U[]U[][] U[]U[]U[]U[][] U[]U[]U[]U[][]  [][] []
+ [] [] [] [] [] [] [] [] [][]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 T
+    he additional terms in $U_{4x4}$ lead to new mixing angles, $\theta_{14}...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...erence `eqn:pmns_probability' on page \thepage 
+                                                  \space undefined\on@line .
+l.37 ... such as Equation~\ref{eqn:pmns_probability}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `eqn:pmns_probability' on page  undefined on input line
+ 37.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--39
+[]The
+ []
+
+
+Overfull \hbox (19.83476pt too wide) in paragraph at lines 36--39
+\OML/cmm/m/it/10 U[]$
+ []
+
+
+Overfull \hbox (13.1667pt too wide) in paragraph at lines 36--39
+\OML/cmm/m/it/10 []$\nullfont ,
+ []
+
+
+Overfull \hbox (13.1667pt too wide) in paragraph at lines 36--39
+\OML/cmm/m/it/10 []$\nullfont ,
+ []
+
+
+Overfull \hbox (13.1667pt too wide) in paragraph at lines 36--39
+\OML/cmm/m/it/10 []$\nullfont .
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 36--39
+Equation[].
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 W
+    hile oscilation of the three active neutrinos preserves the total neutra...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.43 ...the remainder to be negligible. \improvement
+                                                  {find examples? andrii's, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--45
+[]While
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 T
+    he addition of a fourth generation of neutrino would have consequences f...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--49
+[]The
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \begin{equation}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 50--50
+[] 
+ []
+
+
+Overfull \hbox (141.46925pt too wide) detected at line 53
+[] \OML/cmm/m/it/10 U[]U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 []    ;  \OT1/
+cmr/m/n/10 = \OML/cmm/m/it/10 e; ; []
+ []
+
+
+Overfull \hbox (133.44049pt too wide) detected at line 57
+[] \OML/cmm/m/it/10 U[]U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 []    i; j \OT1/
+cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m
+/n/10 3[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 I
+    f the neutrino mixing matrix consists of more than the three known activ...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 59--61
+[]If
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 I
+    n general, neutrino oscillation measurements are performed with the assu...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--64
+[]In
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 I
+    ndirect searches for sterile neutrinos are performed in this way using s...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.65 ... using some accelerator experiments \findref
+                                                  {minos? others? that opera...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--67
+[]Indirect
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 T
+    his method of searching for sterile neutrinos may be reversed as well, u...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...n:unitarity_condition_flavor' on page \thepage 
+                                                  \space undefined\on@line .
+l.69 ...quation~\ref{eqn:unitarity_condition_flavor}
+                                                   and \ref{eqn:unitarity_co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `eqn:unitarity_condition_flavor' on page  undefined on 
+input line 69.
+
+! Undefined control sequence.
+<write> ...eqn:unitarity_condition_mass' on page \thepage 
+                                                  \space undefined\on@line .
+l.69 ...avor} and \ref{eqn:unitarity_condition_mass}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `eqn:unitarity_condition_mass' on page  undefined on in
+put line 69.
+
+\citation{Parke-Unitarity}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.70 ...y have been calculated\cite{Parke-Unitarity}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Parke-Unitarity' on page  undefined on input line 70.
+
+\citation{Parke-Unitarity}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.71 ... (see reference 26 of \cite{Parke-Unitarity}
+                                                  ) were used to evaluate th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Parke-Unitarity' on page  undefined on input line 71.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--73
+[]This
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 68--73
+Equation[]
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 68--73
+[],
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 68--73
+calculated[[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 68--73
+[[]])
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \begin{equation}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 74--74
+[] 
+ []
+
+! Undefined control sequence.
+l.75 ...ght|^2 +\left| U_{\alpha 2} \right|^2 +l\eft
+                                                  | U_{\alpha 3} \right|^2 \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \right.
+l.75 ...ht|^2 +l\eft| U_{\alpha 3} \right|^2 \right)
+                                                   \;\;\;\; \alpha=e, \mu, \tau
+I'm ignoring a \right that had no matching \left.
+
+
+Overfull \hbox (218.40543pt too wide) detected at line 76
+\OT1/cmr/m/n/10 \OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = 1 \OMS/cmsy/m/n/10   []
+[]     \OML/cmm/m/it/10  \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 e; ; 
+ []
+
+
+Overfull \hbox (209.0126pt too wide) detected at line 80
+\OT1/cmr/m/n/10 \OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = 1 \OMS/cmsy/m/n/10   []
+     \OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \begin{figure}
+                 [!h]%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \begin{figure}[
+                  !h]%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.84 	\includegraphics
+                    [width=0.7\linewidth]{unitarity_norms.png}}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.84 	\includegraphics[width=0.7\linewidth]
+                                         {unitarity_norms.png}}%
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.84 	\includegraphics[width=0.7\linewidth]
+                                         {unitarity_norms.png}}%
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.84 ...ludegraphics[width=0.7\linewidth]{unitarity_
+                                                  norms.png}}%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.84 ...cs[width=0.7\linewidth]{unitarity_norms.png}
+                                                  }%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.84 ...s[width=0.7\linewidth]{unitarity_norms.png}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 	\caption
+            {The }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.87 \end{figure}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.87 \end{figure}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (85.13791pt too wide) in paragraph at lines 82--88
+[][!h][width=0.7]unitarity$[][]\OML/cmm/m/it/10 orms:png[][]$ 
+ []
+
+)
+! Emergency stop.
+<*> constraints.tex
+                
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 39 strings out of 494481
+ 100000,89155 words of node,token memory allocated 33269 words of node memory still in use:
+   284 hlist, 9 vlist, 17 local_par, 1 dir, 32 math, 860 glue, 89 kern, 80 penal
+ty, 3747 glyph, 215 attribute, 35 glue_spec, 215 attribute_list, 5 write nodes
+   avail lists: 1:1,2:2,3:122,4:97,5:5,7:25,8:197,10:96
+ 4273 multiletter control sequences out of 65536+600000
+ 26 fonts using 1476791 bytes
+ 19i,10n,23p,276b,100s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

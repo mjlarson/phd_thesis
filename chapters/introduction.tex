@@ -1,58 +1,53 @@
 \graphicspath{{chapters/introduction/images/}}
 \chapter{Introduction}
+Measurements of atmospheric neutrino oscillations, such as those performed in this thesis, require a background of understanding of both atmospheric neutrinos as well as neutrino oscillations. 
+A history of neutrinos (Section~\ref{sec:neutrinos}) is used to explain the discovery of the three known flavors of neutrinos as well as the difficulties inherent in the study of these elusive particles.
+A discussion of the history of cosmic rays (Section~\ref{sec:cosmic_rays}) explains the source of both the neutrinos (Section~\ref{sec:atmo_nus}) used as signal in this thesis as well as the muons, which form one of the primary backgrounds in the search for atmospheric oscillations.
+
+The detection of neutrinos is described in two parts.
+A discussion of the neutrino interactions (Section~\ref{subsec:interactions}), explains the interactions of neutrinos with matter.
+The detection of these interactions through electromagnetic emission is then covered (Section~\ref{sec:detection_methods}).
 
 \label{sec:neutrinos}
-\section{Neutrinos}
+\section{The History of the Neutrino}
 In 1896, Henri Becquerel discovered radioactivity in uranium \cite{Becquerel}.
-Measurements over the following decades showed various types of nuclear decays based on the penetration depth of the ionizing emissions [rutherford?].
+Measurements over the following decades showed various types of nuclear decays based on the penetration depth of the ionizing emissions.
 Measurements of one type of radioactivity, the beta decays, over the following 30 years showed that the production of two observed particles from one parent nucleus: a daughter nucleus and an outgoing electron.
-A single body decay of this type produces a simple spectrum due to conservation of energy and momentum.
-Indeed, the energy of the daughter nucleus and the electron are completely determined by these two conditions, leading to a narrow line emission spectrum.
+A single body decay of this type produces a known spectrum due to conservation of energy and momentum.
+The energy of the daughter nucleus and the electron are completely determined by these two conditions, leading to a narrow line emission spectrum.
 
 Contrary to expectations, however, the measurement of energies of the two resulting particles showed wide, continuous spectra \cite{Chadwick}. 
 The spectrum provided a major puzzle for physicists due to the contradition with the simple theoretical expectations.
 A conundrum for many years, one possible solution was suggested in 1930 by Wolfgang Pauli.
-In his letter, Pauli suggested that the conservation of energy and momentum could be saved if '... there could exist in the nuclei electrically neutral particles... which have spin 1/2 and obey the exclusion principle, and additionally different from light quanta in that they do not travel with the velocity of light' \cite{Pauli-Nu}.
-The solution to the beta decay puzzle was, then, that this additional 'neutron' particle was emitted simultaneously with the observed daughter particles.
+In his letter, Pauli suggested that the conservation of energy and momentum could be saved if "... there could exist in the nuclei electrically neutral particles... which have spin 1/2 and obey the exclusion principle, and additionally different from light quanta in that they do not travel with the velocity of light" \cite{Pauli-Nu}.
+The solution to the beta decay puzzle was, then, that this additional "neutron" particle was emitted simultaneously with the observed daughter particles.
 This newly proposed particle would be electrically neutral and, therefore, unable to be seen through traditional methods.
 The resulting spectrum of the observed particles could then be continuous, as verified experimentally.
 
 Pauli's suggestion provided a way to save the beloved conservation laws in physics, but at the expense of the assumption of a new particle.
-The particle, called the 'neutron' in Pauli's letter and later renamed the 'neutrino' by Fermi, was proposed to be electrically neutral and, therefore, completely undetectable at the time.
+The particle, called the "neutron" in Pauli's letter and later renamed the "neutrino" by Fermi, was proposed to be electrically neutral and, therefore, completely undetectable at the time.
+Later work proposed that the neutrinos interact only via the weak nuclear force, with an interaction strength many orders of magnitude smaller than electromagnetic and strong nuclear forces.
+Experimental measurements, sensitive only to electromagnetic forces, therefore cannot be used to study neutrinos directly in the same way that other particles may be measured.
 
 It was not until nearly 20 years later, in 1956, that this mystery particle was first detected \cite{Cowan-Reines}. 
-In a groundbreaking work, Cowen and Reines presented an experiment at the Savannah River Plant demonstrating detection of the neutrino.
+In a groundbreaking work, Cowen and Reines presented an experiment at the Savannah River Plant, a nuclear power plant, demonstrating detection of the neutrino.
 The experiment, made up of layers of scintillation detectors around polyethelene boxes, yielded a signal-to-background rate of about 3 to 1 with a rate of 2.88 $\pm$ 0.22 counts/hour with a total livetime of 1371 hours, including time during which the nearby nuclear reator was offline.
 For the discovery of the first neutrinos, Frederick Reines was granted a shared Nobel Prize in Physics for the year 1995 \cite{NobelPrize:1995-Reines}.
 
-The experiment at the Savannah River Plant conclusively demonstrated the observation of neutrino events. 
-Not long after, however, additional wrinkles in the story of the neutrinos emerged.
-In 1962, an experiment performed at Brookhaven National Laboratory reported a new type of event: a neutrino candidate that produced only muons \cite{Danby-NuMu}, a new species of lepton discovered earlier that shared some properties with electrons, but with larger masses \cite{Neddermeyer-Muon}.
-The neutrinos observed by Cowen and Reines interacted via inverse beta decay, producing the beta particle, now known to be an electron, in the process.
-The observed neutrinos at Brookhaven, however, produced only muons.
-These neutrinos appeared to produce no electrons in the interaction, indicating that a second kind of neutrino had been discovered.
+Since the neutrino was first observed, additional measurements have discovered two new flavors of neutrinos: the muon neutrino \cite{Danby-NuMu} and the tau neutrino \cite{DONUT-2001, DONUT-2007}.
 
-For many years, the two neutrinos, dubbed the electron neutrino ($\nu_e$) and muon neutrino ($\nu_\mu$) due to their interactions with electrons and muons respectively, were studied in some detail. 
-It wasn't until a series of experiments in the 1970s that significant information about the neutrinos again emerged.
-Measurements at SLAC by Martin Perl and colleagues in 1974 and 1977 using a then-new $\mathtt{e^+ - e^-}$ collider showed anomolous events \cite{Perl-Tau}.
-Conservation of energy and momentum once again appeared to be violated in reactions of the form 
+Searches for additional neutrinos beyond the discovered three have been performed by investigating the decays of the Z boson. 
+The Z boson, a particle of 91 GeV \cite{pdg}, couples both to the neutrinos and to more easily observed hadrons and charged leptons making it a useful probe of neutrino interactions.
+The width of the Z decay to hadrons, for instance, is affected by the number of active, light neutrino species \cite{ALEPH-3Nu}.
+Additional flavors of neutrinos coupling to the Z boson would lead to a smaller decay rate to hadrons observed in accelerator searches for hadrons as shown in Figure~\ref{fig:ALEPH}.
+The number of neutrinos may be calculated by comparing the best-fit ratio of "invisible" decays of the Z boson (ie, those involving two neutrinos) to the measured width expected from charged leptons in the standard model.
 
 \begin{equation}
-	e^++e^- \rightarrow e^{\pm} + \mu^{\mp} + \mathtt{undetected particles}
+	R_{inv} \equiv \frac{\Gamma_{inv}}{\Gamma_{ll}} = N_\nu \left( \frac{\Gamma_{\nu\nu}}{\Gamma_{ll}}\right)_{SM}
 \end{equation}
 
-In order for the conservation laws to hold, two additional particles were required.
-These particles would possess higher masses than the then-known electron and muon particles, but with an identical charge.
-Perl suggested that the new particle, dubbed the tau lepton, could explain the result.
-
-With the addition of a new charged lepton, theorists immediately predicted a third neutrino as well.
-The new tau neutrino, $\nu_\tau$ remained solely a theoretical prediction until 2004, when the DONuT (\emph{D}irect \emph{O}bservation of \emph{N}u-\emph{T}au) collaboration published their first results.
-In the initial paper, the DONuT experiment identified 4 candidate tau neutrino events with an estimated background of 0.34 events \cite{DONUT-2001}.
-A total of 9 events were detected by the DONuT collaboration between 1997 and 2007, when the experiment ended \cite{DONUT-2007}.
-
-Searches for additional neutrinos beyond the discovered three have been performed.
-The cross section of the Z boson decaying to hadrons, for instance, is affected by the number of active, light neutrino species.
-A precision measurement of the Z resonance completed at the LEP coillider demonstrated the existance of exactly three neutrinos \cite{ALEPH-3Nu}.
+Here the number of neutrinos is extracted by assuming that all active neutrinos have the same coupling to the Z boson, result which has been verified experimentally. 
+A precision measurement of the Z resonance completed at the LEP coillider found the best fit value of $N_\nu = 2.9840 \pm 0.0082$, in good agreement with only three active neutrinos.
 
 \begin{figure}
 \centering
@@ -62,7 +57,7 @@ A precision measurement of the Z resonance completed at the LEP coillider demons
 \end{figure}
 
 \label{sec:cosmic_rays}
-\section{Cosmic Rays}
+\section{History of Cosmic Rays}
 In the early years of the 20th century, scientists began investigating previously-unknown ionizing radiation in the atmosphere.
 Scientists using electroscopes, early instruments designed to measure electric charge and radiation, discovered low levels of radiation in the air.
 This new radiation was observed to be reduced when the electroscope was shielded by metal free of radioactivity, indicating that the signal was not an artifact of the detector itself and was, instead, coming from an external source.
@@ -70,37 +65,63 @@ This new radiation was observed to be reduced when the electroscope was shielded
 Following just a few decades after the discovery of radioactivity by Becquerel, many scientists believed that the electroscope was picking up radiation from the Earth itself.
 The rate would be expected to decrease with increasing altitude above sea level and, to increase with increasing depth in the sea.
 Early measurements by Domenico Pacini in 1910 showed that the radiation rate decreased by 20\% at a depth of 3 meters underwater compared to the rate at the surface \cite{Pacini-CRSource}, implying an origin independent of the Earth's crust.
-Measurements were performed with electroscopes by Victor Franz Hess in 1912 tested the rate of ionizing radiation up to an altitude of 5 km \cite{Hoerandel-CRHistory}.
+Measurements were performed with electroscopes by Victor Franz Hess in 1912 of the rate of ionizing radiation up to an altitude of 5 km \cite{Hoerandel-CRHistory}.
+
 Hess showed that the observed rate decreased until an altitude of around 1 km, but at a slower rate than expected from theory.
 Above 1400 meters, however, the rate of ionizing radiation increased again, rising substantially up to the maximum altitude reached at 5300 meters \cite{Compton-CRAltitude}.
 Hess's work, later confirmed by Henri Millikin, showed definitively that there exists a source of radiation of extraterrestrial origin, earning him the Nobel Prize in Physics for 1936 \cite{NobelPrize:1936-Hess}.
 This radiation was later dubbed "cosmic rays" by Millikan in reference to their extraterrestrial origin.
 
 Work on cosmic rays has lead to numerous discoveries.
-In 1937, for example, scientists working at an altitude of 2300 meters above sea level using photographic plates to study cosmic rays discovered interactions labeled "stars" \cite{Blau-HadronicShowers}. 
-These "stars" showed multiple outgoing particles from a single vertex.
-Further work on these types of events lead to the discovery of hadronic interactions, paving the way for the use of photographic emulsions in the study of particle physics.
-
-In 1929, Bothe and Kolhoerster introduced the coincidence technique in which two or more detectors could be read out only when all participating detectors detect signals \cite{Kolhoerster-CoincidenceDetectors}.
-The dawn of coicidence counters led to the remarkable observation that cosmic rays had a considerably larger extent than expected.
-While the original objective was to determine the random coincidence rate between two counters, the coupled Geiger-Mueller counters showed coupled behavior out to a distance of at least 75 meters.
-Work by Pierre Auger later confirmed the findings of Kolhoerster \findref{P. Auger et al., Comptes renduz 206, 1721 (1938)}.
+In 1937, the first \emph{hadronic showers} were observed \cite{Blau-HadronicShowers}. 
+Hadronic showers of particles created by interactions of cosmic rays were shown to produce large numbers of particles \cite{Kolhoerster-CoincidenceDetectors, Hoerandel-CRHistory}, with many producing from $5\times10^6$ to over $10^9$ particles \cite{CosmicRays-Extent}.
+These showers begin with a cosmic ray primary particle, often a single proton accelerated to high energies, which interacts with particles of the Earth's atmosphere.
+The interaction leads to the creation of various daughters, including neutrinos, muons, pions, kaons, and other hadrons.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\linewidth]{CR_Spectrum_PDG15.png}
-\label{fig:CR_spectrum}
 \caption{The cosmic ray spectrum covers many orders of magnitude and has been verified by many experiments to high precision. The various features are thought to be caused by multiple sources at different scales. Image taken from \cite{PDG-2015}}
+\label{fig:CR_spectrum}
 \end{figure}
 
-Instead of consisting of single particles reaching detectors, Kolhoerster showed that the detected particles were due to extended air showers originating from cosmic ray interactions high in the atmosphere.
-These showers begin with a cosmic ray primary particle, often a single proton accelerated to high energies, which interacts with particles of the Earth's atmosphere.
-The interaction leads to the creation of various daughters, including neutrinos, muons, pions, kaons, and other hadrons.
 
 Modern measurements have shown that the cosmic ray spectrum primarily consists of protons with a small contribution from helium and heavier elements \cite{PDG-2015}
 These ions are accelerated in unknown astrophysical sources up to extremely high energies.
 The cosmic ray spectrum extends over many orders of magnitude, with the highest energy observations reaching $\mathtt{10^{20}}$ electronvolts - far higher than any Earth-based accelerator.
-The spectrum has multiple features that are believed to arise from different accelerator sources at different scales.
+The spectrum, shown in Figure~\ref{fig:CR_spectrum}, has multiple features that are believed to arise from different accelerator sources at different scales, each of which has been verified by multiple experiments.
+
+\label{sec:atmo_nus}
+\section{Atmospheric Neutrinos}
+Air showers from cosmic rays provide a useful natural source of neutrinos in the GeV energy range and above that may be used for fundamental physics research.
+The hadronic shower produces pions and kaons which, in turn, decay to produce neutrinos 
+
+\begin{equation}
+\pi^+ \rightarrow \mu^+ \nu_\mu \rightarrow e^+ \nu_e \bar{\nu_\mu} \nu_\mu
+\end{equation}
+
+from the pions and from the kaons
+
+\begin{equation}
+K^+ \rightarrow \pi^+ \nu_\mu \rightarrow  e^+ \nu_e \bar{\nu_\mu} \nu_\mu \nu_\mu
+\end{equation}
+
+The neutrino flux depends on a number of parameters, including the Earth's magnetic field and temperature profile, the cosmic ray flux, and the details of hadronic interactions in air showers \cite{Honda-2015}.
+The calculation of the neutrino flux predictions requires significant, dedicated simulation work, producing fluxes as both a function of energy (Figure~\ref{fig:honda_en}) and direction (Figure~\ref{fig:honda_coszen}).
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.6\linewidth]{honda15_en.png}
+\caption{The expected neutrino flux at Kamioka mine, Japan (Super-Kamiokande, top left), Ino Peak, India (India-based Neutrino Observator, top right), the South Pole (IceCube, bottom left), and Pyhasalmi mine, Finland (EMMA experiment, bottom right) as a function of energy. Note that the neutrino and anti-neutrino fluxes are characterized separately. The differences in the flux at each site is due to differences in the Earth's magnetic field and temperature profile. Figure taken from \cite{Honda-2015}.}
+\label{fig:honda_en}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\linewidth]{honda15_coszen.png}
+\caption{The expected flux of 3.2 GeV neutrinos at Kamioka mine, Japan; Ino Peak, India; the South Pole; and Pyhasalmi mine, Finland as a function of zenith angle. A value of $\cos \theta_Z=-1$ indicates neutrinos passing through the entire Earth and entering the detector from below while a value of $\cos \theta_Z=+1$ indicates neutrinos interacting in the atmosphere directly above the detector. The differences in the flux at each site is due to differences in the Earth's magnetic field and temperature profile. Figure taken from \cite{Honda-2015}.}
+\label{fig:honda_coszen}
+\end{figure}
 
 \label{sec:standard_model}
 \section{The Standard Model}
@@ -108,19 +129,19 @@ The spectrum has multiple features that are believed to arise from different acc
 \begin{figure}
 \centering
 \includegraphics[width=0.7\linewidth]{Standard_Model_of_Elementary_Particles.png}
-\label{fig:standard_model}
 \caption{The Standard Model of particle physics is made up of charged and uncharged leptons, quarks, and the various bosons. Image taken from \cite{StandardModel-Image}}
+\label{fig:standard_model}
 \end{figure}
 
-These particles form just a small part of the Standard Model of particle physics.
-The Standard Model consists of six quarks (up, down, strange, charm bottom, and top), three charged leptons (electron, muon, tau), three uncharged leptons (electron neutrino, muon neutrino, and tau neutrino), and the five bosons related to interactions (photon, Z, W, gluon, and Higgs).
+Muons and neutrinos form just a small part of the Standard Model of particle physics.
+The Standard Model, with fundamental particle types and properties shown in Figure~\ref{fig:standard_model}, consists of six quarks (up, down, strange, charm bottom, and top), three charged leptons (electron, muon, tau), three uncharged leptons (electron neutrino, muon neutrino, and tau neutrino), and the five bosons related to interactions (photon, Z, W, gluon, and Higgs).
 Combinations of the quarks lead to various hadrons, paticles which interact with and are formed via the strong force, with different combinations of quarks and anti-quarks producing a wide variety of particles.
 The Standard Model, developed over the last half century, elegantly encapulates the range of phenomena known to occur in particle physics and has been verified repeatedly over decades by many experiments.
 Predictions of the Standard Model have been carefully verified by accelerator experiments, yielding precise checks on a wide range of parameters.
 
-The three charged leptons and neutrinos form three 'families' or 'flavors'. 
+The three charged leptons and neutrinos form three "families" or "flavors". 
 Each charged lepton posseses a coupled neutrino which shares a lepton number conserved in interactions.
-The electron, the lightest of the charged leptons at 511 KeV \cite{PDG-2015}, is a key ingredient of the atoms that make up the world, forming the basis for all of chemistry and is the only stable charged lepton.
+The electron, the lightest of the charged leptons at 511 keV \cite{PDG-2015}, is a key ingredient of the atoms that make up the world, forming the basis for all of chemistry and is the only stable charged lepton.
 The muon, with a mass of 105.7 MeV, is the middle of the three charged leptons, often appearing in particle interactions accompanied by the muon neutrino.
 The muon has a relatively long livetime of 2.197 microseconds, far longer than many unstable hadrons.
 The tau lepton is the heavies of the leptons, and with a mass of 1.777 GeV, it is heavier than the proton and appears only in relatively high energy interactions.
@@ -134,7 +155,7 @@ For the purposes of this work, the most significant parts of the Standard model 
 In the Standard Model, neutrinos are assumed to be massless, left-handed spin-1/2 leptons which interact solely via the weak force.
 Neutrinos, therefore, are only visible via indirect effects, such as scattering or production of charged particles that may, in turn, give off their own visible signature.
 An understanding of the methods by which neutrinos are detected therefore forms an important basis for the study of these elusive particles.
-Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to represent the interaction verticies.
+Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to represent the interaction verticies available for neutrinos.
 
 \begin{figure}
 \centering
@@ -148,34 +169,38 @@ Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, may be used to 
   w1 -- [boson, edge label = \(Z^{+}\)] w2
 }; \\ 
 \end{tabular}
-\label{fig:nu_vertex}
 \caption{Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson.}
+\label{fig:nu_vertex}
 \end{figure}
 
-From these two vertices, the various interactions relevent for this work may be derived.
+These two vertices describe the interactions relevent for the work presented in this thesis.
 During so-called \emph{charged-current} (\emph{CC}) interactions, a $\mathtt{W^{\pm}}$ boson is exchanged between a neutrino and target particle, in the process converting the uncharged neutrino to the corresponding charged lepton.
 The \emph{neutral-current} (\emph{NC}) interactions are those in which the uncharged Z boson is exchanged with the target and the neutrino, although losing a fraction of the initial energy, does not get converted to a charged lepton.
+
+Detectors used to study particle properties rely on electromagnetic interactions and photons in order to detect particles.
+Because the neutrino itself does not interact via the electromagnetic force, charged leptons and hadrons must be used to indirectly study the properties of the incident neutrinos.
 Outgoing charged leptons in charged-current interactions may be detected, although the direction will not necessarily correspond to that of the incident neutrino. 
 The average angle between the incident neutrino and outgoing lepton may be approximated following Equation~\ref{eqn:kinematic_angle}.
 
 \begin{equation}
-\bar{\theta_{\nu l}} \approx \frac{\mathtt{1.5^o}}{\sqrt{E_\nu \left[TeV\right]}}
+\bar{\theta}_{\nu l} \approx \frac{\mathtt{1.5^o}}{\sqrt{E_\nu \left[TeV\right]}}
 \label{eqn:kinematic_angle}
 \end{equation}
 
 There exist three further classifications of neutral-current and charged-current neutrino interactions in the energy range used in this work: the quasi-elastic, resonant, and deep inelastic interactions \cite{Formaggio-Xsec}.
-Each occurs at different energies, as shown in Figure~\ref{fig:xsec}.
+A fourth type, coherent neutrino scattering, may also occur, although the energies involved are too low to impact this work.
+The three types of interactions are contribute to the total cross-section with peaks at different energies, as shown in Figure~\ref{fig:xsec}.
 
-\begin{figure}
-\centering
-\begin{tabular}{@{}ll@{}}
-\includegraphics[width=0.4\linewidth]{nu_xsec_formaggio.png}
- & 
-\includegraphics[width=0.4\linewidth]{nubar_xsec_formaggio.png}
- \\ 
-\end{tabular}
-\label{fig:xsec}
+\begin{figure}[!h]%                                                                                                                                                   
+        \centering
+                \subfloat[$\nu$ Interaction Cross-sections]{
+                        \label{fig:nu_xsecs}
+                        \includegraphics[width=0.4\linewidth]{nu_xsec_formaggio.png}}
+                \subfloat[$\bar{\nu}$ Interaction Cross-sections]{
+                        \label{fig:nubar_xsecs}
+                        \includegraphics[width=0.4\linewidth]{nubar_xsec_formaggio.png}}
 \caption{The relative contributions to the cross section for $\nu$ (left) and $\bar{\nu}$ (right). The QE events dominate below 1 GeV while the DIS events dominate above 10 GeV. Note the different scales for the neutrino and antineutrinos. Images taken from \cite{Formaggio-Xsec}}
+\label{fig:xsec}
 \end{figure}
 
 \subsubsection{Quasi-Elastic and Resonant Interactions}
@@ -192,53 +217,72 @@ F_A\left(Q^2\right) = \frac{g_A}{\left(1+\frac{Q^2}{M_A^2}\right)^2}
 \label{eq:axial_mass_eq}
 \end{equation}
 
-where $\mathtt{g_A}$ is a constant fit to experimental data, $\mathtt{Q^2}$ is the 4-momentum transferred in the interaction, and $\mathtt{M_A}$ is known as the "axial mass".
-This last term is fit to experimental data with a value of $\mathtt{M_A = 0.999 \pm 0.011}$ GeV \findref{formaggio}.
+where $\mathtt{g_A}$ is a constant fit to experimental data, $\mathtt{Q^2}$ is the 4-momentum transferred in the interaction, and $\mathtt{M_A}$ is the "axial mass".
+This last term is fit to experimental data with a value of $\mathtt{M_A = 0.999 \pm 0.011}$ GeV \cite{Formaggio-Xsec}.
 
 \emph{Resonant scattering} interactions (\emph{RES}), which result in the excitation of a nucleon followed by decay via emission of (typically) pions, occur for neutrinos of slightly higher energies of around 500 MeV to 10 GeV.
 Resonant interactions are modeled in a similar way as the quasi-elastic interactions, with an associated axial mass term used to describe nuclear uncertainties.
 
 \subsubsection{Deep Inelastic Interactions}
-Above a few GeV, the neutrino cross section rises approximatley linearly and is dominated by \emph{deep inelastic scattering} (\emph{DIS}) interactions.
-In DIS events, the exchange of the Z or W boson probes the internal structure of the nucleons.
-This results in disruption of the nucleon and the larger nucleus.
-The collection of daughter particles form what is known as a \emph{hadronic shower}.
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{dis_feynman.png}
+\caption{A Feynman diagram showing an example of a CC neutrino DIS interaction. An incident muon neutrino interacts with a quark inside of a proton. The result is a hadronic shower as well as a charged muon. Diagram taken from \cite{formaggio-xsec}}
+\label{fig:dis_feynman}
+\end{figure}
+
+Above a few GeV, the neutrino cross section rises approximatley linearly with energy and is dominated by \emph{deep inelastic scattering} (\emph{DIS}) interactions.
+An example of a DIS interaction is shown in Figure~\ref{fig:dis_feynman}.
+In DIS events, the exchange of the Z or W boson probes the internal structure of the nucleons, leading to a scattering off of the individual quarks of the nucleus.
+This results in disruption of the nucleon and the larger nucleus and a collection of daughter particles forming a \emph{hadronic shower}.
+
+As seen in Figure~\ref{fig:xsec}, the DIS events dominate the neutrino cross section above 10 GeV and form the only significant interaction above 100 GeV \cite{formaggion-xsec}. 
+Experiments with high statistics samples of DIS events have been used to measure the charged current cross section to the few-percent level.
 
 
 \label{sec:detection_methods}
 \section{Methods of Detection}
-Neutrinos may be detected through these various interaction channels, with each possessing a distinct signature.
-For many events, the interaction of the neutrino leads to the emission of various hadrons in a hadronic shower.
-This may be composed of many particles, as is the case with most DIS events, or it may consist solely of a limited number of pions, as is typical for RES events.
+Neutrinos may be detected through the QE, RES, and DIS interaction channels, with each possessing a distinct signature.
+The interaction of neutrinos at the GeV energy ranges relevent for this thesis lead to the emission of hadrons in a hadronic shower.
+The lower energy QE and RES interactions typically yield only one pion which may decay into a pair of photons ($\pi^0$) or into further charged hadrons and leptons ($\pi^\pm$).
+DIS interactions produce larger hadronic showers containing many charged particles that may be detected.
 
-In addition to the hadronic shower, charged-current interactions possess an outgoing charged lepton, the result of which depends on the flavor of the lepton.
-Outgoing electrons will often quickly scatter in interactions with the surrounding media, ionizing atoms and producing a secondary \emph{electromagnetic shower} of particles.
-Muons, on the other hand, travel longer distances before scattering or being absorped in the medium, leading to an extended track.
+In addition to the hadronic shower, charged-current interactions result in an outgoing charged lepton, the result of which depends on the flavor of the incident neutrino.
+Outgoing electrons quickly scatter in interactions with the surrounding media, ionizing atoms and producing a secondary \emph{electromagnetic shower} of particles.
+Muons, on the other hand, travel longer distances before scattering or decaying in the medium, leading to an extended track.
 
-The signature of a tau decay varies significantly.
-Because the tau lepton has a very short lifetime, outgoing taus tend to decay immediately, producing daughter particles in a secondary hadronic shower that may or may not be spatially separated from the initial shower.
+\begin{table}[]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+Decay                                     & Branching Ratio     & Background   \\ \midrule
+$\tau \rightarrow e^- \nu_e \nu_\tau$     & 17.83 $\pm$ 0.04 \% & $\nu_e$ CC   \\
+$\tau \rightarrow \mu^- \nu_\mu \nu_\tau$ & 17.41 $\pm$ 0.04 \% & $\nu_\mu$ CC \\
+$\tau \rightarrow$ hadrons                & Otherwise           & $\nu$ NC     \\ \bottomrule
+\end{tabular}
+\caption{The branching ratios for the decay of tau leptons. Two-thirds of the time, the tau lepton decays hadronically.}
+\label{tab:tau_decays}
+\end{table}
+
+The signature of a tau neutrino charged current interaction varies depending on the specific decay channel of those presented in \ref{tab:tau_decays}.
+Because the tau lepton has a very short lifetime, outgoing taus tend to decay immediately, producing daughter particles.
+Each of the three decay modes mimic interactions of the electron and muon neutrinos.
+The secondary electromagnetic or hadronic cascade is theoretically distinguishable from the primary hadronic cascade produced by a tau neutrino charged current interaction, although the distance traveled by the tau lepton at the energies relevent for this work is on the order of millimeters, far below the reconstruction precision possible with the IceCube detector.
 
 In each case, the charged particles deposit energy into the interaction medium during travel through a series of stochastic and continuous emissions.
+It is through the detection of these stochastic and continuous losses that daughter particles may be identified in the study of neutrinos.
 
 \subsection{Stochastic Emission Mechanisms}
-\begin{figure}
-\centering
-\includegraphics[width=0.6\linewidth]{discrete_emissions_MMC.png}
-\label{fig:discrete_emissions}
-\caption{Average energy losses ($\mathtt{\frac{-dE}{dX}}$) for a muon in ice. At very low energies, ionization losses dominate. Above approximately 1 TeV, pair production and photonuclear effects become more important. Image taken from \cite{Dima-MMC}}
-\end{figure}
 A total of five major stochastic emission mechanisms are important for the energy losses in neutrino experiments \cite{Dima-MMC}.
-The simplest such mechanism is the decay of the particle, a process which splits the energy of the parent into multiple, lower energy daughters.
-Decays can often by important in the identification of the neutrino type, particularly for tau neutrino candidates, which show a unique, background-free decay signature.
+One such mechanism is the decay of the particle, a process which splits the energy of the parent into multiple, lower energy daughters.
+Decays of daughter leptons can often by important in the identification of the neutrino flavor, particularly for tau neutrino candidates occuring above 10 TeV when the primary and secondary hadronic interactions become well-separated.
 
 Ionization losses occur when the charged lepton interacts with electrons in the medium, transferring enough energy to librerate the electrons from bound states.
-At low energies, these losses may be the most significant form of energy loss for charged particles, providing a significant source of additional electrons for detection.
+At energies below 1 TeV, these losses are the most significant form of energy loss for charged particles, producing a significant source of additional electrons.
 Ionization losses occur roughly independently of the energy of the charged lepton.
 
-For higher energies, radiative losses become important \cite{PDG-2015}.
-Bremmstrahlung, photon emission from charged particles accelerating in a magnetic field, becomes one of the dominant sources of emission around 1 TeV.
-Pair production, in which a particle and antiparticle (typically electron and positron) are created, is equally important.
-At the highest energies, hadronic interactions of photons lead to still-stronger emission.
+Above energies of a few hundred GeV, radiative processes dominate the energy losses for muons in matter \cite{PDG-2015}.
+Bremmstrahlung, photon emission from charged particles accelerating in a magnetic field, pair production, in which a particle and antiparticle (typically electron and positron) are created, and hadronic interactions of photons all dominate the energy losses of muons above 1 TeV.
 
 There exists a minimum in the energy loss rates.
 Particles emitting near this minimum rate are known as \emph{minimum-ionizing} particles \cite{PDG-2015}.
@@ -246,8 +290,8 @@ Particles emitting near this minimum rate are known as \emph{minimum-ionizing} p
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{bethe_bloche-PDG15.png}
+\caption{An example of the energy loss ($\mathtt{\frac{-dE}{dX}}$) calculated for muons incident on copper. Note the radiative losses due to bremsstrahlung, pair production, and photonuclear interactions above 1 TeV. Note also the labeled minimum demonstrating the energy of a minimum ionizing particle. Image taken from \cite{PDG-2015}.}
 \label{fig:discrete_emissions}
-\caption{An example of the energy emission ($\mathtt{\frac{-dE}{dX}}$) calculated for muons incident on copper. Note the radiative losses due to bremsstrahlung, pair production, and photonuclear interactions at high energies. Note also the labeled minimum demonstrating the energy of a minimum ionizing particle. Image taken from \cite{PDG-2015}.}
 \end{figure}
 
 Stochastic emissions result in additional particles in the detector, leading to improved light yield.
@@ -258,13 +302,13 @@ These emulsions yield precise characterization of particle decays, allowing expe
 When a charged particle passes through a dielectric medium with a speed larger than the local phase velocity of light, it will emit \emph{Cherenkov radiation}\cite{Cherenkov-Radiation-Confirmation}.
 The effect, first reported by Pavel Cherenkov in 1934 \cite{Cherenkov-Radiation-Observation} remained unexplained theortically until work done by Ilya Frank and Igor Tamm in 1937 \cite{Frank-Tamm}.
 
-For a dielectric medium, the electric field of the charged particle will polarize atoms in the medium by inducing a small dipole moment due to electromagetic effects in nuclei of atoms in the medium \cite{Griffiths-EM}.
-The resulting disturbance of the medium propagates with the phase velocity of light in the medium, given by the speed of light, \textit{c}, and the index of refraction as a function of the frequency of light, \textit{n(\omega)}.
+For a dielectric medium, the electric field of the charged particle will polarize atoms by inducing a small dipole moment due to electromagetic effects in nuclei of atoms in the medium \cite{Griffiths-EM}.
+The resulting disturbance of the medium propagates with the phase velocity of light, given by the speed of light, \textit{c}, and the index of refraction as a function of the frequency of light, \textit{n(\omega)}.
 If the charged particle is traveling faster than the local phase velocity, the electromagnetic disturbance propagates with constructive interference, resulting in a planar wavefront of emission known as \emph{Cherenkov emission}.
-The angle of the wavefront relative to the propagation direction is given by ratio of the distance traveled by the particle and photons in a given time.
+The angle of the wavefront relative to the propagation direction is given by the ratio of the distance traveled by the particle and photons in a given time.
 
 \begin{equation}
-cos(\theta_C) = \frac{\frac{c}{n(\omega)} t}{v t} = \frac{c}{n(\omega) v}
+cos(\theta_C) = \frac{\frac{c}{n(\omega)} t}{v t} = \frac{c}{n(\omega) v},
 \end{equation} 
 
 The energy threshold for Cherenkov emission is set by a combination of the particle mass and the local phase velocity for light, $\frac{c}{n}$.

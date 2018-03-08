@@ -1,72 +1,22 @@
 \section{Experimental Constraints on Neutrino Oscillations}
+
+\label{sec:solar_neutrinos}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/solar.tex}
+
+\label{sec:superk_atmo}
+\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/oscillations/atmospheric.tex}
+
+\label{subsec:global_fits}
+\subsection{Global Fits to Oscillations}
 Since the initial discoveries of SNO and Super-K, many experiments have measured neutrino oscillations. 
 Global fits are performed and updated regularly \cite{NuFit_2.2, NuFit.org}.
 
-The most recent results are shown in Figure~\ref{nufit_v32.pdf} and include information from solar, reactor, and atmospheric oscillation experiments.
+The most recent results are shown in Figure~\ref{fig:nufit_v32} and include information from solar, reactor, and atmospheric oscillation experiments.
 The results explicitly assume unitarity and three neutrino species.
 
 \begin{figure}[!h]
 \includegraphics[width=\linewidth]{nufit_v32.pdf}
-\caption{The global best-fit values for the three flavor neutrino oscillation fits as of November 2017. The first column shows results assuming the normal ordering while the second colum shows the results for the inverted ordering. }
-\label{fig:honda_coszen}
+\caption{The global best-fit values for the three flavor neutrino oscillation fits as of November 2017. The first column shows results assuming the normal ordering while the second colum shows the results for the inverted ordering. Image taken from \cite{NuFit.org}}
+\label{fig:nufit_v32}
 \end{figure}
-
-\subsection{Unitarity and Sterile Neutrinos}
-While global fits assume three flavors of neutrinos, the PMNS matrix is not limited to three flavors by any known mechanism.
-It is possible that there exist additional flavors of neutrinos which are not visible in normal interactions.
-The number of active neutrino flavors is limited to the three known flavors from the measurements of ALEPH (see \ref{sec:neutrinos} and \cite{ALEPH-3Nu}), although such measurements implicitly only measure the number of species with a coupling to the Z boson.
-If additional flavors do not couple of the Z, they may be allowed.
-
-Models of sterile neutrinos typically assume that no weak interactions are available to the new species, limiting their production to oscillations.
-In this model, neutrinos oscillate using a 4x4 (or larger NxN) PMNS matrix \cite{Review-PMNS}.
-
-\begin{equation}
-\begin{pmatrix} \nu_e\left(x\right) \\ 	\nu_\mu\left(x\right) \\	\nu_\tau\left(x\right) \\  \nu_s\left(x\right)\end{pmatrix} = 
-U_{4x4} \begin{pmatrix} \nu_e\left(x\right) \\ 	\nu_\mu\left(x\right) \\	\nu_\tau\left(x\right) \\	\nu_s\left(x\right)\end{pmatrix} = 
-\begin{pmatrix}
- U_{e 1} & U_{e 2} & U_{e 3} & U_{e 4} \\
- U_{\mu 1} & U_{\mu 2} & U_{\mu 3} & U_{\tau 4}  \\
- U_{\tau 1} & U_{\tau 2} & U_{\tau 3} & U_{\tau 4}  \\
- U_{s 1} & U_{s 2} & U_{s 3} & U_{s 4}  \\
-\end{pmatrix} 	
-\begin{pmatrix} \nu_1\left(x\right) \\ 	\nu_2\left(x\right) \\	\nu_3\left(x\right) \\ \nu_4\left(x\right) \end{pmatrix}
-\label{eqn:4flavor_pmns}
-\end{equation}
-
-The additional terms in $U_{4x4}$ lead to new mixing angles, $\theta_{14}$, $\theta_{24}$, and $\theta_{34}$.
-The new terms may be used in the standard oscillation framework, such as Equation~\ref{eqn:pmns_probability}.
-The neutrino cannot, however, interact in the sterile state, leading to an overall neutrino deficit with the size of the deficit related to the additional mixing parameters.
-
-While oscilation of the three active neutrinos preserves the total neutral current rate, sterile neutrinos do not.
-This provide an experimental signature which may be investigated by experiments.
-Dedicated searches for this disappearance have been performed by multiple experiments with various assumptions on the new terms of the mixing matrix.
-Most experiments attempt to investigate one of the additional terms only, assuming the remainder to be negligible. \improvement{find examples? andrii's, ben's, other experiments?}
-The results rule out large mixing between a hypothetical sterile neutrino and the three active flavors, although small mixing angles are still allowed by experiments.
-
-The addition of a fourth generation of neutrino would have consequences for neutrino oscillation measurements performed in the 3x3 PMNS framework.
-The PMNS matrix gives the change in basis and is therefore assumed to be unitary.
-The unitary condition imposes summation rules for both the rows and colums of the matrix.
-
-\begin{equation}
-\sum_i U_{\alpha i} U_{\beta i}^* = \delta_{\alpha \beta} \;\;\;\; \alpha,\beta=e, \mu, \tau
-\label{eqn:unitarity_condition_flavor}
-\end{equation}
-\begin{equation}
-\sum_i U_{\alpha i} U_{\alpha j}^* = \delta_{ij} \;\;\;\; i,j=1,2,3
-\label{eqn:unitarity_condition_mass}
-\end{equation}
-
-If the neutrino mixing matrix consists of more than the three known active neutrinos, however, these unitary relations would only hold in higher dimensions.
-When projected down to the observed 3x3 PMNS matrix, non-unitarity would be observed.
-
-n general, neutrino oscillation measurements are performed with the assumption of unitarity. 
-In this case, the effective non-unitarity would manifest itself as a deviation in the observed probabilities for appearance and disappearance when the two effects are measured separately.
-
-Indirect searches for sterile neutrinos are performed in this way using some accelerator experiments \findref{minos? others? that opperate in appearance and disappearance modes}.
-These experiments place limits on the mixing parameters of a hypothetical sterile neutrino.
-
-This method of searching for sterile neutrinos may be reversed as well, using standard oscillation measurements to place limits on the size of any non-unitarity.
-Using the unitarity conditions shown in Equation~\ref{eqn:unitarity_condition_flavor} and \ref{eqn:unitarity_condition_mass}, 
-limits on the size of non-untarity have been calculated\findref{that unitarity paper}.
-
 
