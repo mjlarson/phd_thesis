@@ -1,7 +1,7 @@
-\section{Optical Properties of the Antarctic Glacier}
+section{Optical Properties of the Antarctic Glacier}
 
-\label{subsec:bulk_ice}
-\subsection{The Bulk Ice Model}
+\label{sec:bulk_ice}
+\section{The Bulk Ice Model}
 The Antarctic glacier, with a thickness of 2.8 km at the geographic south pole \cite{IceCube-SpiceMie}, forms both the support structure and the interaction medium for IceCube.
 During deployment, measurements of the scattering properties of the ice were taken during deployment of the IceCube strings.
 The IceCube dust logger emitted laser light aimed into the undrilled ice and detected backscattered photons\cite{IceCube-DustLogger1, IceCube-DustLogger2}.
@@ -23,8 +23,14 @@ Each flashing and detecting DOM pair provides a set of known times, positions, a
 
 \begin{figure}[h]
 \centering
-    \subfloat[Absorption]{\includegraphics[width=0.4\linewidth]{absorption.png}}
-    \subfloat[Scattering]{\includegraphics[width=0.4\linewidth]{scattering.png}}    
+\begin{tabular}[b]{c}
+  \includegraphics[width=0.45\linewidth]{absorption.png} \\
+  \small (\textbf{\color{ctcolormain}a}) Absorption
+\end{tabular} \hspace{2pt}
+\begin{tabular}[b]{c}
+  \includegraphics[width=0.45\linewidth]{scattering.png} \\
+  \small (\textbf{\color{ctcolormain}b}) Scattering
+\end{tabular}
 \caption{The absorption and effective scattering properties of the ice as fit to flasher data. Two models are shown representing different generations of ice models used for simulation. The "Mie" model does not include anisotropy while the "Lea" model does. Figure from \cite{IceCube-SpiceLea}.}
 \label{fig:spicelea}
 \end{figure}
@@ -44,8 +50,8 @@ The anisotropy affects both the scattering and absorption from each direction in
 \end{figure}
 
 
-\label{subsec:hole_ice}
-\subsection{The Hole Ice}
+\label{sec:hole_ice}
+\section{The Hole Ice}
 After the strings were deployed, each drill hole was allowed to refreeze. 
 The refrozen column of ice around each string is referred to as the \emph{hole ice}.
 Using a dedicated camera deployed at the bottom of string 80, the refreezing process of the hole ice has been observed over the course of several years \cite{IceCube-SwedishCamera, Description-IceCube}.

@@ -6,39 +6,44 @@
 \BOOKMARK [1][-]{section*.15}{Methods of Detection}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{Neutrino Oscillations}{}% 7
 \BOOKMARK [1][-]{section*.21}{Oscillation Theory and the PMNS Matrix}{chapter.2}% 8
-\BOOKMARK [1][-]{section*.25}{Experimental Constraints on Neutrino Oscillations}{chapter.2}% 9
-\BOOKMARK [1][-]{section*.26}{Solar Neutrinos: A Hint of Multiple Flavors}{chapter.2}% 10
-\BOOKMARK [1][-]{section*.27}{Super-Kamiokande and Atmospheric Neutrinos}{chapter.2}% 11
-\BOOKMARK [1][-]{section*.31}{Unitarity and Sterile Neutrinos}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{The IceCube Detector}{}% 13
-\BOOKMARK [1][-]{section*.39}{The DOM: The Basic Unit of IceCube}{chapter.3}% 14
-\BOOKMARK [1][-]{section*.47}{The Geometry of the Detector}{chapter.3}% 15
-\BOOKMARK [1][-]{section*.54}{Optical Properties of the Antarctic Glacier}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Simulation of the IceCube-DeepCore Detector}{}% 17
-\BOOKMARK [1][-]{section*.62}{Monte Carlo Generators}{chapter.4}% 18
-\BOOKMARK [1][-]{section*.65}{Propagation of the Particles and Light}{chapter.4}% 19
-\BOOKMARK [1][-]{section*.71}{Simulating the Detector Electronics}{chapter.4}% 20
-\BOOKMARK [1][-]{section*.72}{Post-Simulation Processing}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter.5}{Updates to the Noise Simulation}{}% 22
-\BOOKMARK [1][-]{section*.77}{A Summary of Previous Fits}{chapter.5}% 23
-\BOOKMARK [1][-]{section*.78}{Limitations and Disagreement with Previous Fits}{chapter.5}% 24
-\BOOKMARK [1][-]{section*.79}{Low-dt Noise from Vuvuzela}{chapter.5}% 25
-\BOOKMARK [1][-]{section*.80}{Updating the Fitting Code}{chapter.5}% 26
-\BOOKMARK [1][-]{section*.81}{Results of New Noise Fits}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{Low-Energy Muon Simulation}{}% 28
-\BOOKMARK [1][-]{section*.83}{Long-Frame CORSIKA for DeepCore}{chapter.6}% 29
-\BOOKMARK [1][-]{section*.84}{MuonGun for DeepCore}{chapter.6}% 30
-\BOOKMARK [1][-]{section*.85}{Simulation Efficiency with KDE Filtering}{chapter.6}% 31
-\BOOKMARK [0][-]{chapter.7}{GRECO: An Event Selection at the Limits of DeepCore}{}% 32
-\BOOKMARK [1][-]{section*.87}{Low-En Level 3 Cuts}{chapter.7}% 33
-\BOOKMARK [1][-]{section*.116}{The Properties of the GRECO Event Selection}{chapter.7}% 34
-\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 35
-\BOOKMARK [1][-]{section*.123}{Expectations from Monte Carlo}{chapter.8}% 36
-\BOOKMARK [1][-]{section*.135}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 37
-\BOOKMARK [1][-]{section*.151}{Systematics Considerations}{chapter.8}% 38
-\BOOKMARK [1][-]{section*.177}{The Method of Maximum Likelihood}{chapter.8}% 39
-\BOOKMARK [1][-]{section*.186}{Expected Sensitivity to Appearance}{chapter.8}% 40
-\BOOKMARK [1][-]{section*.208}{Fitting Data}{chapter.8}% 41
-\BOOKMARK [1][-]{section*.240}{Results from the Search for Appearance}{chapter.8}% 42
-\BOOKMARK [1][-]{section*.246}{Complementary Measurements from This Analysis}{chapter.8}% 43
-\BOOKMARK [1][-]{section*.262}{New Constraints on Detector Systematics}{chapter.8}% 44
+\BOOKMARK [1][-]{section*.25}{Experimental Contraints on Neutrino Oscillations}{chapter.2}% 9
+\BOOKMARK [1][-]{section*.32}{Unitarity and Sterile Neutrinos}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{The IceCube Detector}{}% 11
+\BOOKMARK [1][-]{section*.40}{The DOM: The Basic Unit of IceCube}{chapter.3}% 12
+\BOOKMARK [1][-]{section*.51}{The Geometry of the Detector}{chapter.3}% 13
+\BOOKMARK [1][-]{section*.59}{The Bulk Ice Model}{chapter.3}% 14
+\BOOKMARK [1][-]{section*.63}{The Hole Ice}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Simulation of the IceCube-DeepCore Detector}{}% 16
+\BOOKMARK [1][-]{section*.66}{Monte Carlo Generators}{chapter.4}% 17
+\BOOKMARK [1][-]{section*.69}{Propagation of the Particles and Light}{chapter.4}% 18
+\BOOKMARK [1][-]{section*.75}{Simulating the Detector Electronics}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Updates to the Noise Simulation}{}% 20
+\BOOKMARK [1][-]{section*.80}{A Summary of Previous Fits}{chapter.5}% 21
+\BOOKMARK [1][-]{section*.83}{Limitations and Disagreement with Previous Fits}{chapter.5}% 22
+\BOOKMARK [1][-]{section*.84}{Low-dt Noise from Vuvuzela}{chapter.5}% 23
+\BOOKMARK [1][-]{section*.88}{Updating the Fitting Code}{chapter.5}% 24
+\BOOKMARK [1][-]{section*.91}{Results of New Noise Fits}{chapter.5}% 25
+\BOOKMARK [0][-]{chapter.6}{Low-Energy Muon Simulation}{}% 26
+\BOOKMARK [1][-]{section*.96}{CORSIKA Generation In DeepCore}{chapter.6}% 27
+\BOOKMARK [1][-]{section*.98}{MuonGun for DeepCore}{chapter.6}% 28
+\BOOKMARK [1][-]{section*.101}{Simulation Efficiency with KDE Prescales}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{GRECO: An Event Selection at the Limits of DeepCore}{}% 30
+\BOOKMARK [1][-]{section*.106}{Hit Cleaning}{chapter.7}% 31
+\BOOKMARK [1][-]{section*.110}{Level 1: The DeepCoreFilter}{chapter.7}% 32
+\BOOKMARK [1][-]{section*.112}{Low-En Level 3 Cuts}{chapter.7}% 33
+\BOOKMARK [1][-]{section*.117}{GRECO Level 4 Cuts}{chapter.7}% 34
+\BOOKMARK [1][-]{section*.128}{Level 5 Cuts}{chapter.7}% 35
+\BOOKMARK [1][-]{section*.141}{GRECO Level 6 Cuts}{chapter.7}% 36
+\BOOKMARK [1][-]{section*.153}{GRECO Level 7: Final Level}{chapter.7}% 37
+\BOOKMARK [1][-]{section*.159}{Calibration Discoveries with GRECO}{chapter.7}% 38
+\BOOKMARK [1][-]{section*.189}{The Properties of the GRECO Event Selection}{chapter.7}% 39
+\BOOKMARK [0][-]{chapter.8}{A Search for Tau Neutrinos from Oscillations}{}% 40
+\BOOKMARK [1][-]{section*.197}{Expectations from Monte Carlo}{chapter.8}% 41
+\BOOKMARK [1][-]{section*.209}{Parametrizing the Tau Neutrino Appearance}{chapter.8}% 42
+\BOOKMARK [1][-]{section*.225}{Systematics Considerations}{chapter.8}% 43
+\BOOKMARK [1][-]{section*.251}{The Method of Maximum Likelihood}{chapter.8}% 44
+\BOOKMARK [1][-]{section*.260}{Expected Sensitivity to Appearance}{chapter.8}% 45
+\BOOKMARK [1][-]{section*.282}{Fitting Data}{chapter.8}% 46
+\BOOKMARK [1][-]{section*.288}{Results from the Search for Appearance}{chapter.8}% 47
+\BOOKMARK [1][-]{section*.294}{Complementary Measurements from This Analysis}{chapter.8}% 48
+\BOOKMARK [1][-]{section*.310}{New Constraints on Detector Systematics}{chapter.8}% 49

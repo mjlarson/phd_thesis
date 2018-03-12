@@ -2,20 +2,20 @@
 \subsection{Pulse Extraction}
 From this point in the processing, both data and simulation recieve identical processing.
 The first step of this processing is to read and extract charge information from the digitized waveforms.
-This is done using the \textbf{wavedeform} module, which accepts and processes the information from the launches in each triggered event.
+This is done using the \emph{wavedeform} module, which accepts and processes the information from the launches in each triggered event.
 Wavedeform attempts to reconstruct the original I3MCPulses from the digitized waveform information.
 
 Wavedeform uses a parametrized version of the PMT pulse associated with a single photoelectron. 
 Beginning with a single pulse template, a least squares minimization is performed to find the best-fit timing of the pulse to the observed digitized waveform.
 Additional copies of the pulse template are added and new minimizations are performed until the goodness-of-fit improvement from additional pulses is negligible.
-The resulting sets of pulses, including associated timing and normalization, are returned with the \textbf{I3RecoPulse} class, more commonly referred to as simply \textbf{pulses}.
+The resulting sets of pulses, including associated timing and normalization, are returned with the \emph{I3RecoPulse} class, more commonly referred to as simply \emph{pulses}.
 These pulses represent the best-fit recreation of the analog pulses in the PMT prior to the digitization process.
 
 Both HLC and SLC waveforms are fit, although the limited information in SLC waveforms necessarily results in the loss of information.
 When available, information from the ATWD is provided a larger weight relative to the information from the FADC due to the finer binning in time, allowing for more detailed information on PMT behavior near the beginning of the launch of the DOM. 
 
 \subsection{Hit Cleaning}
-In general, a set of pulses, known as a \textbf{pulse series}, contains a significant amount of information due to random detector noise.
+In general, a set of pulses, known as a \emph{pulse series}, contains a significant amount of information due to random detector noise.
 These additional pulses are not useful for understanding the particle interactions and are therefore typically removed during processing.
 There exist multiple ways to identify pulses likely to be due to detector noise, three of which will be detailed in order from most strict to most accepting.
 
@@ -26,7 +26,7 @@ This comes at the expense of a potentially significant amount of information abo
 
 \subsubsection{SeededRT Cleaning}
 Instead of simply using HLC hits, additional processing may be used to identify potentially interesting SLC hits as well.
-The \textbf{SeededRT} algorithm is one such algorithm, requiring a seed, radius, and time in order to search for additional information in the event.
+The \emph{SeededRT} algorithm is one such algorithm, requiring a seed, radius, and time in order to search for additional information in the event.
 SeededRT begins with a subset of "interesting" pulses, often a selection of the HLC pulses, as a seed.
 Once a seed is selected, a sphere of the given radius is drawn around each seeded DOM. 
 Any nearby DOMs within the sphere and time window are added to the output pulse series.
@@ -39,22 +39,22 @@ Because of this, different settings are chosen for these two regions.
 
 \subsubsection{Time Window Cleaning}
 The most general cleaning results in very little loss in pulses due to particle interactions, but allows nearly all noise pulses into the final hit series.
-This \textbf{Static Time Window} cleaning, often referred to using just the acronym \textbf{STW} cleaning, looks for pulses near the times associated with triggers.
+This \emph{Static Time Window} cleaning, often referred to using just the acronym \emph{STW} cleaning, looks for pulses near the times associated with triggers.
 For DeepCore processing, any pulses more than 4 microseconds before or more than 6 microseconds after the SMT3 time are removed.
 
 There exists a second type of time window cleaning applied more rarely.
-The \textbf{Dynamic Time Window} cleaning, hereafter \textbf{DTW} cleaning, removes the association with the trigger time. 
+The \emph{Dynamic Time Window} cleaning, hereafter \emph{DTW} cleaning, removes the association with the trigger time. 
 Instead, the window is chosen to maximize the number of hits.
 DTW cleaning is generally chosen with a significantly tighter window, often consisting of only a few hundred nanoseconds compared to the multiple microseconds used in the STW cleaning.
 
 Time window cleaning is typically used in combination with additional cleaning methods, resulting in little loss in useful signal due to the wide time window (in STW cleaning) or in a very pure set of hits likely to be due to unscattered light.
 
-
+\label{subsec:DeepCoreFilter}
 \subsection{The DeepCoreFilter}
 Triggers are generally designed to be as accepting of the proposed physics signal as possible, regardless of the background rates.
 Typically, limitations exist solely in the processing and storage capabilities in order to prevent the unintentional loss of valuable information.
 After triggering, various filters may be applied with the sole purpose of removing the collected background.
-For the purposes of this document, the only filter considered is the \textbf{DeepCoreFilter}.
+For the purposes of this document, the only filter considered is the \emph{DeepCoreFilter}.
 
 The DeepCoreFilter proceeds by splitting the pulses identified by the SeededRT cleaning into "veto" and "fiducial" pulses, with each DOM given a designation based on it's position in the detector.
 The average and standard deviation in time are first calculated for the fiducial pulses.
@@ -71,7 +71,7 @@ The average and standard deviation in time are first calculated for the fiducial
 \end{equation}
 
 All hit DOMs with the first pulse occuring more than one standard deviation away from the mean time are removed from the fiducial pulse series.
-With the updated fiducial pulse series, a center of gravity, or \textbf{CoG}, of the remaining DOMs is calculated.
+With the updated fiducial pulse series, a center of gravity, or \emph{CoG}, of the remaining DOMs is calculated.
 
 \begin{equation}
 	\vec{x}_{CoG}=\frac{\sum_i^{DOMs} \vec{x}_i}{N_{hits}}

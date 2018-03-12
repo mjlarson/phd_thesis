@@ -9145,6 +9145,31 @@
     \field{year}{2003}
   \endentry
 
+  \entry{Thesis-Vuvuzela}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=LMJ}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMJ1}
+    \strng{fullhash}{LMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Simulation and identification of non-Poissonian noise
+  triggers in the IceCube neutrino detector}}
+    \verb{url}
+    \verb https://ir.ua.edu/handle/123456789/1927
+    \endverb
+    \list{institution}{1}{%
+      {Alabama U.}%
+    }
+    \field{type}{M.Sc.}
+    \field{year}{2013}
+  \endentry
+
   \entry{Description-DeepCore}{article}{}
     \name{author}{11}{}{%
       {{hash=AR}{%
@@ -10941,6 +10966,620 @@
     \field{year}{2016}
   \endentry
 
+  \entry{CORSIKA}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HD}{%
+         family={Heck},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schatz},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Thouw},
+         familyi={T\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Knapp},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJN}{%
+         family={Capdevielle},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HD+1}
+    \strng{fullhash}{HDSGTTKJCJN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{CORSIKA: A Monte Carlo code to simulate extensive air
+  showers}}
+    \field{year}{1998}
+  \endentry
+
+  \entry{SIBYLL-2.1}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AEJ}{%
+         family={{Ahn}},
+         familyi={A\bibinitperiod},
+         given={E.-J.},
+         giveni={E\bibinitperiod-J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={{Engel}},
+         familyi={E\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GTK}{%
+         family={{Gaisser}},
+         familyi={G\bibinitperiod},
+         given={T.\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={{Lipari}},
+         familyi={L\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={{Stanev}},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Inelastic scattering: many-particle final states, Total and inclusive
+  cross sections, Fragmentation into hadrons}
+    \strng{namehash}{AEJ+1}
+    \strng{fullhash}{AEJERGTKLPST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.80.094003
+    \endverb
+    \field{eid}{094003}
+    \verb{eprint}
+    \verb 0906.4113
+    \endverb
+    \field{number}{9}
+    \field{pages}{094003}
+    \field{title}{{Cosmic ray interaction event generator SIBYLL 2.1}}
+    \field{volume}{80}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{11}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Hoerandel-Polygonato}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HJR}{%
+         family={Hoerandel},
+         familyi={H\bibinitperiod},
+         given={Joerg\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJR2}
+    \strng{fullhash}{HJR2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0927-6505(02)00198-6
+    \endverb
+    \verb{eprint}
+    \verb astro-ph/0210453
+    \endverb
+    \field{pages}{193\bibrangedash 220}
+    \field{title}{{On the knee in the energy spectrum of cosmic rays}}
+    \field{volume}{19}
+    \field{journaltitle}{Astropart. Phys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Gaisser-H4a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GTK}{%
+         family={{Gaisser}},
+         familyi={G\bibinitperiod},
+         given={T.\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={{Stanev}},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={{Tilav}},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{cosmic radiation, air showers}
+    \strng{namehash}{GTK+1}
+    \strng{fullhash}{GTKSTTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11467-013-0319-7
+    \endverb
+    \verb{eprint}
+    \verb 1303.3565
+    \endverb
+    \field{pages}{748\bibrangedash 758}
+    \field{title}{{Cosmic ray energy spectrum from measurements of air
+  showers}}
+    \field{volume}{8}
+    \field{journaltitle}{Frontiers of Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.HE}
+    \field{month}{12}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Thesis-Jakob}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=vSJ}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Santen},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJv1}
+    \strng{fullhash}{SJv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Neutrino Interactions in IceCube above 1 TeV: Constraints on
+  Atmospheric Charmed-Meson Production and Investigation of the Astrophysical
+  Neutrino Flux with 2 Years of IceCube Data taken 2010--2012}}
+    \verb{url}
+    \verb http://search.proquest.com/docview/1637727437/abstract/CE0FBEF172B24F
+    \verb 9APQ/1
+    \endverb
+    \list{institution}{1}{%
+      {U. Wisconsin, Madison (main)}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2014}
+  \endentry
+
+  \entry{GENIE}{article}{}
+    \name{author}{8}{}{%
+      {{hash=AC}{%
+         family={{Andreopoulos}},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={{Barry}},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={{Dytman}},
+         familyi={D\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={{Gallagher}},
+         familyi={G\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={{Golan}},
+         familyi={G\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={{Hatcher}},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={{Perdue}},
+         familyi={P\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={{Yarba}},
+         familyi={Y\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{High Energy Physics - Phenomenology, High Energy Physics -
+  Experiment}
+    \strng{namehash}{AC+1}
+    \strng{fullhash}{ACBCDSGHGTHRPGYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1510.05494
+    \endverb
+    \field{title}{{The GENIE Neutrino Monte Carlo Generator: Physics and User
+  Manual}}
+    \field{journaltitle}{ArXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{10}
+    \field{year}{2015}
+  \endentry
+
+  \entry{GRV98}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={{Gluck}},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={{Reya}},
+         familyi={R\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={{Vogt}},
+         familyi={V\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMREVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s100529800978
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/9806404
+    \endverb
+    \field{pages}{461\bibrangedash 470}
+    \field{title}{{Dynamical parton distributions revisited}}
+    \field{volume}{5}
+    \field{journaltitle}{European Physical Journal C}
+    \field{month}{09}
+    \field{year}{1998}
+  \endentry
+
+  \entry{GEANT4-1}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Agostinelli},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{AS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0168-9002(03)01368-8
+    \endverb
+    \field{pages}{250\bibrangedash 303}
+    \field{title}{{GEANT4: A Simulation toolkit}}
+    \field{volume}{A506}
+    \field{journaltitle}{Nucl. Instrum. Meth.}
+    \field{year}{2003}
+  \endentry
+
+  \entry{GEANT4-2}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AM}{%
+         family={Asai},
+         familyi={A\bibinitperiod},
+         given={Makoto},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dotti},
+         familyi={D\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Verderi},
+         familyi={V\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WDH}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Dennis\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+4}
+    \strng{fullhash}{AMDAVMWDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{Proceedings, Joint International Conference on
+  Supercomputing in Nuclear Applications + Monte Carlo (SNA + MC 2013): Paris,
+  France, October 27-31, 2013}}
+    \verb{doi}
+    \verb 10.1016/j.anucene.2014.08.021
+    \endverb
+    \field{pages}{19\bibrangedash 28}
+    \field{title}{{Recent developments in Geant4}}
+    \field{volume}{82}
+    \field{journaltitle}{Annals Nucl. Energy}
+    \field{year}{2015}
+  \endentry
+
+  \entry{NuGen}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={{Gazizov}},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={{Kowalski}},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Neutrino mass and mixing, Neutrino muon pion and other elementary
+  particles, cosmic rays}
+    \strng{namehash}{GAKM1}
+    \strng{fullhash}{GAKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.cpc.2005.03.113
+    \endverb
+    \verb{eprint}
+    \verb astro-ph/0406439
+    \endverb
+    \field{pages}{203\bibrangedash 213}
+    \field{title}{{ANIS: High energy neutrino generator for neutrino
+  telescopes}}
+    \field{volume}{172}
+    \field{journaltitle}{Computer Physics Communications}
+    \field{month}{11}
+    \field{year}{2005}
+  \endentry
+
+  \entry{PROPOSAL}{article}{}
+    \name{author}{7}{}{%
+      {{hash=KJH}{%
+         family={Koehne},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Frantzen},
+         familyi={F\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schmitz},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fuchs},
+         familyi={F\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Rhode},
+         familyi={R\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chirkin},
+         familyi={C\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BTJ}{%
+         family={Becker\bibnamedelima Tjus},
+         familyi={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJH+1}
+    \strng{fullhash}{KJHFKSMFTRWCDBTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.cpc.2013.04.001
+    \endverb
+    \field{pages}{2070\bibrangedash 2090}
+    \field{title}{{PROPOSAL: A tool for propagation of charged leptons}}
+    \field{volume}{184}
+    \field{journaltitle}{Comput. Phys. Commun.}
+    \field{year}{2013}
+  \endentry
+
+  \entry{PPC}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CD}{%
+         family={Chirkin},
+         familyi={C\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CD1}
+    \strng{fullhash}{CD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{Proceedings, 5th Very Large Volume Neutrino Telescope
+  Workshop (VLVnT 11): Erlangen, Germany, October 12-14, 2011}}
+    \verb{doi}
+    \verb 10.1016/j.nima.2012.11.170
+    \endverb
+    \field{pages}{141\bibrangedash 143}
+    \field{title}{{Photon tracking with GPUs in IceCube}}
+    \field{volume}{A725}
+    \field{journaltitle}{Nucl. Instrum. Meth.}
+    \field{year}{2013}
+  \endentry
+
+  \entry{OpenCL}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SJE}{%
+         family={Stone},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gohara},
+         familyi={G\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Guochun},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Computer Society Press}%
+    }
+    \strng{namehash}{SJE+1}
+    \strng{fullhash}{SJEGDSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/MCSE.2010.69
+    \endverb
+    \field{issn}{0740-7475}
+    \field{number}{3}
+    \field{pages}{66\bibrangedash 73}
+    \field{title}{OpenCL: A Parallel Programming Standard for Heterogeneous
+  Computing Systems}
+    \verb{url}
+    \verb http://dx.doi.org/10.1109/MCSE.2010.69
+    \endverb
+    \field{volume}{12}
+    \list{location}{1}{%
+      {Los Alamitos, CA, USA}%
+    }
+    \field{journaltitle}{IEEE Des. Test}
+    \field{month}{05}
+    \field{year}{2010}
+  \endentry
+
+  \entry{TA0003}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HY}{%
+         family={Hasegawa},
+         familyi={H\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Chiba University}%
+    }
+    \strng{namehash}{HY1}
+    \strng{fullhash}{HY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Analysis of Charge Response functions of the IceCube PMTs}
+    \verb{url}
+    \verb http://www.ppl.phys.chiba-u.jp/research/IceCube/pmt/SPE/CRAnalysis.ht
+    \verb ml
+    \endverb
+    \field{year}{2007}
+  \endentry
+
+  \entry{iminuit-code}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=it}{%
+         prefix={iminuit},
+         prefixi={i\bibinitperiod},
+         family={team},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ti1}
+    \strng{fullhash}{ti1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{iminuit -- A Python interface to Minuit}
+  \endentry
+
+  \entry{iminuit-paper}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JF}{%
+         family={{James}},
+         familyi={J\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={{Roos}},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JFRM1}
+    \strng{fullhash}{JFRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0010-4655(75)90039-9
+    \endverb
+    \field{pages}{343\bibrangedash 367}
+    \field{title}{{Minuit -- a system for function minimization and analysis of
+  the parameter errors and correlations}}
+    \field{volume}{10}
+    \field{journaltitle}{Computer Physics Communications}
+    \field{month}{12}
+    \field{year}{1975}
+  \endentry
+
   \entry{scipy}{misc}{}
     \true{moreauthor}
     \name{author}{3}{}{%
@@ -10973,6 +11612,525 @@
     \verb http://www.scipy.org/
     \endverb
     \field{year}{2001--}
+  \endentry
+
+  \entry{Thesis-Martin}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={Leuermann},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM1}
+    \strng{fullhash}{LM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Pending}
+    \field{title}{{Testing the Neutrino Mass Ordering with Three Years of
+  IceCube/DeepCore Data}}
+    \list{institution}{1}{%
+      {URheinisch-Westfalische Technische Hochschule (RWTH)}%
+    }
+    \field{type}{Ph.D.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Thesis-Schoenen}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Schoenen},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Discovery and characterization of a diffuse astrophysical
+  muon neutrino flux with the iceCube neutrino observatory }}
+    \verb{url}
+    \verb http://publications.rwth-aachen.de/record/696221/
+    \endverb
+    \list{institution}{1}{%
+      {Rheinisch-Westfalische Technische Hochschule (RWTH)}%
+    }
+    \field{type}{Ph.D.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{TMVA}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=HA}{%
+         family={Hocker},
+         familyi={H\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{Proceedings, 11th International Workshop on Advanced
+  computing and analysis techniques in physics research (ACAT 2007): Amsterdam,
+  Netherlands, April 23-27, 2007}}
+    \verb{eprint}
+    \verb physics/0703039
+    \endverb
+    \field{pages}{040}
+    \field{title}{{TMVA - Toolkit for Multivariate Data Analysis}}
+    \field{volume}{ACAT}
+    \field{journaltitle}{PoS}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{PHYSICS}
+    \field{year}{2007}
+  \endentry
+
+  \entry{LineFit}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={AMANDA},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{, Track reconstruction, Neutrino telescope, Neutrino astrophysics}
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nima.2004.01.065
+    \endverb
+    \field{issn}{0168-9002}
+    \field{number}{1}
+    \field{pages}{169 \bibrangedash  194}
+    \field{title}{Muon track reconstruction and data selection techniques in
+  AMANDA}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0168900204001871
+    \endverb
+    \field{volume}{524}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Thesis-Pandel}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PD}{%
+         family={Pandel},
+         familyi={P\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PD1}
+    \strng{fullhash}{PD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Bestimmung von Wasser- und Detektorparametern und
+  Rekonstruktion von Myonen bis 100 TeV mit dem Baikal Neutrinoteleskop NT-72}}
+    \verb{url}
+    \verb ftp://ftp.desy.de/pub/preprints/desy/thesis/desy-thesis-01-023.ps.gz
+    \endverb
+    \list{institution}{1}{%
+      {Humboldt-Universitat}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Pandel_SPE}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={AMANDA},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{AMANDA, Track reconstruction, Neutrino telescope, Neutrino
+  astrophysics}
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2004.01.065
+    \endverb
+    \verb{eprint}
+    \verb astro-ph/0407044
+    \endverb
+    \field{pages}{169\bibrangedash 194}
+    \field{title}{{Muon track reconstruction and data selection techniques in
+  AMANDA}}
+    \field{volume}{524}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{month}{05}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Simplex}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NJA}{%
+         family={Nelder},
+         familyi={N\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mead},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NJAMR1}
+    \strng{fullhash}{NJAMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1093/comjnl/7.4.308
+    \endverb
+    \verb{eprint}
+    \verb /oup/backfile/content_public/journal/comjnl/7/4/10.1093/comjnl/7.4.30
+    \verb 8/2/7-4-308.pdf
+    \endverb
+    \field{number}{4}
+    \field{pages}{308\bibrangedash 313}
+    \field{title}{A Simplex Method for Function Minimization}
+    \verb{url}
+    \verb http://dx.doi.org/10.1093/comjnl/7.4.308
+    \endverb
+    \field{volume}{7}
+    \field{journaltitle}{The Computer Journal}
+    \field{year}{1965}
+  \endentry
+
+  \entry{IceCube-ICRC2013}{article}{}
+    \name{author}{11}{}{%
+      {{hash=I}{%
+         family={{IceCube Collaboration}},
+         familyi={I\bibinitperiod},
+      }}%
+      {{hash=AMG}{%
+         family={{Aartsen}},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={{Abbasi}},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={{Abdou}},
+         familyi={A\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ackermann}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={{Adams}},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AJA}{%
+         family={{Aguilar}},
+         familyi={A\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ahlers}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={{Altmann}},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={{Auffenberg}},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics - High Energy Astrophysical Phenomena}
+    \strng{namehash}{I+1}
+    \strng{fullhash}{IAMGARAYAMAJAJAAMADAJae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1309.7003
+    \endverb
+    \field{title}{{The IceCube Neutrino Observatory Part II: Atmospheric and
+  Diffuse UHE Neutrino Searches of All Flavors}}
+    \field{journaltitle}{ArXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.HE}
+    \field{month}{09}
+    \field{year}{2013}
+  \endentry
+
+  \entry{IceCube-IC22-Astro}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={{Kiryluk}},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=f}{%
+         family={{for the IceCube Collaboration}},
+         familyi={f\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics - High Energy Astrophysical Phenomena, High Energy
+  Physics - Experiment}
+    \strng{namehash}{KJf1}
+    \strng{fullhash}{KJf1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 0909.0989
+    \endverb
+    \field{title}{{First search for extraterrestrial neutrino-induced cascades
+  with IceCube}}
+    \field{journaltitle}{ArXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.HE}
+    \field{month}{09}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Thesis-Dunkman}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=DM}{%
+         family={Dunkman},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DM1}
+    \strng{fullhash}{DM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Measurement of Atmospheric Muon Neutrino Disappearance with
+  IceCube-DeepCore}}
+    \verb{url}
+    \verb https://etda.libraries.psu.edu/catalog/27226/
+    \endverb
+    \list{institution}{1}{%
+      {The Pennsylvania State University}%
+    }
+    \field{type}{Ph.D.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{MultiNest}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FF}{%
+         family={Feroz},
+         familyi={F\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HMP}{%
+         family={Hobson},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bridges},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FF+1}
+    \strng{fullhash}{FFHMPBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2009.14548.x
+    \endverb
+    \verb{eprint}
+    \verb /oup/backfile/content_public/journal/mnras/398/4/10.1111/j.1365-2966.
+    \verb 2009.14548.x/2/mnras0398-1601.pdf
+    \endverb
+    \field{number}{4}
+    \field{pages}{1601\bibrangedash 1614}
+    \field{title}{MultiNest: an efficient and robust Bayesian inference tool
+  for cosmology and particle physics}
+    \verb{url}
+    \verb + http://dx.doi.org/10.1111/j.1365-2966.2009.14548.x
+    \endverb
+    \field{volume}{398}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2009}
+  \endentry
+
+  \entry{MultiNest-ImportanceSampling}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FF}{%
+         family={{Feroz}},
+         familyi={F\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HMP}{%
+         family={{Hobson}},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={{Cameron}},
+         familyi={C\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PAN}{%
+         family={{Pettitt}},
+         familyi={P\bibinitperiod},
+         given={A.\bibnamedelima N.},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysics - Instrumentation and Methods for Astrophysics, Physics
+  - Data Analysis, Statistics and Probability, Statistics - Computation}
+    \strng{namehash}{FF+2}
+    \strng{fullhash}{FFHMPCEPAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1306.2144
+    \endverb
+    \field{title}{{Importance Nested Sampling and the MultiNest Algorithm}}
+    \field{journaltitle}{ArXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.IM}
+    \field{month}{06}
+    \field{year}{2013}
+  \endentry
+
+  \entry{IceCube-Millipede}{article}{}
+    \name{author}{11}{}{%
+      {{hash=AMG}{%
+         family={{Aartsen}},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={{Abbasi}},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ackermann}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={{Adams}},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AJA}{%
+         family={{Aguilar}},
+         familyi={A\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={{Ahlers}},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={{Altmann}},
+         familyi={A\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={{Arguelles}},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={{Auffenberg}},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BX}{%
+         family={{Bai}},
+         familyi={B\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMG+1}
+    \strng{fullhash}{AMGARAMAJAJAAMADACAJBXae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/9/03/P03009
+    \endverb
+    \field{eid}{P03009}
+    \verb{eprint}
+    \verb 1311.4767
+    \endverb
+    \field{pages}{P03009}
+    \field{title}{{Energy reconstruction methods in the IceCube neutrino
+  telescope}}
+    \field{volume}{9}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{month}{03}
+    \field{year}{2014}
   \endentry
 
   \entry{wilks}{article}{}

@@ -416,6 +416,20 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+@ARTICLE{GRV98,
+   author = {{Gluck}, M. and {Reya}, E. and {Vogt}, A.},
+    title = "{Dynamical parton distributions revisited}",
+  journal = {European Physical Journal C},
+   eprint = {hep-ph/9806404},
+     year = 1998,
+    month = sep,
+   volume = 5,
+    pages = {461-470},
+      doi = {10.1007/s100529800978},
+   adsurl = {http://adsabs.harvard.edu/abs/1998EPJC....5..461G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
  @ARTICLE{Formaggio-Xsec,
    author = {{Formaggio}, J.~A. and {Zeller}, G.~P.},
     title = "{From eV to EeV: Neutrino cross sections across energy scales}",
@@ -892,6 +906,15 @@ author = {{Aartsen}, M.~G. and {Ackermann}, M. and {Adams}, J. and {Aguilar}, J.
 keywords = "PMT, Neutrino, Cosmic rays, Ice, Cherenkov"
 }
 
+@online{TA0003,
+author = {Hasegawa, Y.},
+title = {Analysis of Charge Response functions of the IceCube PMTs},
+year = {2007},
+url = {http://www.ppl.phys.chiba-u.jp/research/IceCube/pmt/SPE/CRAnalysis.html},
+organization = {Chiba University},
+}
+
+
 @manual{IceCube-PMT-Hammamatsu,
 author = {Hammamatsu Photonics},
 title = {PHOTOMULTIPLIER TUBE DATA SHEET R7081-02 for ICECUBE Experiment},
@@ -916,6 +939,38 @@ url = {http://icecube.wisc.edu/~kitamura/NK/PMT/031112%20R7081-02%20data%20sheet
   doi = {10.1103/PhysRev.122.637},
   url = {https://link.aps.org/doi/10.1103/PhysRev.122.637}
 }
+
+@article{Hoerandel-Polygonato,
+      author         = "Hoerandel, Joerg R.",
+      title          = "{On the knee in the energy spectrum of cosmic rays}",
+      journal        = "Astropart. Phys.",
+      volume         = "19",
+      year           = "2003",
+      pages          = "193-220",
+      doi            = "10.1016/S0927-6505(02)00198-6",
+      eprint         = "astro-ph/0210453",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0210453;%%"
+}
+
+@ARTICLE{Gaisser-H4a,
+   author = {{Gaisser}, T.~K. and {Stanev}, T. and {Tilav}, S.},
+    title = "{Cosmic ray energy spectrum from measurements of air showers}",
+  journal = {Frontiers of Physics},
+archivePrefix = "arXiv",
+   eprint = {1303.3565},
+ primaryClass = "astro-ph.HE",
+ keywords = {cosmic radiation, air showers},
+     year = 2013,
+    month = dec,
+   volume = 8,
+    pages = {748-758},
+      doi = {10.1007/s11467-013-0319-7},
+   adsurl = {http://adsabs.harvard.edu/abs/2013FrPhy...8..748G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 
 
 % -------------------------------------
@@ -1311,6 +1366,7 @@ archivePrefix = "arXiv",
 }
 
 
+
 % -------------------------------------
 % Theses
 % -------------------------------------
@@ -1333,6 +1389,24 @@ archivePrefix = "arXiv",
       note         = "Pending",
 }
 
+@thesis{Thesis-Martin,
+      author         = "Leuermann, M.",
+      title          = "{Testing the Neutrino Mass Ordering with Three Years of IceCube/DeepCore Data}",
+      school         = "URheinisch-Westfalische Technische Hochschule (RWTH)",
+      year           = "2018",
+      type         = "Ph.D.",
+      note         = "Pending",
+}
+
+@thesis{Thesis-Dunkman,
+      author         = "Dunkman, M.",
+      title          = "{Measurement of Atmospheric Muon Neutrino Disappearance with IceCube-DeepCore}",
+      school         = "The Pennsylvania State University",
+      year           = "2015",
+      type         = "Ph.D.",
+      url            = "https://etda.libraries.psu.edu/catalog/27226/",
+}
+
 @thesis{Thesis-Euler,
       author         = "Euler, S.",
       title          = "{Observations of Oscillations of Atmospheric Neutrinos with the IceCube Neutrino Observatory}",
@@ -1342,17 +1416,37 @@ archivePrefix = "arXiv",
       url            = "http://darwin.bth.rwth-aachen.de/opus3/volltexte/2014/5089/pdf/5089.pdf",
 }
 
+@thesis{Thesis-Schoenen,
+      author         = "Schoenen, S.",
+      title          = "{Discovery and characterization of a diffuse astrophysical muon neutrino flux with the iceCube neutrino observatory }",
+      school         = "Rheinisch-Westfalische Technische Hochschule (RWTH)",
+      year           = "2017",
+      type         = "Ph.D.",
+      url            = "http://publications.rwth-aachen.de/record/696221/",
+}
+
 @phdthesis{Thesis-Jakob,
-      author         = "van Santen, Jakob",
+      author         = "van Santen, J.",
       title          = "{Neutrino Interactions in IceCube above 1 TeV:
                         Constraints on Atmospheric Charmed-Meson Production and
                         Investigation of the Astrophysical Neutrino Flux with 2
                         Years of IceCube Data taken 2010--2012}",
       school         = "U. Wisconsin, Madison (main)",
-      year           = "2014-11-18",
+      year           = "2014",
       url            = "http://search.proquest.com/docview/1637727437/abstract/CE0FBEF172B24F9APQ/1",
       SLACcitation   = "%%CITATION = INSPIRE-1339582;%%"
 }
+
+
+@phdthesis{Thesis-Pandel,
+      author         = "Pandel, D.",
+      title          = "{Bestimmung von Wasser- und Detektorparametern und Rekonstruktion von Myonen bis 100 TeV mit dem Baikal Neutrinoteleskop NT-72}",
+      school         = "Humboldt-Universitat",
+      year           = "1996",
+      url            = "ftp://ftp.desy.de/pub/preprints/desy/thesis/desy-thesis-01-023.ps.gz",
+}
+
+
 
 
 % -------------------------------------
@@ -1393,6 +1487,23 @@ url = "http://www.sciencedirect.com/science/article/pii/0031920181900467",
 author = "Adam M. Dziewonski and Don L. Anderson"
 }
 
+@article{TMVA,
+      author         = "Hocker, Andreas and others",
+      title          = "{TMVA - Toolkit for Multivariate Data Analysis}",
+      booktitle      = "{Proceedings, 11th International Workshop on Advanced
+                        computing and analysis techniques in physics research
+                        (ACAT 2007): Amsterdam, Netherlands, April 23-27, 2007}",
+      journal        = "PoS",
+      volume         = "ACAT",
+      year           = "2007",
+      pages          = "040",
+      eprint         = "physics/0703039",
+      archivePrefix  = "arXiv",
+      primaryClass   = "PHYSICS",
+      reportNumber   = "CERN-OPEN-2007-007",
+      SLACcitation   = "%%CITATION = PHYSICS/0703039;%%"
+}
+
 @Misc{scipy,
   author =    {Eric Jones and Travis Oliphant and Pearu Peterson and others},
   title =     {{SciPy}: Open source scientific tools for {Python}},
@@ -1413,6 +1524,223 @@ keywords={data structures;high level languages;mathematics computing;numerical a
 doi={10.1109/MCSE.2011.37}, 
 ISSN={1521-9615}, 
 month={March},}
+
+@article{MultiNest,
+author = {Feroz, F. and Hobson, M. P. and Bridges, M.},
+title = {MultiNest: an efficient and robust Bayesian inference tool for cosmology and particle physics},
+journal = {Monthly Notices of the Royal Astronomical Society},
+volume = {398},
+number = {4},
+pages = {1601-1614},
+year = {2009},
+doi = {10.1111/j.1365-2966.2009.14548.x},
+URL = { + http://dx.doi.org/10.1111/j.1365-2966.2009.14548.x},
+eprint = {/oup/backfile/content_public/journal/mnras/398/4/10.1111/j.1365-2966.2009.14548.x/2/mnras0398-1601.pdf}
+}
+
+
+@ARTICLE{MultiNest-ImportanceSampling,
+   author = {{Feroz}, F. and {Hobson}, M.~P. and {Cameron}, E. and {Pettitt}, A.~N.
+	},
+    title = "{Importance Nested Sampling and the MultiNest Algorithm}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1306.2144},
+ primaryClass = "astro-ph.IM",
+ keywords = {Astrophysics - Instrumentation and Methods for Astrophysics, Physics - Data Analysis, Statistics and Probability, Statistics - Computation},
+     year = 2013,
+    month = jun,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1306.2144F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{GENIE,
+   author = {{Andreopoulos}, C. and {Barry}, C. and {Dytman}, S. and {Gallagher}, H. and 
+	{Golan}, T. and {Hatcher}, R. and {Perdue}, G. and {Yarba}, J.
+	},
+    title = "{The GENIE Neutrino Monte Carlo Generator: Physics and User Manual}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1510.05494},
+ primaryClass = "hep-ph",
+ keywords = {High Energy Physics - Phenomenology, High Energy Physics - Experiment},
+     year = 2015,
+    month = oct,
+   adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151005494A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{CORSIKA,
+      author         = "Heck, D. and Schatz, G. and Thouw, T. and Knapp, J. and
+                        Capdevielle, J. N.",
+      title          = "{CORSIKA: A Monte Carlo code to simulate extensive air
+                        showers}",
+      year           = "1998",
+      reportNumber   = "FZKA-6019",
+      SLACcitation   = "%%CITATION = FZKA-6019;%%"
+}
+
+@ARTICLE{SIBYLL-2.1,
+   author = {{Ahn}, E.-J. and {Engel}, R. and {Gaisser}, T.~K. and {Lipari}, P. and 
+	{Stanev}, T.},
+    title = "{Cosmic ray interaction event generator SIBYLL 2.1}",
+  journal = {Phys. Rev. D},
+archivePrefix = "arXiv",
+   eprint = {0906.4113},
+ primaryClass = "hep-ph",
+ keywords = {Inelastic scattering: many-particle final states, Total and inclusive cross sections, Fragmentation into hadrons},
+     year = 2009,
+    month = nov,
+   volume = 80,
+   number = 9,
+      eid = {094003},
+    pages = {094003},
+      doi = {10.1103/PhysRevD.80.094003},
+   adsurl = {http://adsabs.harvard.edu/abs/2009PhRvD..80i4003A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{NuGen,
+   author = {{Gazizov}, A. and {Kowalski}, M.},
+    title = "{ANIS: High energy neutrino generator for neutrino telescopes}",
+  journal = {Computer Physics Communications},
+   eprint = {astro-ph/0406439},
+ keywords = {Neutrino mass and mixing, Neutrino muon pion and other elementary particles, cosmic rays},
+     year = 2005,
+    month = nov,
+   volume = 172,
+    pages = {203-213},
+      doi = {10.1016/j.cpc.2005.03.113},
+   adsurl = {http://adsabs.harvard.edu/abs/2005CoPhC.172..203G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{GEANT4-1,
+      author         = "Agostinelli, S. and others",
+      title          = "{GEANT4: A Simulation toolkit}",
+      collaboration  = "GEANT4",
+      journal        = "Nucl. Instrum. Meth.",
+      volume         = "A506",
+      year           = "2003",
+      pages          = "250-303",
+      doi            = "10.1016/S0168-9002(03)01368-8",
+      reportNumber   = "SLAC-PUB-9350, FERMILAB-PUB-03-339",
+      SLACcitation   = "%%CITATION = NUIMA,A506,250;%%"
+}
+
+@article{GEANT4-2,
+      author         = "Asai, Makoto and Dotti, Andrea and Verderi, Marc and
+                        Wright, Dennis H.",
+      title          = "{Recent developments in Geant4}",
+      booktitle      = "{Proceedings, Joint International Conference on
+                        Supercomputing in Nuclear Applications + Monte Carlo (SNA
+                        + MC 2013): Paris, France, October 27-31, 2013}",
+      collaboration  = "Geant4",
+      journal        = "Annals Nucl. Energy",
+      volume         = "82",
+      year           = "2015",
+      pages          = "19-28",
+      doi            = "10.1016/j.anucene.2014.08.021",
+      SLACcitation   = "%%CITATION = ANEND,82,19;%%"
+}
+
+@article{PROPOSAL,
+      author         = "Koehne, J. H. and Frantzen, K. and Schmitz, M. and Fuchs,
+                        T. and Rhode, W. and Chirkin, D. and Becker Tjus, J.",
+      title          = "{PROPOSAL: A tool for propagation of charged leptons}",
+      journal        = "Comput. Phys. Commun.",
+      volume         = "184",
+      year           = "2013",
+      pages          = "2070-2090",
+      doi            = "10.1016/j.cpc.2013.04.001",
+      SLACcitation   = "%%CITATION = CPHCB,184,2070;%%"
+}
+
+@article{LineFit,
+title = "Muon track reconstruction and data selection techniques in AMANDA",
+journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+volume = "524",
+number = "1",
+pages = "169 - 194",
+year = "2004",
+issn = "0168-9002",
+doi = "https://doi.org/10.1016/j.nima.2004.01.065",
+url = "http://www.sciencedirect.com/science/article/pii/S0168900204001871",
+author = "AMANDA Collaboration",
+keywords = ", Track reconstruction, Neutrino telescope, Neutrino astrophysics"
+}
+
+@article{PPC,
+      author         = "Chirkin, Dmitry",
+      title          = "{Photon tracking with GPUs in IceCube}",
+      booktitle      = "{Proceedings, 5th Very Large Volume Neutrino Telescope
+                        Workshop (VLVnT 11): Erlangen, Germany, October 12-14,
+                        2011}",
+      collaboration  = "IceCube",
+      journal        = "Nucl. Instrum. Meth.",
+      volume         = "A725",
+      year           = "2013",
+      pages          = "141-143",
+      doi            = "10.1016/j.nima.2012.11.170",
+      SLACcitation   = "%%CITATION = NUIMA,A725,141;%%"
+}
+
+@article{OpenCL,
+ author = {Stone, John E. and Gohara, David and Shi, Guochun},
+ title = {OpenCL: A Parallel Programming Standard for Heterogeneous Computing Systems},
+ journal = {IEEE Des. Test},
+ issue_date = {May 2010},
+ volume = {12},
+ number = {3},
+ month = may,
+ year = {2010},
+ issn = {0740-7475},
+ pages = {66--73},
+ numpages = {8},
+ url = {http://dx.doi.org/10.1109/MCSE.2010.69},
+ doi = {10.1109/MCSE.2010.69},
+ acmid = {1803953},
+ publisher = {IEEE Computer Society Press},
+ address = {Los Alamitos, CA, USA},
+ }
+
+@ARTICLE{HitSpool,
+   author = {{IceCube Collaboration} and {Aartsen}, M.~G. and {Abbasi}, R. and 
+	{Abdou}, Y. and {Ackermann}, M. and {Adams}, J. and {Aguilar}, J.~A. and 
+	{Ahlers}, M. and {Altmann}, D. and {Auffenberg}, J. and et al.},
+    title = "{The IceCube Neutrino Observatory Part V: Neutrino Oscillations and Supernova Searches}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1309.7008},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena},
+     year = 2013,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1309.7008I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@MISC{iminuit-code,
+  author = {iminuit team},
+  title = {iminuit -- A Python interface to Minuit},
+  url{https://github.com/iminuit/iminuit},
+  note = {Accessed: 2018-03-05}
+}
+
+@ARTICLE{iminuit-paper,
+   author = {{James}, F. and {Roos}, M.},
+    title = "{Minuit -- a system for function minimization and analysis of the parameter errors and correlations}",
+  journal = {Computer Physics Communications},
+     year = 1975,
+    month = dec,
+   volume = 10,
+    pages = {343-367},
+      doi = {10.1016/0010-4655(75)90039-9},
+   adsurl = {http://adsabs.harvard.edu/abs/1975CoPhC..10..343J},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 
 % -------------------------------------
 % Math/Stats 
@@ -1444,6 +1772,35 @@ year = "1938"
     pages = {3873-3889},
       doi = {10.1103/PhysRevD.57.3873},
    adsurl = {http://adsabs.harvard.edu/abs/1998PhRvD..57.3873F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Simplex,
+author = {Nelder, J. A. and Mead, R.},
+title = {A Simplex Method for Function Minimization},
+journal = {The Computer Journal},
+volume = {7},
+number = {4},
+pages = {308-313},
+year = {1965},
+doi = {10.1093/comjnl/7.4.308},
+URL = {http://dx.doi.org/10.1093/comjnl/7.4.308},
+eprint = {/oup/backfile/content_public/journal/comjnl/7/4/10.1093/comjnl/7.4.308/2/7-4-308.pdf}
+}
+
+
+@ARTICLE{Pandel_SPE,
+   author = "AMANDA Collaboration",
+    title = "{Muon track reconstruction and data selection techniques in AMANDA}",
+  journal = {Nuclear Instruments and Methods in Physics Research A},
+   eprint = {astro-ph/0407044},
+ keywords = {AMANDA, Track reconstruction, Neutrino telescope, Neutrino astrophysics},
+     year = 2004,
+    month = may,
+   volume = 524,
+    pages = {169-194},
+      doi = {10.1016/j.nima.2004.01.065},
+   adsurl = {http://adsabs.harvard.edu/abs/2004NIMPA.524..169A},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
@@ -1704,6 +2061,55 @@ archivePrefix = "arXiv",
      year = 2017,
     month = jul,
    adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170707081I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{IceCube-ICRC2013,
+   author = {{IceCube Collaboration} and {Aartsen}, M.~G. and {Abbasi}, R. and 
+	{Abdou}, Y. and {Ackermann}, M. and {Adams}, J. and {Aguilar}, J.~A. and 
+	{Ahlers}, M. and {Altmann}, D. and {Auffenberg}, J. and et al.},
+    title = "{The IceCube Neutrino Observatory Part II: Atmospheric and Diffuse UHE Neutrino Searches of All Flavors}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1309.7003},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena},
+     year = 2013,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1309.7003I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{IceCube-IC22-Astro,
+   author = {{Kiryluk}, J. and {for the IceCube Collaboration}},
+    title = "{First search for extraterrestrial neutrino-induced cascades with IceCube}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {0909.0989},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena, High Energy Physics - Experiment},
+     year = 2009,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2009arXiv0909.0989K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{IceCube-Millipede,
+   author = {{Aartsen}, M.~G. and {Abbasi}, R. and {Ackermann}, M. and {Adams}, J. and 
+	{Aguilar}, J.~A. and {Ahlers}, M. and {Altmann}, D. and {Arguelles}, C. and 
+	{Auffenberg}, J. and {Bai}, X. and et al.},
+    title = "{Energy reconstruction methods in the IceCube neutrino telescope}",
+  journal = {Journal of Instrumentation},
+archivePrefix = "arXiv",
+   eprint = {1311.4767},
+ primaryClass = "physics.ins-det",
+     year = 2014,
+    month = mar,
+   volume = 9,
+      eid = {P03009},
+    pages = {P03009},
+      doi = {10.1088/1748-0221/9/03/P03009},
+   adsurl = {http://adsabs.harvard.edu/abs/2014JInst...9P3009A},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 

@@ -1,6 +1,8 @@
-\documentclass[10pt,a4paper,titlepage,twoside]{scrreprt}
+\documentclass[11pt,a4paper,titlepage,twoside]{scrreprt}
 \usepackage{typearea}
-\usepackage[bibfile=./mjlarson_thesis,bibstyle=numeric,wrapfooter=True]{cleanthesis}
+\usepackage[bibfile=./mjlarson_thesis,bibstyle=numeric]{cleanthesis}
+\usepackage[english, science, titlepage]{ku-frontpage}
+
 \usepackage{amssymb,amsmath}
 \usepackage{caption}
 \usepackage{graphicx}
@@ -8,8 +10,11 @@
 \usepackage{fontspec}
 \usepackage{multirow,lscape,booktabs}
 \usepackage{tikz-feynman, physics}
+\usepackage{geometry}
+\usepackage{amsfonts}
 
 \newgeometry{top=1in}
+\linespread{1.0}
 
 \usepackage{xargs}                      % Use more than one optional parameter in a new commands
 \usepackage[dvipsnames]{xcolor}  % Coloured text etc.
@@ -19,10 +24,13 @@
 \newcommandx{\needfig}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 
-\renewcommand{\topfraction}{0.8}
-\renewcommand{\bottomfraction}{0.8}
-\renewcommand{\textfraction}{0.3}
-\renewcommand{\floatpagefraction}{0.7}
+\usepackage[T1]{fontenc}
+%\renewcommand{\topfraction}{0.8}
+%\renewcommand{\bottomfraction}{0.8}
+%\renewcommand{\textfraction}{0.3}
+%\renewcommand{\floatpagefraction}{0.7}
+
+\setcounter{tocdepth}{1} % Show sections
 
 \includeonly{
 ./chapters/introduction,
@@ -33,11 +41,17 @@
 ./chapters/muonsim,
 ./chapters/greco,
 ./chapters/analysis,
-%./chapters/pingu
 }
 
-\title{A Search for Tau Neutrino Appearance with IceCube-DeepCore}
+
+\assignment{PhD thesis}
 \author{Michael. J. Larson}
+
+\title{\parbox{\textwidth}{A Search for Tau Neutrino Appearance \\ with IceCube-DeepCore}}
+\subtitle{}
+\advisor{Advisor: Dr. D. Jason Koskinen}
+%\frontpageimage{example.png}
+\date{Handed in: \today}
 
 \begin{document}
 
@@ -81,9 +95,9 @@
 \label{chapter:analysis}
 \include{./chapters/analysis}
 
-\graphicspath{{chapters/pingu/images/}}
-\label{chapter:pingu}
-\include{./chapters/pingu}
+%\graphicspath{{chapters/pingu/images/}}
+%\label{chapter:pingu}
+%\include{./chapters/pingu}
 
 \printbibliography
 

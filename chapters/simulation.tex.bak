@@ -1,4 +1,10 @@
 \chapter{Simulation of the IceCube-DeepCore Detector}
+In order to model both signal and background, \emph{Monte Carlo simulations} of the detector are necessary. 
+In the search for tau neutrinos, this is particularly important due to the low rates and high backgrounds expected, requiring multiple types of simulation for both signal and background.
+
+Simulation in IceCube is broken into three broad stages, each of which will be discussed in turn.
+The generators, discussed in Section~\ref{se
+
 \label{section:generators}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/generators.tex}
 

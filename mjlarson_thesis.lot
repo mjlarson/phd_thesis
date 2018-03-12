@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.1}{\ignorespaces The branching ratios for the decay of tau leptons. Two-thirds of the time, the tau lepton decays hadronically.\relax }}{11}{table.caption.16}
+\contentsline {table}{\numberline {1.1}{\ignorespaces The branching ratios for the decay of tau leptons. Two-thirds of the time, the tau lepton decays hadronically.\relax }}{23}{table.caption.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -16,30 +16,44 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces The simulation requirements needed for the production of the standard CORSIKA sets in IceCube. The number of events reaching final level of the appearance search (Section~\ref {sec:level7}) are shown. CORSIKA simulations are computationally intensive, but inadequate for low energy analyses in IceCube.\relax }}{71}{table.caption.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces The FiniteReco containment cut for each of the channels. The cut itself is shown with the black line.\relax }}{65}{table.caption.108}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The simulation requirements needed for the production of MuonGun simulation for DeepCore. The MuonGun simulation is nearly two orders of magnitude more efficient at producing statistics at final level in the appearance analysis.\relax }}{72}{table.caption.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.2}{\ignorespaces The PegLeg L7 containment cut for each of the channels. The cut itself is shown with the black line. Note that the atmospheric muons are here represented by the higher-statistics MuonGun sample.\relax }}{67}{table.caption.114}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.3}{\ignorespaces The final two cuts applied to the sample prior to the analysis binning. All events are included here, although each cut is only applied to events with fewer than 14 hit DOMs. Note that the total simulation rate is scaled downward by 20\% to approximately match the rate of the data events.\relax }}{68}{table.caption.115}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.4}{\ignorespaces The event rates at each cut level in the GRECO selection. Note that the MuonGun events are included in this table, but do not contribute to the total Monte Carlo expectation to prevent double-counting of muon events from the CORSIKA sample. All rates are given in millihertz.\relax }}{68}{table.caption.117}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.5}{\ignorespaces The true neutrino energy and zenith of the GRECO sample at final level. The sample shows an asymmetry between upgoing ($\mathtt {cos(\theta )<0}$) and downgoing ($\mathtt {cos(\theta )>0}$) event rates in the neutrinos due to selection bias. The sample has a long tail of events at both high and low energies. Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt {\nu _\tau }$ events are observed in the very upgoing region around $\mathtt {10^1.4=25}$ GeV. \relax }}{69}{table.caption.119}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.6}{\ignorespaces The reconstructed energy and zenith of the GRECO sample at final level. Events in data reconstruct to both relatively high energies ($\mathtt {E_{R}>100}$ GeV) and very low energies ($\mathtt {E_{R}\approx 2}$ GeV). Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt {\nu _\tau }$ events are observed in the very upgoing region around $\mathtt {10^1.4=25}$ GeV. \relax }}{69}{table.caption.121}
+\contentsline {table}{\numberline {6.3}{\ignorespaces The simulation requirements and number of events for each muon generation scheme. The use of the KDE prescale improves the simulation efficiency by a factor of 50x compared to the DeepCore MuonGun simulation method described in Section~\ref {sec:muongun_deepcore}.\relax }}{75}{table.caption.104}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces The rates expected for each of the neutrino types in the Super-Kamiokande search for $\nu _\tau $ appearance. Reproduced from.\relax }}{73}{table.caption.147}
+\contentsline {table}{\numberline {7.1}{\ignorespaces The event rates after the Level 3 cuts in GRECO. The total simulated rate is calculated using CORSIKA events and ignoring MuonGun. The data rate is estimated from a burn sample of 10 runs at Level 3. Rates are given in mHz.\relax }}{81}{table.caption.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.2}{\ignorespaces Total $\chi ^2$ impact of each of the oscillation parameters. The atmospheric mixing parameters, $\Delta m^2_{31}$ and $\theta _{23}$ are the most important oscillation parameters for the GRECO selection. Of the remaining parameters, the CP-violating phase is the next most imporant.\relax }}{74}{table.caption.154}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The event rates after the Level 4 cuts in GRECO. The total simulated rate is calculated using CORSIKA events and ignoring MuonGun. The data rate is estimated from a burn sample of 30 runs at Level 4. Rates are given in mHz.\relax }}{86}{table.caption.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.3}{\ignorespaces Systematics sets used for the characterization of the signal neutrino events. While all listed sets have up to 30 years of effective livetime available, not all events are processed in each set.\relax }}{75}{table.caption.161}
+\contentsline {table}{\numberline {7.3}{\ignorespaces The event rates after the Level 5 cuts in GRECO. The total simulated rate is calculated using CORSIKA events and ignoring MuonGun. The data rate is estimated from a burn sample of 30 runs at Level 5. Rates are given in mHz.\relax }}{92}{table.caption.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.4}{\ignorespaces Systematics sets used for the characterization of the atmospheric muon background.\relax }}{76}{table.caption.162}
+\contentsline {table}{\numberline {7.4}{\ignorespaces The FiniteReco containment cut applied at GRECO Level 6}}{98}{table.caption.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.5}{\ignorespaces Priors and allowed ranges for each systematic included in this analysis.\relax }}{82}{table.caption.185}
+\contentsline {table}{\numberline {7.5}{\ignorespaces The event rates after the Level 6 cuts in GRECO. The total simulated rate is calculated using CORSIKA events and ignoring MuonGun. The data rate is estimated from a burn sample of 100 runs at Level 6. Rates are given in mHz.\relax }}{99}{table.caption.152}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.6}{\ignorespaces The best-fit systematics values for each nuisance parameter in the fit. The corresponding parameters for $N_\tau =1$ (ie, the disappearance fit) are included for reference. The CC-only and NC+CC fits are highly correlated, as expected. \relax }}{99}{table.caption.245}
+\contentsline {table}{\numberline {7.6}{\ignorespaces The Pegleg containment cuts applied at Level 7}}{101}{table.caption.156}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.7}{\ignorespaces The 2D cuts applied to the time and energy variables at Level 7}}{102}{table.caption.158}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.8}{\ignorespaces The event rates at each cut level in the GRECO selection. Note that the MuonGun events are included in this table, but do not contribute to the total Monte Carlo expectation to prevent double-counting of muon events from the CORSIKA sample. All rates are given in millihertz.\relax }}{109}{table.caption.190}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.9}{\ignorespaces The true neutrino energy and zenith of the GRECO sample at final level. The sample shows an asymmetry between upgoing ($\mathtt {cos(\theta )<0}$) and downgoing ($\mathtt {cos(\theta )>0}$) event rates in the neutrinos due to selection bias. The sample has a long tail of events at both high and low energies. Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt {\nu _\tau }$ events are observed in the very upgoing region around $\mathtt {10^1.4=25}$ GeV. \relax }}{109}{table.caption.192}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.10}{\ignorespaces The reconstructed energy and zenith of the GRECO sample at final level. Events in data reconstruct to both relatively high energies ($\mathtt {E_{R}>100}$ GeV) and very low energies ($\mathtt {E_{R}\approx 2}$ GeV). Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt {\nu _\tau }$ events are observed in the very upgoing region around $\mathtt {10^1.4=25}$ GeV. \relax }}{110}{table.caption.194}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.1}{\ignorespaces The rates expected for each of the neutrino types in the Super-Kamiokande search for $\nu _\tau $ appearance. Reproduced from.\relax }}{114}{table.caption.221}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.2}{\ignorespaces Total $\chi ^2$ impact of each of the oscillation parameters. The atmospheric mixing parameters, $\Delta m^2_{31}$ and $\theta _{23}$ are the most important oscillation parameters for the GRECO selection. Of the remaining parameters, the CP-violating phase is the next most imporant.\relax }}{115}{table.caption.228}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.3}{\ignorespaces Systematics sets used for the characterization of the signal neutrino events. While all listed sets have up to 30 years of effective livetime available, not all events are processed in each set.\relax }}{116}{table.caption.235}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.4}{\ignorespaces Systematics sets used for the characterization of the atmospheric muon background.\relax }}{117}{table.caption.236}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.5}{\ignorespaces Priors and allowed ranges for each systematic included in this analysis.\relax }}{123}{table.caption.259}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.6}{\ignorespaces The best-fit systematics values for each nuisance parameter in the fit. The corresponding parameters for $N_\tau =1$ (ie, the disappearance fit) are included for reference. The CC-only and NC+CC fits are highly correlated, as expected. \relax }}{134}{table.caption.293}

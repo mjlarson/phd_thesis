@@ -1,0 +1,59 @@
+#!/usr/bin/python
+import os, sys, numpy, scipy, matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot
+
+# The TA0003 parameters
+
+
+def f(q, 
+      exp_width=0.5057, 
+      gaus_mean=1, 
+      gaus_width=0.2916, 
+      amp_ratio=1.624367847034316,
+      exp_scale=1.):
+    
+    return exp_scale*numpy.exp(-q/exp_width) + amp_ratio/(numpy.sqrt(2*numpy.pi)*gaus_width) * numpy.exp(-(q-gaus_mean)**2/(2*gaus_width**2))
+
+
+q = numpy.linspace(0, 2, 101)
+full = f(q)
+ex = f(q, amp_ratio=0)
+gaus = f(q, exp_scale=0)
+
+tot = numpy.sum(full) 
+
+full *= 100/tot
+ex *= 100/tot
+gaus *= 100/tot
+
+pyplot.figure(figsize=(8,5))
+pyplot.plot(q, full, 
+            linewidth=3,
+            color='k',
+            label = 'Full SPE Model'
+            )
+pyplot.plot(q, ex, 
+            linestyle='--',
+            linewidth=3,
+            color='b',
+            alpha=0.7,
+            label = 'Exponential Part'
+            )
+pyplot.plot(q, gaus, 
+            linestyle='-.',
+            linewidth=3,
+            color='r',
+            alpha=0.7,
+            label = 'Gaussian Part'
+            )
+
+pyplot.xlim(0, 2)
+pyplot.ylim(ymin=0)
+#pyplot.yticks([])
+pyplot.grid(alpha=0.2)
+pyplot.legend()
+pyplot.xlabel("Charge (PE)")
+pyplot.ylabel("Response (AU)")
+pyplot.tight_layout()
+pyplot.savefig('ta0003.pdf')

@@ -96,7 +96,7 @@ The atmospheric appearance probability, $\nu_\mu \rightarrow \nu_\mu$, is given 
 \begin{equation}
 \begin{aligned}
 P\left(\nu_\mu\rightarrow\nu_\tau\right) {}= &  \left| \sum_i U^*_{\mu i} U_{\tau i} e^{-i m_i^2 L/2E} \right|^2 \\
- 						&{}= \left( cos^2 \theta_{13} sin^2 2 \theta_{23} + sin^4 \theta_{23} sin^2 2 \theta_{13} \right) sin^2 \left( \frac{\Delta m^2_{31} L}{4 E} \right) \\
+ 						&{}= \left( cos^2 \theta_{13} sin^2 2 \theta_{23} \right) sin^2 \left( \frac{\Delta m^2_{31} L}{4 E} \right) \\
 						&{}\approx sin^2 2 \theta_{23} sin^2 \left(\frac{\Delta m^2_{31} L}{4 E} \right).
 \end{aligned}
 \label{eqn:tau_appearance_probability}

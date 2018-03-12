@@ -1,0 +1,81 @@
+#/usr/bin/python
+import numpy, matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot
+
+# actual cuts
+
+def t1(d): return (-5*d + 500)/1000. # > 
+def t2(d): return (d/0.3 + 150)/1000. # <
+def t3(d): return (d/0.3 - 1850)/1000. # > 
+
+
+pyplot.figure(figsize = (8, 4))
+
+d = numpy.linspace(42, 750, 51)
+pyplot.plot(d, t1(d), color='k', alpha=0.7)
+
+d = numpy.linspace(0, 750, 51)
+pyplot.plot(d, t2(d), color='k', alpha=0.7)
+d = numpy.linspace(282, 750, 51)
+pyplot.plot(d, t3(d), color='k', alpha=0.7)
+pyplot.axvline(750, color='k', alpha=0.7)
+
+d = numpy.linspace(282, 750, 51) 
+pyplot.fill_between(d, 
+                    t3(d), t2(d),
+                    color = '#B03A2E',
+                    )
+
+d = numpy.linspace(42, 282, 51) 
+pyplot.fill_between(d, 
+                    t1(d), t2(d),
+                    color = '#B03A2E',
+                    )
+
+pyplot.text(400, 0.5,
+            'Causal Veto Hits',
+            horizontalalignment='center',
+            verticalalignment='center',
+            fontsize = 16,
+            rotation=20)
+
+pyplot.text(180, 1.500,            
+            'Unphysically \nEarly Hits',
+            horizontalalignment='center',
+            verticalalignment='center',
+           fontsize = 16,
+            )
+
+pyplot.text(180, -1.300,
+            'Causal \nOutgoing Hits',
+            horizontalalignment='center',
+            verticalalignment='center',
+           fontsize = 16,
+            )
+
+pyplot.text(580, -1.300,
+            'Non-Causal',
+            horizontalalignment='center',
+            verticalalignment='center',
+           fontsize = 16,
+            )
+
+pyplot.text(900, 0,
+            'Noise\nDominated',
+            horizontalalignment='center',
+            verticalalignment='center',
+           fontsize = 16,
+            )
+
+pyplot.xlim(0, 1000)
+pyplot.ylim(-2.5, 2.5)
+pyplot.grid(alpha=0.2)
+pyplot.ylabel(r'$t_{trig} - t_{hit}$ ($\mu$s)', fontsize=14, )
+pyplot.xlabel(r'$\left| \vec{r_i} - \vec{r_0} \right|$ (m)', fontsize=14,)
+pyplot.tight_layout()
+pyplot.savefig('vich.pdf')
+
+
+
+

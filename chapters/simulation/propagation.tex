@@ -1,9 +1,9 @@
 \section{Propagation of the Particles and Light}
+After generation, IceCube simulated events require two types of \emph{propagation}.
+The first, the propagation of charged leptons, produces the energy losses in the detector due to continuous and stochastic emissions.
+These energy losses are then used to produce photons that may be propagated through the detector using models of the Antarctic glacier.
+
 \label{sec:propagation}
-\subsection{Modeling with GEANT4}
-\label{subsec:geant}
-I don't know shit about geant4.
-Something about how great and wonderous and slow it is at doing particle interactions at low energy.
 
 \subsection{Lepton Propagation with PROPOSAL}
 \label{subsec:proposal}
@@ -15,58 +15,48 @@ Something about how great and wonderous and slow it is at doing particle interac
 \label{fig:discrete_emissions}
 \end{figure}
 
-At higher energies, events may be simulated following a parametrization of the energy losses instead of direct simulation of the processes and particles themselves.
-This parametrization, known as \emph{PROPOSAL}, contains tools to simulate the propagation of leptons and hadrons with ionization, electron pair-production, bremsstrahlung, photonuclear interactions, and decay processes.
-Each of these is done with a parametrization of the associated energy deposition for a given true particle energy as shown in Figure~\ref{fig:discrete_emissions}.
-PROPOSAL may be configured with a minimum energy for the stochastic losses, with all losses below this threshold energy being simulated as continuous, rather than stochastic, losses.
+The propagation of leptons in IceCube is performed using \emph{PROPOSAL}, a software module which contains tools to simulate the propagation of leptons and hadrons with ionization, electron pair-production, bremsstrahlung, photonuclear interactions, and decay processes \cite{PROPOSAL}.
+The Cherenkov light output from daughter particles in each case is handled by a parametrization of the associated energy deposition for a given true particle energy as shown in Figure~\ref{fig:discrete_emissions}.
 
-Each of the PROPOSAL parametrizations has its own associated uncertainty ranging between 2\% and 10\%.
-For some purposes, these uncertainties are somwhat negligible and result in a linear shifting of the final energy of the events at the detector.
-This could be accounted for using reweighting techniques, but can generally be handled by a loose normalization uncertainty.
-For particles with energies below approximately 10 TeV, the additional complication due to the increasingly important ionization losses make the calculation of uncertainties due to propagation non-trivial.
-
+PROPOSAL propagates the charged particles through the detector, producing a series of energy emissions associated with each propagated particle.
+The omdule takes into account the position of the particle and uses separate cross sections for glacial ice and the underlying bedrock 300 m below IceCube.
 
 \subsection{CLSim for Photon Propagation}
 \label{subsec:clsim}
-Once the energy deposition at each position is calculated with GEANT4 or PROPOSAL, the resulting photons must be propagated. 
+Once the energy deposition at each position is calculated, the resulting photons must be produced and propagated. 
 There exist two modules which can handle this: Photon Propagation Code \emph{PPC} and OpenCL Simulation Code \emph{CLSim}. 
 The differences are largely of implementation details and both have been verified to give identical results.
-We will therefore only discuss the latter, CLSim, for the purposes of this document.
+Only the latter, CLSim, will be discussed here.
 
-CLSim is a code designed to handle the photon propagation in parallelized calculations using an OpenCL device, typically a GPU.
-The code takes the energy depositions and converts them to photon yields via parametrizations and assumptions about the resulting wavelength spectra of the depositions.
+CLSim is a code designed to propagate emitted photons using ray tracing algorithms \cite{PPC}.
+The independence of the individual photons is leveraged to perform the propagation of all photons in parallelized calculations using the OpenCL programming language \cite{OpenCL}.
+Photons are then propagated through the ice with the current best-fit knowledge about the scattering and absorption properties, continuing until either absorbed or until they reach a DOM.
+Photons which reach DOMs are stored.
 
-These photons are then propagated through the ice with the current best-fit knowledge about the scattering and absorption properties. 
-Photons continue to scatter until either absorbed or until they reach the face of a PMT in the ice.
+The propagation of individual photons is efficient at low energies, where the scattering of individual photons is important.
+At energies above a few hundred GeV, the light yield is large enough that the propagation of individual photons is both excessively costly as well as unnecessary.
+In those cases, a feature known as \emph{oversizing} is used by setting a \emph{oversize factor}, $N_{OS}$.
+The oversize factor, often set to 5 for IceCube simulations above 1 TeV, allows for the production of "weighted photons" representing photon bundles with size proportional to $N^2_{OS}$, significantly reducing the computational power necessary for large numbers of photons.
+In order to compensate for the bundling of photons, the effective radius of the DOM is also increased by $N_{OS}$.
 
-At high energies, the light yield is large enough that the propagation of individual photons is both excessively costly as well as unnecessary.
-In those cases, a feature known as \emph{oversizing} is applied using an oversizing factor typically set to 5.
-This allows for the production of "weighted photons", which effectively represent bundles of photons with size proportional the square of the oversizing factor.
-The DOM radius is then increased by the oversizing factor in order to increase the light collection in simulation.
-With fewer photons to propagate, the simulation proceeds more quickly. 
-The underlying assumptions, that the photon flux is roughly proportional to area and that the flux is high enough that bundles of photons will have similar properties to single photons, is a convenience at high energy when single events may have many photons.
-This breaks down at low energies, where the photon flux is comparably low and scattering or loss of individual photons matters.
+Oversizing is efficient for the simulation of high energy events with large numbers of photon.
+This breaks down at GeV energies, where the photon flux from an event is low and scattering or absorption of individual photons matters.
 Because of the complications associated with oversizing at low energies, most simulations of DeepCore events are done with the oversizing features disabled.
 
 \subsection{Angular Acceptance and Hole Ice}
 \label{subsec:holeice_sim}
-Once the photons have been propagated to the face of the PMT, an effective angular acceptance is applied.
-This acceptance, calculated from a combination of lab and in-ice measurements, represents the PMT efficiency as a function of the arrival direction.
-As expected, the PMT is parametrized to have a negligible efficiency for photons arriving in the downward direction and high efficiency for photons traveling in the upward direction.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{angular_acceptance.png} 
+\caption{Examples of the angular acceptance models used by IceCube. The relative sensitivity as a function of arrival direction is shown with cos(eta)=-1 indicating the back of the PMT and cos(eta)=1 the face. The variation of the acceptance model used for this search is shown using by varying two parameters in the model. The 'p' parameter primarily controls the acceptance at the side of the DOM while the 'p2' parameter controls the acceptance from the forward region. A second model, H2, is also shown.}
+\label{fig:angular_acceptance}
+\end{figure}
+
+When photons reach the surface of a DOM, the \emph{angular acceptance} is applied in order to model the hole ice.
+This acceptance, calculated from a combination of lab and in-situ measurements, represents the PMT efficiency as a function of the photon arrival direction.
+The acceptance has a negligible efficiency for photons arriving from the back of the PMT and high efficiency for photons reaching the face of the PMT as shown in Figure~\ref{fig:angular_acceptance}.
 All other directions follow a curve between these two points.
-The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is thought to be affected by the hole ice (see Section~\ref{subsec:hole_ice}). 
+The angular acceptance model used in this thesis uses an empirical form fit to flasher data with two free parameters, as shown in Figure~\ref{fig:angular_acceptance}.
+The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is most affected by the bubble column (see Section~\ref{sec:hole_ice}). 
 
-There exist three models of the hole ice, two of which utilize the angular acceptance parametrization.
-The first, known as \emph{H2} gives a model with a scattering length of 50 cm in the bubble column. 
-The 1$\sigma$ range, represented by the H1 and H3 models, model a bubble column with scattering lengths of 30 cm and 100 cm respectively.
-
-The second, known by the name of the author, \emph{Dima}, is a fit that occurred more recently while simultaneously fitting properties of the ice.
-This model has been extended with an additional parameter, \emph{p2}, which gives a modification of the most forward region of the PMT.
-This region is believed to have the most uncertainty, although further studies are ongoing to more directly characterize the most upgoing region.
-
-The last, which exists as part of an updated model of the scattering and absorption in the ice, is labeled \emph{SpiceHD} after the name of the new ice model. 
-This model differs from the previous two in that the hole and bubble column are directly simulated in the ice with no effective angular acceptance curve necessary.
-In this model, the PMT will have 100\% efficiency for any photon reaching the face of the PMT and 0\% efficiency for all photons reaching the back of the PMT.
-This results in a potentially more accurate simulation at the cost of additional processing time and less ease of use for producing systematics sets.
-
-Once the photons have been propagated and the wavelength and angular sensitivity has been applied, the simulation results in a series of \emph{I3MCPE} objects for each DOM. Each I3MCPE represents a single photoelectron worth of charge ejected at the photocathode of the associated PMT. 

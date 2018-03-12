@@ -1,7 +1,7 @@
 \chapter{The IceCube Detector}
 The low cross section of neutrinos is a challenge for experimentalists.
 There exist two avenues for the meausrement of neutrinos.
-The precise measurements of individual events, used most notably in the OPERA \cite{Description-OPERA} and DONUT \cite{Description-DONUT} to identify individual events, gives unique constraining power with low backgrounds.
+The precise measurements of individual events, used most notably in the OPERA \cite{Description-OPERA} and DONUT \cite{DONUT-2001} to identify individual events, gives unique constraining power with low backgrounds.
 More common, however, is the use of large experimental volumes to collect high-statistics neutrino samples.
 For the study of atmospheric neutrinos, volumes on the order of a kiloton are required. 
 

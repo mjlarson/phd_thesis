@@ -6,11 +6,6 @@ The 8-bit codepage and sorting file: 88591lat.csf
 The top-level auxiliary file: mjlarson_thesis.aux
 The style file: biblatex.bst
 A level-1 auxilliary file: ./chapters/introduction.aux
-Case mismatch error between cite keys formaggio-xsec and Formaggio-Xsec
----line 143 of file mjlarson_thesis.aux
- : \citation{formaggio-xsec
- :                         }
-I'm skipping whatever remains of this command
 A level-1 auxilliary file: ./chapters/oscillations.aux
 A level-1 auxilliary file: ./chapters/detector.aux
 A level-1 auxilliary file: ./chapters/simulation.aux
@@ -35,24 +30,24 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 18344 items from 5000.
+Reallocated field_info (elt_size=8) to 21958 items from 5000.
 Database file #1: mjlarson_thesis-blx.bib
 Database file #2: ./mjlarson_thesis.bib
-Repeated entry---line 668 of file ./mjlarson_thesis.bib
+Repeated entry---line 682 of file ./mjlarson_thesis.bib
  : @article{Description-SNO
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--string name "d10" is undefined
---line 819 of file ./mjlarson_thesis.bib
-Repeated entry---line 1259 of file ./mjlarson_thesis.bib
+--line 833 of file ./mjlarson_thesis.bib
+Repeated entry---line 1314 of file ./mjlarson_thesis.bib
  : @article{SuperK-Steriles2015
  :                             ,
 I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1728 of file ./mjlarson_thesis.bib
+ :   url
+ :      {https://github.com/iminuit/iminuit},
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "pdg"
-Warning--I didn't find a database entry for "formaggion-xsec"
-Warning--I didn't find a database entry for "Description-DONUT"
-Warning--I didn't find a database entry for "heereman_thesis"
-Warning--I didn't find a database entry for "h4a"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Warning--you've exceeded 250, the entry-string-size, for entry Description-SNO
@@ -100,10 +95,10 @@ while executing--line 2658 of file biblatex.bst
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:                91 out of 750
- Fields:            12648 out of 18344
- Hash table:        29286 out of 30000
- Strings:            1920 out of 30000
- Free string pool:  51062 out of 65000
+ Cites:               121 out of 750
+ Fields:            16818 out of 21958
+ Hash table:        29269 out of 30000
+ Strings:            2135 out of 30000
+ Free string pool:  58009 out of 65000
  Wizard functions:   6256 out of 9000
 (There were 3 error messages)

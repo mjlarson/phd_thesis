@@ -1,12 +1,17 @@
 \chapter{Simulation of the IceCube-DeepCore Detector}
-\label{section:generators}
+In order to model both signal and background, \emph{Monte Carlo simulations} of the detector are necessary. 
+In the search for tau neutrinos, this is particularly important due to the low rates and high backgrounds expected, requiring multiple types of simulation for both signal and background.
+
+Simulation in IceCube is broken into three broad stages, each of which will be discussed in turn.
+The generators used in the appearance analysis are discussed in Section~\ref{sec:generators}.
+The propagation of the charged leptons and photons are then described in Section~\ref{sec:propagation}.
+Section~\ref{sec:electronics} describes the simulation of the detector, including the PMT electronics and the detector noise.
+
+\label{sec:generators}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/generators.tex}
 
-\label{section:propagation}
+\label{sec:propagation}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/propagation.tex}
 
-\label{section:electrionics}
+\label{sec:electronics}
 \input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/electronics.tex}
-
-\label{section:eventbuilding}
-\input{/Users/mjlarson/Documents/PhD_Thesis/chapters/simulation/eventbuilding.tex}

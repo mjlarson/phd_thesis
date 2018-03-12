@@ -7,7 +7,7 @@ The existing reconstructions up to this point use either analytic or simplified 
 The position of the first hit and the finite muon reconstruction from FiniteReco provide straightforward separation power between atmospheric muons and neutrino events, but are designed to be computationally inexpensive instead of precise.
 At final level, these estimates are refined using a novel reconstruction method developed specifically for low-energy and oscillation searches with DeepCore.
 
-The \textbf{PegLeg} reconstruction, developed by Martin Leuermann based, in part, on earlier work by Matt Dunkmann, is a low-energy reconstruction that uses a hybrid cascade+muon hypothesis.
+The \emph{PegLeg} reconstruction, developed by Martin Leuermann based, in part, on earlier work by Matt Dunkmann, is a low-energy reconstruction that uses a hybrid cascade+muon hypothesis.
 The reconstruction returns a total of eight parameters: the position ($x_R$, $y_R$, $z_R$), time ($t_{R}$), direction ($\theta$, $\phi$), total energy ($E_{R}$) and track length ($L_{R}$). 
 The algorithm requires both seeds for each of the particle parameters, a collection of hits over which to run, and a set of splines fit to an ice model.
 

@@ -1,0 +1,78 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage[english, science, small]{ku-frontpage}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+
+
+\setlength\arraycolsep{2 pt}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+
+\author{Mads Ohm Larsen}
+\title{Quasicrystal Simulation}
+%\subtitle{An investigation} % No subtitle
+\date{Handed in: \today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\centering
+\label{my-label}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+Parameter Type & Fit Parameter                     & \multicolumn{1}{l}{Analysis 1} & \multicolumn{1}{l}{Analysis 2} \\ \midrule
+Oscillations   & $\Delta m^2_{32}$                 & \checkmark                     & \checkmark                     \\
+               & $\sin^2 \left(\theta_{23}\right)$ & \checkmark                     & \checkmark                     \\
+               & $\sin^2 \left(\theta_{13}\right)$ & \checkmark                     &                                \\
+               & $N_\tau$                          & \checkmark                     & \checkmark                     \\ \midrule
+Cross-section  & Axial Mass (QE)                   & \checkmark                     & \checkmark                     \\
+               & Axial Mass (RES)                  & \checkmark                     & \checkmark                     \\
+               & $N_{NC}$/$N_{CC}$                 & \checkmark                     & \checkmark                     \\ \midrule
+Neutrino Flux  & $\nu_\mu$ Normalization           & \checkmark                     & \checkmark                     \\
+               & $\nu_e$/$\nu_\mu$ Ratio           & \checkmark                     & \checkmark                     \\
+               & $\gamma_\nu$                      & \checkmark                     & \checkmark                     \\
+               & $\nu$/$\bar{\nu}$ Ratio           & \checkmark                     & \checkmark                     \\
+               & Up/Horizontal Ratio               & \checkmark                     & \checkmark                     \\
+               & $f_{Coincident}$                  &                                & \checkmark                     \\ \midrule
+Muon Flux      & $\mu$ Norm                        & \checkmark                     & \checkmark                     \\
+               & $\gamma_{CR}$                     & -                              & \checkmark                     \\ \midrule
+Detector       & DOM Efficiency                    & \checkmark                     & \checkmark                     \\
+               & Hole Ice Model                    & \checkmark                     &                                \\
+               & Lateral Sensitivity               & \checkmark                     & \checkmark                     \\
+               & Forward Sensitivity               & \checkmark                     & \checkmark                     \\
+               & Absorption                        & \checkmark                     & \checkmark                     \\
+               & Scattering                        & \checkmark                     & \checkmark                     \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\pagebreak
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\centering
+\label{my-label}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Type                                         & Events & +1$\sigma$ \\ \midrule
+$\nu_e+\bar{\nu_e}$ CC                       & 13462  & 29         \\
+$\nu_\mu+\bar{\nu_\mu}$ CC                   & 35706  & 48         \\
+$\nu_e+\bar{\nu_e}+\nu_\mu+\bar{\nu_\mu}$ NC & 5559   & 21         \\
+$\nu_tau+\bar{\nu_\tau}$ CC                  & 1804   & 9          \\
+$\nu_\tau+\bar{\nu_\tau}$ NC                 & 759    & 5          \\
+Atmospheric $\mu$                            & 5023   & 167        \\
+Accidental Triggers                          & 93     & 27         \\ \midrule
+Total Expected (NC+CC Best Fit)              & 62406  & 180        \\ \midrule
+Observed                                     & 62112  & 249        \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
