@@ -116,30 +116,9 @@ P\left(\nu_\alpha\rightarrow\nu_\beta\right) =  \sum_i^3 U^*_{\beta i} U_{\alpha
 \label{eqn:pmns_probability_expanded}
 \end{equation}
 
-In the highly relativistic limit, $\
-The energy associated with a mass state ${i}$ may be expanded
-
-\begin{equation}
-E_i = \sqrt{p_i^2 + m_i^2} \approx p_i \left( 1 +\frac{m_i^2}{2 p_i^2} \right)  
-\end{equation}
-
-where the speed of light is assumed to be $c=1$.
-For highly relativisitic particles, the momentum may be approximated ${p_i \approx E}$ where ${E}$ is the total energy of the neutrino.
-
-The time of propagation in this limit is given approximately by the ratio of the distance traveled to the speed of light.
-
-\begin{equation}
-t \approx L
-\end{equation}
-
+In the highly relativistic limit, $E \gg m_{i}$, and $t \approx L$ where $L$ is the distance traveled during propation.
 Using these two approximations, the exponential term in Equation~\ref{eqn:pmns_probability} may be rewritten using Euler's formula
 
-\begin{equation}
- e^{i \left(E_i-E_j\right) t} = e^{i \frac{m_{ij}^2}{2E} L}
-\end{equation}
-\begin{equation}
- e^{i \left(E_i-E_j\right) t} = \cos\left(\frac{m_{ij}^2 L}{2E}\right) + i \sin\left(\frac{m_{ji}^2 L}{2E}\right)
-\end{equation}
 \begin{equation}
  e^{i \left(E_i-E_j\right) t} = 1 - 2\sin^2\left(\frac{m_{ij}^2 L}{4E}\right) + i \sin\left(\frac{m_{ji}^2 L}{2E}\right)
 \end{equation}

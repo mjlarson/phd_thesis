@@ -1,4 +1,6 @@
 \documentclass[11pt,a4paper,titlepage,twoside]{scrreprt}
+%\documentclass[11pt,a4paper,titlepage,twoside,titlepage]{scrartcl}
+
 \usepackage{typearea}
 \usepackage[bibfile=./mjlarson_thesis,bibstyle=numeric]{cleanthesis}
 \usepackage[english, science, titlepage]{ku-frontpage}
@@ -30,9 +32,13 @@
 %\renewcommand{\textfraction}{0.3}
 %\renewcommand{\floatpagefraction}{0.7}
 
+\bibliographystyle{apj}
+
 \setcounter{tocdepth}{1} % Show sections
+\setlength{\parindent}{4ex}
 
 \includeonly{
+./chapters/abstract,
 ./chapters/introduction,
 ./chapters/oscillations,
 ./chapters/detector,
@@ -43,56 +49,50 @@
 ./chapters/analysis,
 }
 
-
-\assignment{PhD thesis}
+\assignment{Doctoral Thesis}
 \author{Michael. J. Larson}
 
 \title{\parbox{\textwidth}{A Search for Tau Neutrino Appearance \\ with IceCube-DeepCore}}
+%\title{A Search for Tau Neutrino Appearance with IceCube-DeepCore}
 \subtitle{}
 \advisor{Advisor: Dr. D. Jason Koskinen}
 %\frontpageimage{example.png}
 \date{Handed in: \today}
+\cleardoublepage
+
 
 \begin{document}
 
 \maketitle
 
+\include{./chapters/abstract}
+
 \tableofcontents
+\cleardoublepage
 
 \listoffigures
+\cleardoublepage
 
 \listoftables
+\cleardoublepage
 
-\graphicspath{{chapters/introduction/images/}}
-\label{chapter:introduction}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
 \include{./chapters/introduction}
 
-\graphicspath{{chapters/oscillations/images/}}
-\label{chapter:oscillations}
 \include{./chapters/oscillations}
 
-\graphicspath{{chapters/detector/images/}}
-\label{chapter:detector}
 \include{./chapters/detector}
 
-\graphicspath{{chapters/simulation/images/}}
-\label{chapter:simulation}
 \include{./chapters/simulation}
 
-\graphicspath{{chapters/vuvuzela/images/}}
-\label{chapter:vuvuzela}
 \include{./chapters/vuvuzela}
 
-\graphicspath{{chapters/muonsim/images/}}
-\label{chapter:muonsim}
 \include{./chapters/muonsim}
 
-\graphicspath{{chapters/greco/images/}}
-\label{chapter:greco}
 \include{./chapters/greco}
 
-\graphicspath{{chapters/analysis/images/}}
-\label{chapter:analysis}
 \include{./chapters/analysis}
 
 %\graphicspath{{chapters/pingu/images/}}

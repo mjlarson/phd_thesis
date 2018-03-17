@@ -33,8 +33,8 @@ PMTResponseSimulator also calculates the amount of charge recorded by the DOM fr
 The SPE template used in simulation generation is calculated from lab measurements of 118 DOMs prior to deployment \cite{TA0003}.
 The template, shown in Figure~\ref{fig:ta0003}, is represented by the sum of an exponential and gaussian term and is applied identically to all DOMs.
 
+Prepulses, late pulses, and afterpulses are applied in a recursive process, which every incident hit having a probability of 0.3\%, 3.5\%, and 5.93\% to produce each respectively.
+These probabilities were measured in the lab and are used for all DOMs. 
+
 The second module, \emph{DOMLauncher}, handles the local coincidence circuits, simulation of the DOM clock, the discriminator, and digitization.
-
-\label{subsec:triggersim}
-\subsection{Triggering in Simulation}
-
+The triggering system is then applied following the description of Section~\ref{subsec:triggers}.

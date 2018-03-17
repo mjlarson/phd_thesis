@@ -5,6 +5,7 @@ Release version: 3.71 (18 mar 2013)
 The 8-bit codepage and sorting file: 88591lat.csf
 The top-level auxiliary file: mjlarson_thesis.aux
 The style file: biblatex.bst
+A level-1 auxilliary file: ./chapters/abstract.aux
 A level-1 auxilliary file: ./chapters/introduction.aux
 A level-1 auxilliary file: ./chapters/oscillations.aux
 A level-1 auxilliary file: ./chapters/detector.aux
@@ -30,24 +31,20 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 21958 items from 5000.
+Reallocated field_info (elt_size=8) to 24460 items from 5000.
 Database file #1: mjlarson_thesis-blx.bib
 Database file #2: ./mjlarson_thesis.bib
-Repeated entry---line 682 of file ./mjlarson_thesis.bib
+Repeated entry---line 760 of file ./mjlarson_thesis.bib
  : @article{Description-SNO
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--string name "d10" is undefined
---line 833 of file ./mjlarson_thesis.bib
-Repeated entry---line 1314 of file ./mjlarson_thesis.bib
- : @article{SuperK-Steriles2015
- :                             ,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1728 of file ./mjlarson_thesis.bib
+--line 930 of file ./mjlarson_thesis.bib
+"{" immediately follows a field name---line 2048 of file ./mjlarson_thesis.bib
  :   url
  :      {https://github.com/iminuit/iminuit},
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "pdg"
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Warning--you've exceeded 250, the entry-string-size, for entry Description-SNO
@@ -71,6 +68,24 @@ while executing--line 2630 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry IceCube-DustLogger2
 while executing--line 2630 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Tau2013
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Tau2017
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry OPERA-Tau2015
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry NOvA-Oscillation2017
+while executing--line 2630 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry NOvA-Oscillation2017
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Tau2017
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Oscillations
 while executing--line 2658 of file biblatex.bst
 *Please notify the bibstyle designer*
@@ -83,7 +98,13 @@ while executing--line 2658 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry MINOS-SterileNC-2011
 while executing--line 2658 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry OPERA-Tau2015
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry IceCube-DustLogger2
+while executing--line 2658 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Tau2013
 while executing--line 2658 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry SuperK-Steriles2015
@@ -95,10 +116,10 @@ while executing--line 2658 of file biblatex.bst
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 
 Here's how much of BibTeX's memory you used:
- Cites:               121 out of 750
- Fields:            16818 out of 21958
- Hash table:        29269 out of 30000
- Strings:            2135 out of 30000
- Free string pool:  58009 out of 65000
+ Cites:               140 out of 750
+ Fields:            19459 out of 24460
+ Hash table:        29253 out of 30000
+ Strings:            2274 out of 30000
+ Free string pool:  74306 out of 130000
  Wizard functions:   6256 out of 9000
-(There were 3 error messages)
+(There were 2 error messages)

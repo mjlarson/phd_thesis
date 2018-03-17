@@ -19,11 +19,11 @@ The propagation of leptons in IceCube is performed using \emph{PROPOSAL}, a soft
 The Cherenkov light output from daughter particles in each case is handled by a parametrization of the associated energy deposition for a given true particle energy as shown in Figure~\ref{fig:discrete_emissions}.
 
 PROPOSAL propagates the charged particles through the detector, producing a series of energy emissions associated with each propagated particle.
-The output of the PROPOSAL module is this series of energy emissions and the associated number of Cherenkov photons for each emission.
+The omdule takes into account the position of the particle and uses separate cross sections for glacial ice and the underlying bedrock 300 m below IceCube.
 
 \subsection{CLSim for Photon Propagation}
 \label{subsec:clsim}
-Once the energy deposition at each position is calculated, the resulting photons must be propagated. 
+Once the energy deposition at each position is calculated, the resulting photons must be produced and propagated. 
 There exist two modules which can handle this: Photon Propagation Code \emph{PPC} and OpenCL Simulation Code \emph{CLSim}. 
 The differences are largely of implementation details and both have been verified to give identical results.
 Only the latter, CLSim, will be discussed here.
@@ -45,22 +45,18 @@ Because of the complications associated with oversizing at low energies, most si
 
 \subsection{Angular Acceptance and Hole Ice}
 \label{subsec:holeice_sim}
+
+\begin{figure}
+\centering
 \includegraphics[width=0.7\textwidth]{angular_acceptance.png} 
 \caption{Examples of the angular acceptance models used by IceCube. The relative sensitivity as a function of arrival direction is shown with cos(eta)=-1 indicating the back of the PMT and cos(eta)=1 the face. The variation of the acceptance model used for this search is shown using by varying two parameters in the model. The 'p' parameter primarily controls the acceptance at the side of the DOM while the 'p2' parameter controls the acceptance from the forward region. A second model, H2, is also shown.}
 \label{fig:angular_acceptance}
-\begin{figure}
-
 \end{figure}
+
 When photons reach the surface of a DOM, the \emph{angular acceptance} is applied in order to model the hole ice.
 This acceptance, calculated from a combination of lab and in-situ measurements, represents the PMT efficiency as a function of the photon arrival direction.
-The acceptance has a negligible efficiency for photons arriving from the back of the PMT and high efficiency for photons reaching the face of the PMT as shown in Figure~\ref{fig:ang_acceptance}.
+The acceptance has a negligible efficiency for photons arriving from the back of the PMT and high efficiency for photons reaching the face of the PMT as shown in Figure~\ref{fig:angular_acceptance}.
 All other directions follow a curve between these two points.
 The angular acceptance model used in this thesis uses an empirical form fit to flasher data with two free parameters, as shown in Figure~\ref{fig:angular_acceptance}.
-The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is most affected by the bubble column (see Section~\ref{subsec:hole_ice}). 
+The most forward direction in the PMT, shown with $cos(\eta)$ = 1, is most affected by the bubble column (see Section~\ref{sec:hole_ice}). 
 
-Recent work updating the bulk ice model, known as \emph{SpiceHD} after the name of the new ice model. 
-This model differs from the previous two in that the hole and bubble column are directly simulated in the ice with no effective angular acceptance curve necessary.
-In this model, the PMT will have 100\% efficiency for any photon reaching the face of the PMT and 0\% efficiency for all photons reaching the back of the PMT.
-This results in a potentially more accurate simulation at the cost of additional processing time and less ease of use for producing systematics sets.
-
-Once the photons have been propagated and the wavelength and angular sensitivity has been applied, the simulation results in a series of \emph{I3MCPE} objects for each DOM. Each I3MCPE represents a single photoelectron worth of charge ejected at the photocathode of the associated PMT. 

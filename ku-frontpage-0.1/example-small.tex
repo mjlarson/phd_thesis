@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{booktabs}
 \usepackage{amsfonts}
+\usepackage{multirow}
 
 
 \setlength\arraycolsep{2 pt}
@@ -72,6 +73,24 @@ Atmospheric $\mu$                            & 5023   & 167        \\
 Accidental Triggers                          & 93     & 27         \\ \midrule
 Total Expected (NC+CC Best Fit)              & 62406  & 180        \\ \midrule
 Observed                                     & 62112  & 249        \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\multirow{2}{*}{Type}                        & \multicolumn{2}{l}{Analysis 1} & Analysis 2 &            \\
+                                             & Events       & +1$\sigma$      & Events     & +1$\sigma$ \\ \midrule
+$\nu_e+\bar{\nu_e}$ CC                       & 9548         & 23              & 13462      & 29         \\
+$\nu_\mu+\bar{\nu_\mu}$ CC                   & 23854        & 39              & 35706      & 48         \\
+$\nu_e+\bar{\nu_e}+\nu_\mu+\bar{\nu_\mu}$ NC & 4295         & 19              & 5559       & 21         \\
+$\nu_\tau+\bar{\nu_\tau}$ CC                 & 927          & 5               & 1804       & 9          \\
+$\nu_\tau+\bar{\nu_\tau}$ NC                 & 442          & 4               & 759        & 5          \\
+Atmospheric $\mu$                            & 1890         & 45              & 5023       & 167        \\
+Accidental Triggers                          & -            & -               & 93         & 27         \\ \midrule
+Total Expected (NC+CC Best Fit)              & 40958        & 68              & 62406      & 180        \\
+Observed                                     & 40902        & 202             & 62112      & 249        \\ \bottomrule
 \end{tabular}
 \end{table}
 

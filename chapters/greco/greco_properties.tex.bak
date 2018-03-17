@@ -31,16 +31,16 @@ The bulk of the neutrino sample, shown in \ref{fig:true_nuproperties}, occurs at
 Most neutrino events originate at the horizon, as expected from the atmospheric neutrino flux, although there exists an asymmetry between the upward- and downward-going events.
 This asymmetry originates from the event selection, which selects against downward-going events in order to minimize the atmospheric muon background.
 
-\begin{center}
+\begin{figure}
 \begin{table}
 \begin{tabular}{cc}
 	\label{fig:gev_per_nch} \includegraphics[width=0.45\linewidth]{L7_true_coszen.png} &
 	\label{fig:t_rms} \includegraphics[width=0.45\linewidth]{L7_true_logen.png} \\
 \end{tabular}
-\label{fig:true_nuproperties}
-\caption{The true neutrino energy and zenith of the GRECO sample at final level. The sample shows an asymmetry between upgoing ($\mathtt{cos(\theta)<0}$) and downgoing ($\mathtt{cos(\theta)>0}$) event rates in the neutrinos due to selection bias. The sample has a long tail of events at both high and low energies. Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt{\nu_\tau}$ events are observed in the very upgoing region around $\mathtt{10^1.4=25}$ GeV. }
 \end{table}
-\end{center}
+\caption{The true neutrino energy and zenith of the GRECO sample at final level. The sample shows an asymmetry between upgoing ($\mathtt{cos(\theta)<0}$) and downgoing ($\mathtt{cos(\theta)>0}$) event rates in the neutrinos due to selection bias. The sample has a long tail of events at both high and low energies. Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt{\nu_\tau}$ events are observed in the very upgoing region around $\mathtt{10^1.4=25}$ GeV. }
+\label{fig:true_nuproperties}
+\end{figure}
 
 \label{subsubsec:greco_reco}
 \subsection{Reconstructed Variables}
@@ -49,13 +49,14 @@ Instead, all events are described using the reconstructed energies and zenith an
 The $\mathtt{\nu_\tau}$ sample reconstructs to slightly lower energies due to the loss in energy from the outgoing neutrino.
 The sample, when compared to data, shows reasonable shape agreement in both energy and zenith, although systematic disagreements occur above 100 GeV.
 
-\begin{center}
+\begin{figure}
 \begin{table}
 \begin{tabular}{cc}
 	\label{fig:gev_per_nch} \includegraphics[width=0.45\linewidth]{L7_reco_coszen.png} &
 	\label{fig:t_rms} \includegraphics[width=0.45\linewidth]{L7_reco_logen.png} \\
 \end{tabular}
+\end{table}
 \label{fig:true_nuproperties}
 \caption{The reconstructed energy and zenith of the GRECO sample at final level. Events in data reconstruct to both relatively high energies ($\mathtt{E_{R}>100}$ GeV) and very low energies ($\mathtt{E_{R}\approx2}$ GeV). Using the NuFit 2.2 oscillation parameters and the flux model from Honda, the $\mathtt{\nu_\tau}$ events are observed in the very upgoing region around $\mathtt{10^1.4=25}$ GeV. }
-\end{table}
-\end{center}
+\end{figure}
+
