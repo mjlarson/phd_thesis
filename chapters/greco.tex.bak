@@ -1285,7 +1285,6 @@ A total of 968 days of detector data were selected resulting in 62406 events.
 
 \subsection{Energy and Zenith Reach}
 \label{subsubsec:greco_truth}
-\improvement{lots of broken figure references}
 The GRECO sample covers a wide range of energies, with some Final Level events possessing energies as low as 2~GeV or as high as 1 TeV.
 The bulk of the neutrino sample, shown in \ref{fig:true_nuproperties}, occurs at the expected oscillation minimum near 25 GeV.
 Most neutrino events originate at the horizon, as expected from the atmospheric neutrino flux, although there exists an asymmetry between the upward- and downward-going events.
@@ -1326,22 +1325,24 @@ The sample, when compared to data, shows reasonable shape agreement in both ener
 \label{fig:reco_nuproperties}
 \end{figure}
 
-The resolutions of the sample in energy and zenith are shown in Figure~\ref{fig:reco_resolutions}. 
+The resolutions of the sample in energy and zenith are shown in Figures~\ref{fig:en_resolutions} and \ref{fig:coszen_resolutions}. 
 The energy is well-reconstructed using Pegleg.
 The neutral current and tau neutrino events lose energy to outgoing neutrinos, resulting in less light deposition and lower reconstructed energies.
 
-
-
-\begin{figure}[h]
+\begin{figure}
 \centering
-\begin{tabular}[b]{c}
-  \includegraphics[width=0.45\linewidth]{resolution_coszen.pdf} \\
-  \small (\textbf{\color{ctcolormain}a}) Reco Cos(Zenith) Resolution
-\end{tabular} \hspace{2pt}
-\begin{tabular}[b]{c}
-  \includegraphics[width=0.45\linewidth]{resolution_energy.png} \\
-  \small (\textbf{\color{ctcolormain}b}) Reco Energy Resolution
-\end{tabular}
-\caption[Reconstructed zenith and energy resolutions]{The resolution of the Pegleg reconstructed energy and zenith of the GRECO sample at Final Level. The shaded band of each plot shwos the 1$\sigma$ range for each plot. (a) The reconstruction fits to within $\Delta\cos\theta$=0.15 on average with better reconstruction resolution in the track-like muon neutrino charged current interactions. (b) The Pegleg reconstruction energy resolution as a function of true energy. The muon track is assumed to be minimum ionizing when calculating the associated energy. }
-\label{fig:reco_resolutions}
+  \includegraphics[width=0.9\linewidth]{resolution_energy.pdf} \\
+\caption[Reconstructed zenith resolutions]{The resolution of the Pegleg reconstructed zenith of the GRECO sample at Final Level. The shaded band of each plot shows the 1$\sigma$ range for each plot. 
+The Pegleg reconstruction energy resolution as a function of true energy. Cascade energies are well-reconstructed by Pegleg in the energy range of GRECO. The muon track is assumed to be minimum ionizing when calculating the associated energy. This assumption does not hold at higher energies. }
+\label{fig:en_resolutions}
 \end{figure}
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.9\linewidth]{resolution_coszen.pdf} \\
+\caption[Reconstructed zenith resolutions]{The resolution of the Pegleg reconstructed zenith of the GRECO sample at Final Level. The shaded band of each plot shows the 1$\sigma$ range for each plot. 
+The reconstruction fits to within $\Delta\cos\theta$=0.15 on average with better reconstruction resolution in the track-like muon neutrino charged current interactions. }
+\label{fig:coszen_resolutions}
+\end{figure}
+
+

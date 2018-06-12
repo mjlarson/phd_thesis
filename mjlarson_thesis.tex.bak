@@ -101,6 +101,6 @@
 
 \printbibliography
 
-\listoftodos[Notes]
+%\listoftodos[Notes]
 
 \end{document}

@@ -165,7 +165,7 @@ Two basic Feynman diagrams, shown in Figure~\ref{fig:nu_vertex}, represent the t
 }; 
  & \feynmandiagram [vertical=w1 to w2] {
   nue1 -- [fermion, edge label=\(\nu\)] w1 -- [fermion, edge label=\(\nu\)] nu2 ,
-  w1 -- [boson, edge label = \(Z^{+}\)] w2
+  w1 -- [boson, edge label = \(Z\)] w2
 }; \\ 
 \end{tabular}
 \caption[Feynman diagrams for W, Z interactions of neutrinos]{Feynman diagrams showing the interaction vertex of the neutrino with the W and Z boson.}
@@ -245,7 +245,7 @@ As seen in Figure~\ref{fig:xsec}, the DIS process dominates the neutrino cross s
 Neutrinos may be detected through the QE, RES, and DIS interaction channels.
 The interaction of neutrinos at the GeV energy ranges relevent for this thesis lead to the emission of hadrons in a hadronic shower.
 The QE interactions at low energies convert neutrons into protons (neutrino) or protons into neutrons (antineutrino) and emitting a charged lepton.
-RES interactions excite a nucleon, leading to a deexcitation and emission of particles that 
+RES interactions excite a nucleon, leading to a deexcitation and emission of particles that can be detected.
 DIS interactions produce larger hadronic showers containing many charged particles.
 
 In addition to the hadronic shower, charged current interactions result in an outgoing charged lepton, the result of which depends on the flavor of the incident neutrino.

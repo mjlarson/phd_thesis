@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  17 MAR 2018 23:17
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  12 JUN 2018 21:53
  restricted system commands enabled.
 **mjlarson_thesis.tex
 (./mjlarson_thesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.122 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/04/13 v3.23 KOMA-Script document class (report)
@@ -6466,7 +6466,7 @@ Here is how much of LuaTeX's memory you used:
  2180 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 55 kern, 3 glyph, 242 attribute, 111 glue_s
 pec, 242 attribute_list, 1 write, 31 pdf_action nodes
-   avail lists: 1:6,2:1724,3:576,4:103,5:329,6:5125,7:1812,8:139,9:429,10:27,11:
+   avail lists: 1:6,2:1722,3:576,4:103,5:329,6:5125,7:1812,8:139,9:429,10:27,11:
 446
  50548 multiletter control sequences out of 65536+600000
  121 fonts using 8625423 bytes
@@ -6504,7 +6504,7 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on mjlarson_thesis.pdf (183 pages, 17804651 bytes).
+Output written on mjlarson_thesis.pdf (183 pages, 17804673 bytes).
 
 PDF statistics: 9427 PDF objects out of 10688 (max. 8388607)
  4627 compressed objects within 47 object streams
